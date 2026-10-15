@@ -1,4 +1,4 @@
-# نصوص الواجهة باللغتين — أي قسم جديد يضيف نصوصه هنا
+# نصوص الواجهة بثلاث لغات — أي قسم جديد يضيف نصوصه هنا لكل لغة
 ar:
   dir: rtl
   home_url: /
@@ -46,11 +46,11 @@ ar:
   join_text: تابع النادي على حساباته الرسمية.
   footer_club: نادي هواة مستقل · الرياض
   club_leader: قائد النادي
-  switch_label: English
-  switch_lang: en
-  langbar_text: This site is also available in English
-  langbar_link: View in English
-  translation: اقرأ هذا المقال بالإنجليزية
+  lang_name: العربية
+  suggest_text: هذا الموقع متوفر بالعربية
+  suggest_link: عرض بالعربية
+  alt_lang: en
+  other_langs: 'اقرأ هذا المقال بلغة أخرى:'
 en:
   dir: ltr
   home_url: /en/
@@ -98,8 +98,60 @@ en:
   join_text: Follow the club on its official accounts.
   footer_club: Independent hobby club · Riyadh
   club_leader: Club leader
-  switch_label: العربية
-  switch_lang: ar
-  langbar_text: هذا الموقع متوفر بالعربية
-  langbar_link: عرض بالعربية
-  translation: اقرأ هذا المقال بالعربية
+  lang_name: English
+  suggest_text: This site is also available in English
+  suggest_link: View in English
+  alt_lang: ar
+  other_langs: 'Read this article in:'
+ja:
+  dir: ltr
+  home_url: /ja/
+  blog_url: /ja/blog/
+  club_name: サウジ・メカ・ロボット
+  club_name_alt: SAUDI MECHA ROBOT
+  alt_lang: en
+  hero_text: ガンダム、グレンダイザー、スーパーロボット、そして日本文化を愛するサウジアラビアのホビークラブです。プラモデルやフィギュアのファンが集まり、一緒に作り、学び合い、初心者を何より歓迎しています。
+  cta_join: クラブに参加する
+  cta_events: イベントを見る
+  spec_label: クラブ情報
+  spec_type: 種類
+  spec_type_v: 独立系ホビークラブ
+  spec_founded: 設立
+  spec_base: 拠点
+  spec_base_v: サウジアラビア・リヤド
+  spec_focus: ジャンル
+  spec_grades: グレード
+  nav_about: クラブ紹介
+  nav_log: 活動の歩み
+  nav_gallery: ギャラリー
+  nav_blog: ブログ
+  nav_faq: よくある質問
+  about_title: クラブ紹介
+  about_p1: Saudi Mecha Robot（サウジ・メカ・ロボット）は、2024年にリヤドで設立されたクラブです。ガンダム、グレンダイザー、スーパーロボット、そして日本のポップカルチャーを愛するサウジアラビア各地のモデラーが集まっています。
+  about_p2: 私たちの目標は、サウジアラビアの若い世代にプラモデルの楽しさを広め、メカを通じてサウジアラビアと日本の文化の架け橋になることです。
+  p1_t: グループ製作チャレンジ
+  p1_d: メンバー全員が同じキットを作り、完成品を見せ合います。
+  p2_t: 初心者向けワークショップ
+  p2_d: ランナーからのパーツの切り出しから、スミ入れ、塗装まで。
+  p3_t: メンバーギャラリー
+  p3_d: メンバーが製作した作品を紹介します。
+  log_title: 活動の歩みとイベント
+  gallery_title: メンバー作品
+  gallery_sub: クラブメンバーが製作した作品です。
+  gallery_empty: ギャラリーは近日公開予定です。
+  blog_title: ブログ
+  blog_sub: クラブのニュースや、ガンプラ・プラモデル初心者向けガイドをお届けします。
+  blog_all: すべての記事
+  blog_empty: 記事は近日公開予定です。
+  read_more: 続きを読む →
+  faq_title: よくある質問
+  sponsors_title: スポンサー
+  sponsor_slot: スポンサー募集中
+  join_title: 一緒に作りませんか？
+  join_text: 公式アカウントでクラブをフォローしてください。
+  footer_club: 独立系ホビークラブ · リヤド
+  club_leader: クラブリーダー
+  lang_name: 日本語
+  suggest_text: このサイトは日本語でもご覧いただけます
+  suggest_link: 日本語で見る
+  other_langs: この記事を他の言語で読む：
