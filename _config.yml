@@ -8,7 +8,7 @@ lang: ar
 timezone: Asia/Riyadh
 founded: "2024"
 city: الرياض
-logo: /assets/images/logo.svg
+logo: /assets/images/logo-512.png
 
 social:
   name: Saudi Mecha Robot
@@ -32,13 +32,13 @@ collections:
 
 defaults:
   - scope: { path: "" }
-    values: { lang: ar }
+    values: { lang: ar, image: /assets/images/og-image.jpg }
   - scope: { path: "en" }
-    values: { lang: en }
+    values: { lang: en, image: /assets/images/og-image.jpg }
   - scope: { path: "", type: posts }
-    values: { layout: post, lang: ar }
+    values: { layout: post, lang: ar, image: /assets/images/og-image.jpg }
   - scope: { path: "_posts/en", type: posts }
-    values: { layout: post, lang: en, permalink: "/en/blog/:year/:month/:title/" }
+    values: { layout: post, lang: en, image: /assets/images/og-image.jpg, permalink: "/en/blog/:year/:month/:title/" }
 
 plugins:
   - jekyll-seo-tag
