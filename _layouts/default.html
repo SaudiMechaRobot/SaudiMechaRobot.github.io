@@ -11,14 +11,37 @@
 <link rel="icon" href="{{ '/assets/images/logo.svg' | relative_url }}" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@500;700&family=IBM+Plex+Sans+Arabic:wght@400;500;700&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alexandria:wght@500;700;800&family=IBM+Plex+Sans+Arabic:wght@400;500;700&family=IBM+Plex+Mono:wght@500&display=swap">
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 {% feed_meta %}
 {% include schema.html %}
 </head>
 <body>
+<div class="langbar" id="langbar" hidden>
+  <div class="wrap">
+    {%- if page.lang == "en" %}
+    <span lang="ar">هذه الصفحة متوفرة بالعربية</span><a href="{{ '/' | relative_url }}" lang="ar" hreflang="ar">عرض بالعربية</a>
+    {%- else %}
+    <span lang="en">This site is also available in English</span><a href="{{ '/en/' | relative_url }}" lang="en" hreflang="en">View in English</a>
+    {%- endif %}
+    <button type="button" id="langbar-close" aria-label="Close">×</button>
+  </div>
+</div>
 {% include header.html %}
 {{ content }}
 {% include footer.html %}
+<script>
+(function(){
+  var isEn = document.documentElement.lang === "en";
+  var langs = (navigator.languages || [navigator.language || ""]).join(",").toLowerCase();
+  var prefersAr = /(^|,)ar/.test(langs);
+  var show = isEn ? prefersAr : !prefersAr;
+  try { if (localStorage.getItem("smr-langbar") === "closed") show = false; } catch (e) {}
+  var bar = document.getElementById("langbar");
+  if (show && bar) bar.hidden = false;
+  var btn = document.getElementById("langbar-close");
+  if (btn) btn.addEventListener("click", function(){ bar.hidden = true; try { localStorage.setItem("smr-langbar","closed"); } catch (e) {} });
+})();
+</script>
 </body>
 </html>
