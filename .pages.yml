@@ -42,6 +42,25 @@ content:
       - { name: cover, label: Cover image, type: image }
       - { name: body, label: Content, type: rich-text }
 
+  - name: posts_ja
+    label: المدونة (日本語)
+    type: collection
+    path: _posts/ja
+    filename: { template: "{year}-{month}-{day}-{primary}.md", field: create }
+    view: { primary: title, sort: date, order: desc, fields: [title, date, category] }
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - { name: ref, label: "Translation key (same as the Arabic post)", type: string }
+      - { name: date, label: Date, type: date, required: true }
+      - { name: description, label: Short description (shown in Google), type: text }
+      - name: category
+        label: Category
+        type: select
+        options:
+          values: [GUIDE, EVENT, NEWS, TOOLS, REVIEW]
+      - { name: cover, label: Cover image, type: image }
+      - { name: body, label: Content, type: rich-text }
+
   - name: achievements
     label: الإنجازات والفعاليات
     type: collection
@@ -58,6 +77,9 @@ content:
       - { name: tags, label: الفقرات, type: string, list: true }
       - { name: tags_en, label: الفقرات بالإنجليزي, type: string, list: true }
       - { name: body_en, label: الوصف بالإنجليزي, type: text }
+      - { name: title_ja, label: "العنوان بالياباني (إذا فاضي ما يظهر في الصفحة اليابانية)", type: string }
+      - { name: tags_ja, label: الفقرات بالياباني, type: string, list: true }
+      - { name: body_ja, label: الوصف بالياباني, type: text }
       - { name: body, label: الوصف, type: rich-text }
 
   - name: gallery
@@ -91,6 +113,16 @@ content:
     label: الأسئلة الشائعة (English)
     type: file
     path: _data/faq_en.yml
+    format: yaml
+    list: true
+    fields:
+      - { name: question, label: Question, type: string }
+      - { name: answer, label: Answer, type: text }
+
+  - name: faq_ja
+    label: الأسئلة الشائعة (日本語)
+    type: file
+    path: _data/faq_ja.yml
     format: yaml
     list: true
     fields:
