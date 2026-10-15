@@ -237,3 +237,15 @@ footer a{color:var(--muted)}
 html,body{overflow-x:clip}
 .log-img{width:100%;max-width:420px;margin-top:10px;border:1px solid var(--line)}
 .timeline li,.about > div,.head > div{min-width:0}
+
+/* language switcher (3 languages) */
+.nav li.langs{display:flex;gap:4px;margin-inline-start:6px}
+.nav ul a.lang{border-color:var(--line);color:var(--muted);padding:4px 8px;font-family:var(--f-body)}
+.nav ul a.lang:hover{color:var(--hazard);border-color:var(--hazard)}
+.nav ul a.lang.current{background:var(--hazard);border-color:var(--hazard);color:var(--on-hazard);font-weight:700}
+.translations{display:flex;flex-wrap:wrap;gap:8px;align-items:center;color:var(--muted)}
+/* Japanese typography */
+:root:lang(ja){--f-display:"Noto Sans JP","Alexandria",system-ui,sans-serif;--f-body:"Noto Sans JP","IBM Plex Sans Arabic",system-ui,sans-serif}
+:lang(ja) .hero h1{font-weight:900;letter-spacing:.02em;font-size:clamp(34px,5.6vw,68px)}
+:lang(ja) body,:lang(ja) p{line-break:strict;word-break:normal;overflow-wrap:anywhere}
+:lang(ja) .prose{line-height:1.9}
