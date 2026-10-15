@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<main class="wrap article">
+  <header class="ah">
+    <span class="tag">{{ page.category | default: "POST" }} · <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y.%m.%d" }}</time></span>
+    <h1>{{ page.title }}</h1>
+    {%- if page.description %}<p style="color:var(--muted);font-size:18px;max-width:60ch">{{ page.description }}</p>{% endif %}
+  </header>
+  {%- if page.cover and page.cover != "" %}<img src="{{ page.cover | relative_url }}" alt="{{ page.title }}" style="margin-bottom:28px;border:1px solid var(--line)">{% endif %}
+  <div class="prose">{{ content }}</div>
+  <p style="margin-top:40px"><a class="btn" href="{{ '/blog/' | relative_url }}">كل المقالات</a></p>
+</main>
