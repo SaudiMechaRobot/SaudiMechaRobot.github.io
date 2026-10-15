@@ -1,32 +1,38 @@
 {%- include i18n.html -%}
 {%- if L == "en" -%}{%- assign faqs = site.data.faq_en -%}{%- else -%}{%- assign faqs = site.data.faq -%}{%- endif -%}
 <main id="top">
-  <div class="wrap hero">
-    <div>
-      <span class="tag">UNIT SMR-01 · RIYADH · EST. {{ site.founded }}</span>
-      <h1>{{ t.club_name }}<span lang="{{ t.switch_lang }}" dir="{{ other.dir }}">{{ t.club_name_alt }}</span></h1>
-      <p>{{ t.hero_text }}</p>
-      <div class="cta">
-        <a class="btn primary" href="#join">{{ t.cta_join }}</a>
-        <a class="btn" href="#log">{{ t.cta_events }}</a>
+  <div class="hero-bay">
+    <div class="wrap hero">
+      <div class="hero-copy">
+        <span class="tag lamp">UNIT SMR-01 · RIYADH · EST. {{ site.founded }}</span>
+        <h1>{{ t.club_name }}<span lang="{{ t.switch_lang }}" dir="{{ other.dir }}">{{ t.club_name_alt }}</span></h1>
+        <p>{{ t.hero_text }}</p>
+        <div class="cta">
+          <a class="btn primary" href="#join">{{ t.cta_join }}</a>
+          <a class="btn" href="#log">{{ t.cta_events }}</a>
+        </div>
+      </div>
+      <div class="bay">
+        <div class="bay-frame">
+          <img class="emblem" src="{{ '/assets/images/logo.webp' | relative_url }}" alt="{{ t.club_name }}" width="512" height="512" fetchpriority="high">
+        </div>
+        <span class="bay-label" dir="ltr">LAUNCH BAY 01 · SMR</span>
       </div>
     </div>
-    <aside class="spec" aria-label="{{ t.spec_label }}">
-      <img class="emblem" src="{{ '/assets/images/logo.webp' | relative_url }}" alt="{{ t.club_name }}" width="180" height="180">
-      <span class="tag">SPEC SHEET</span>
-      <dl>
-        <dt>{{ t.spec_type }}</dt><dd>{{ t.spec_type_v }}</dd>
-        <dt>{{ t.spec_founded }}</dt><dd>{{ site.founded }}</dd>
-        <dt>{{ t.spec_base }}</dt><dd>{{ t.spec_base_v }}</dd>
-        <dt>{{ t.spec_focus }}</dt><dd>Gundam · Grendizer · Super Robot</dd>
-        <dt>{{ t.spec_grades }}</dt><dd dir="ltr">HG · RG · MG · PG</dd>
+    <div class="wrap">
+      <dl class="status" aria-label="{{ t.spec_label }}">
+        <div><dt>{{ t.spec_type }}</dt><dd>{{ t.spec_type_v }}</dd></div>
+        <div><dt>{{ t.spec_founded }}</dt><dd>{{ site.founded }}</dd></div>
+        <div><dt>{{ t.spec_base }}</dt><dd>{{ t.spec_base_v }}</dd></div>
+        <div><dt>{{ t.spec_focus }}</dt><dd dir="ltr">Gundam · Grendizer · Super Robot</dd></div>
+        <div><dt>{{ t.spec_grades }}</dt><dd dir="ltr">HG · RG · MG · PG</dd></div>
       </dl>
-    </aside>
+    </div>
   </div>
   <div class="stripe" aria-hidden="true"></div>
 
   <section id="about"><div class="wrap">
-    <div class="head"><div><span class="tag">01 · ABOUT</span><h2>{{ t.about_title }}</h2></div></div>
+    <div class="head"><div><span class="tag plate">BAY 01 · ABOUT</span><h2>{{ t.about_title }}</h2></div></div>
     <div class="about">
       <div><p>{{ t.about_p1 }}</p><p>{{ t.about_p2 }}</p></div>
       <div class="pillars">
@@ -38,7 +44,7 @@
   </div></section>
 
   <section id="log"><div class="wrap">
-    <div class="head"><div><span class="tag">02 · MISSION LOG</span><h2>{{ t.log_title }}</h2></div></div>
+    <div class="head"><div><span class="tag plate">BAY 02 · MISSION LOG</span><h2>{{ t.log_title }}</h2></div></div>
     {%- assign items = site.achievements | sort: "date" | reverse %}
     <ol class="timeline">
       {%- for a in items %}
@@ -59,7 +65,7 @@
   <div class="stripe" aria-hidden="true"></div>
 
   <section id="gallery"><div class="wrap">
-    <div class="head"><div><span class="tag">03 · HANGAR</span><h2>{{ t.gallery_title }}</h2><p>{{ t.gallery_sub }}</p></div></div>
+    <div class="head"><div><span class="tag plate">BAY 03 · HANGAR</span><h2>{{ t.gallery_title }}</h2><p>{{ t.gallery_sub }}</p></div></div>
     {%- assign works = site.gallery | sort: "date" | reverse %}
     {%- if works.size > 0 %}
     <div class="gallery">
@@ -73,7 +79,7 @@
   </div></section>
 
   <section id="blog"><div class="wrap">
-    <div class="head"><div><span class="tag">04 · BRIEFING</span><h2>{{ t.blog_title }}</h2></div><a class="btn" href="{{ t.blog_url | relative_url }}">{{ t.blog_all }}</a></div>
+    <div class="head"><div><span class="tag plate">BAY 04 · BRIEFING</span><h2>{{ t.blog_title }}</h2></div><a class="btn" href="{{ t.blog_url | relative_url }}">{{ t.blog_all }}</a></div>
     {%- if L == "en" %}{% assign lposts = site.posts | where: "lang", "en" %}{% else %}{% assign lposts = site.posts | where_exp: "p", "p.lang != 'en'" %}{% endif %}
     {%- if lposts.size > 0 %}
     <div class="posts">{% for post in lposts limit:3 %}{% include post-card.html post=post %}{% endfor %}</div>
@@ -81,7 +87,7 @@
   </div></section>
 
   <section id="faq"><div class="wrap">
-    <div class="head"><div><span class="tag">05 · FAQ</span><h2>{{ t.faq_title }}</h2></div></div>
+    <div class="head"><div><span class="tag plate">BAY 05 · FAQ</span><h2>{{ t.faq_title }}</h2></div></div>
     <div class="faq">
       {%- for f in faqs %}
       <details{% if forloop.first %} open{% endif %}><summary>{{ f.question }}</summary><p>{{ f.answer }}</p></details>
@@ -90,7 +96,7 @@
   </div></section>
 
   <section id="sponsors" style="padding-top:0"><div class="wrap">
-    <div class="head"><div><span class="tag">06 · ALLIES</span><h2>{{ t.sponsors_title }}</h2></div></div>
+    <div class="head"><div><span class="tag plate">BAY 06 · ALLIES</span><h2>{{ t.sponsors_title }}</h2></div></div>
     <div class="sponsors">
       {%- if site.data.sponsors.size > 0 %}
         {%- for s in site.data.sponsors %}<a class="sponsor" href="{{ s.url }}" target="_blank" rel="noopener sponsored">{% if s.logo and s.logo != "" %}<img src="{{ s.logo | relative_url }}" alt="{{ s.name }}">{% endif %}<span>{{ s.name }}</span></a>{% endfor %}
