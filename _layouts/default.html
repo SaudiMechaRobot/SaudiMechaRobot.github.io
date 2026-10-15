@@ -18,7 +18,7 @@
 <meta name="theme-color" content="#070B10">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alexandria:wght@500;700;800&family=Saira+Stencil+One&family=IBM+Plex+Sans+Arabic:wght@400;500;700&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alexandria:wght@500;700;800&family=Saira+Stencil+One&{% if L == "ja" %}family=Noto+Sans+JP:wght@400;500;700;900&{% endif %}family=IBM+Plex+Sans+Arabic:wght@400;500;700&family=IBM+Plex+Mono:wght@500&display=swap">
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 {% feed_meta %}
 {% include schema.html %}
@@ -26,24 +26,34 @@
 <body>
 <div class="langbar" id="langbar" hidden>
   <div class="wrap">
-    <span lang="{{ t.switch_lang }}">{{ t.langbar_text }}</span><a href="{{ other_url | relative_url }}" lang="{{ t.switch_lang }}" hreflang="{{ t.switch_lang }}">{{ t.langbar_link }}</a>
+    <span id="langbar-text"></span><a id="langbar-link" href="#"></a>
     <button type="button" id="langbar-close" aria-label="Close">×</button>
   </div>
 </div>
+<script type="application/json" id="lang-data">{
+  {%- for pair in lang_urls %}{% assign kv = pair | split: "|" %}{% assign lt = site.data.i18n[kv[0]] %}
+  "{{ kv[0] }}": {"url": {{ kv[1] | relative_url | jsonify }}, "text": {{ lt.suggest_text | jsonify }}, "link": {{ lt.suggest_link | jsonify }}, "dir": "{{ lt.dir }}"}{% unless forloop.last %},{% endunless %}
+  {%- endfor %}
+}</script>
 {% include header.html %}
 {{ content }}
 {% include footer.html %}
 <script>
 (function(){
-  var isEn = document.documentElement.lang === "en";
-  var langs = (navigator.languages || [navigator.language || ""]).join(",").toLowerCase();
-  var prefersAr = /(^|,)ar/.test(langs);
-  var show = isEn ? prefersAr : !prefersAr;
-  try { if (localStorage.getItem("smr-langbar") === "closed") show = false; } catch (e) {}
-  var bar = document.getElementById("langbar");
-  if (show && bar) bar.hidden = false;
-  var btn = document.getElementById("langbar-close");
-  if (btn) btn.addEventListener("click", function(){ bar.hidden = true; try { localStorage.setItem("smr-langbar","closed"); } catch (e) {} });
+  var cur = document.documentElement.lang;
+  var data = {};
+  try { data = JSON.parse(document.getElementById("lang-data").textContent); } catch (e) { return; }
+  var langs = (navigator.languages || [navigator.language || ""]).map(function(l){ return (l || "").toLowerCase().slice(0,2); });
+  var want = null;
+  for (var i = 0; i < langs.length; i++) { if (data[langs[i]]) { want = langs[i]; break; } }
+  if (!want) want = "en";
+  if (want === cur) return;
+  try { if (localStorage.getItem("smr-langbar") === "closed") return; } catch (e) {}
+  var d = data[want], bar = document.getElementById("langbar");
+  var txt = document.getElementById("langbar-text"), link = document.getElementById("langbar-link");
+  txt.textContent = d.text; txt.lang = want; link.textContent = d.link; link.href = d.url; link.lang = want; link.hreflang = want;
+  bar.dir = d.dir; bar.hidden = false;
+  document.getElementById("langbar-close").addEventListener("click", function(){ bar.hidden = true; try { localStorage.setItem("smr-langbar","closed"); } catch (e) {} });
 })();
 </script>
 </body>

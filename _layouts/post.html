@@ -7,7 +7,7 @@ layout: default
     <span class="tag">{{ page.category | default: "POST" }} · <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y.%m.%d" }}</time></span>
     <h1>{{ page.title }}</h1>
     {%- if page.description %}<p style="color:var(--muted);font-size:18px;max-width:60ch">{{ page.description }}</p>{% endif %}
-    {%- if alts.size > 1 %}<p><a class="lang" href="{{ other_url | relative_url }}" hreflang="{{ t.switch_lang }}" lang="{{ t.switch_lang }}">{{ t.translation }}</a></p>{% endif %}
+    {%- if alts.size > 1 %}<p class="translations">{{ t.other_langs }} {% for a in alts %}{% assign al = a.lang | default: "ar" %}{% if al != L %}<a class="lang" href="{{ a.url | relative_url }}" hreflang="{{ al }}" lang="{{ al }}">{{ site.data.i18n[al].lang_name }}</a> {% endif %}{% endfor %}</p>{% endif %}
   </header>
   {%- if page.cover and page.cover != "" %}<img src="{{ page.cover | relative_url }}" alt="{{ page.title }}" style="margin-bottom:28px;border:1px solid var(--line)">{% endif %}
   <div class="prose">{{ content }}</div>
