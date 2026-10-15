@@ -24,12 +24,6 @@
 {% include schema.html %}
 </head>
 <body>
-<div class="langbar" id="langbar" hidden>
-  <div class="wrap">
-    <span id="langbar-text"></span><a id="langbar-link" href="#"></a>
-    <button type="button" id="langbar-close" aria-label="Close">×</button>
-  </div>
-</div>
 <script type="application/json" id="lang-data">{
   {%- for pair in lang_urls %}{% assign kv = pair | split: "|" %}{% assign lc = kv[0] %}{% assign lu = kv[1] %}{% assign lt = site.data.i18n[lc] %}
   "{{ lc }}": {"url": {{ lu | relative_url | jsonify }}, "text": {{ lt.suggest_text | jsonify }}, "link": {{ lt.suggest_link | jsonify }}, "dir": "{{ lt.dir }}"}{% unless forloop.last %},{% endunless %}
@@ -41,19 +35,13 @@
 <script>
 (function(){
   var cur = document.documentElement.lang;
-  var data = {};
-  try { data = JSON.parse(document.getElementById("lang-data").textContent); } catch (e) { return; }
   var langs = (navigator.languages || [navigator.language || ""]).map(function(l){ return (l || "").toLowerCase().slice(0,2); });
+  var btns = document.querySelectorAll(".lsb[data-lang]"), have = {};
+  for (var i = 0; i < btns.length; i++) have[btns[i].getAttribute("data-lang")] = btns[i];
   var want = null;
-  for (var i = 0; i < langs.length; i++) { if (data[langs[i]]) { want = langs[i]; break; } }
+  for (var j = 0; j < langs.length; j++) { if (have[langs[j]]) { want = langs[j]; break; } }
   if (!want) want = "en";
-  if (want === cur) return;
-  try { if (localStorage.getItem("smr-langbar") === "closed") return; } catch (e) {}
-  var d = data[want], bar = document.getElementById("langbar");
-  var txt = document.getElementById("langbar-text"), link = document.getElementById("langbar-link");
-  txt.textContent = d.text; txt.lang = want; link.textContent = d.link; link.href = d.url; link.lang = want; link.hreflang = want;
-  bar.dir = d.dir; bar.hidden = false;
-  document.getElementById("langbar-close").addEventListener("click", function(){ bar.hidden = true; try { localStorage.setItem("smr-langbar","closed"); } catch (e) {} });
+  if (want !== cur && have[want]) have[want].classList.add("suggest");
 })();
 </script>
 </body>
