@@ -3,5 +3,5 @@
   <div class="meta"><span class="tag">{{ include.post.category | default: "POST" }}</span><time class="tag" datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: "%Y.%m.%d" }}</time></div>
   <a class="title" href="{{ include.post.url | relative_url }}"><h3>{{ include.post.title }}</h3></a>
   <p>{{ include.post.description | default: include.post.excerpt | strip_html | truncate: 140 }}</p>
-  <a class="more" href="{{ include.post.url | relative_url }}">اقرأ المزيد ←</a>
+  <a class="more" href="{{ include.post.url | relative_url }}">{{ t.read_more }}</a>
 </article>

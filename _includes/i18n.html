@@ -1,0 +1,13 @@
+{%- comment -%} يحدد اللغة ونصوصها ورابط الترجمة لكل صفحة {%- endcomment -%}
+{%- assign L = page.lang | default: "ar" -%}
+{%- if L != "en" -%}{%- assign L = "ar" -%}{%- endif -%}
+{%- assign t = site.data.i18n[L] -%}
+{%- assign other = site.data.i18n[t.switch_lang] -%}
+{%- assign other_url = other.home_url -%}
+{%- assign alts = "" | split: "" -%}
+{%- if page.ref and page.ref != "" -%}
+  {%- assign alt_pages = site.pages | where: "ref", page.ref -%}
+  {%- assign alt_posts = site.posts | where: "ref", page.ref -%}
+  {%- assign alts = alt_pages | concat: alt_posts -%}
+  {%- for a in alts -%}{%- assign al = a.lang | default: "ar" -%}{%- if al == t.switch_lang -%}{%- assign other_url = a.url -%}{%- endif -%}{%- endfor -%}
+{%- endif -%}
