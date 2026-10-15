@@ -3,7 +3,7 @@
 :root{
   --bg:#EDF0F3; --panel:#FFFFFF; --ink:#13202C; --muted:#5A6878; --line:#C9D1DA;
   --signal:#D99A0B; --alert:#C2382E; --steel:#2B4C6F; --on-signal:#13202C;
-  --f-display:"Reem Kufi","IBM Plex Sans Arabic",system-ui,sans-serif;
+  --f-display:"Alexandria","IBM Plex Sans Arabic",system-ui,sans-serif;
   --f-body:"IBM Plex Sans Arabic",system-ui,"Segoe UI",Tahoma,sans-serif;
   --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
 }
@@ -153,3 +153,11 @@ footer a{color:var(--muted)}
 .prose blockquote{margin:20px 0;padding:8px 18px;border-inline-start:4px solid var(--signal);background:var(--panel)}
 [dir="ltr"] .hero h1 span{text-align:left}
 [dir="ltr"] .spec::before{right:auto;left:-1px}
+
+/* language suggestion bar */
+.langbar{background:var(--steel);color:var(--panel);font-size:14px}
+.langbar .wrap{display:flex;align-items:center;gap:14px;padding-block:8px;flex-wrap:wrap}
+.langbar a{font-weight:700;color:inherit}
+.langbar button{margin-inline-start:auto;background:none;border:0;color:inherit;font-size:20px;line-height:1;cursor:pointer;padding:0 4px}
+.hero h1{letter-spacing:-.01em}
+[lang="en"] .hero h1,[dir="ltr"] h1,[dir="ltr"] h2,[dir="ltr"] h3{letter-spacing:-.02em}
