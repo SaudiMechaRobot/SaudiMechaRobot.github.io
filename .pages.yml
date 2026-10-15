@@ -64,6 +64,16 @@ content:
       - { name: question, label: السؤال, type: string }
       - { name: answer, label: الجواب, type: text }
 
+  - name: faq_en
+    label: الأسئلة الشائعة (English)
+    type: file
+    path: _data/faq_en.yml
+    format: yaml
+    list: true
+    fields:
+      - { name: question, label: Question, type: string }
+      - { name: answer, label: Answer, type: text }
+
   - name: sponsors
     label: الرعاة
     type: file
