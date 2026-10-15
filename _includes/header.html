@@ -1,0 +1,21 @@
+{%- assign home = '/' | relative_url -%}
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="{% if page.lang == 'en' %}{{ '/en/' | relative_url }}{% else %}{{ home }}{% endif %}"><span class="mark"><i></i></span><b>Saudi Mecha Robot</b></a>
+    <ul>
+      {%- if page.lang == "en" %}
+      <li><a href="#about">About</a></li>
+      <li><a href="#activities">Activities</a></li>
+      <li><a href="{{ '/blog/' | relative_url }}">Blog (AR)</a></li>
+      <li><a class="lang" href="{{ home }}" hreflang="ar">العربية</a></li>
+      {%- else %}
+      <li><a href="{{ home }}#about">من نحن</a></li>
+      <li><a href="{{ home }}#log">الإنجازات</a></li>
+      <li><a href="{{ home }}#gallery">أعمال الأعضاء</a></li>
+      <li><a href="{{ '/blog/' | relative_url }}">المدونة</a></li>
+      <li><a href="{{ home }}#faq">الأسئلة</a></li>
+      <li><a class="lang" href="{{ '/en/' | relative_url }}" hreflang="en">EN</a></li>
+      {%- endif %}
+    </ul>
+  </div>
+</header>

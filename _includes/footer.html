@@ -1,0 +1,15 @@
+<div class="join" id="join"><div class="wrap">
+  <div><span class="tag">JOIN THE SQUAD</span>
+    {%- if page.lang == "en" %}<h2>Ready to build with us?</h2><p>Follow the club on its official accounts.</p>
+    {%- else %}<h2>جاهز تركّب معنا؟</h2><p>تابع النادي على حساباته الرسمية.</p>{% endif %}
+  </div>
+  <div class="cta">
+    {%- for s in site.data.social %}
+    <a class="btn {% if forloop.first %}primary{% else %}social{% endif %}" href="{{ s.url }}" target="_blank" rel="noopener me">{{ s.name }}</a>
+    {%- endfor %}
+  </div>
+</div></div>
+<footer><div class="wrap">
+  <span>© {{ site.time | date: "%Y" }} Saudi Mecha Robot · {% if page.lang == "en" %}Independent hobby club · Riyadh{% else %}نادي هواة مستقل · الرياض{% endif %} · <a href="https://www.instagram.com/gundam.dizer" target="_blank" rel="noopener">{% if page.lang == "en" %}Club leader{% else %}قائد النادي{% endif %}</a> · <a href="https://linktr.ee/saudimecharobot" target="_blank" rel="noopener me">Linktree</a></span>
+  <span class="tag">EST. {{ site.founded }} · RIYADH</span>
+</div></footer>
