@@ -1,13 +1,18 @@
-{%- comment -%} يحدد اللغة ونصوصها ورابط الترجمة لكل صفحة {%- endcomment -%}
+{%- comment -%} يحدد لغة الصفحة ونصوصها وروابط ترجماتها {%- endcomment -%}
 {%- assign L = page.lang | default: "ar" -%}
-{%- if L != "en" -%}{%- assign L = "ar" -%}{%- endif -%}
+{%- unless site.languages contains L -%}{%- assign L = "ar" -%}{%- endunless -%}
 {%- assign t = site.data.i18n[L] -%}
-{%- assign other = site.data.i18n[t.switch_lang] -%}
-{%- assign other_url = other.home_url -%}
 {%- assign alts = "" | split: "" -%}
 {%- if page.ref and page.ref != "" -%}
   {%- assign alt_pages = site.pages | where: "ref", page.ref -%}
   {%- assign alt_posts = site.posts | where: "ref", page.ref -%}
   {%- assign alts = alt_pages | concat: alt_posts -%}
-  {%- for a in alts -%}{%- assign al = a.lang | default: "ar" -%}{%- if al == t.switch_lang -%}{%- assign other_url = a.url -%}{%- endif -%}{%- endfor -%}
 {%- endif -%}
+{%- comment -%} lang_urls: رابط كل لغة (الترجمة إن وجدت وإلا رئيسية اللغة) بصيغة code|url {%- endcomment -%}
+{%- assign lang_urls = "" | split: "" -%}
+{%- for code in site.languages -%}
+  {%- assign u = site.data.i18n[code].home_url -%}
+  {%- for a in alts -%}{%- assign al = a.lang | default: "ar" -%}{%- if al == code -%}{%- assign u = a.url -%}{%- endif -%}{%- endfor -%}
+  {%- assign pair = code | append: "|" | append: u -%}
+  {%- assign lang_urls = lang_urls | push: pair -%}
+{%- endfor -%}

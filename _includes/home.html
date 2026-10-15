@@ -1,11 +1,11 @@
 {%- include i18n.html -%}
-{%- if L == "en" -%}{%- assign faqs = site.data.faq_en -%}{%- else -%}{%- assign faqs = site.data.faq -%}{%- endif -%}
+{%- if L == "ar" -%}{%- assign faqs = site.data.faq -%}{%- else -%}{%- assign fk = "faq_" | append: L -%}{%- assign faqs = site.data[fk] -%}{%- endif -%}
 <main id="top">
   <div class="hero-bay">
     <div class="wrap hero">
       <div class="hero-copy">
         <span class="tag lamp">UNIT SMR-01 · RIYADH · EST. {{ site.founded }}</span>
-        <h1>{{ t.club_name }}<span lang="{{ t.switch_lang }}" dir="{{ other.dir }}">{{ t.club_name_alt }}</span></h1>
+        <h1>{{ t.club_name }}<span lang="{{ t.alt_lang }}" dir="{{ site.data.i18n[t.alt_lang].dir }}">{{ t.club_name_alt }}</span></h1>
         <p>{{ t.hero_text }}</p>
         <div class="cta">
           <a class="btn primary" href="#join">{{ t.cta_join }}</a>
@@ -48,7 +48,7 @@
     {%- assign items = site.achievements | sort: "date" | reverse %}
     <ol class="timeline">
       {%- for a in items %}
-      {%- if L == "en" %}{% assign a_title = a.title_en %}{% assign a_body = a.body_en %}{% assign a_tags = a.tags_en %}{% else %}{% assign a_title = a.title %}{% assign a_body = a.content %}{% assign a_tags = a.tags %}{% endif %}
+      {%- if L == "ar" %}{% assign a_title = a.title %}{% assign a_body = a.content %}{% assign a_tags = a.tags %}{% else %}{% assign k1 = "title_" | append: L %}{% assign k2 = "body_" | append: L %}{% assign k3 = "tags_" | append: L %}{% assign a_title = a[k1] %}{% assign a_body = a[k2] %}{% assign a_tags = a[k3] %}{% endif %}
       {%- if a_title and a_title != "" %}
       <li{% if a.featured %} class="big"{% endif %}>
         <time datetime="{{ a.date | date: '%Y-%m-%d' }}">{% if a.date_label %}{{ a.date_label }}{% else %}{{ a.date | date: "%Y.%m.%d" }}{% endif %}</time>
@@ -80,7 +80,7 @@
 
   <section id="blog"><div class="wrap">
     <div class="head"><div><span class="tag plate">BAY 04 · BRIEFING</span><h2>{{ t.blog_title }}</h2></div><a class="btn" href="{{ t.blog_url | relative_url }}">{{ t.blog_all }}</a></div>
-    {%- if L == "en" %}{% assign lposts = site.posts | where: "lang", "en" %}{% else %}{% assign lposts = site.posts | where_exp: "p", "p.lang != 'en'" %}{% endif %}
+    {%- assign lposts = site.posts | where: "lang", L %}
     {%- if lposts.size > 0 %}
     <div class="posts">{% for post in lposts limit:3 %}{% include post-card.html post=post %}{% endfor %}</div>
     {%- else %}<div class="empty">{{ t.blog_empty }}</div>{% endif %}

@@ -8,7 +8,7 @@
       <li><a href="{{ home }}#gallery">{{ t.nav_gallery }}</a></li>
       <li><a href="{{ t.blog_url | relative_url }}">{{ t.nav_blog }}</a></li>
       <li><a href="{{ home }}#faq">{{ t.nav_faq }}</a></li>
-      <li><a class="lang" href="{{ other_url | relative_url }}" hreflang="{{ t.switch_lang }}" lang="{{ t.switch_lang }}">{{ t.switch_label }}</a></li>
+      <li class="langs">{% for pair in lang_urls %}{% assign kv = pair | split: "|" %}<a class="lang{% if kv[0] == L %} current{% endif %}" href="{{ kv[1] | relative_url }}" hreflang="{{ kv[0] }}" lang="{{ kv[0] }}"{% if kv[0] == L %} aria-current="true"{% endif %}>{{ site.data.i18n[kv[0]].lang_name }}</a>{% endfor %}</li>
     </ul>
   </div>
 </header>
