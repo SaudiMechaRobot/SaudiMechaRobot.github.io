@@ -161,3 +161,4 @@ footer a{color:var(--muted)}
 .langbar button{margin-inline-start:auto;background:none;border:0;color:inherit;font-size:20px;line-height:1;cursor:pointer;padding:0 4px}
 .hero h1{letter-spacing:-.01em}
 [lang="en"] .hero h1,[dir="ltr"] h1,[dir="ltr"] h2,[dir="ltr"] h3{letter-spacing:-.02em}
+.hero h1 span[lang="ar"]{letter-spacing:0;font-family:var(--f-display);font-weight:700;text-align:left}
