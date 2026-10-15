@@ -1,5 +1,11 @@
 {%- assign home = t.home_url | relative_url -%}
 <header>
+  <div class="langstrip">
+    <div class="wrap">
+      <span class="ls-label" aria-hidden="true">🌐 {{ t.lang_label }}</span>
+      <nav class="ls-buttons" aria-label="{{ t.lang_label }}">{% for pair in lang_urls %}{% assign kv = pair | split: "|" %}{% assign lc = kv[0] %}{% assign lu = kv[1] %}{% assign ln = site.data.i18n[lc] %}<a class="lsb{% if lc == L %} current{% endif %}" href="{{ lu | relative_url }}" hreflang="{{ lc }}" lang="{{ lc }}" data-lang="{{ lc }}"{% if lc == L %} aria-current="page"{% endif %}><span class="flag" aria-hidden="true">{{ ln.flag }}</span><b>{{ ln.code_label }}</b><span class="lname">{{ ln.lang_name }}</span></a>{% endfor %}</nav>
+    </div>
+  </div>
   <div class="wrap nav">
     <a class="brand" href="{{ home }}"><img class="logo" src="{{ '/assets/images/logo-192.png' | relative_url }}" alt="" width="64" height="64"><b>Saudi Mecha Robot</b></a>
     <ul>
@@ -8,7 +14,6 @@
       <li><a href="{{ home }}#gallery">{{ t.nav_gallery }}</a></li>
       <li><a href="{{ t.blog_url | relative_url }}">{{ t.nav_blog }}</a></li>
       <li><a href="{{ home }}#faq">{{ t.nav_faq }}</a></li>
-      <li class="langs">{% for pair in lang_urls %}{% assign kv = pair | split: "|" %}{% assign lc = kv[0] %}{% assign lu = kv[1] %}{% assign ln = site.data.i18n[lc] %}<a class="lang{% if lc == L %} current{% endif %}" href="{{ lu | relative_url }}" hreflang="{{ lc }}" lang="{{ lc }}"{% if lc == L %} aria-current="true"{% endif %}>{{ ln.lang_name }}</a>{% endfor %}</li>
     </ul>
   </div>
 </header>
