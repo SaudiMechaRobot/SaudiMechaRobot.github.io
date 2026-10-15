@@ -54,7 +54,7 @@
         <time datetime="{{ a.date | date: '%Y-%m-%d' }}">{% if a.date_label %}{{ a.date_label }}{% else %}{{ a.date | date: "%Y.%m.%d" }}{% endif %}</time>
         <h3>{{ a_title }}</h3>
         {{ a_body | markdownify }}
-        {%- if a.image and a.image != "" %}<img src="{{ a.image | relative_url }}" alt="{{ a_title }}" loading="lazy" style="max-width:420px;margin-top:10px;border:1px solid var(--line)">{% endif %}
+        {%- if a.image and a.image != "" %}<img src="{{ a.image | relative_url }}" alt="{{ a_title }}" loading="lazy" class="log-img">{% endif %}
         {%- if a_tags and a_tags.size > 0 %}<div class="chips">{% for tg in a_tags %}<span class="chip">{{ tg }}</span>{% endfor %}</div>{% endif %}
       </li>
       {%- endif %}
