@@ -5,7 +5,7 @@
     <div class="wrap hero">
       <div class="hero-copy">
         <span class="tag lamp">UNIT SMR-01 · RIYADH · EST. {{ site.founded }}</span>
-        <h1>{{ t.club_name }}<span lang="{{ t.alt_lang }}" dir="{{ site.data.i18n[t.alt_lang].dir }}">{{ t.club_name_alt }}</span></h1>
+        <h1>{{ t.club_name }}{% assign altc = t.alt_lang %}{% assign altt = site.data.i18n[altc] %}<span lang="{{ altc }}" dir="{{ altt.dir }}">{{ t.club_name_alt }}</span></h1>
         <p>{{ t.hero_text }}</p>
         <div class="cta">
           <a class="btn primary" href="#join">{{ t.cta_join }}</a>
