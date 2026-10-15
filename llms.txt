@@ -13,10 +13,11 @@ layout: null
 ## Pages
 - [Home (Arabic)]({{ '/' | absolute_url }}): about the club, milestones, member gallery, FAQ
 - [English overview]({{ '/en/' | absolute_url }}): the club in English
-- [Blog]({{ '/blog/' | absolute_url }}): club news and beginner Gunpla guides
+- [Blog (Arabic)]({{ '/blog/' | absolute_url }}): club news and beginner Gunpla guides in Arabic
+- [Blog (English)]({{ '/en/blog/' | absolute_url }}): the same articles in English
 
 ## Blog posts
-{% for post in site.posts %}- [{{ post.title }}]({{ post.url | absolute_url }}): {{ post.description }}
+{% for post in site.posts %}- [{{ post.title }}]({{ post.url | absolute_url }}) [{{ post.lang }}]: {{ post.description }}
 {% endfor %}
 ## Official accounts
 {% for l in site.social.links %}- {{ l }}

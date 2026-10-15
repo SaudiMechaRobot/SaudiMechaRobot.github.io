@@ -12,6 +12,7 @@ content:
     view: { primary: title, sort: date, order: desc, fields: [title, date, category] }
     fields:
       - { name: title, label: العنوان, type: string, required: true }
+      - { name: ref, label: "مفتاح الربط بالترجمة (نفس الكلمة في المقال الإنجليزي، مثل: first-gunpla-guide)", type: string }
       - { name: date, label: التاريخ, type: date, required: true }
       - { name: description, label: وصف قصير (يظهر في Google), type: text }
       - name: category
@@ -22,6 +23,25 @@ content:
       - { name: cover, label: صورة الغلاف, type: image }
       - { name: body, label: المحتوى, type: rich-text }
 
+  - name: posts_en
+    label: المدونة (English)
+    type: collection
+    path: _posts/en
+    filename: { template: "{year}-{month}-{day}-{primary}.md", field: create }
+    view: { primary: title, sort: date, order: desc, fields: [title, date, category] }
+    fields:
+      - { name: title, label: Title, type: string, required: true }
+      - { name: ref, label: "Translation key (same as the Arabic post)", type: string }
+      - { name: date, label: Date, type: date, required: true }
+      - { name: description, label: Short description (shown in Google), type: text }
+      - name: category
+        label: Category
+        type: select
+        options:
+          values: [GUIDE, EVENT, NEWS, TOOLS, REVIEW]
+      - { name: cover, label: Cover image, type: image }
+      - { name: body, label: Content, type: rich-text }
+
   - name: achievements
     label: الإنجازات والفعاليات
     type: collection
@@ -30,11 +50,14 @@ content:
     view: { primary: title, sort: date, order: desc, fields: [title, date] }
     fields:
       - { name: title, label: العنوان, type: string, required: true }
+      - { name: title_en, label: "العنوان بالإنجليزي (إذا فاضي ما يظهر في الصفحة الإنجليزية)", type: string }
       - { name: date, label: التاريخ, type: date, required: true }
       - { name: date_label, label: نص التاريخ البديل (اختياري، مثل 2024), type: string }
       - { name: featured, label: إنجاز بارز, type: boolean }
       - { name: image, label: صورة, type: image }
       - { name: tags, label: الفقرات, type: string, list: true }
+      - { name: tags_en, label: الفقرات بالإنجليزي, type: string, list: true }
+      - { name: body_en, label: الوصف بالإنجليزي, type: text }
       - { name: body, label: الوصف, type: rich-text }
 
   - name: gallery

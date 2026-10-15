@@ -4,8 +4,7 @@ tagline: نادي سعودي ميكا روبوت
 description: نادي سعودي في الرياض لعشاق Gundam وGrendizer وعالم Super Robot والثقافة اليابانية، يجمع هواة الـ Plamodel وتركيب Gunpla عبر فعاليات وورش للمبتدئين وتحديات تركيب جماعية.
 url: https://saudimecharobot.github.io
 baseurl: ""
-lang: ar_SA
-locale: ar_SA
+lang: ar
 timezone: Asia/Riyadh
 founded: "2024"
 city: الرياض
@@ -32,8 +31,14 @@ collections:
     output: false
 
 defaults:
+  - scope: { path: "" }
+    values: { lang: ar }
+  - scope: { path: "en" }
+    values: { lang: en }
   - scope: { path: "", type: posts }
-    values: { layout: post }
+    values: { layout: post, lang: ar }
+  - scope: { path: "_posts/en", type: posts }
+    values: { layout: post, lang: en, permalink: "/en/blog/:year/:month/:title/" }
 
 plugins:
   - jekyll-seo-tag
