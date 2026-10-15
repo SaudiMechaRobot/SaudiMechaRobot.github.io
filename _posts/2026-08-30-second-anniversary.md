@@ -1,4 +1,5 @@
 ---
+ref: second-anniversary
 title: الذكرى السنوية الثانية لنادي Saudi Mecha Robot
 description: احتفل النادي في 28 أغسطس 2026 بمرور سنتين على تأسيسه، بتحدي تركيب جماعي وورشة للمبتدئين وشهادات تقدير للأعضاء.
 category: EVENT

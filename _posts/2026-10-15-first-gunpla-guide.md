@@ -1,4 +1,5 @@
 ---
+ref: first-gunpla-guide
 title: "دليل المبتدئ: أول موديل Gunpla تركّبه"
 description: وش الفرق بين مقاييس Gunpla، ومن وين تبدأ، والأدوات الأساسية اللي تحتاجها لأول موديل.
 category: GUIDE
