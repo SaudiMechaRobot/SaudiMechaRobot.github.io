@@ -1,0 +1,105 @@
+# نصوص الواجهة باللغتين — أي قسم جديد يضيف نصوصه هنا
+ar:
+  dir: rtl
+  home_url: /
+  blog_url: /blog/
+  club_name: نادي سعودي ميكا روبوت
+  club_name_alt: SAUDI MECHA ROBOT
+  hero_text: نادي سعودي لعشاق Gundam وGrendizer وعالم Super Robot والثقافة اليابانية، يجمع هواة الـ Plamodel والمجسمات. نركّب سوا، نتعلم من بعض، ونرحّب بالمبتدئ قبل المحترف.
+  cta_join: انضم للنادي
+  cta_events: شوف فعالياتنا
+  spec_label: بطاقة النادي
+  spec_type: النوع
+  spec_type_v: نادي هواة مستقل
+  spec_founded: التأسيس
+  spec_base: المقر
+  spec_base_v: الرياض، المملكة العربية السعودية
+  spec_focus: الاهتمامات
+  spec_grades: المقاييس
+  nav_about: من نحن
+  nav_log: الإنجازات
+  nav_gallery: أعمال الأعضاء
+  nav_blog: المدونة
+  nav_faq: الأسئلة
+  about_title: من نحن
+  about_p1: Saudi Mecha Robot نادي سعودي تأسس في الرياض عام 2024، يهتم بعالم Gundam وGrendizer وSuper Robot والثقافة اليابانية، ومساحة يلتقي فيها هواة الـ Plamodel والمجسمات من مختلف مدن المملكة.
+  about_p2: هدفنا نقرّب هواية تركيب المجسمات من الشباب السعودي، ونبني جسر ثقافي بين السعودية واليابان من خلال فن الميكا.
+  p1_t: تحديات تركيب جماعية
+  p1_d: كل الأعضاء يركّبون نفس الموديل ويشاركون النتيجة.
+  p2_t: ورش للمبتدئين
+  p2_d: من فك القطع من الرنر إلى الـ Panel Lining والتلوين.
+  p3_t: معرض أعمال الأعضاء
+  p3_d: كل قطعة يركّبها عضو لها مكان في المعرض.
+  log_title: الإنجازات والفعاليات
+  gallery_title: أعمال الأعضاء
+  gallery_sub: قطع ركّبها أعضاء النادي.
+  gallery_empty: المعرض قريباً. أول أعمال الأعضاء بتنضاف هنا.
+  blog_title: المدونة
+  blog_sub: أخبار النادي وأدلة للمبتدئين في عالم Gunpla والمجسمات.
+  blog_all: كل المقالات
+  blog_empty: المقالات قريباً.
+  read_more: اقرأ المزيد ←
+  faq_title: أسئلة شائعة
+  sponsors_title: الرعاة
+  sponsor_slot: مكان الراعي — قريباً
+  join_title: جاهز تركّب معنا؟
+  join_text: تابع النادي على حساباته الرسمية.
+  footer_club: نادي هواة مستقل · الرياض
+  club_leader: قائد النادي
+  switch_label: English
+  switch_lang: en
+  langbar_text: This site is also available in English
+  langbar_link: View in English
+  translation: اقرأ هذا المقال بالإنجليزية
+en:
+  dir: ltr
+  home_url: /en/
+  blog_url: /en/blog/
+  club_name: Saudi Mecha Robot
+  club_name_alt: نادي سعودي ميكا روبوت
+  hero_text: A Saudi hobby club for fans of Gundam, Grendizer, Super Robot and Japanese culture, bringing together plamodel and figure enthusiasts. We build together, learn from each other, and welcome beginners first.
+  cta_join: Join the club
+  cta_events: See our events
+  spec_label: Club card
+  spec_type: Type
+  spec_type_v: Independent hobby club
+  spec_founded: Founded
+  spec_base: Base
+  spec_base_v: Riyadh, Saudi Arabia
+  spec_focus: Focus
+  spec_grades: Grades
+  nav_about: About
+  nav_log: Milestones
+  nav_gallery: Gallery
+  nav_blog: Blog
+  nav_faq: FAQ
+  about_title: About the club
+  about_p1: Saudi Mecha Robot was founded in Riyadh in 2024. It is a meeting place for model kit builders across Saudi Arabia who love Gundam, Grendizer, Super Robot and Japanese pop culture.
+  about_p2: Our goal is to grow the model-building hobby among young Saudis and to act as a cultural bridge between Saudi Arabia and Japan through mecha.
+  p1_t: Group build challenges
+  p1_d: Members build the same kit and share the results.
+  p2_t: Beginner workshops
+  p2_d: From cutting parts off the runner to panel lining and painting.
+  p3_t: Member gallery
+  p3_d: Every member's build has a place in the gallery.
+  log_title: Milestones & events
+  gallery_title: Member builds
+  gallery_sub: Kits built by club members.
+  gallery_empty: The gallery is coming soon.
+  blog_title: Blog
+  blog_sub: Club news and beginner guides to Gunpla and model kits.
+  blog_all: All posts
+  blog_empty: Posts coming soon.
+  read_more: Read more →
+  faq_title: Frequently asked questions
+  sponsors_title: Sponsors
+  sponsor_slot: Sponsor spot — coming soon
+  join_title: Ready to build with us?
+  join_text: Follow the club on its official accounts.
+  footer_club: Independent hobby club · Riyadh
+  club_leader: Club leader
+  switch_label: العربية
+  switch_lang: ar
+  langbar_text: هذا الموقع متوفر بالعربية
+  langbar_link: عرض بالعربية
+  translation: اقرأ هذا المقال بالعربية
