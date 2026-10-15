@@ -6,7 +6,7 @@ title: المدونة
 description: مقالات وأخبار نادي Saudi Mecha Robot عن Gunpla والمجسمات وفعاليات النادي في الرياض.
 ---
 {%- include i18n.html -%}
-{% assign lposts = site.posts | where_exp: "p", "p.lang != 'en'" %}
+{% assign lposts = site.posts | where: "lang", L %}
 <main><section><div class="wrap">
   <div class="head"><div><span class="tag plate">BAY 04 · BRIEFING</span><h2>{{ t.blog_title }}</h2><p>{{ t.blog_sub }}</p></div></div>
   {%- if lposts.size > 0 %}
