@@ -1,6 +1,7 @@
 ---
 layout: default
 lang: en
+faq: true
 title: Saudi Mecha Robot – Gunpla & Mecha Club in Riyadh
 description: Saudi Mecha Robot is a hobby club founded in Riyadh in 2024 for fans of Gundam, Grendizer, Super Robot and Japanese culture, with group builds and beginner Gunpla workshops.
 ---
@@ -8,7 +9,7 @@ description: Saudi Mecha Robot is a hobby club founded in Riyadh in 2024 for fan
   <div class="wrap hero">
     <div>
       <span class="tag">UNIT SMR-01 · RIYADH · EST. {{ site.founded }}</span>
-      <h1>Saudi Mecha Robot<span>نادي ساودي ميكا روبوت</span></h1>
+      <h1>Saudi Mecha Robot<span>نادي سعودي ميكا روبوت</span></h1>
       <p>A Saudi hobby club for fans of Gundam, Grendizer, Super Robot and Japanese culture, bringing together plamodel and figure enthusiasts. We build together, learn from each other, and welcome beginners first.</p>
       <div class="cta"><a class="btn primary" href="#join">Join the club</a><a class="btn" href="{{ '/' | relative_url }}" hreflang="ar">Arabic site</a></div>
     </div>
@@ -43,6 +44,14 @@ description: Saudi Mecha Robot is a hobby club founded in Riyadh in 2024 for fan
     <div class="pillars">
       <div class="pillar"><span class="tag">2026</span><div><h3>Second anniversary · 28 Aug 2026</h3><p>Group build challenge, beginner workshop and member appreciation certificates.</p></div></div>
       <div class="pillar"><span class="tag">2024</span><div><h3>Club founded in Riyadh</h3><p>Saudi Mecha Robot starts.</p></div></div>
+    </div>
+  </div></section>
+  <section id="faq" style="padding-top:0"><div class="wrap">
+    <div class="head"><div><span class="tag">03 · FAQ</span><h2>Frequently asked questions</h2></div></div>
+    <div class="faq">
+      {%- for f in site.data.faq_en %}
+      <details{% if forloop.first %} open{% endif %}><summary>{{ f.question }}</summary><p>{{ f.answer }}</p></details>
+      {%- endfor %}
     </div>
   </div></section>
 </main>
