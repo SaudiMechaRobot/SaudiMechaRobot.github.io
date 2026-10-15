@@ -1,5 +1,8 @@
 # نصوص الواجهة بثلاث لغات — أي قسم جديد يضيف نصوصه هنا لكل لغة
 ar:
+  flag: "🇸🇦"
+  code_label: AR
+  lang_label: اللغة
   dir: rtl
   home_url: /
   blog_url: /blog/
@@ -52,6 +55,9 @@ ar:
   alt_lang: en
   other_langs: 'اقرأ هذا المقال بلغة أخرى:'
 en:
+  flag: "🇬🇧"
+  code_label: EN
+  lang_label: Language
   dir: ltr
   home_url: /en/
   blog_url: /en/blog/
@@ -104,6 +110,9 @@ en:
   alt_lang: ar
   other_langs: 'Read this article in:'
 ja:
+  flag: "🇯🇵"
+  code_label: JP
+  lang_label: 言語
   dir: ltr
   home_url: /ja/
   blog_url: /ja/blog/
