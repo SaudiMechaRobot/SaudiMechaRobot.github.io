@@ -162,3 +162,9 @@ footer a{color:var(--muted)}
 .hero h1{letter-spacing:-.01em}
 [lang="en"] .hero h1,[dir="ltr"] h1,[dir="ltr"] h2,[dir="ltr"] h3{letter-spacing:-.02em}
 .hero h1 span[lang="ar"]{letter-spacing:0;font-family:var(--f-display);font-weight:700;text-align:left}
+
+/* club logo */
+.brand .logo{width:40px;height:40px;border-radius:50%;display:block}
+.spec .emblem{width:180px;height:180px;border-radius:50%;margin:-90px auto 14px;box-shadow:0 0 0 6px var(--bg),0 0 0 7px var(--line)}
+.hero{padding-top:110px}
+@media (max-width:860px){.hero{padding-top:44px}.spec{margin-top:96px}}
