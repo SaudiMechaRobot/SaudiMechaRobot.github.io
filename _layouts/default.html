@@ -1,13 +1,17 @@
+{%- include i18n.html -%}
 <!doctype html>
-{%- assign is_en = false -%}{%- if page.lang == "en" -%}{%- assign is_en = true -%}{%- endif -%}
-<html lang="{% if is_en %}en{% else %}ar{% endif %}" dir="{% if is_en %}ltr{% else %}rtl{% endif %}">
+<html lang="{{ L }}" dir="{{ t.dir }}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {% seo %}
-<link rel="alternate" hreflang="ar" href="{{ '/' | absolute_url }}">
-<link rel="alternate" hreflang="en" href="{{ '/en/' | absolute_url }}">
-<link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+{%- if alts.size > 1 %}
+{%- for a in alts %}
+<link rel="alternate" hreflang="{{ a.lang | default: 'ar' }}" href="{{ a.url | absolute_url }}">
+{%- assign al = a.lang | default: "ar" %}{% if al == "ar" %}
+<link rel="alternate" hreflang="x-default" href="{{ a.url | absolute_url }}">{% endif %}
+{%- endfor %}
+{%- endif %}
 <link rel="icon" href="{{ '/assets/images/logo.svg' | relative_url }}" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,11 +23,7 @@
 <body>
 <div class="langbar" id="langbar" hidden>
   <div class="wrap">
-    {%- if page.lang == "en" %}
-    <span lang="ar">هذه الصفحة متوفرة بالعربية</span><a href="{{ '/' | relative_url }}" lang="ar" hreflang="ar">عرض بالعربية</a>
-    {%- else %}
-    <span lang="en">This site is also available in English</span><a href="{{ '/en/' | relative_url }}" lang="en" hreflang="en">View in English</a>
-    {%- endif %}
+    <span lang="{{ t.switch_lang }}">{{ t.langbar_text }}</span><a href="{{ other_url | relative_url }}" lang="{{ t.switch_lang }}" hreflang="{{ t.switch_lang }}">{{ t.langbar_link }}</a>
     <button type="button" id="langbar-close" aria-label="Close">×</button>
   </div>
 </div>
