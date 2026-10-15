@@ -1,0 +1,86 @@
+# لوحة تحكم Pages CMS — https://app.pagescms.org
+media:
+  input: assets/images
+  output: /assets/images
+
+content:
+  - name: posts
+    label: المدونة
+    type: collection
+    path: _posts
+    filename: { template: "{year}-{month}-{day}-{primary}.md", field: create }
+    view: { primary: title, sort: date, order: desc, fields: [title, date, category] }
+    fields:
+      - { name: title, label: العنوان, type: string, required: true }
+      - { name: date, label: التاريخ, type: date, required: true }
+      - { name: description, label: وصف قصير (يظهر في Google), type: text }
+      - name: category
+        label: التصنيف
+        type: select
+        options:
+          values: [GUIDE, EVENT, NEWS, TOOLS, REVIEW]
+      - { name: cover, label: صورة الغلاف, type: image }
+      - { name: body, label: المحتوى, type: rich-text }
+
+  - name: achievements
+    label: الإنجازات والفعاليات
+    type: collection
+    path: _achievements
+    filename: { template: "{year}-{month}-{day}-{primary}.md", field: create }
+    view: { primary: title, sort: date, order: desc, fields: [title, date] }
+    fields:
+      - { name: title, label: العنوان, type: string, required: true }
+      - { name: date, label: التاريخ, type: date, required: true }
+      - { name: date_label, label: نص التاريخ البديل (اختياري، مثل 2024), type: string }
+      - { name: featured, label: إنجاز بارز, type: boolean }
+      - { name: image, label: صورة, type: image }
+      - { name: tags, label: الفقرات, type: string, list: true }
+      - { name: body, label: الوصف, type: rich-text }
+
+  - name: gallery
+    label: أعمال الأعضاء
+    type: collection
+    path: _gallery
+    filename: { template: "{year}-{month}-{day}-{primary}.md", field: create }
+    view: { primary: title, sort: date, order: desc, fields: [title, builder, grade] }
+    fields:
+      - { name: title, label: اسم الموديل, type: string, required: true }
+      - { name: builder, label: اسم العضو, type: string, required: true }
+      - name: grade
+        label: الفئة
+        type: select
+        options:
+          values: [HG, RG, MG, PG, SD, EG, MGEX, Other]
+      - { name: image, label: الصورة, type: image, required: true }
+      - { name: date, label: تاريخ الإضافة, type: date }
+
+  - name: faq
+    label: الأسئلة الشائعة
+    type: file
+    path: _data/faq.yml
+    format: yaml
+    list: true
+    fields:
+      - { name: question, label: السؤال, type: string }
+      - { name: answer, label: الجواب, type: text }
+
+  - name: sponsors
+    label: الرعاة
+    type: file
+    path: _data/sponsors.yml
+    format: yaml
+    list: true
+    fields:
+      - { name: name, label: اسم الراعي, type: string }
+      - { name: logo, label: الشعار, type: image }
+      - { name: url, label: الرابط, type: string }
+
+  - name: social
+    label: الحسابات الاجتماعية
+    type: file
+    path: _data/social.yml
+    format: yaml
+    list: true
+    fields:
+      - { name: name, label: المنصة, type: string }
+      - { name: url, label: الرابط, type: string }

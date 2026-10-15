@@ -1,0 +1,45 @@
+# إعدادات موقع نادي Saudi Mecha Robot
+title: Saudi Mecha Robot
+tagline: نادي ساودي ميكا روبوت
+description: نادي سعودي في الرياض لعشاق Gundam وGrendizer وعالم Super Robot والثقافة اليابانية، يجمع هواة الـ Plamodel وتركيب Gunpla عبر فعاليات وورش للمبتدئين وتحديات تركيب جماعية.
+url: https://saudimecharobot.github.io
+baseurl: ""
+lang: ar_SA
+locale: ar_SA
+timezone: Asia/Riyadh
+founded: "2024"
+city: الرياض
+logo: /assets/images/logo.svg
+
+social:
+  name: Saudi Mecha Robot
+  links:
+    - https://www.instagram.com/saudi.mecha.robot
+    - https://x.com/SaudiMechaRobot
+    - https://www.tiktok.com/@saudi.mecha.robot
+    - https://www.youtube.com/@saudimecharobot
+    - https://linktr.ee/saudimecharobot
+
+twitter:
+  username: SaudiMechaRobot
+
+permalink: /blog/:year/:month/:title/
+
+collections:
+  achievements:
+    output: false
+  gallery:
+    output: false
+
+defaults:
+  - scope: { path: "", type: posts }
+    values: { layout: post }
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+exclude:
+  - README.md
+  - .pages.yml

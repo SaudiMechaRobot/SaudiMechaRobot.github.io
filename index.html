@@ -1,0 +1,103 @@
+---
+layout: default
+title: نادي ساودي ميكا روبوت – مجتمع Gunpla والميكا في الرياض
+faq: true
+---
+<main id="top">
+  <div class="wrap hero">
+    <div>
+      <span class="tag">UNIT SMR-01 · RIYADH · EST. {{ site.founded }}</span>
+      <h1>نادي ساودي ميكا روبوت<span>SAUDI MECHA ROBOT</span></h1>
+      <p>نادي سعودي لعشاق Gundam وGrendizer وعالم Super Robot والثقافة اليابانية، يجمع هواة الـ Plamodel والمجسمات. نركّب سوا، نتعلم من بعض، ونرحّب بالمبتدئ قبل المحترف.</p>
+      <div class="cta">
+        <a class="btn primary" href="#join">انضم للنادي</a>
+        <a class="btn" href="#log">شوف فعالياتنا</a>
+      </div>
+    </div>
+    <aside class="spec" aria-label="بطاقة النادي">
+      <span class="tag">SPEC SHEET</span>
+      <dl>
+        <dt>النوع</dt><dd>نادي هواة مستقل</dd>
+        <dt>التأسيس</dt><dd>{{ site.founded }}</dd>
+        <dt>المقر</dt><dd>الرياض، المملكة العربية السعودية</dd>
+        <dt>الاهتمامات</dt><dd>Gundam · Grendizer · Super Robot</dd>
+        <dt>المقاييس</dt><dd style="direction:ltr;text-align:right">HG · RG · MG · PG</dd>
+      </dl>
+    </aside>
+  </div>
+  <div class="stripe" aria-hidden="true"></div>
+
+  <section id="about"><div class="wrap">
+    <div class="head"><div><span class="tag">01 · ABOUT</span><h2>من نحن</h2></div></div>
+    <div class="about">
+      <div>
+        <p>Saudi Mecha Robot نادي سعودي تأسس في الرياض عام {{ site.founded }}، يهتم بعالم Gundam وGrendizer وSuper Robot والثقافة اليابانية، ومساحة يلتقي فيها هواة الـ Plamodel والمجسمات من مختلف مدن المملكة.</p>
+        <p>هدفنا نقرّب هواية تركيب المجسمات من الشباب السعودي، ونبني جسر ثقافي بين السعودية واليابان من خلال فن الميكا.</p>
+      </div>
+      <div class="pillars">
+        <div class="pillar"><span class="tag">BUILD</span><div><h3>تحديات تركيب جماعية</h3><p>كل الأعضاء يركّبون نفس الموديل ويشاركون النتيجة.</p></div></div>
+        <div class="pillar"><span class="tag">LEARN</span><div><h3>ورش للمبتدئين</h3><p>من فك القطع من الرنر إلى الـ Panel Lining والتلوين.</p></div></div>
+        <div class="pillar"><span class="tag">SHARE</span><div><h3>معرض أعمال الأعضاء</h3><p>كل قطعة يركّبها عضو لها مكان في المعرض.</p></div></div>
+      </div>
+    </div>
+  </div></section>
+
+  <section id="log"><div class="wrap">
+    <div class="head"><div><span class="tag">02 · MISSION LOG</span><h2>الإنجازات والفعاليات</h2></div></div>
+    {%- assign items = site.achievements | sort: "date" | reverse %}
+    <ol class="timeline">
+      {%- for a in items %}
+      <li{% if a.featured %} class="big"{% endif %}>
+        <time datetime="{{ a.date | date: '%Y-%m-%d' }}">{% if a.date_label %}{{ a.date_label }}{% else %}{{ a.date | date: "%Y.%m.%d" }}{% endif %}</time>
+        <h3>{{ a.title }}</h3>
+        {{ a.content | markdownify }}
+        {%- if a.image and a.image != "" %}<img src="{{ a.image | relative_url }}" alt="{{ a.title }}" loading="lazy" style="max-width:420px;margin-top:10px;border:1px solid var(--line)">{% endif %}
+        {%- if a.tags and a.tags.size > 0 %}<div class="chips">{% for t in a.tags %}<span class="chip">{{ t }}</span>{% endfor %}</div>{% endif %}
+      </li>
+      {%- endfor %}
+    </ol>
+  </div></section>
+
+  <div class="stripe" aria-hidden="true"></div>
+
+  <section id="gallery"><div class="wrap">
+    <div class="head"><div><span class="tag">03 · HANGAR</span><h2>أعمال الأعضاء</h2><p>قطع ركّبها أعضاء النادي.</p></div></div>
+    {%- assign works = site.gallery | sort: "date" | reverse %}
+    {%- if works.size > 0 %}
+    <div class="gallery">
+      {%- for w in works %}
+      <figure class="frame"><div class="ph">{% if w.image and w.image != "" %}<img src="{{ w.image | relative_url }}" alt="{{ w.title }} – {{ w.builder }}" loading="lazy">{% else %}<span>{{ w.grade }}</span>{% endif %}<small class="tag">{{ w.grade }}</small></div><figcaption class="cap"><span>{{ w.title }}</span><em>{{ w.builder }}</em></figcaption></figure>
+      {%- endfor %}
+    </div>
+    {%- else %}
+    <div class="empty">المعرض قريباً. أول أعمال الأعضاء بتنضاف هنا.</div>
+    {%- endif %}
+  </div></section>
+
+  <section id="blog"><div class="wrap">
+    <div class="head"><div><span class="tag">04 · BRIEFING</span><h2>المدونة</h2></div><a class="btn" href="{{ '/blog/' | relative_url }}">كل المقالات</a></div>
+    <div class="posts">
+      {%- for post in site.posts limit:3 %}{% include post-card.html post=post %}{% endfor %}
+    </div>
+  </div></section>
+
+  <section id="faq"><div class="wrap">
+    <div class="head"><div><span class="tag">05 · FAQ</span><h2>أسئلة شائعة</h2></div></div>
+    <div class="faq">
+      {%- for f in site.data.faq %}
+      <details{% if forloop.first %} open{% endif %}><summary>{{ f.question }}</summary><p>{{ f.answer }}</p></details>
+      {%- endfor %}
+    </div>
+  </div></section>
+
+  <section id="sponsors" style="padding-top:0"><div class="wrap">
+    <div class="head"><div><span class="tag">06 · ALLIES</span><h2>الرعاة</h2></div></div>
+    <div class="sponsors">
+      {%- if site.data.sponsors.size > 0 %}
+        {%- for s in site.data.sponsors %}<a class="sponsor" href="{{ s.url }}" target="_blank" rel="noopener sponsored">{% if s.logo and s.logo != "" %}<img src="{{ s.logo | relative_url }}" alt="{{ s.name }}">{% endif %}<span>{{ s.name }}</span></a>{% endfor %}
+      {%- else %}
+        <div class="slot">مكان الراعي — قريباً</div><div class="slot">مكان الراعي — قريباً</div>
+      {%- endif %}
+    </div>
+  </div></section>
+</main>
