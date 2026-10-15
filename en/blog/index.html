@@ -1,0 +1,15 @@
+---
+layout: default
+lang: en
+ref: blog
+title: Blog
+description: News and beginner guides from Saudi Mecha Robot, a Gunpla and mecha hobby club in Riyadh.
+---
+{%- include i18n.html -%}
+{% assign lposts = site.posts | where: "lang", "en" %}
+<main><section><div class="wrap">
+  <div class="head"><div><span class="tag">BRIEFING</span><h2>{{ t.blog_title }}</h2><p>{{ t.blog_sub }}</p></div></div>
+  {%- if lposts.size > 0 %}
+  <div class="posts">{% for post in lposts %}{% include post-card.html post=post %}{% endfor %}</div>
+  {%- else %}<div class="empty">{{ t.blog_empty }}</div>{% endif %}
+</div></section></main>
