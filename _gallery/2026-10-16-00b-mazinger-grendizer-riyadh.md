@@ -1,5 +1,5 @@
 ---
-title: "Mazinger Z & Grendizer — Riyadh"
+title: "جريندايزر ومازنجر بالمصمك"
 builder: ""
 grade: ""
 image: /assets/images/gallery/mazinger-grendizer-riyadh.webp
