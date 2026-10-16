@@ -66,11 +66,12 @@
 
   <section id="gallery"><div class="wrap">
     <div class="head"><div><span class="tag plate">BAY 03 · HANGAR</span><h2>{{ t.gallery_title }}</h2><p>{{ t.gallery_sub }}</p></div></div>
-    {%- assign works = site.gallery | sort: "date" | reverse %}
+    {%- assign works = site.gallery | sort: "order", "last" %}
     {%- if works.size > 0 %}
     <div class="gallery">
       {%- for w in works %}
-      <figure class="frame"><div class="ph">{% if w.image and w.image != "" %}<img src="{{ w.image | relative_url }}" alt="{{ w.title }} – {{ w.builder }}" loading="lazy">{% else %}<span>{{ w.grade }}</span>{% endif %}<small class="tag">{{ w.grade }}</small></div><figcaption class="cap"><span>{{ w.title }}</span><em>{{ w.builder }}</em></figcaption></figure>
+      {%- assign wimg = w.thumb | default: w.image %}
+      <figure class="frame"><a class="ph" href="{{ w.image | relative_url }}" target="_blank" rel="noopener">{% if wimg and wimg != "" %}<img src="{{ wimg | relative_url }}" alt="{{ w.title }}{% if w.builder and w.builder != '' %} – {{ w.builder }}{% endif %} · Saudi Mecha Robot" loading="lazy" width="700" height="700">{% endif %}{% if w.grade and w.grade != "" %}<small class="tag">{{ w.grade }}</small>{% endif %}</a><figcaption class="cap"><span dir="ltr">{{ w.title }}</span>{% if w.builder and w.builder != "" %}<em>{{ w.builder }}</em>{% endif %}</figcaption></figure>
       {%- endfor %}
     </div>
     {%- else %}
