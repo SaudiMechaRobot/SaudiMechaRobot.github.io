@@ -74,10 +74,10 @@
       <figure class="frame"><a class="ph" href="{{ w.image | relative_url }}" data-full="{{ w.image | relative_url }}" data-title="{{ w.title | escape }}" data-builder="{{ w.builder | escape }}" data-grade="{{ w.grade | escape }}">{% if wimg and wimg != "" %}<img src="{{ wimg | relative_url }}" alt="{{ w.title }}{% if w.builder and w.builder != '' %} – {{ w.builder }}{% endif %} · Saudi Mecha Robot" loading="lazy" width="600" height="600">{% endif %}{% if w.grade and w.grade != "" %}<small class="tag">{{ w.grade }}</small>{% endif %}<span class="cap"><span dir="ltr">{{ w.title }}</span>{% if w.builder and w.builder != "" %}<em>{{ w.builder }}</em>{% endif %}</span></a></figure>
       {%- endfor %}
     </div>
-    <div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="{{ t.gallery_title }}">
+    <div class="lightbox" id="lightbox" dir="ltr" hidden role="dialog" aria-modal="true" aria-label="{{ t.gallery_title }}">
       <button type="button" class="lb-close" aria-label="Close">×</button>
       <button type="button" class="lb-prev" aria-label="Previous">‹</button>
-      <figure><img alt=""><figcaption><b dir="ltr"></b><span></span><small class="lb-count"></small></figcaption></figure>
+      <figure><img alt=""><figcaption><b></b><span dir="auto"></span><small class="lb-count"></small></figcaption></figure>
       <button type="button" class="lb-next" aria-label="Next">›</button>
     </div>
     <script>
@@ -98,7 +98,7 @@
       lb.querySelector('.lb-next').onclick = function(){ show(i + 1); };
       lb.addEventListener('click', function(e){ if (e.target === lb) close(); });
       document.addEventListener('keydown', function(e){ if (lb.hidden) return;
-        var rtl = document.documentElement.dir === 'rtl';
+        var rtl = false;
         if (e.key === 'Escape') close();
         if (e.key === 'ArrowRight') show(i + (rtl ? -1 : 1));
         if (e.key === 'ArrowLeft') show(i + (rtl ? 1 : -1)); });
