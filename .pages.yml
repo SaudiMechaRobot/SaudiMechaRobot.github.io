@@ -90,7 +90,7 @@ content:
     view: { primary: title, sort: date, order: desc, fields: [title, builder, grade] }
     fields:
       - { name: title, label: اسم الموديل, type: string, required: true }
-      - { name: builder, label: اسم العضو, type: string, required: true }
+      - { name: builder, label: اسم العضو, type: string }
       - name: grade
         label: الفئة
         type: select
@@ -98,6 +98,7 @@ content:
           values: [HG, RG, MG, PG, SD, EG, MGEX, Other]
       - { name: image, label: الصورة, type: image, required: true }
       - { name: date, label: تاريخ الإضافة, type: date }
+      - { name: order, label: الترتيب (رقم أصغر يطلع أول), type: number }
 
   - name: faq
     label: الأسئلة الشائعة
