@@ -315,3 +315,6 @@ html,body{overflow-x:clip}
 .lb-prev{left:12px;top:50%;transform:translateY(-50%)}
 .lb-next{right:12px;top:50%;transform:translateY(-50%)}
 @media (max-width:600px){.lb-prev,.lb-next{top:auto;bottom:16px;transform:none}}
+/* social icons */
+.btn .ico{width:20px;height:20px;flex:none;display:block}
+.join .cta .btn{gap:10px}
