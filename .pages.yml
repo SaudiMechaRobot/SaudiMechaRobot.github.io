@@ -149,4 +149,9 @@ content:
     list: true
     fields:
       - { name: name, label: المنصة, type: string }
+      - name: icon
+        label: الأيقونة
+        type: select
+        options:
+          values: [instagram, x, tiktok, youtube]
       - { name: url, label: الرابط, type: string }
