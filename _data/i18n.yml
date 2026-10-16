@@ -13,7 +13,7 @@ ar:
   cta_events: شوف فعالياتنا
   spec_label: بطاقة النادي
   spec_type: النوع
-  spec_type_v: نادي هواة مستقل
+  spec_type_v: معتمد من برنامج جودة الحياة
   spec_founded: التأسيس
   spec_base: المقر
   spec_base_v: الرياض، المملكة العربية السعودية
@@ -32,6 +32,10 @@ ar:
   p3_t: معرض أعمال الأعضاء
   p3_d: كل قطعة يركّبها عضو لها مكان في المعرض.
   log_title: الإنجازات والفعاليات
+  team_title: فريق النادي
+  team_sub: الأشخاص اللي يديرون النادي وينظمون فعالياته.
+  team_slot: انضم لفريق التنظيم — قريباً
+  nav_team: الفريق
   gallery_title: أعمال الأعضاء
   gallery_sub: قطع ركّبها أعضاء النادي.
   gallery_empty: المعرض قريباً. أول أعمال الأعضاء بتنضاف هنا.
@@ -45,7 +49,7 @@ ar:
   sponsor_slot: مكان الراعي — قريباً
   join_title: جاهز تركّب معنا؟
   join_text: تابع النادي على حساباته الرسمية.
-  footer_club: نادي هواة مستقل · الرياض
+  footer_club: معتمد من برنامج جودة الحياة · الرياض
   club_leader: قائد النادي
   lang_name: العربية
   suggest_text: هذا الموقع متوفر بالعربية
@@ -72,7 +76,7 @@ en:
   cta_events: See our events
   spec_label: Club card
   spec_type: Type
-  spec_type_v: Independent hobby club
+  spec_type_v: Accredited by the Quality of Life Program
   spec_founded: Founded
   spec_base: Base
   spec_base_v: Riyadh, Saudi Arabia
@@ -91,6 +95,10 @@ en:
   p3_t: Member gallery
   p3_d: Every member's build has a place in the gallery.
   log_title: Milestones & events
+  team_title: Club Team
+  team_sub: The people who run the club and organise its events.
+  team_slot: Join the organising team — soon
+  nav_team: Team
   gallery_title: Member builds
   gallery_sub: Kits built by club members.
   gallery_empty: The gallery is coming soon.
@@ -104,7 +112,7 @@ en:
   sponsor_slot: Sponsor spot — coming soon
   join_title: Ready to build with us?
   join_text: Follow the club on its official accounts.
-  footer_club: Independent hobby club · Riyadh
+  footer_club: Accredited by the Quality of Life Program · Riyadh
   club_leader: Club leader
   lang_name: English
   suggest_text: This site is also available in English
@@ -132,7 +140,7 @@ ja:
   cta_events: イベントを見る
   spec_label: クラブ情報
   spec_type: 種類
-  spec_type_v: 独立系ホビークラブ
+  spec_type_v: クオリティ・オブ・ライフ・プログラム認定
   spec_founded: 設立
   spec_base: 拠点
   spec_base_v: サウジアラビア・リヤド
@@ -151,6 +159,10 @@ ja:
   p3_t: メンバーギャラリー
   p3_d: メンバーが製作した作品を紹介します。
   log_title: 活動の歩みとイベント
+  team_title: クラブチーム
+  team_sub: クラブを運営し、イベントを企画するメンバーです。
+  team_slot: 運営メンバー募集中 — 近日
+  nav_team: チーム
   gallery_title: メンバー作品
   gallery_sub: クラブメンバーが製作した作品です。
   gallery_empty: ギャラリーは近日公開予定です。
@@ -164,7 +176,7 @@ ja:
   sponsor_slot: スポンサー募集中
   join_title: 一緒に作りませんか？
   join_text: 公式アカウントでクラブをフォローしてください。
-  footer_club: 独立系ホビークラブ · リヤド
+  footer_club: クオリティ・オブ・ライフ・プログラム認定 · リヤド
   club_leader: クラブリーダー
   lang_name: 日本語
   suggest_text: このサイトは日本語でもご覧いただけます
