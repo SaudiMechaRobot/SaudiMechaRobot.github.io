@@ -2,7 +2,7 @@
 title: Saudi Mecha Robot
 tagline: نادي سعودي ميكا روبوت
 description: نادي سعودي معتمد من برنامج جودة الحياة، تأسس في الرياض عام 2024 لعشاق Gundam وGrendizer وعالم Super Robot والثقافة اليابانية، يجمع هواة الـ Plamodel وتركيب Gunpla عبر فعاليات وورش للمبتدئين وتحديات تركيب جماعية.
-url: https://saudimecharobot.github.io
+url: https://saudimecharobot.com
 baseurl: ""
 lang: ar
 timezone: Asia/Riyadh
@@ -43,11 +43,11 @@ defaults:
   - scope: { path: "ja" }
     values: { lang: ja }
   - scope: { path: "", type: posts }
-    values: { layout: post, lang: ar, author: { type: Organization, name: "Saudi Mecha Robot", url: "https://saudimecharobot.github.io/" }, image: /assets/images/og-image.jpg }
+    values: { layout: post, lang: ar, author: { type: Organization, name: "Saudi Mecha Robot", url: "https://saudimecharobot.com/" }, image: /assets/images/og-image.jpg }
   - scope: { path: "_posts/en", type: posts }
-    values: { layout: post, lang: en, author: { type: Organization, name: "Saudi Mecha Robot", url: "https://saudimecharobot.github.io/" }, image: /assets/images/og-image.jpg, permalink: "/en/blog/:year/:month/:title/" }
+    values: { layout: post, lang: en, author: { type: Organization, name: "Saudi Mecha Robot", url: "https://saudimecharobot.com/" }, image: /assets/images/og-image.jpg, permalink: "/en/blog/:year/:month/:title/" }
   - scope: { path: "_posts/ja", type: posts }
-    values: { layout: post, lang: ja, author: { type: Organization, name: "Saudi Mecha Robot", url: "https://saudimecharobot.github.io/" }, image: /assets/images/og-image.jpg, permalink: "/ja/blog/:year/:month/:title/" }
+    values: { layout: post, lang: ja, author: { type: Organization, name: "Saudi Mecha Robot", url: "https://saudimecharobot.com/" }, image: /assets/images/og-image.jpg, permalink: "/ja/blog/:year/:month/:title/" }
 
 plugins:
   - jekyll-seo-tag
