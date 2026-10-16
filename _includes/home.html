@@ -43,6 +43,24 @@
     </div>
   </div></section>
 
+  {%- if site.data.team.size > 0 %}
+  <section id="team"><div class="wrap">
+    <div class="head"><div><span class="tag plate">BAY 01 · CREW</span><h2>{{ t.team_title }}</h2><p>{{ t.team_sub }}</p></div></div>
+    <div class="team">
+      {%- for m in site.data.team %}
+        {%- assign nk = "name_" | append: L %}{%- assign rk = "role_" | append: L %}
+        {%- assign mn = m[nk] | default: m.name %}{%- assign mr = m[rk] | default: m.role %}
+        <article class="crew">
+          <div class="crew-photo">{% if m.photo and m.photo != "" %}<img src="{{ m.photo | relative_url }}" alt="{{ mn }}" loading="lazy" width="160" height="160">{% else %}<img src="{{ '/assets/images/logo.webp' | relative_url }}" alt="" class="ph" loading="lazy" width="160" height="160">{% endif %}</div>
+          <span class="tag">{{ mr }}</span>
+          <h3 dir="auto">{% if m.link and m.link != "" %}<a href="{{ m.link }}" target="_blank" rel="noopener">{{ mn }}</a>{% else %}{{ mn }}{% endif %}</h3>
+        </article>
+      {%- endfor %}
+      <div class="crew slot">{{ t.team_slot }}</div>
+    </div>
+  </div></section>
+  {%- endif %}
+
   <section id="log"><div class="wrap">
     <div class="head"><div><span class="tag plate">BAY 02 · MISSION LOG</span><h2>{{ t.log_title }}</h2></div></div>
     {%- assign items = site.achievements | sort: "date" | reverse %}
