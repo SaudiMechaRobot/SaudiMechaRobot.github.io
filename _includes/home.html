@@ -68,12 +68,45 @@
     <div class="head"><div><span class="tag plate">BAY 03 · HANGAR</span><h2>{{ t.gallery_title }}</h2><p>{{ t.gallery_sub }}</p></div></div>
     {%- assign works = site.gallery | sort: "order", "last" %}
     {%- if works.size > 0 %}
-    <div class="gallery">
+    <div class="gallery" id="gallery-grid">
       {%- for w in works %}
       {%- assign wimg = w.thumb | default: w.image %}
-      <figure class="frame"><a class="ph" href="{{ w.image | relative_url }}" target="_blank" rel="noopener">{% if wimg and wimg != "" %}<img src="{{ wimg | relative_url }}" alt="{{ w.title }}{% if w.builder and w.builder != '' %} – {{ w.builder }}{% endif %} · Saudi Mecha Robot" loading="lazy" width="700" height="700">{% endif %}{% if w.grade and w.grade != "" %}<small class="tag">{{ w.grade }}</small>{% endif %}</a><figcaption class="cap"><span dir="ltr">{{ w.title }}</span>{% if w.builder and w.builder != "" %}<em>{{ w.builder }}</em>{% endif %}</figcaption></figure>
+      <figure class="frame"><a class="ph" href="{{ w.image | relative_url }}" data-full="{{ w.image | relative_url }}" data-title="{{ w.title | escape }}" data-builder="{{ w.builder | escape }}" data-grade="{{ w.grade | escape }}">{% if wimg and wimg != "" %}<img src="{{ wimg | relative_url }}" alt="{{ w.title }}{% if w.builder and w.builder != '' %} – {{ w.builder }}{% endif %} · Saudi Mecha Robot" loading="lazy" width="600" height="600">{% endif %}{% if w.grade and w.grade != "" %}<small class="tag">{{ w.grade }}</small>{% endif %}<span class="cap"><span dir="ltr">{{ w.title }}</span>{% if w.builder and w.builder != "" %}<em>{{ w.builder }}</em>{% endif %}</span></a></figure>
       {%- endfor %}
     </div>
+    <div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="{{ t.gallery_title }}">
+      <button type="button" class="lb-close" aria-label="Close">×</button>
+      <button type="button" class="lb-prev" aria-label="Previous">‹</button>
+      <figure><img alt=""><figcaption><b dir="ltr"></b><span></span><small class="lb-count"></small></figcaption></figure>
+      <button type="button" class="lb-next" aria-label="Next">›</button>
+    </div>
+    <script>
+    (function(){
+      var links = [].slice.call(document.querySelectorAll('#gallery-grid a.ph'));
+      var lb = document.getElementById('lightbox'); if (!lb || !links.length) return;
+      var img = lb.querySelector('img'), tt = lb.querySelector('figcaption b'), bd = lb.querySelector('figcaption span'), ct = lb.querySelector('.lb-count');
+      var i = 0, sx = null, last = null;
+      function show(n){ i = (n + links.length) % links.length; var a = links[i];
+        img.src = a.dataset.full; img.alt = a.dataset.title; tt.textContent = a.dataset.title;
+        bd.textContent = [a.dataset.builder, a.dataset.grade].filter(Boolean).join(' · ');
+        ct.textContent = (i + 1) + ' / ' + links.length; }
+      function open(n){ last = document.activeElement; show(n); lb.hidden = false; document.body.style.overflow = 'hidden'; lb.querySelector('.lb-close').focus(); }
+      function close(){ lb.hidden = true; document.body.style.overflow = ''; if (last) last.focus(); }
+      links.forEach(function(a, n){ a.addEventListener('click', function(e){ e.preventDefault(); open(n); }); });
+      lb.querySelector('.lb-close').onclick = close;
+      lb.querySelector('.lb-prev').onclick = function(){ show(i - 1); };
+      lb.querySelector('.lb-next').onclick = function(){ show(i + 1); };
+      lb.addEventListener('click', function(e){ if (e.target === lb) close(); });
+      document.addEventListener('keydown', function(e){ if (lb.hidden) return;
+        var rtl = document.documentElement.dir === 'rtl';
+        if (e.key === 'Escape') close();
+        if (e.key === 'ArrowRight') show(i + (rtl ? -1 : 1));
+        if (e.key === 'ArrowLeft') show(i + (rtl ? 1 : -1)); });
+      lb.addEventListener('touchstart', function(e){ sx = e.touches[0].clientX; }, {passive:true});
+      lb.addEventListener('touchend', function(e){ if (sx === null) return; var dx = e.changedTouches[0].clientX - sx;
+        if (Math.abs(dx) > 50) show(i + (dx < 0 ? 1 : -1)); sx = null; });
+    })();
+    </script>
     {%- else %}
     <div class="empty">{{ t.gallery_empty }}</div>
     {%- endif %}
