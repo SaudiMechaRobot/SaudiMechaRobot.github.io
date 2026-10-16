@@ -276,3 +276,5 @@ html,body{overflow-x:clip}
   .lsb{flex:1;justify-content:center;padding:8px 6px;gap:5px;font-size:14px}
 }
 @media (max-width:360px){.lsb .lname{display:none}}
+.about-text p{margin:0 0 14px;max-width:62ch}
+.about-text p.welcome{font-family:var(--f-display);font-weight:700;font-size:20px;color:var(--hazard)}
