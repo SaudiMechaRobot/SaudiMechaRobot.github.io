@@ -1,5 +1,5 @@
 ---
-title: "Gundam Head — Anime Style"
+title: "Gundam Unicorn Head — Anime Style"
 builder: ""
 grade: ""
 image: /assets/images/gallery/gundam-head-anime-style.webp

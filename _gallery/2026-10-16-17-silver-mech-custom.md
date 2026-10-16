@@ -1,5 +1,5 @@
 ---
-title: "Silver Mech — Custom Paint"
+title: "Armored Core — Custom Paint"
 builder: ""
 grade: ""
 image: /assets/images/gallery/silver-mech-custom.webp
