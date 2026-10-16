@@ -1,8 +1,12 @@
 - name: Instagram
+  icon: instagram
   url: https://www.instagram.com/saudi.mecha.robot
 - name: X
+  icon: x
   url: https://x.com/SaudiMechaRobot
 - name: TikTok
+  icon: tiktok
   url: https://www.tiktok.com/@saudi.mecha.robot
 - name: YouTube
+  icon: youtube
   url: https://www.youtube.com/@saudimecharobot
