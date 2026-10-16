@@ -1,6 +1,6 @@
 # نصوص الواجهة بثلاث لغات — أي قسم جديد يضيف نصوصه هنا لكل لغة
 ar:
-  flag: "🇸🇦"
+  flag: 🇸🇦
   code_label: AR
   lang_label: اللغة
   dir: rtl
@@ -25,8 +25,6 @@ ar:
   nav_blog: المدونة
   nav_faq: الأسئلة
   about_title: من نحن
-  about_p1: Saudi Mecha Robot نادي سعودي تأسس في الرياض عام 2024، يهتم بعالم Gundam وGrendizer وSuper Robot والثقافة اليابانية، ومساحة يلتقي فيها هواة الـ Plamodel والمجسمات من مختلف مدن المملكة.
-  about_p2: هدفنا نقرّب هواية تركيب المجسمات من الشباب السعودي، ونبني جسر ثقافي بين السعودية واليابان من خلال فن الميكا.
   p1_t: تحديات تركيب جماعية
   p1_d: كل الأعضاء يركّبون نفس الموديل ويشاركون النتيجة.
   p2_t: ورش للمبتدئين
@@ -54,8 +52,14 @@ ar:
   suggest_link: عرض بالعربية
   alt_lang: en
   other_langs: 'اقرأ هذا المقال بلغة أخرى:'
+  about_paras:
+  - Saudi Mecha Robot نادي سعودي لهواة تركيب النماذج والمجسمات، معتمد من برنامج جودة الحياة، وتأسس في الرياض عام 2024. يجمع النادي هواة النماذج والمجسمات المستوحاة من عوالم الأنمي والمانجا والألعاب الإلكترونية، مع اهتمام خاص بعوالم Gundam وGrendizer وSuper Robot.
+  - نسعى لأن نكون جسرًا ثقافيًا يربط المملكة العربية السعودية باليابان، من خلال هواية تجمع بين الشغف والإبداع والتبادل الثقافي. وقد امتد حضور النادي إلى اليابان عبر ظهورنا على التلفزيون الياباني وفي المجلات اليابانية، وبناء علاقات وصداقات مع مهتمين ومبدعين في مجالات الميكا والمجسمات من اليابان ودول أخرى، إلى جانب مشاركة ثقافتنا السعودية معهم.
+  - يهدف النادي إلى نشر هواية تركيب النماذج والمجسمات بين الشباب السعودي، وتوفير بيئة مرحّبة تتيح للمبتدئين والمحترفين التعلم والتجربة وتبادل الخبرات، وبناء مجتمع يجمع المهتمين بهذه الهواية والثقافة اليابانية في المملكة.
+  - نؤمن بأن الشغف نقطة البداية، وأن الهواية يمكن أن تكون جسرًا للإبداع والصداقة والتبادل الثقافي.
+  - نرحب بالجميع.
 en:
-  flag: "🇬🇧"
+  flag: 🇬🇧
   code_label: EN
   lang_label: Language
   dir: ltr
@@ -79,9 +83,7 @@ en:
   nav_gallery: Gallery
   nav_blog: Blog
   nav_faq: FAQ
-  about_title: About the club
-  about_p1: Saudi Mecha Robot was founded in Riyadh in 2024. It is a meeting place for model kit builders across Saudi Arabia who love Gundam, Grendizer, Super Robot and Japanese pop culture.
-  about_p2: Our goal is to grow the model-building hobby among young Saudis and to act as a cultural bridge between Saudi Arabia and Japan through mecha.
+  about_title: About Us
   p1_t: Group build challenges
   p1_d: Members build the same kit and share the results.
   p2_t: Beginner workshops
@@ -109,8 +111,14 @@ en:
   suggest_link: View in English
   alt_lang: ar
   other_langs: 'Read this article in:'
+  about_paras:
+  - Saudi Mecha Robot is a Saudi club for model kit and figure enthusiasts, accredited by the Quality of Life Program and founded in Riyadh in 2024. The club brings together fans of models and figures inspired by the worlds of anime, manga, and video games, with a special focus on Gundam, Grendizer, and Super Robot.
+  - We aim to be a cultural bridge connecting the Kingdom of Saudi Arabia with Japan through a hobby that combines passion, creativity, and cultural exchange. The club’s presence has extended to Japan through appearances on Japanese television and in Japanese magazines, as well as by building friendships and connections with enthusiasts and creators in the mecha and model-building communities from Japan and other countries, while also sharing Saudi culture with them.
+  - The club seeks to promote model building among Saudi youth, provide a welcoming environment where beginners and experienced builders can learn, experiment, and exchange knowledge, and build a community that brings together people interested in this hobby and Japanese culture in the Kingdom.
+  - We believe that passion is the starting point, and that a hobby can serve as a bridge for creativity, friendship, and cultural exchange.
+  - Everyone is welcome.
 ja:
-  flag: "🇯🇵"
+  flag: 🇯🇵
   code_label: JP
   lang_label: 言語
   dir: ltr
@@ -136,8 +144,6 @@ ja:
   nav_blog: ブログ
   nav_faq: よくある質問
   about_title: クラブ紹介
-  about_p1: Saudi Mecha Robot（サウジ・メカ・ロボット）は、2024年にリヤドで設立されたクラブです。ガンダム、グレンダイザー、スーパーロボット、そして日本のポップカルチャーを愛するサウジアラビア各地のモデラーが集まっています。
-  about_p2: 私たちの目標は、サウジアラビアの若い世代にプラモデルの楽しさを広め、メカを通じてサウジアラビアと日本の文化の架け橋になることです。
   p1_t: グループ製作チャレンジ
   p1_d: メンバー全員が同じキットを作り、完成品を見せ合います。
   p2_t: 初心者向けワークショップ
@@ -164,3 +170,9 @@ ja:
   suggest_text: このサイトは日本語でもご覧いただけます
   suggest_link: 日本語で見る
   other_langs: この記事を他の言語で読む：
+  about_paras:
+  - Saudi Mecha Robot（サウジ・メカ・ロボット）は、模型・フィギュア愛好家のためのサウジアラビアのクラブで、クオリティ・オブ・ライフ・プログラムに認定され、2024年にリヤドで設立されました。アニメ、マンガ、ゲームの世界をモチーフにした模型やフィギュアの愛好家が集まり、特にガンダム、グレンダイザー、スーパーロボットに関心を持っています。
+  - 私たちは、サウジアラビア王国と日本をつなぐ文化の架け橋となることを目指しています。この趣味を通じて、情熱と創造性、そして文化交流を結びつけています。クラブは日本のテレビ番組や雑誌への出演を通じて日本での存在感を広げ、日本をはじめとする各国のメカや模型分野の愛好家・クリエイターと友情やつながりを築くとともに、サウジアラビアの文化を伝えてきました。
+  - クラブの目的は、サウジアラビアの若者に模型製作の趣味を広め、初心者から経験者までが学び、試し、知識を交換できる居心地の良い環境を提供し、この趣味と日本文化に関心を持つ人々が集まるコミュニティを築くことです。
+  - 私たちは、情熱こそが始まりであり、趣味が創造性、友情、文化交流の架け橋になり得ると信じています。
+  - どなたでも歓迎します。
