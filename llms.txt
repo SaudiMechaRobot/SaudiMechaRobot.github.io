@@ -11,7 +11,18 @@ layout: null
 - Accredited by Saudi Arabia's Quality of Life Program
 - Appeared on Japanese television and in Japanese magazines
 - Interests: anime, manga and video game inspired model kits and figures, especially Gundam, Grendizer and Super Robot
-- Celebrated its second anniversary on 28 August 2026
+- Celebrated its first anniversary in August 2025 and its second anniversary on 28 August 2026
+
+## Milestones
+- 2023: Hosted Japanese broadcaster Akira Ikegami and appeared in a well-known Japanese TV program about Saudi Arabia
+- 2023: Interview with the club leader published in Newtype magazine (Japan)
+- 2024: Invited to the Gundam SEED FREEDOM film; met the voice actor of Amuro Ray
+- 2025: Japan trip: met the voice actor of Ryoma Nagare (Getter Robo), Space Battleship Yamato history workshop with director Nobuyoshi Habara, visited Tamiya HQ and museum, Tokyo exhibitions and the Masamune Shirow exhibition
+- November 2025: Hosted Eday Ver.Ed in Saudi Arabia and the "Modelling Philosophy" workshop class
+- December 2025: Kitbashing activity building random parts into mechanical forms
+- February 2026: Lecture on the world of model building
+- February 2026: Took part in an event for non-profit activities
+- April 2026: Translated Go Nagai's interview about the Grendizer statue at Boulevard World
 
 ## Pages
 - [Home (Arabic)]({{ '/' | absolute_url }}): about the club, milestones, member gallery, FAQ
