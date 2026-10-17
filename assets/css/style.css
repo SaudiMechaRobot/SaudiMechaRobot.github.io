@@ -236,7 +236,7 @@ footer a{color:var(--muted)}
 /* overflow guards */
 html,body{overflow-x:clip}
 .log-thumb{display:inline-block;margin-top:10px;line-height:0}
-.log-img{display:block;width:72px;height:96px;object-fit:cover;border:1px solid var(--line);transition:border-color .2s,transform .2s}
+.log-img{display:block;width:72px;height:auto;max-height:120px;object-fit:cover;object-position:top;border:1px solid var(--line);transition:border-color .2s,transform .2s}
 .log-thumb:hover .log-img{border-color:var(--hazard);transform:scale(1.04)}
 .timeline li,.about > div,.head > div{min-width:0}
 
