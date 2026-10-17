@@ -37,6 +37,9 @@ layout: null
 ## Blog posts
 {% for post in site.posts %}- [{{ post.title }}]({{ post.url | absolute_url }}) [{{ post.lang }}]: {{ post.description }}
 {% endfor %}
+## Contact
+- Media, sponsorship and partnerships: {{ site.email }}
+
 ## Official accounts
 {% for l in site.social.links %}- {{ l }}
 {% endfor %}

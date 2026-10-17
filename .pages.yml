@@ -149,6 +149,19 @@ content:
       - { name: photo, label: الصورة, type: image }
       - { name: link, label: رابط الحساب, type: string }
 
+  - name: press
+    label: ظهرنا في (الإعلام)
+    type: file
+    path: _data/press.yml
+    format: yaml
+    list: true
+    fields:
+      - { name: kind, label: النوع (TV / MAGAZINE / BOOK), type: string }
+      - { name: year, label: السنة, type: string }
+      - { name: name, label: الاسم (عربي), type: string }
+      - { name: name_en, label: الاسم (English), type: string }
+      - { name: name_ja, label: الاسم (日本語), type: string }
+
   - name: sponsors
     label: الرعاة
     type: file
