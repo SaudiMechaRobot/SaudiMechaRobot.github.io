@@ -44,3 +44,4 @@ layout: null
 ## Official accounts
 {% for l in site.social.links %}- {{ l }}
 {% endfor %}
+- TikTok (club content is published on the club leader's account): https://www.tiktok.com/@gundam.dizer
