@@ -5,7 +5,7 @@ layout: null
 
 > Saudi Mecha Robot is a hobby club accredited by the Quality of Life Program, founded in Riyadh, Saudi Arabia in {{ site.founded }}. It focuses on Gundam, Grendizer, Super Robot anime and Japanese culture, and brings together plamodel (Gunpla) and figure enthusiasts through group build challenges, beginner workshops and a member gallery.
 
-- Also known as: Gundam_Saudi, نادي سعودي ميكا روبوت, サウジ・メカ・ロボット
+- Also known as: نادي سعودي ميكا روبوت, サウジ・メカ・ロボット
 - Founded: {{ site.founded }}, Riyadh, Saudi Arabia
 - Languages: Arabic (primary), English, Japanese
 - Accredited by Saudi Arabia's Quality of Life Program
