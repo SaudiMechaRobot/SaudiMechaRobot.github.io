@@ -2,8 +2,11 @@
 - name: '@gundam.dizer'
   name_en: '@gundam.dizer'
   name_ja: '@gundam.dizer'
+  real_name: ثامر
+  real_name_en: Thamer
+  real_name_ja: Thamer
   role: قائد النادي
   role_en: Club Leader
   role_ja: クラブリーダー
-  photo: ''
+  photo: /assets/images/team/club-leader.webp
   link: https://www.instagram.com/gundam.dizer
