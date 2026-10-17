@@ -5,6 +5,7 @@ title_ja: 著名なジャーナリスト池上彰氏を迎え、サウジアラ�
 date: 2023-03-01
 date_label: '2023'
 featured: true
+image: /assets/images/achievements/ikegami-akira-tv.webp
 tags: []
 tags_en: []
 tags_ja: []
