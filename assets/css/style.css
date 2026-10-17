@@ -333,3 +333,17 @@ html,body{overflow-x:clip}
 .crew h3 a:hover{color:var(--hazard)}
 .crew.slot{place-items:center;border:1px dashed var(--line);border-top:3px dashed var(--seam);background:transparent;color:var(--muted);min-height:200px}
 .crew-name{margin:-4px 0 0;color:var(--muted);font-size:16px;font-weight:600}
+
+/* ---- As featured in ---- */
+.press{border-top:1px solid var(--seam);background:#080D13}
+.press .wrap{display:flex;align-items:center;gap:18px;padding-block:18px;flex-wrap:wrap}
+.press-title{font-family:var(--f-mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--hazard);white-space:nowrap}
+:lang(ar) .press-title,:lang(ja) .press-title{letter-spacing:0;font-family:var(--f-body);font-weight:700;font-size:14px}
+.press ul{list-style:none;margin:0;padding:0;display:flex;gap:10px;flex-wrap:wrap;flex:1}
+.press li{flex:1 1 220px;min-width:0}
+.press a{display:grid;gap:4px;height:100%;padding:10px 14px;border:1px solid var(--line);border-inline-start:3px solid var(--beam);background:var(--panel);color:var(--ink);text-decoration:none;transition:border-color .2s}
+.press a:hover{border-color:var(--hazard)}
+.press .tag{color:var(--beam);font-size:11px}
+.press a span{font-weight:700;font-size:15px;overflow-wrap:anywhere}
+.join .contact{margin-top:10px}
+.join .contact a{color:var(--hazard)}
