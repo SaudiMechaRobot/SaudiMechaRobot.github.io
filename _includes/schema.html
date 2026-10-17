@@ -7,6 +7,8 @@
   "alternateName": ["نادي سعودي ميكا روبوت", "سعودي ميكا روبوت", "サウジ・メカ・ロボット"],
   "url": "{{ '/' | absolute_url }}",
   "logo": "{{ site.logo | absolute_url }}",
+  "email": "{{ site.email }}",
+  "contactPoint": {"@type": "ContactPoint", "contactType": "media and sponsorship", "email": "{{ site.email }}", "availableLanguage": ["Arabic", "English", "Japanese"]},
   "description": {{ site.description | jsonify }},
   "foundingDate": "{{ site.founded }}",
   "foundingLocation": {"@type": "Place", "name": "Riyadh, Saudi Arabia"},

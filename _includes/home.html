@@ -27,6 +27,16 @@
       </dl>
     </div>
   </div>
+  {%- if site.data.press.size > 0 %}
+  <section class="press" aria-label="{{ t.press_title }}"><div class="wrap">
+    <span class="press-title">{{ t.press_title }}</span>
+    <ul>
+      {%- for p in site.data.press %}{% assign pk = "name_" | append: L %}{% assign pn = p[pk] | default: p.name %}
+      <li><a href="#log"><small class="tag">{{ p.kind }} · {{ p.year }}</small><span dir="auto">{{ pn }}</span></a></li>
+      {%- endfor %}
+    </ul>
+  </div></section>
+  {%- endif %}
   <div class="stripe" aria-hidden="true"></div>
 
   <section id="about"><div class="wrap">
