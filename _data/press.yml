@@ -1,0 +1,16 @@
+# «ظهرنا في» — يُعدّل من لوحة Pages CMS
+- kind: TV
+  year: '2023'
+  name: التلفزيون الياباني مع الإعلامي Ikegami Akira
+  name_en: Japanese TV with Akira Ikegami
+  name_ja: 池上彰ニュース解説SP（テレビ）
+- kind: MAGAZINE
+  year: '2023'
+  name: مجلة Newtype اليابانية
+  name_en: Newtype Magazine (Japan)
+  name_ja: 雑誌『ニュータイプ』
+- kind: BOOK
+  year: '2024'
+  name: "كتاب «⁨20歳の自分に教えたいイスラム世界⁩»"
+  name_en: "Book: 20歳の自分に教えたいイスラム世界 (SB Shinsho)"
+  name_ja: 池上彰著『20歳の自分に教えたいイスラム世界』（SB新書）
