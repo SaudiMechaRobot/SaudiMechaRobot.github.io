@@ -140,6 +140,9 @@ content:
       - { name: name, label: الاسم (عربي), type: string }
       - { name: name_en, label: الاسم (English), type: string }
       - { name: name_ja, label: الاسم (日本語), type: string }
+      - { name: real_name, label: الاسم الحقيقي (عربي), type: string }
+      - { name: real_name_en, label: الاسم الحقيقي (English), type: string }
+      - { name: real_name_ja, label: الاسم الحقيقي (日本語), type: string }
       - { name: role, label: المنصب (عربي), type: string }
       - { name: role_en, label: المنصب (English), type: string }
       - { name: role_ja, label: المنصب (日本語), type: string }
