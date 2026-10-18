@@ -347,3 +347,9 @@ html,body{overflow-x:clip}
 .press a span{font-weight:700;font-size:15px;overflow-wrap:anywhere}
 .join .contact{margin-top:10px}
 .join .contact a{color:var(--hazard)}
+/* ---- Post image gallery ---- */
+.post-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:22px 0}
+.post-gallery a{display:block;line-height:0;border:1px solid var(--line);overflow:hidden}
+.post-gallery img{width:100%;height:260px;object-fit:cover;transition:transform .3s}
+.post-gallery a:hover img{transform:scale(1.04)}
+@media (max-width:640px){.post-gallery{grid-template-columns:1fr 1fr}.post-gallery img{height:180px}}
