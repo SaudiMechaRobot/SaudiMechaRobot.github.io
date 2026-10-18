@@ -6,7 +6,7 @@ category: STORY
 cover: /assets/images/blog/mecha-giants-cover.webp
 image: /assets/images/blog/mecha-giants-cover.jpg
 ---
-2022 and 2023 were packed years: some of the world's most iconic mecha came to Saudi Arabia: **Grendizer**, **Gundam**, **Zaku** and **Evangelion**. This trio brought us together as friends, and that is where the idea of our club began.
+2022 and 2023 were packed years: some of the world's most iconic **mecha** came to **Saudi Arabia**: **Grendizer**, **Gundam**, **Zaku** and **Evangelion**. This trio brought us together as friends, and that is where the idea of our club began.
 
 <div class="post-gallery">
   <a href="/assets/images/blog/grendizer-riyadh.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/grendizer-riyadh.webp" alt="Giant Grendizer statue at Boulevard World, Riyadh" loading="lazy"></a>
@@ -16,21 +16,21 @@ image: /assets/images/blog/mecha-giants-cover.jpg
 
 ## Grendizer: the giant of Boulevard World
 
-The **1/1 scale** Grendizer stands **33 metres** tall and received an award as the world's largest giant robot. It is the result of a collaboration between **Go Nagai**, creator of Mazinger and Grendizer, and **Manga Productions**, and was built together with **Riyadh Season**.
+The **1/1 scale** **Grendizer** stands **33 metres** tall and received an award as the world's largest giant robot. It is the result of a collaboration between **Go Nagai**, creator of **Mazinger** and **Grendizer**, and **Manga Productions**, and was built together with **Riyadh Season**.
 
-Today it is one of the most important landmarks of **Boulevard World** and one of the main reasons people visit. A band performed Grendizer songs and music as part of the events. Later, the Japan zone and Grendizer moved to a new spot overlooking the lake, where its towering height really shows.
+Today it is one of the most important landmarks of **Boulevard World** and one of the main reasons people visit. A band performed **Grendizer** songs and music as part of the events. Later, the **Japan zone** and **Grendizer** moved to a new spot overlooking the lake, where its towering height really shows.
 
-Grendizer has become an icon and a legacy: a symbol of the beginning of Japanese anime in our region, and of cultural exchange between Saudi Arabia and Japan. In 2026, Go Nagai spoke about the statue in an interview. Thank you for a gift we are proud of.
+**Grendizer** has become an icon and a legacy: a symbol of the beginning of **Japanese anime** in our region, and of cultural exchange between **Saudi Arabia** and **Japan**. In 2026, **Go Nagai** spoke about the statue in an interview. Thank you for a gift we are proud of.
 
 ## Gundam and Char's Zaku: from Osaka to Jeddah and Riyadh
 
-The **Gundam** and **Char's Zaku** statue came to Saudi Arabia, was shown in **Jeddah** and then moved to **Riyadh**. Interestingly, this statue was known from the **Expocity** area in Osaka, Japan, which some of our members had visited. It is **1/2 scale**.
+The **Gundam** and **Char's Zaku** statue came to **Saudi Arabia**, was shown in **Jeddah** and then moved to **Riyadh**. Interestingly, this statue was known from the **Expocity** area in **Osaka**, **Japan**, which some of our members had visited. It is **1/2 scale**.
 
-It left Saudi Arabia at the end of the season, but it left a big mark on us and helped inspire the idea of founding the club.
+It left **Saudi Arabia** at the end of the season, but it left a big mark on us and helped inspire the idea of founding the club.
 
 ## Evangelion Unit-01: a surprise from Tokyo
 
-The **Eva-01** statue was an exclusive piece displayed at a station in Tokyo, so its visit was a big surprise for us. It is **6 metres** tall and came with an exhibition of many collectibles and rare original anime drawings.
+The **Eva-01** statue was an exclusive piece displayed at a station in **Tokyo**, so its visit was a big surprise for us. It is **6 metres** tall and came with an exhibition of many collectibles and rare original **anime** drawings.
 
 ## From giant statues to a club
 
