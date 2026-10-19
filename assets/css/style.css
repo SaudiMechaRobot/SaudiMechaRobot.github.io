@@ -322,17 +322,17 @@ html,body{overflow-x:clip}
 .join .cta .btn{gap:10px}
 
 /* ---- Club team (CREW) ---- */
-.team{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:14px}
-.crew{display:grid;justify-items:center;text-align:center;gap:8px;padding:20px 16px;background:linear-gradient(180deg,var(--panel-2),var(--panel));border:1px solid var(--line);border-top:3px solid var(--hazard)}
-.crew-photo{width:160px;height:160px;border-radius:0;overflow:hidden;border:2px solid var(--beam);background:var(--deck);display:grid;place-items:center}
+.team{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,170px));gap:12px}
+.crew{display:grid;justify-items:center;text-align:center;gap:6px;padding:14px 12px;background:linear-gradient(180deg,var(--panel-2),var(--panel));border:1px solid var(--line);border-top:3px solid var(--hazard)}
+.crew-photo{width:110px;height:110px;border-radius:0;overflow:hidden;border:2px solid var(--beam);background:var(--deck);display:grid;place-items:center}
 .crew-photo img{width:100%;height:100%;object-fit:cover}
 .crew-photo img.ph{width:78%;height:78%;object-fit:contain;opacity:.85}
-.crew .tag{color:var(--beam);letter-spacing:0;font-family:var(--f-body);font-size:14px;font-weight:600}
-.crew h3{font-size:18px;margin:0;overflow-wrap:anywhere}
+.crew .tag{color:var(--beam);letter-spacing:0;font-family:var(--f-body);font-size:13px;font-weight:600}
+.crew h3{font-size:15px;margin:0;overflow-wrap:anywhere}
 .crew h3 a{color:var(--ink);text-decoration:none}
 .crew h3 a:hover{color:var(--hazard)}
-.crew.slot{place-items:center;border:1px dashed var(--line);border-top:3px dashed var(--seam);background:transparent;color:var(--muted);min-height:200px}
-.crew-name{margin:-4px 0 0;color:var(--muted);font-size:16px;font-weight:600}
+.crew.slot{place-items:center;border:1px dashed var(--line);border-top:3px dashed var(--seam);background:transparent;color:var(--muted);min-height:150px;font-size:14px}
+.crew-name{margin:-4px 0 0;color:var(--muted);font-size:14px;font-weight:600}
 
 /* ---- As featured in ---- */
 .press{border-top:1px solid var(--seam);background:#080D13}
@@ -353,3 +353,11 @@ html,body{overflow-x:clip}
 .post-gallery img{width:100%;height:260px;object-fit:cover;transition:transform .3s}
 .post-gallery a:hover img{transform:scale(1.04)}
 @media (max-width:640px){.post-gallery{grid-template-columns:1fr 1fr}.post-gallery img{height:180px}}
+@media (max-width:640px){
+  .team{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+  .crew{padding:10px 6px;gap:4px}
+  .crew-photo{width:78px;height:78px}
+  .crew h3{font-size:12px}
+  .crew .tag,.crew-name{font-size:11px}
+  .crew.slot{min-height:120px;font-size:12px;padding:8px}
+}
