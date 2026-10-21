@@ -88,6 +88,8 @@ header::after{content:"";position:absolute;inset-inline:0;bottom:-3px;height:2px
 .hero-copy{min-width:0}
 .hero h1{font-size:clamp(40px,6.4vw,78px);font-weight:800;letter-spacing:-.01em}
 :root:lang(ar) .hero h1{font-family:"Changa",var(--f-display);line-height:1.2}
+:root:lang(en) .hero h1{font-family:"Oxanium",var(--f-display);line-height:1.1}
+:root:lang(en) .hero h1 span[lang="ar"]{font-family:"Changa",var(--f-display);font-weight:800}
 .hero h1 span{display:block;font-family:var(--f-mono);font-size:clamp(14px,1.8vw,19px);letter-spacing:.32em;color:var(--beam);font-weight:500;margin-top:12px}
 .hero h1 span[lang="ar"]{letter-spacing:0;font-family:var(--f-display);font-weight:700;font-size:clamp(20px,2.6vw,28px)}
 .hero p{font-size:18px;color:var(--muted);max-width:52ch;margin:18px 0 28px}
@@ -374,4 +376,4 @@ html,body{overflow-x:clip}
   .crew .tag,.crew-name{font-size:11px}
   .crew.slot{min-height:120px;font-size:12px;padding:8px}
 }
-/* build 202610211230 */
+/* build 202610211245 */
