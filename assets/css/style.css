@@ -303,6 +303,7 @@ html,body{overflow-x:clip}
   :lang(ja) .nav ul a{display:block;padding:6px 2px}
 }
 .about-text p{margin:0 0 14px;max-width:62ch}
+.about-text .about-lead{font-size:clamp(20px,2.2vw,24px);line-height:1.5;color:var(--ink);margin:0 0 16px;max-width:30ch;text-wrap:balance}
 .about-text p.welcome{font-family:var(--f-display);font-weight:700;font-size:20px;color:var(--hazard)}
 /* gallery v2 */
 .gallery{grid-template-columns:repeat(3,1fr)}
@@ -385,4 +386,4 @@ html,body{overflow-x:clip}
   .crew .tag,.crew-name{font-size:11px}
   .crew.slot{min-height:120px;font-size:12px;padding:8px}
 }
-/* build 202610211420 */
+/* build 202610211500 */
