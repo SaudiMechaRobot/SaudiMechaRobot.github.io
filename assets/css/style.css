@@ -54,9 +54,9 @@ h1,h2,h3{font-family:var(--f-display);text-wrap:balance;line-height:1.25;margin:
 header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:rgba(11,19,32,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 header::after{content:"";position:absolute;inset-inline:0;bottom:-3px;height:2px;background:linear-gradient(90deg,transparent,var(--beam),transparent);opacity:.5}
 .nav{display:flex;align-items:center;justify-content:space-between;gap:12px 20px;padding-block:10px;flex-wrap:wrap}
-.brand{display:flex;align-items:center;gap:18px;text-decoration:none;direction:ltr}
+.brand{display:flex;align-items:center;gap:18px;text-decoration:none}
 .brand-logo{width:80px;height:80px;flex-shrink:0;object-fit:contain;display:block;transition:transform .35s ease,filter .35s ease}
-.brand-text{position:relative;display:flex;flex-direction:column;min-width:0;font-family:"Orbitron",var(--f-display);font-style:italic;text-transform:uppercase;line-height:1.1;padding-bottom:10px;text-align:left}
+.brand-text{position:relative;direction:ltr;display:flex;flex-direction:column;min-width:0;font-family:"Orbitron",var(--f-display);font-style:italic;text-transform:uppercase;line-height:1.1;padding-bottom:10px;text-align:left}
 .brand-line1{color:#fff;font-weight:700;font-size:1.8rem;letter-spacing:2px;transition:text-shadow .35s ease}
 .brand-line2{color:#fff;font-weight:900;font-size:2.5rem;letter-spacing:1px;margin-top:-5px;white-space:nowrap;transition:text-shadow .35s ease}
 .brand-text::after{content:"";position:absolute;left:0;bottom:0;width:100%;height:4px;background:#fff;clip-path:polygon(0 0,100% 0,95% 100%,0% 100%)}
@@ -373,4 +373,4 @@ html,body{overflow-x:clip}
   .crew .tag,.crew-name{font-size:11px}
   .crew.slot{min-height:120px;font-size:12px;padding:8px}
 }
-/* build 202610211200 */
+/* build 202610211215 */
