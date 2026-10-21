@@ -295,7 +295,7 @@ html,body{overflow-x:clip}
 }
 @media (max-width:360px){.lsb .lname{display:none}}
 /* keep language buttons + nav labels whole (ja uses auto-phrase/anywhere) */
-.lsb,.lsb b,.lsb .lname,.nav ul a{white-space:nowrap;word-break:normal;overflow-wrap:normal}
+.lsb,.lsb b,.lsb .lname,:lang(ja) .nav ul a{white-space:nowrap;word-break:normal;overflow-wrap:normal}
 @media (max-width:560px){
   :lang(ja) .nav ul{display:grid;grid-template-columns:repeat(3,1fr);gap:2px 4px}
   :lang(ja) .nav ul li{text-align:center}
@@ -384,4 +384,4 @@ html,body{overflow-x:clip}
   .crew .tag,.crew-name{font-size:11px}
   .crew.slot{min-height:120px;font-size:12px;padding:8px}
 }
-/* build 202610211340 */
+/* build 202610211350 */
