@@ -42,7 +42,7 @@
   <section id="about"><div class="wrap">
     <div class="head"><div><span class="tag plate">BAY 01 · ABOUT</span><h2>{{ t.about_title }}</h2></div></div>
     <div class="about">
-      <div class="about-text">{% for para in t.about_paras %}<p{% if forloop.last %} class="welcome"{% endif %}>{{ para }}</p>{% endfor %}</div>
+      <div class="about-text">{% if t.about_lead %}<h3 class="about-lead">{{ t.about_lead }}</h3>{% endif %}{% for para in t.about_paras %}<p{% if forloop.last %} class="welcome"{% endif %}>{{ para }}</p>{% endfor %}</div>
       <div class="pillars">
         <div class="pillar"><span class="tag">BUILD</span><div><h3>{{ t.p1_t }}</h3><p>{{ t.p1_d }}</p></div></div>
         <div class="pillar"><span class="tag">LEARN</span><div><h3>{{ t.p2_t }}</h3><p>{{ t.p2_d }}</p></div></div>
