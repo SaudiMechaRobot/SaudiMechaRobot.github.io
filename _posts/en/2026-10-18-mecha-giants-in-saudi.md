@@ -16,7 +16,7 @@ image: /assets/images/blog/mecha-giants-cover.jpg
 
 ## Grendizer: the giant of Boulevard World
 
-The **1/1 scale** **Grendizer** stands **33 metres** tall and received an award as the world's largest giant robot. It is the result of a collaboration between **Go Nagai**, creator of **Mazinger** and **Grendizer**, and **Manga Productions**, and was built together with **Riyadh Season**.
+The **1/1 scale** **Grendizer** stands **33 metres** tall and holds the **Guinness World Records** title for the largest metal sculpture of a fictional character. It is the result of a collaboration between **Go Nagai**, creator of **Mazinger** and **Grendizer**, and **Manga Productions**, and was built together with **Riyadh Season**.
 
 Today it is one of the most important landmarks of **Boulevard World** and one of the main reasons people visit. A band performed **Grendizer** songs and music as part of the events. Later, the **Japan zone** and **Grendizer** moved to a new spot overlooking the lake, where its towering height really shows.
 
