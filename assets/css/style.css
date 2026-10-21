@@ -93,6 +93,7 @@ header::after{content:"";position:absolute;inset-inline:0;bottom:-3px;height:2px
 .hero h1 span{display:block;font-family:var(--f-mono);font-size:clamp(14px,1.8vw,19px);letter-spacing:.32em;color:var(--beam);font-weight:500;margin-top:12px}
 .hero h1 span[lang="ar"]{letter-spacing:0;font-family:var(--f-display);font-weight:700;font-size:clamp(20px,2.6vw,28px)}
 .hero p{font-size:18px;color:var(--muted);max-width:52ch;margin:18px 0 28px}
+.hero p .hero-lead{display:block;color:var(--ink);font-size:clamp(21px,2.4vw,27px);font-weight:700;line-height:1.5;margin-bottom:8px;text-wrap:balance}
 .cta{display:flex;gap:12px;flex-wrap:wrap}
 .btn{display:inline-flex;align-items:center;gap:8px;padding:12px 22px;font-weight:700;text-decoration:none;border:2px solid var(--ink);color:var(--ink);background:transparent;
   clip-path:polygon(12px 0,100% 0,100% calc(100% - 12px),calc(100% - 12px) 100%,0 100%,0 12px)}
@@ -384,4 +385,4 @@ html,body{overflow-x:clip}
   .crew .tag,.crew-name{font-size:11px}
   .crew.slot{min-height:120px;font-size:12px;padding:8px}
 }
-/* build 202610211350 */
+/* build 202610211420 */
