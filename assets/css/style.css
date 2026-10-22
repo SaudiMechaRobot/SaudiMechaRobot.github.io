@@ -208,6 +208,8 @@ details p{margin:10px 0 0;color:var(--muted)}
 footer{background:#05080C;border-top:1px solid var(--seam)}
 footer .wrap{padding-block:24px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:14px;color:var(--muted)}
 footer a{color:var(--muted)}
+footer a.leader-link{color:var(--hazard);font-weight:700;text-decoration:underline;text-underline-offset:3px}
+footer a.leader-link:hover{color:var(--ink)}
 
 /* language bar */
 .langbar{background:var(--beam);color:#04121F;font-size:14px}
