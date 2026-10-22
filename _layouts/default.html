@@ -4,7 +4,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+{%- if page.full_title %}
+<title>{{ page.title | escape }}</title>
+{% seo title=false %}
+{%- else %}
 {% seo %}
+{%- endif %}
 <meta name="msvalidate.01" content="DE802E93E3F3918295465B8BF890AE4D">
 {%- if alts.size > 1 %}
 {%- for a in alts %}
