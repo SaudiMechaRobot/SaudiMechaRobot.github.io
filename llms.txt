@@ -3,7 +3,7 @@ layout: null
 ---
 # Saudi Mecha Robot (نادي سعودي ميكا روبوت / サウジ・メカ・ロボット)
 
-> Saudi Mecha Robot is a hobby club accredited by the Quality of Life Program, founded in Riyadh, Saudi Arabia in {{ site.founded }}. It focuses on Gundam, Grendizer, Super Robot anime and Japanese culture, and brings together plamodel (Gunpla) and figure enthusiasts through group build challenges, beginner workshops and a member gallery.
+> Saudi Mecha Robot is a hobby club accredited by the Quality of Life Program, founded in Riyadh, Saudi Arabia in {{ site.founded }}. It is a scale model and figure club that focuses on sci-fi and mechanical design from anime, video games and film, while appreciating every other genre of scale modelling (military, aviation, automotive, dioramas). It brings together model kit and figure enthusiasts through group build challenges, beginner workshops and a member gallery.
 
 - Also known as: نادي سعودي ميكا روبوت, サウジ・メカ・ロボット
 - Wikidata: https://www.wikidata.org/wiki/Q141756771
@@ -11,7 +11,7 @@ layout: null
 - Languages: Arabic (primary), English, Japanese
 - Accredited by Saudi Arabia's Quality of Life Program
 - Appeared on Japanese television and in Japanese magazines
-- Interests: anime, manga and video game inspired model kits and figures, especially Gundam, Grendizer and Super Robot
+- Interests: scale models and figures; focus on sci-fi and mechanical design from anime and video games (e.g. Gundam, Grendizer, Macross, Evangelion, Armored Core); appreciates all scale-model genres
 - Celebrated its first anniversary in August 2025 and its second anniversary on 28 August 2026
 
 ## Milestones
@@ -31,7 +31,7 @@ layout: null
 - [Home (Arabic)]({{ '/' | absolute_url }}): about the club, milestones, member gallery, FAQ
 - [English site]({{ '/en/' | absolute_url }}): the club in English
 - [Japanese site / 日本語サイト]({{ '/ja/' | absolute_url }}): the club in Japanese
-- [Blog (Arabic)]({{ '/blog/' | absolute_url }}): club news and beginner Gunpla guides in Arabic
+- [Blog (Arabic)]({{ '/blog/' | absolute_url }}): club news and beginner model-building guides in Arabic
 - [Blog (English)]({{ '/en/blog/' | absolute_url }}): the same articles in English
 - [Blog (Japanese)]({{ '/ja/blog/' | absolute_url }}): the same articles in Japanese
 
