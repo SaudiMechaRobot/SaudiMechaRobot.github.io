@@ -10,6 +10,7 @@
 {%- else %}
 {% seo %}
 {%- endif %}
+<meta name="twitter:description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | escape }}">
 <meta name="msvalidate.01" content="DE802E93E3F3918295465B8BF890AE4D">
 {%- if alts.size > 1 %}
 {%- for a in alts %}
