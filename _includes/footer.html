@@ -1,5 +1,5 @@
 <div class="join" id="join"><div class="wrap">
-  <div><span class="tag">JOIN THE SQUAD</span><h2>{{ t.join_title }}</h2><p>{{ t.join_text }}</p><p class="contact">{{ t.contact_label }}: <a href="mailto:{{ site.email }}" dir="ltr">{{ site.email }}</a></p></div>
+  <div><span class="tag">JOIN THE SQUAD</span><h2>{{ t.join_title }}</h2><p>{{ t.join_text }}</p></div>
   <div class="cta">
     {%- for s in site.data.social %}
     <a class="btn {% if forloop.first %}primary{% else %}social{% endif %}" href="{{ s.url }}" target="_blank" rel="noopener me">{% include icon.html name=s.icon %}<span>{{ s.name }}</span></a>
