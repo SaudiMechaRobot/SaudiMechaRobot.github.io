@@ -1,12 +1,12 @@
 # إعدادات موقع نادي Saudi Mecha Robot
 title: Saudi Mecha Robot
 tagline: نادي سعودي ميكا روبوت
-description: نادٍ سعودي للمجسمات والنماذج التركيبية، معتمد من برنامج جودة الحياة وتأسس في الرياض عام 2024، يركّز على الخيال العلمي والتصميم الميكانيكي في الأنمي وألعاب الفيديو، مع تقدير كل أنواع النماذج الأخرى، عبر ورش للمبتدئين وتحديات تركيب جماعية، ويسعى لأن يكون جسرًا ثقافيًا بين اليابان والعالم.
-slogan: جسر ثقافي بين اليابان والعالم
-description_en: A Saudi club for figures and scale models, founded in Riyadh in 2024 and accredited by the Quality of Life Program. It focuses on sci-fi and mechanical design as seen in anime and video games, appreciates all other genres of scale models, runs beginner workshops and group-build challenges, and strives to be a cultural bridge between Japan and the world.
-slogan_en: A cultural bridge between Japan and the world
-description_ja: 2024年にリヤドで設立された、サウジアラビアのフィギュア・スケールモデルクラブです。クオリティ・オブ・ライフ・プログラムの認定を受け、アニメやゲームに登場するSF・メカニカルデザインを中心に、あらゆるジャンルの模型を楽しんでいます。初心者向けワークショップやグループビルドチャレンジを行い、日本と世界をつなぐ文化の架け橋を目指しています。
-slogan_ja: 日本と世界をつなぐ文化の架け橋
+description: نادٍ سعودي للمجسمات والنماذج التركيبية، معتمد من برنامج جودة الحياة وتأسس في الرياض عام 2024، يركّز على الخيال العلمي والتصميم الميكانيكي في الأنمي وألعاب الفيديو، مع تقدير كل أنواع النماذج الأخرى، عبر ورش للمبتدئين وتحديات تركيب جماعية، ويسعى لأن يكون جسرًا ثقافيًا بين السعودية واليابان والعالم.
+slogan: جسر ثقافي بين السعودية واليابان والعالم
+description_en: A Saudi club for figures and scale models, founded in Riyadh in 2024 and accredited by the Quality of Life Program. It focuses on sci-fi and mechanical design as seen in anime and video games, appreciates all other genres of scale models, runs beginner workshops and group-build challenges, and strives to be a cultural bridge from Saudi Arabia to the world.
+slogan_en: A cultural bridge from Saudi Arabia to the world
+description_ja: 2024年にリヤドで設立された、サウジアラビアのフィギュア・スケールモデルクラブです。クオリティ・オブ・ライフ・プログラムの認定を受け、アニメやゲームに登場するSF・メカニカルデザインを中心に、あらゆるジャンルの模型を楽しんでいます。初心者向けワークショップやグループビルドチャレンジを行い、サウジアラビアと日本、そして世界をつなぐ文化の架け橋を目指しています。
+slogan_ja: サウジアラビアと日本、そして世界をつなぐ文化の架け橋
 url: https://saudimecharobot.com
 baseurl: ""
 lang: ar
