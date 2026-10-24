@@ -373,7 +373,8 @@ html,body{overflow-x:clip}
 .press .tag{color:var(--beam);font-size:11px}
 .press a span{font-weight:700;font-size:15px;overflow-wrap:anywhere}
 .join .contact{margin-top:10px}
-.join .contact a{color:var(--hazard)}
+.join .contact a,#sponsors .contact a{color:var(--hazard);font-weight:600}
+#sponsors .contact{margin-top:12px}
 /* ---- Post image gallery ---- */
 .post-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:22px 0}
 .post-gallery a{display:block;line-height:0;border:1px solid var(--line);overflow:hidden}
