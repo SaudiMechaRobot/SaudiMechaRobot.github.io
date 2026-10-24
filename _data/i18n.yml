@@ -9,7 +9,7 @@ ar:
   club_name: نادي سعودي ميكا روبوت
   club_name_alt: SAUDI MECHA ROBOT
   hero_text: "<strong class=\"hero-lead\">نادٍ سعودي للمجسمات والنماذج التركيبية</strong>نركّز على الخيال العلمي والتصميم الميكانيكي كما يظهر في الأنمي وألعاب الفيديو، ونقدّر كل أنواع النماذج الأخرى، ونسعى لأن نكون جسرًا ثقافيًا بين اليابان والعالم."
-  cta_join: انضم للنادي
+  cta_join: شاركنا
   cta_events: الفعاليات والإنجازات
   spec_label: بطاقة النادي
   spec_type: النوع
@@ -78,7 +78,7 @@ en:
   club_name: Saudi Mecha Robot
   club_name_alt: نادي سعودي ميكا روبوت
   hero_text: "<strong class=\"hero-lead\">A Saudi club for figures and scale models</strong>We focus on sci-fi and mechanical design as seen in anime and video games while appreciating all other genres of scale models. We strive to be a cultural bridge between Japan and the world."
-  cta_join: Join the club
+  cta_join: Take part
   cta_events: See our events
   spec_label: Club card
   spec_type: Type
@@ -145,7 +145,7 @@ ja:
   club_name_alt: SAUDI MECHA ROBOT
   alt_lang: en
   hero_text: サウジアラビアのスケールモデル＆フィギュアクラブです。アニメやゲームに登場するSF・メカニカルデザインを中心に、あらゆるジャンルの模型を楽しんでいます。日本と世界をつなぐ文化の架け橋を目指しています。一緒に作り、教え合い、初心者の方も大歓迎です！
-  cta_join: クラブに参加する
+  cta_join: 活動に参加する
   cta_events: イベントを見る
   spec_label: クラブ情報
   spec_type: 種類
