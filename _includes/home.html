@@ -158,7 +158,7 @@
   </div></section>
 
   <section id="sponsors" style="padding-top:0"><div class="wrap">
-    <div class="head"><div><span class="tag plate">BAY 06 · ALLIES</span><h2>{{ t.sponsors_title }}</h2>{% if t.sponsors_sub %}<p>{{ t.sponsors_sub }}</p>{% endif %}</div></div>
+    <div class="head"><div><span class="tag plate">BAY 06 · ALLIES</span><h2>{{ t.sponsors_title }}</h2>{% if t.sponsors_sub %}<p>{{ t.sponsors_sub }}</p>{% endif %}<p class="contact">{{ t.contact_label }}: <a href="mailto:{{ site.email }}" dir="ltr">{{ site.email }}</a></p></div></div>
     <div class="sponsors">
       {%- if site.data.sponsors.size > 0 %}
         {%- for s in site.data.sponsors %}<a class="sponsor" href="{{ s.url }}" target="_blank" rel="noopener sponsored">{% if s.logo and s.logo != "" %}<img src="{{ s.logo | relative_url }}" alt="{{ s.name }}">{% endif %}<span>{{ s.name }}</span></a>{% endfor %}
