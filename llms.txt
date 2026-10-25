@@ -3,13 +3,13 @@ layout: null
 ---
 # Saudi Mecha Robot (نادي سعودي ميكا روبوت / サウジ・メカ・ロボット)
 
-> Saudi Mecha Robot is a hobby club accredited by the Quality of Life Program, founded in Riyadh, Saudi Arabia in {{ site.founded }}. It is a scale model and figure club that focuses on sci-fi and mechanical design from anime, video games and film, while appreciating every other genre of scale modelling (military, aviation, automotive, dioramas). It brings together model kit and figure enthusiasts through group build challenges, beginner workshops and a member gallery.
+> Saudi Mecha Robot is an officially registered hobby club, founded in Riyadh, Saudi Arabia in {{ site.founded }}. It is a scale model and figure club that focuses on sci-fi and mechanical design from anime, video games and film, while appreciating every other genre of scale modelling (military, aviation, automotive, dioramas). It brings together model kit and figure enthusiasts through group build challenges, beginner workshops and a member gallery.
 
 - Also known as: نادي سعودي ميكا روبوت, サウジ・メカ・ロボット
 - Wikidata: https://www.wikidata.org/wiki/Q141756771
 - Founded: {{ site.founded }}, Riyadh, Saudi Arabia
 - Languages: Arabic (primary), English, Japanese
-- Accredited by Saudi Arabia's Quality of Life Program
+- Officially registered hobby club in Saudi Arabia
 - Appeared on Japanese television and in Japanese magazines
 - Mission: to be a cultural bridge from Saudi Arabia to the world
 - Has hosted and collaborated with professional modelers and competition judges, including Hong Kong-based GBWC champion Eday Ver.Ed (November 2025)
