@@ -10,6 +10,13 @@ description: News and beginner guides from Saudi Mecha Robot, a scale model and 
 <main><section><div class="wrap">
   <div class="head"><div><span class="tag plate">BAY 04 · BRIEFING</span><h2>{{ t.blog_title }}</h2><p>{{ t.blog_sub }}</p></div></div>
   {%- if lposts.size > 0 %}
-  <div class="posts">{% for post in lposts %}{% include post-card.html post=post %}{% endfor %}</div>
+  {%- assign pinned = lposts | sort: "pin", "last" %}
+  {%- assign npin = 0 %}{% for p in lposts %}{% if p.pin %}{% assign npin = npin | plus: 1 %}{% endif %}{% endfor %}
+  {%- if npin > 0 %}
+  <h3 class="blog-group">★ {{ t.blog_pinned }}</h3>
+  <div class="posts pinned">{% for post in pinned %}{% if post.pin %}{% include post-card.html post=post featured=true %}{% endif %}{% endfor %}</div>
+  {%- if lposts.size > npin %}<h3 class="blog-group">{{ t.blog_all_posts }}</h3>{% endif %}
+  {%- endif %}
+  <div class="posts">{% for post in lposts %}{% unless post.pin %}{% include post-card.html post=post %}{% endunless %}{% endfor %}</div>
   {%- else %}<div class="empty">{{ t.blog_empty }}</div>{% endif %}
 </div></section></main>
