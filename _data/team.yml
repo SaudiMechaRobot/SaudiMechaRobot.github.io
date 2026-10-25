@@ -48,3 +48,15 @@
   photo: /assets/images/team/phisal.webp
   link: https://www.instagram.com/phi_sal
   group: founder
+- name: '@ryan190s'
+  name_en: '@ryan190s'
+  name_ja: '@ryan190s'
+  real_name: ريان
+  real_name_en: Ryan
+  real_name_ja: ライアン
+  role: عضو مؤسس
+  role_en: Founding Member
+  role_ja: 創設メンバー
+  photo: /assets/images/team/ryan.webp
+  link: https://www.instagram.com/ryan190s
+  group: founder
