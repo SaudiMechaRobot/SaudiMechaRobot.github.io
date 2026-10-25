@@ -48,6 +48,8 @@ image: /assets/images/blog/eday-riyadh-cover.jpg
 
 في مكتبة النادي الجزآن الأول والثاني، وكانت الورشة فرصة للتعرّف على الجزء الثالث الجديد الذي يختم الثلاثية ([مقطع](https://www.instagram.com/reel/DRt0Zd2jRIV/)):
 
+<figure class="post-figure narrow"><img src="/assets/images/blog/ver-ed-anthology-vol3.webp" alt="صفحات من كتاب Ver.Ed Anthology Vol. 03" width="480" height="524" loading="lazy"><figcaption>صفحات من كتاب Ver.Ed Anthology Vol. 03</figcaption></figure>
+
 | Ver.Ed Anthology Vol. 03 | |
 |---|---|
 | عدد الصفحات | 304 |
