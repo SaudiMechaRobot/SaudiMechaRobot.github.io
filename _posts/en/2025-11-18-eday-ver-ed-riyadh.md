@@ -48,6 +48,8 @@ Our main takeaway: **creativity starts with observation.**
 
 The club's library holds volumes one and two, and the workshop was a chance to get to know the new third volume that completes the trilogy ([clip](https://www.instagram.com/reel/DRt0Zd2jRIV/)):
 
+<figure class="post-figure narrow"><img src="/assets/images/blog/ver-ed-anthology-vol3.webp" alt="Pages from Ver.Ed Anthology Vol. 03" width="480" height="524" loading="lazy"><figcaption>Pages from Ver.Ed Anthology Vol. 03</figcaption></figure>
+
 | Ver.Ed Anthology Vol. 03 | |
 |---|---|
 | Pages | 304 |
