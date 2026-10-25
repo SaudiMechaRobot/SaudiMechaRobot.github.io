@@ -7,6 +7,10 @@ pin: 2
 cover: /assets/images/blog/eday-riyadh-cover.webp
 image: /assets/images/blog/eday-riyadh-cover.jpg
 ---
+<figure class="post-figure"><img src="/assets/images/blog/eday-workshop-opening.webp" alt="Eddy and Thamer opening the Modelling Philosophy 101 workshop in Riyadh" width="1600" height="900" loading="lazy"><figcaption>Eddy and Thamer opening the Modelling Philosophy 101 workshop in Riyadh</figcaption></figure>
+
+<figure class="post-figure"><img src="/assets/images/blog/eday-workshop-attendees.webp" alt="Club members during the workshop" width="1600" height="901" loading="lazy"><figcaption>Club members during the workshop</figcaption></figure>
+
 ## A guest from Hong Kong
 
 In November 2025 the club welcomed **Eday Ver.Ed**, known among hobbyists as **Eddy**, to **Riyadh**. A **GBWC** champion, model designer and competition judge from **Hong Kong**, he is one of Asia's leading professionals and the author of the **Ver.Ed Anthology** book series on creative **Gunpla** customisation.
