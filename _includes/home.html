@@ -54,9 +54,8 @@
   {%- if site.data.team.size > 0 %}
   <section id="team"><div class="wrap">
     <div class="head"><div><span class="tag plate">BAY 01 · CREW</span><h2>{{ t.team_title }}</h2><p>{{ t.team_sub }}</p></div></div>
-    {%- assign founders = site.data.team | where_exp: "m", "m.group == nil or m.group == 'founder'" %}
     <div class="team">
-      {%- for m in founders %}{% include crew-card.html m=m %}{% endfor %}
+      {%- for m in site.data.team %}{% if m.group == nil or m.group == "founder" %}{% include crew-card.html m=m %}{% endif %}{% endfor %}
     </div>
     <p class="team-more"><a href="{{ t.team_url | relative_url }}">{{ t.team_more }}</a></p>
   </div></section>
