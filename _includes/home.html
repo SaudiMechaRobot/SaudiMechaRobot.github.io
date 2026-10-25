@@ -134,7 +134,8 @@
     <div class="head"><div><span class="tag plate">BAY 04 · BRIEFING</span><h2>{{ t.blog_title }}</h2></div><a class="btn" href="{{ t.blog_url | relative_url }}">{{ t.blog_all }}</a></div>
     {%- assign lposts = site.posts | where: "lang", L %}
     {%- if lposts.size > 0 %}
-    <div class="posts">{% for post in lposts limit:3 %}{% include post-card.html post=post %}{% endfor %}</div>
+    {%- assign pinned = lposts | sort: "pin", "last" %}{% assign shown = 0 %}
+    <div class="posts">{% for post in pinned %}{% if post.pin and shown < 3 %}{% include post-card.html post=post featured=true %}{% assign shown = shown | plus: 1 %}{% endif %}{% endfor %}{% for post in lposts %}{% unless post.pin %}{% if shown < 3 %}{% include post-card.html post=post %}{% assign shown = shown | plus: 1 %}{% endif %}{% endunless %}{% endfor %}</div>
     {%- else %}<div class="empty">{{ t.blog_empty }}</div>{% endif %}
   </div></section>
 

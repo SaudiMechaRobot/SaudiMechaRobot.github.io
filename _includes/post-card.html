@@ -1,6 +1,6 @@
-<article class="post">
+<article class="post{% if include.featured %} featured{% endif %}">
   {%- if include.post.cover and include.post.cover != "" %}<img class="cover" src="{{ include.post.cover | relative_url }}" alt="{{ include.post.title }}" loading="lazy">{% endif %}
-  <div class="meta"><span class="tag">{{ include.post.category | default: "POST" }}</span><time class="tag" datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: "%Y.%m.%d" }}</time></div>
+  <div class="meta"><span class="tag">{% if include.featured %}<b class="pin-badge">★ {{ t.blog_pinned_badge }}</b> {% endif %}{{ include.post.category | default: "POST" }}</span><time class="tag" datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: "%Y.%m.%d" }}</time></div>
   <a class="title" href="{{ include.post.url | relative_url }}"><h3>{{ include.post.title }}</h3></a>
   <p>{{ include.post.description | default: include.post.excerpt | strip_html | truncate: 140 }}</p>
   <a class="more" href="{{ include.post.url | relative_url }}">{{ t.read_more }}</a>
