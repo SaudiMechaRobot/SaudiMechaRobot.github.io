@@ -180,6 +180,12 @@ section{padding-block:64px}
 .post a.title{text-decoration:none}
 .post a.title:hover h3{color:var(--hazard)}
 .post .cover{aspect-ratio:16/9;object-fit:cover;margin:-20px -20px 4px;width:calc(100% + 40px);max-width:none}
+.blog-group{font-size:20px;margin:6px 0 14px;color:var(--ink)}
+.posts.pinned{grid-template-columns:repeat(2,1fr);margin-bottom:34px}
+.post.featured{border-color:rgba(242,183,5,.55)}
+.post.featured::before{width:100%}
+.posts.pinned .post h3{font-size:22px}
+.pin-badge{color:var(--hazard);font-weight:700}
 .more{font-weight:700;color:var(--hazard);text-decoration:none}
 
 /* faq */
@@ -241,7 +247,7 @@ footer a.leader-link:hover{color:var(--ink)}
   .status{grid-template-columns:repeat(2,1fr)}
   .about{grid-template-columns:1fr}
   .gallery{grid-template-columns:repeat(2,1fr)}
-  .posts{grid-template-columns:1fr}
+  .posts,.posts.pinned{grid-template-columns:1fr}
   .hero-bay{padding-block:28px 24px;--bay-x:50%!important}
   .hero-bay{background:radial-gradient(420px 360px at 50% 22%,rgba(63,167,255,.18),transparent 70%)}
 }
@@ -396,4 +402,4 @@ html,body{overflow-x:clip}
   .crew .tag,.crew-name{font-size:10.5px}
   .crew.slot{min-height:120px;font-size:12px;padding:8px}
 }
-/* build 202610251400 */
+/* build 202610251600 */
