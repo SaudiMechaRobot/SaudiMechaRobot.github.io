@@ -1,0 +1,10 @@
+{%- assign m = include.m -%}
+{%- assign nk = "name_" | append: L %}{%- assign rk = "role_" | append: L %}{%- assign rnk = "real_name_" | append: L %}{%- assign ck = "country_" | append: L -%}
+{%- assign mn = m[nk] | default: m.name %}{%- assign mr = m[rk] | default: m.role %}{%- assign mrn = m[rnk] | default: m.real_name %}{%- assign mc = m[ck] | default: m.country -%}
+<article class="crew">
+  <div class="crew-photo">{% if m.photo and m.photo != "" %}<img src="{{ m.photo | relative_url }}" alt="{{ mn }}" loading="lazy" width="160" height="160">{% else %}<img src="{{ '/assets/images/logo.webp' | relative_url }}" alt="" class="ph" loading="lazy" width="160" height="160">{% endif %}</div>
+  {% if mr and mr != "" %}<span class="tag">{{ mr }}</span>{% endif %}
+  <h3 dir="auto">{% if m.link and m.link != "" %}<a href="{{ m.link }}" target="_blank" rel="noopener">{{ mn }}</a>{% else %}{{ mn }}{% endif %}</h3>
+  {% if mrn and mrn != "" %}<p class="crew-name" dir="auto">{{ mrn }}</p>{% endif %}
+  {% if mc and mc != "" %}<p class="crew-country">{% if m.flag %}<span aria-hidden="true">{{ m.flag }}</span> {% endif %}{{ mc }}</p>{% endif %}
+</article>
