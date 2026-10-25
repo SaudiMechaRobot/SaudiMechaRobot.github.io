@@ -37,6 +37,15 @@ ar:
   team_title: فريق النادي
   team_sub: الفريق القائم على إدارة النادي وتنظيم أنشطته ومبادراته.
   team_slot: إضافة باقي الفريق — قريباً
+  team_url: /team/
+  team_more: تعرّف على أعضاء النادي وأصدقائه ←
+  team_page_title: أعضاء النادي وأصدقاؤه
+  team_page_desc: مؤسسو نادي Saudi Mecha Robot وأعضاؤه المميزون وأصدقاؤه من المبدعين والمحترفين في السعودية واليابان والعالم.
+  team_founders: المؤسسون
+  team_featured: أعضاء مميزون
+  team_featured_sub: أعضاء أسهموا في أنشطة النادي وورشه ومعرض أعماله.
+  team_friends: أصدقاء النادي
+  team_friends_sub: مبدعون ومحترفون من السعودية واليابان ودول أخرى تعاون معهم النادي.
   nav_team: الفريق
   gallery_title: أعمال الأعضاء
   gallery_sub: قطع ركّبها أعضاء النادي.
@@ -106,6 +115,15 @@ en:
   team_title: Club Team
   team_sub: The people who run the club and organise its events.
   team_slot: More team members coming soon
+  team_url: /en/team/
+  team_more: Meet the club's members and friends →
+  team_page_title: Members & Friends
+  team_page_desc: The founders, featured members and friends of Saudi Mecha Robot, creators and professionals from Saudi Arabia, Japan and beyond.
+  team_founders: Founders
+  team_featured: Featured Members
+  team_featured_sub: Members who have contributed to the club's activities, workshops and gallery.
+  team_friends: Friends of the Club
+  team_friends_sub: Creators and professionals from Saudi Arabia, Japan and other countries the club has worked with.
   nav_team: Team
   gallery_title: Member builds
   gallery_sub: Kits built by club members.
@@ -173,6 +191,15 @@ ja:
   team_title: クラブチーム
   team_sub: クラブを運営し、イベントを企画するメンバーです。
   team_slot: 他のメンバーも近日追加予定
+  team_url: /ja/team/
+  team_more: メンバーと仲間たちを見る →
+  team_page_title: メンバーと仲間たち
+  team_page_desc: Saudi Mecha Robotの創設メンバー、注目メンバー、そしてサウジアラビア・日本・世界のクリエイターやプロフェッショナルの仲間たちを紹介します。
+  team_founders: 創設メンバー
+  team_featured: 注目メンバー
+  team_featured_sub: クラブの活動やワークショップ、作品ギャラリーに貢献してきたメンバーです。
+  team_friends: クラブの仲間たち
+  team_friends_sub: クラブと交流・協力してきた、サウジアラビア・日本・各国のクリエイターやプロフェッショナルです。
   nav_team: チーム
   gallery_title: メンバー作品
   gallery_sub: クラブメンバーが製作した作品です。
