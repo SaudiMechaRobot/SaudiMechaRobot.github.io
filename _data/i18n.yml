@@ -11,12 +11,12 @@ ar:
   blog_pinned_badge: مميز
   club_name: نادي سعودي ميكا روبوت
   club_name_alt: SAUDI MECHA ROBOT
-  hero_text: "<strong class=\"hero-lead\">نادٍ سعودي للمجسمات والنماذج التركيبية</strong>نركّز على الخيال العلمي والتصميم الميكانيكي كما يظهر في الأنمي وألعاب الفيديو، ونقدّر كل أنواع النماذج الأخرى، ونسعى لأن نكون جسرًا ثقافيًا بين السعودية واليابان والعالم."
+  hero_text: "<strong class=\"hero-lead\">نادٍ سعودي لهواة تركيب النماذج والمجسمات</strong>نجمع هواة النماذج التركيبية بكل أنواعها: الميكا والروبوتات، والمركبات والطائرات، والنماذج العسكرية، ومجسمات الشخصيات، ويبقى الخيال العلمي والتصميم الميكانيكي في الأنمي وألعاب الفيديو تخصصنا الأبرز، ونسعى لأن نكون جسرًا ثقافيًا بين السعودية واليابان والعالم."
   cta_join: شاركنا
   cta_events: الفعاليات والإنجازات
   spec_label: بطاقة النادي
   spec_type: النوع
-  spec_type_v: معتمد من برنامج جودة الحياة
+  spec_type_v: نادي هواة مسجّل رسميًا في المملكة
   spec_founded: التأسيس
   spec_base: المقر
   spec_base_v: الرياض، المملكة العربية السعودية
@@ -64,7 +64,7 @@ ar:
   sponsor_slot: تعاون مؤسسي
   join_title: جاهز تركّب معنا؟
   join_text: تابع النادي على حساباته الرسمية.
-  footer_club: معتمد من برنامج جودة الحياة · الرياض
+  footer_club: نادي هواة مسجّل رسميًا · الرياض
   club_leader: قائد النادي
   lang_name: العربية
   suggest_text: هذا الموقع متوفر بالعربية
@@ -73,7 +73,7 @@ ar:
   other_langs: 'اقرأ هذا المقال بلغة أخرى:'
   about_lead: Saudi Mecha Robot — نادٍ سعودي للمجسمات والنماذج التركيبية
   about_paras:
-  - تأسس Saudi Mecha Robot في الرياض عام 2024، وهو نادٍ معتمد من برنامج جودة الحياة، يُعنى بالنماذج التركيبية والمجسمات، ويركّز على الخيال العلمي والتصميم الميكانيكي كما يظهر في الأنمي وألعاب الفيديو والأفلام، من Gundam وGrendizer إلى Macross وEvangelion وArmored Core، مع تقدير كل أنواع النماذج الأخرى، من العسكرية والطائرات إلى السيارات والدايوراما.
+  - تأسس Saudi Mecha Robot في الرياض عام 2024، وهو نادي هواة مسجّل رسميًا، يُعنى بالنماذج التركيبية والمجسمات، ويركّز على الخيال العلمي والتصميم الميكانيكي كما يظهر في الأنمي وألعاب الفيديو والأفلام، من Gundam وGrendizer إلى Macross وEvangelion وArmored Core، مع تقدير كل أنواع النماذج الأخرى، من العسكرية والطائرات إلى السيارات والدايوراما.
   - يعمل النادي على تعزيز حضور هواية النماذج التركيبية والمجسمات في المملكة، من خلال الأنشطة وورش العمل وتبادل الخبرات، بما يتيح للمهتمين التعرّف على هذه الهواية وممارسة جوانبها الإبداعية.
   - ويسعى النادي لأن يكون جسرًا ثقافيًا بين السعودية واليابان والعالم، مستندًا إلى حضوره الإعلامي في اليابان وعلاقاته مع مهتمين ومبدعين في مجال النماذج التركيبية والمجسمات، إلى جانب التعريف بالثقافة السعودية من خلال هذا التواصل.
   - ويمتد نشاط النادي إلى التواصل مع المحترفين والمبدعين في مجال النماذج التركيبية والمجسمات في اليابان ودول أخرى، بما يتيح تبادل الخبرات واستكشاف فرص التعاون والاستضافة في المملكة. وقد استضاف النادي محترفين ومحكّمين في هذا المجال وتعاون معهم لتقديم تجارب متخصصة تجمع بين المعرفة الفنية والتبادل الثقافي. ويسعى النادي إلى تطوير هذه المبادرات واستقطاب المزيد من الخبرات الدولية مستقبلًا.
@@ -93,12 +93,12 @@ en:
   blog_pinned_badge: Featured
   club_name: Saudi Mecha Robot
   club_name_alt: نادي سعودي ميكا روبوت
-  hero_text: "<strong class=\"hero-lead\">A Saudi club for figures and scale models</strong>We focus on sci-fi and mechanical design as seen in anime and video games while appreciating all other genres of scale models. We strive to be a cultural bridge from Saudi Arabia to the world."
+  hero_text: "<strong class=\"hero-lead\">A Saudi club for scale model and figure builders</strong>We bring together builders of every kind of model: mecha and robots, vehicles and aircraft, military models and character figures, with sci-fi and mechanical design from anime and video games as our signature focus. We strive to be a cultural bridge from Saudi Arabia to the world."
   cta_join: Take part
   cta_events: See our events
   spec_label: Club card
   spec_type: Type
-  spec_type_v: Accredited by the Quality of Life Program
+  spec_type_v: Officially registered hobby club in Saudi Arabia
   spec_founded: Founded
   spec_base: Base
   spec_base_v: Riyadh, Saudi Arabia
@@ -146,7 +146,7 @@ en:
   sponsor_slot: Sponsor spot — coming soon
   join_title: Ready to build with us?
   join_text: Follow the club on its official accounts.
-  footer_club: Accredited by the Quality of Life Program · Riyadh
+  footer_club: Officially registered hobby club · Riyadh
   club_leader: Club leader
   lang_name: English
   suggest_text: This site is also available in English
@@ -154,7 +154,7 @@ en:
   alt_lang: ar
   other_langs: 'Read this article in:'
   about_paras:
-  - Saudi Mecha Robot is a scale model and figure club founded in Riyadh in 2024 and accredited by the Quality of Life Program. We focus on sci-fi and mechanical design as seen in anime, video games and film, from Gundam and Grendizer to Macross, Evangelion and Armored Core, while appreciating every genre of scale modelling, from military and aviation to automotive and dioramas.
+  - Saudi Mecha Robot is an officially registered scale model and figure club founded in Riyadh in 2024. We focus on sci-fi and mechanical design as seen in anime, video games and film, from Gundam and Grendizer to Macross, Evangelion and Armored Core, while appreciating every genre of scale modelling, from military and aviation to automotive and dioramas.
   - We aim to be a cultural bridge from Saudi Arabia to the world through a hobby that combines passion, creativity, and cultural exchange. The club’s presence has extended to Japan through appearances on Japanese television and in Japanese magazines, as well as by building friendships and connections with enthusiasts and creators in the mecha and model-building communities from Japan and other countries, while also sharing Saudi culture with them. The club has also hosted and collaborated with professional modelers and competition judges to offer specialized experiences.
   - The club seeks to promote model building among enthusiasts in the Kingdom and to provide a welcoming environment where beginners and experienced builders can learn, experiment and exchange knowledge. Its members include both young men and young women, and it aims to be a community that brings together lovers of this hobby and Japanese culture in the Kingdom.
   - The club also aspires to be a cultural window representing Saudi Arabia, connecting with friends and followers from around the world and building bridges of shared interest around model building and Japanese culture.
@@ -173,12 +173,12 @@ ja:
   club_name: サウジ・メカ・ロボット
   club_name_alt: SAUDI MECHA ROBOT
   alt_lang: en
-  hero_text: サウジアラビアのスケールモデル＆フィギュアクラブです。アニメやゲームに登場するSF・メカニカルデザインを中心に、ジャンルを問わず模型づくりを楽しんでいます。サウジアラビアと日本、そして世界をつなぐ文化の架け橋を目指して活動中。みんなで作って教え合う、初心者の方も大歓迎のクラブです！
+  hero_text: サウジアラビアの模型・フィギュア製作者のためのホビークラブです。メカ・ロボット、車両・航空機、ミリタリーモデル、キャラクターフィギュアまで、あらゆるジャンルの模型づくりを楽しみ、なかでもアニメやゲームに登場するSF・メカニカルデザインを得意としています。サウジアラビアと日本、そして世界をつなぐ文化の架け橋を目指して活動中。みんなで作って教え合う、初心者の方も大歓迎のクラブです！
   cta_join: 活動に参加する
   cta_events: イベントを見る
   spec_label: クラブ情報
   spec_type: 種類
-  spec_type_v: サウジ・ビジョン2030「生活の質向上プログラム」認定クラブ
+  spec_type_v: サウジアラビア正式登録ホビークラブ
   spec_founded: 設立
   spec_base: 拠点
   spec_base_v: サウジアラビア・リヤド
@@ -226,14 +226,14 @@ ja:
   sponsor_slot: スポンサー募集中
   join_title: 一緒に作りませんか？
   join_text: 公式アカウントをフォローして、最新情報をぜひチェックしてください！
-  footer_club: 「生活の質向上プログラム」認定 · リヤド
+  footer_club: 正式登録ホビークラブ · リヤド
   club_leader: クラブリーダー
   lang_name: 日本語
   suggest_text: このサイトは日本語でもご覧いただけます
   suggest_link: 日本語で見る
   other_langs: この記事を他の言語で読む：
   about_paras:
-  - Saudi Mecha Robot（サウジ・メカ・ロボット）は、2024年にリヤドで設立されたスケールモデル＆フィギュアクラブです。サウジ・ビジョン2030の「生活の質向上プログラム（Quality of Life Program）」の認定を受けて活動しています。
+  - Saudi Mecha Robot（サウジ・メカ・ロボット）は、2024年にリヤドで設立されたスケールモデル＆フィギュアクラブです。サウジアラビアで正式に登録されたホビークラブとして活動しています。
   - アニメ・ゲーム・映画に登場するSFやメカニカルデザインを中心に、ガンダムやグレンダイザーからマクロス、エヴァンゲリオン、アーマード・コアまで幅広く楽しんでいます。もちろん、ミリタリー、航空機、カーモデル、ジオラマなど、どんなジャンルの模型も大歓迎です。
   - 私たちの目標は、模型づくりという趣味を通して、サウジアラビアと日本、そして世界をつなぐ「文化の架け橋」になることです。情熱や創造性を分かち合いながら、文化交流の輪を広げていきたいと考えています。
   - 日本のテレビ番組への出演や雑誌への掲載をきっかけに、日本でも少しずつクラブを知っていただけるようになりました。世界各地のメカ・模型ファンやクリエイターの皆さんと交流を深めながら、サウジアラビアの文化も発信しています。また、プロモデラーや審査員の方々をお招きして、本格的な技術に触れられる場づくりにも取り組んでいます。
