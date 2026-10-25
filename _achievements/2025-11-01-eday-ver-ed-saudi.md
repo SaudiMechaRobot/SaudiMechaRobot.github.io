@@ -6,6 +6,7 @@ rank: 2
 date: 2025-11-01
 date_label: '2025.11'
 featured: true
+image: /assets/images/achievements/eday-ver-ed-saudi.webp
 tags: []
 tags_en: []
 tags_ja: []
