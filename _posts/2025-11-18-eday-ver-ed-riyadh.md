@@ -7,6 +7,10 @@ pin: 2
 cover: /assets/images/blog/eday-riyadh-cover.webp
 image: /assets/images/blog/eday-riyadh-cover.jpg
 ---
+<figure class="post-figure"><img src="/assets/images/blog/eday-workshop-opening.webp" alt="Eddy وثامر في افتتاح ورشة Modelling Philosophy 101 بالرياض" width="1600" height="900" loading="lazy"><figcaption>Eddy وثامر في افتتاح ورشة Modelling Philosophy 101 بالرياض</figcaption></figure>
+
+<figure class="post-figure"><img src="/assets/images/blog/eday-workshop-attendees.webp" alt="أعضاء النادي خلال الورشة" width="1600" height="901" loading="lazy"><figcaption>أعضاء النادي خلال الورشة</figcaption></figure>
+
 ## ضيف من هونغ كونغ
 
 في نوفمبر 2025 استضاف النادي في **الرياض** المحترف **Eday Ver.Ed**، المعروف بين الهواة باسم **Eddy**. هو بطل **GBWC** ومصمم نماذج ومحكّم في المسابقات من **هونغ كونغ**، ومن أكبر المحترفين في آسيا، ومؤلف سلسلة كتب **Ver.Ed Anthology** عن التخصيص الإبداعي لنماذج **Gunpla**.
