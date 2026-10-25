@@ -54,9 +54,9 @@
   real_name: ريان
   real_name_en: Ryan
   real_name_ja: ライアン
-  role: عضو مؤسس
-  role_en: Founding Member
-  role_ja: 創設メンバー
+  role: عضو أساسي
+  role_en: Core Member
+  role_ja: コアメンバー
   photo: /assets/images/team/ryan.webp
   link: https://www.instagram.com/ryan190s
-  group: founder
+  group: featured

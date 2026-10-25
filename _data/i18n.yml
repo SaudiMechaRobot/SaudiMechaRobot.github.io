@@ -45,10 +45,10 @@ ar:
   team_page_title: أعضاء النادي وأصدقاؤه
   team_page_desc: مؤسسو نادي Saudi Mecha Robot وأعضاؤه المميزون وأصدقاؤه من المبدعين والمحترفين في السعودية واليابان والعالم.
   team_founders: المؤسسون
-  team_featured: أعضاء مميزون
-  team_featured_sub: أعضاء أسهموا في أنشطة النادي وورشه ومعرض أعماله.
+  team_featured: الأعضاء الأساسيون
+  team_featured_sub: أعضاء فاعلون يسهمون في أنشطة النادي وورشه ومعرض أعماله.
   team_friends: أصدقاء النادي
-  team_friends_sub: مبدعون ومحترفون من السعودية واليابان ودول أخرى تعاون معهم النادي.
+  team_friends_sub: مبدعون ومحترفون من السعودية والخليج واليابان ودول العالم، تربطهم بالنادي علاقات تعاون وصداقة.
   nav_team: الفريق
   gallery_title: أعمال الأعضاء
   gallery_sub: قطع ركّبها أعضاء النادي.
@@ -126,10 +126,10 @@ en:
   team_page_title: Members & Friends
   team_page_desc: The founders, featured members and friends of Saudi Mecha Robot, creators and professionals from Saudi Arabia, Japan and beyond.
   team_founders: Founders
-  team_featured: Featured Members
-  team_featured_sub: Members who have contributed to the club's activities, workshops and gallery.
+  team_featured: Core Members
+  team_featured_sub: Active members who contribute to the club's activities, workshops and gallery.
   team_friends: Friends of the Club
-  team_friends_sub: Creators and professionals from Saudi Arabia, Japan and other countries the club has worked with.
+  team_friends_sub: Creators and professionals from Saudi Arabia, the Gulf, Japan and around the world who share ties of collaboration and friendship with the club.
   nav_team: Team
   gallery_title: Member builds
   gallery_sub: Kits built by club members.
@@ -205,10 +205,10 @@ ja:
   team_page_title: メンバーと仲間たち
   team_page_desc: Saudi Mecha Robotの創設メンバー、注目メンバー、そしてサウジアラビア・日本・世界のクリエイターやプロフェッショナルの仲間たちを紹介します。
   team_founders: 創設メンバー
-  team_featured: 注目メンバー
-  team_featured_sub: クラブの活動やワークショップ、作品ギャラリーに貢献してきたメンバーです。
+  team_featured: コアメンバー
+  team_featured_sub: クラブの活動やワークショップ、作品ギャラリーを支える中心メンバーです。
   team_friends: クラブの仲間たち
-  team_friends_sub: クラブと交流・協力してきた、サウジアラビア・日本・各国のクリエイターやプロフェッショナルです。
+  team_friends_sub: サウジアラビア、湾岸諸国、日本、そして世界各地から、クラブと交流や協力を続けているクリエイターやプロフェッショナルの皆さんです。
   nav_team: チーム
   gallery_title: メンバー作品
   gallery_sub: クラブメンバーが製作した作品です。
