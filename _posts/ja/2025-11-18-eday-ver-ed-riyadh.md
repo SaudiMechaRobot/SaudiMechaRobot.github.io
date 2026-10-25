@@ -48,6 +48,8 @@ image: /assets/images/blog/eday-riyadh-cover.jpg
 
 クラブの図書には第1巻と第2巻があり、今回のワークショップでは三部作を締めくくる新刊・第3巻に触れる機会にもなりました（[動画](https://www.instagram.com/reel/DRt0Zd2jRIV/)）。
 
+<figure class="post-figure narrow"><img src="/assets/images/blog/ver-ed-anthology-vol3.webp" alt="『Ver.Ed Anthology Vol. 03』の誌面より" width="480" height="524" loading="lazy"><figcaption>『Ver.Ed Anthology Vol. 03』の誌面より</figcaption></figure>
+
 | Ver.Ed Anthology Vol. 03 | |
 |---|---|
 | ページ数 | 304ページ |
