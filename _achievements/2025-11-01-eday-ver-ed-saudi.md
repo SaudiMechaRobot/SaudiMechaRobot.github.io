@@ -1,7 +1,7 @@
 ---
 title: استضافة Eday Ver.Ed في السعودية
 title_en: Hosted Eday Ver.Ed in Saudi Arabia
-title_ja: サウジアラビアで「Eday Ver.Ed」を開催
+title_ja: 香港のプロモデラー、Eday Ver.Ed氏をサウジアラビアに招へい
 date: 2025-11-01
 date_label: '2025.11'
 featured: true
