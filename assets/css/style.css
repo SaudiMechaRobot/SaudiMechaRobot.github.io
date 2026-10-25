@@ -362,6 +362,12 @@ html,body{overflow-x:clip}
 .crew h3 a:hover{color:var(--hazard)}
 .crew.slot{place-items:center;border:1px dashed var(--line);border-top:3px dashed var(--seam);background:transparent;color:var(--muted);min-height:150px;font-size:14px}
 .crew-name{margin:-4px 0 0;color:var(--muted);font-size:14px;font-weight:600}
+.crew-country{margin:0;color:var(--muted);font-size:12px}
+.team-more{margin:18px 0 0}
+.team-more a{color:var(--hazard);font-weight:700;text-decoration:none}
+.team-more a:hover{text-decoration:underline;text-underline-offset:3px}
+.team-group{font-size:20px;margin:28px 0 12px;color:var(--ink)}
+.team-group-sub{margin:-6px 0 14px;color:var(--muted)}
 
 /* ---- As featured in ---- */
 .press{border-top:1px solid var(--seam);background:#080D13}
@@ -390,4 +396,4 @@ html,body{overflow-x:clip}
   .crew .tag,.crew-name{font-size:10.5px}
   .crew.slot{min-height:120px;font-size:12px;padding:8px}
 }
-/* build 202610251300 */
+/* build 202610251400 */
