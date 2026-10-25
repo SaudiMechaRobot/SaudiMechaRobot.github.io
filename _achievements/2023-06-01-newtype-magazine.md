@@ -2,6 +2,7 @@
 title: نشر لقاء عن قائد النادي ونشاطاته في مجلة Newtype اليابانية الشهيرة
 title_en: Interview with the club leader and his activities published in the famous Japanese magazine Newtype
 title_ja: 雑誌『ニュータイプ』にクラブリーダーと活動のインタビューが掲載
+rank: 5
 date: 2023-06-01
 date_label: '2023'
 featured: true

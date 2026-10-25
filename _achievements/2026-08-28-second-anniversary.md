@@ -1,6 +1,7 @@
 ---
 title: الذكرى السنوية الثانية للنادي
 title_en: The club's second anniversary
+rank: 9
 date: 2026-08-28
 featured: true
 tags:

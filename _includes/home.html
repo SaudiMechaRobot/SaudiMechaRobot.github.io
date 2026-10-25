@@ -63,7 +63,7 @@
 
   <section id="log"><div class="wrap">
     <div class="head"><div><span class="tag plate">BAY 02 · MISSION LOG</span><h2>{{ t.log_title }}</h2></div></div>
-    {%- assign items = site.achievements | sort: "date" | reverse %}
+    {%- assign items = site.achievements | sort: "rank", "last" %}
     <ol class="timeline">
       {%- for a in items %}
       {%- if L == "ar" %}{% assign a_title = a.title %}{% assign a_body = a.content %}{% assign a_tags = a.tags %}{% else %}{% assign k1 = "title_" | append: L %}{% assign k2 = "body_" | append: L %}{% assign k3 = "tags_" | append: L %}{% assign a_title = a[k1] %}{% assign a_body = a[k2] %}{% assign a_tags = a[k3] %}{% endif %}
