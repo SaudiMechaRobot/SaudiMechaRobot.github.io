@@ -6,6 +6,9 @@ ar:
   dir: rtl
   home_url: /
   blog_url: /blog/
+  blog_pinned: أبرز القصص
+  blog_all_posts: كل المقالات
+  blog_pinned_badge: مميز
   club_name: نادي سعودي ميكا روبوت
   club_name_alt: SAUDI MECHA ROBOT
   hero_text: "<strong class=\"hero-lead\">نادٍ سعودي للمجسمات والنماذج التركيبية</strong>نركّز على الخيال العلمي والتصميم الميكانيكي كما يظهر في الأنمي وألعاب الفيديو، ونقدّر كل أنواع النماذج الأخرى، ونسعى لأن نكون جسرًا ثقافيًا بين السعودية واليابان والعالم."
@@ -84,6 +87,9 @@ en:
   dir: ltr
   home_url: /en/
   blog_url: /en/blog/
+  blog_pinned: Featured Stories
+  blog_all_posts: All Posts
+  blog_pinned_badge: Featured
   club_name: Saudi Mecha Robot
   club_name_alt: نادي سعودي ميكا روبوت
   hero_text: "<strong class=\"hero-lead\">A Saudi club for figures and scale models</strong>We focus on sci-fi and mechanical design as seen in anime and video games while appreciating all other genres of scale models. We strive to be a cultural bridge from Saudi Arabia to the world."
@@ -159,6 +165,9 @@ ja:
   dir: ltr
   home_url: /ja/
   blog_url: /ja/blog/
+  blog_pinned: 注目の記事
+  blog_all_posts: すべての記事
+  blog_pinned_badge: 注目
   club_name: サウジ・メカ・ロボット
   club_name_alt: SAUDI MECHA ROBOT
   alt_lang: en
