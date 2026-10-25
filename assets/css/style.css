@@ -392,7 +392,7 @@ html,body{overflow-x:clip}
 /* ---- Post image gallery ---- */
 .post-figure{margin:0 0 22px}
 .post-figure img{display:block;width:100%;height:auto;border:1px solid var(--line)}
-.post-figure.narrow{max-width:480px;margin-inline:auto}
+.post-figure.narrow{max-width:240px;margin-inline:auto}
 .post-figure figcaption{margin-top:8px;color:var(--muted);font-size:14px;text-align:center}
 .article > img{max-height:760px;width:auto;max-width:100%;display:block;margin-inline:auto}
 .post-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:22px 0}
@@ -407,4 +407,4 @@ html,body{overflow-x:clip}
   .crew .tag,.crew-name{font-size:10.5px}
   .crew.slot{min-height:120px;font-size:12px;padding:8px}
 }
-/* build 202610251720 */
+/* build 202610251730 */
