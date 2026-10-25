@@ -355,7 +355,9 @@ html,body{overflow-x:clip}
 .crew-photo img{width:100%;height:100%;object-fit:cover}
 .crew-photo img.ph{width:78%;height:78%;object-fit:contain;opacity:.85}
 .crew .tag{color:var(--beam);letter-spacing:0;font-family:var(--f-body);font-size:13px;font-weight:600}
-.crew h3{font-size:15px;margin:0;overflow-wrap:anywhere}
+.crew{container-type:inline-size}
+@media (max-width:360px){.team .crew{padding:6px 2px}}
+.crew h3{font-size:clamp(7.5px,11cqi,15px);margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;letter-spacing:-.01em}
 .crew h3 a{color:var(--ink);text-decoration:none}
 .crew h3 a:hover{color:var(--hazard)}
 .crew.slot{place-items:center;border:1px dashed var(--line);border-top:3px dashed var(--seam);background:transparent;color:var(--muted);min-height:150px;font-size:14px}
@@ -385,8 +387,7 @@ html,body{overflow-x:clip}
   .team{grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
   .crew{padding:8px 4px;gap:4px}
   .crew-photo{width:100%;max-width:72px;height:auto;aspect-ratio:1}
-  .crew h3{font-size:11px}
   .crew .tag,.crew-name{font-size:10.5px}
   .crew.slot{min-height:120px;font-size:12px;padding:8px}
 }
-/* build 202610251200 */
+/* build 202610251300 */
