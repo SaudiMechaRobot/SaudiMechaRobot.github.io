@@ -7,6 +7,10 @@ pin: 2
 cover: /assets/images/blog/eday-riyadh-cover.webp
 image: /assets/images/blog/eday-riyadh-cover.jpg
 ---
+<figure class="post-figure"><img src="/assets/images/blog/eday-workshop-opening.webp" alt="リヤドでのワークショップ「Modelling Philosophy 101」冒頭のEddy氏とサーメル" width="1600" height="900" loading="lazy"><figcaption>リヤドでのワークショップ「Modelling Philosophy 101」冒頭のEddy氏とサーメル</figcaption></figure>
+
+<figure class="post-figure"><img src="/assets/images/blog/eday-workshop-attendees.webp" alt="ワークショップに参加するクラブメンバー" width="1600" height="901" loading="lazy"><figcaption>ワークショップに参加するクラブメンバー</figcaption></figure>
+
 ## 香港からのゲスト
 
 2025年11月、クラブは**リヤド**に**Eday Ver.Ed**氏を迎えました。ホビー仲間の間では「**Eddy**」の愛称で知られています。**香港**出身の**GBWC**チャンピオンであり、モデルデザイナー、コンテスト審査員としても活躍するアジア屈指のプロフェッショナルです。**ガンプラ**のクリエイティブなカスタマイズをテーマにした書籍シリーズ『**Ver.Ed Anthology**』の著者でもあります。
