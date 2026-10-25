@@ -7,14 +7,13 @@ title: Members & Friends
 description: The founders, featured members and friends of Saudi Mecha Robot, creators and professionals from Saudi Arabia, Japan and beyond.
 ---
 {%- include i18n.html -%}
-{%- assign founders = site.data.team | where_exp: "m", "m.group == nil or m.group == 'founder'" -%}
 {%- assign featured = site.data.team | where: "group", "featured" -%}
 {%- assign friends = site.data.team | where: "group", "friend" -%}
 <main>
 <section><div class="wrap">
   <div class="head"><div><span class="tag plate">BAY 01 · CREW</span><h2>{{ t.team_page_title }}</h2><p>{{ t.team_sub }}</p></div></div>
   <h3 class="team-group">{{ t.team_founders }}</h3>
-  <div class="team">{% for m in founders %}{% include crew-card.html m=m %}{% endfor %}</div>
+  <div class="team">{% for m in site.data.team %}{% if m.group == nil or m.group == "founder" %}{% include crew-card.html m=m %}{% endif %}{% endfor %}</div>
   {%- if featured.size > 0 %}
   <h3 class="team-group">{{ t.team_featured }}</h3><p class="team-group-sub">{{ t.team_featured_sub }}</p>
   <div class="team">{% for m in featured %}{% include crew-card.html m=m %}{% endfor %}</div>
