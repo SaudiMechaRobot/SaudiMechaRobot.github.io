@@ -1,7 +1,7 @@
 ---
 ref: mecha-giants-in-saudi
 title: "Grendizer, Gundam and Evangelion in Saudi Arabia: The Trio That Brought Us Together"
-description: In 2022 and 2023, giant statues of Grendizer, Gundam, Zaku and Evangelion came to Saudi Arabia. They brought us together as friends and helped spark the founding of our club.
+description: In 2022–2023, giant Grendizer, Gundam, Zaku and Evangelion statues came to Saudi Arabia, bringing us together as friends and sparking our club.
 category: STORY
 cover: /assets/images/blog/mecha-giants-cover.webp
 image: /assets/images/blog/mecha-giants-cover.jpg
