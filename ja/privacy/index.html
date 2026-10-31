@@ -1,0 +1,46 @@
+---
+layout: default
+lang: ja
+ref: privacy
+permalink: /ja/privacy/
+title: プライバシーポリシー
+description: Saudi Mecha Robot公式サイトにおける訪問者データの取り扱い（Google Analyticsの利用を含む）について説明します。
+---
+{%- include i18n.html -%}
+<main class="wrap article">
+  <header class="ah">
+    <span class="tag">PRIVACY · <time datetime="2026-10-31">2026.10.31</time></span>
+    <h1>{{ page.title }}</h1>
+    <p style="color:var(--muted);font-size:18px;max-width:60ch">{{ page.description }}</p>
+    {%- if alts.size > 1 %}<p class="translations">{{ t.other_langs }} {% for a in alts %}{% assign al = a.lang | default: "ar" %}{% if al != L %}<a class="lang" href="{{ a.url | relative_url }}" hreflang="{{ al }}" lang="{{ al }}">{{ site.data.i18n[al].lang_name }}</a> {% endif %}{% endfor %}</p>{% endif %}
+  </header>
+  <div class="prose">
+<h2>はじめに</h2>
+<p>Saudi Mecha Robotは、公式サイト saudimecharobot.com を訪れる皆さまのプライバシーを尊重します。このページでは、サイト閲覧時に収集されるデータとその利用方法について説明します。</p>
+
+<h2>収集するデータ</h2>
+<p>本サイトではアカウント登録は不要で、個人情報を入力するフォームもありません。収集するのは、Google Analyticsによる一般的な利用統計のみです。</p>
+
+<h2>Google Analytics</h2>
+<p>本サイトでは、サイトの利用状況を把握しコンテンツを改善するため、Googleが提供するGoogle Analytics 4を利用しています。収集されるデータには、閲覧したページ、滞在時間、流入元（検索エンジンやSNSなど）、おおよその国・都市、端末の種類、ブラウザと言語、SNSアカウントやイベント登録ページなど外部リンクのクリックが含まれます。</p>
+<ul>
+<li><code>_ga</code> などのCookieを使用し、訪問者個人を特定することなく訪問を区別します。</li>
+<li>Google Analytics 4はIPアドレスを記録・保存しません。</li>
+<li>これらのデータを広告目的で利用することはなく、訪問者の身元と結びつけることもありません。</li>
+<li>データの保存期間は最長14か月で、その後自動的に削除されます。</li>
+</ul>
+<p>詳細：<a href="https://policies.google.com/technologies/partner-sites?hl=ja" target="_blank" rel="noopener">Googleのサービスを使用するサイトやアプリから収集した情報のGoogleによる使用</a></p>
+
+<h2>トラッキングの無効化</h2>
+<p>Google公式の<a href="https://tools.google.com/dlpage/gaoptout?hl=ja" target="_blank" rel="noopener">Google Analyticsオプトアウト アドオン</a>を利用するか、ブラウザの設定でCookieをブロックすることで、Google Analyticsによるデータ収集を停止できます。いずれの場合もサイトは通常どおりご利用いただけます。</p>
+
+<h2>外部サービス</h2>
+<p>本サイトはGitHub Pagesでホストされ、Google Fontsを使用しています。これらのサービスは、コンテンツ配信のためにIPアドレスなどの基本的な技術情報を、各社のプライバシーポリシーに基づいて記録する場合があります。また、本サイトにはInstagram、X、TikTok、YouTube、イベント登録サービスなど外部サイトへのリンクがあり、それぞれ独自のプライバシーポリシーが適用されます。</p>
+
+<h2>メールでのお問い合わせ</h2>
+<p>メールでお問い合わせいただいた場合、メールアドレスと内容は返信のためにのみ使用し、第三者と共有することはありません。</p>
+
+<h2>改定とお問い合わせ</h2>
+<p>本ポリシーは必要に応じて改定することがあり、最終更新日はページ上部に表示されます。プライバシーに関するご質問は <a href="mailto:{{ site.email }}">{{ site.email }}</a> までお問い合わせください。</p>
+  </div>
+</main>
