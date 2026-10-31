@@ -1,0 +1,46 @@
+---
+layout: default
+lang: en
+ref: privacy
+permalink: /en/privacy/
+title: Privacy Policy
+description: How the Saudi Mecha Robot club website handles visitor data, including its use of Google Analytics.
+---
+{%- include i18n.html -%}
+<main class="wrap article">
+  <header class="ah">
+    <span class="tag">PRIVACY · <time datetime="2026-10-31">2026.10.31</time></span>
+    <h1>{{ page.title }}</h1>
+    <p style="color:var(--muted);font-size:18px;max-width:60ch">{{ page.description }}</p>
+    {%- if alts.size > 1 %}<p class="translations">{{ t.other_langs }} {% for a in alts %}{% assign al = a.lang | default: "ar" %}{% if al != L %}<a class="lang" href="{{ a.url | relative_url }}" hreflang="{{ al }}" lang="{{ al }}">{{ site.data.i18n[al].lang_name }}</a> {% endif %}{% endfor %}</p>{% endif %}
+  </header>
+  <div class="prose">
+<h2>Introduction</h2>
+<p>Saudi Mecha Robot respects the privacy of visitors to saudimecharobot.com. This page explains what data is collected when you browse the website and how it is used.</p>
+
+<h2>Data we collect</h2>
+<p>The website does not require an account and has no forms that collect personal data. The only data collected is general usage statistics through Google Analytics.</p>
+
+<h2>Google Analytics</h2>
+<p>We use Google Analytics 4, provided by Google, to understand how the website is used and to improve its content. It collects data such as pages visited, visit duration, how visitors arrived (for example, search engines or social media), approximate country and city, device type, browser and language, and clicks on external links such as social media accounts and event registration links.</p>
+<ul>
+<li>Cookies such as <code>_ga</code> are used to distinguish visits without identifying the visitor.</li>
+<li>Google Analytics 4 does not log or store IP addresses.</li>
+<li>We do not use this data for advertising, and we do not link it to any visitor's identity.</li>
+<li>Data is retained for a maximum of 14 months and then deleted automatically.</li>
+</ul>
+<p>Learn more: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">How Google uses information from sites that use its services</a>.</p>
+
+<h2>Opting out</h2>
+<p>You can prevent Google Analytics from collecting your data with the official <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Google Analytics Opt-out browser add-on</a>, or by blocking cookies in your browser settings. The website remains fully functional either way.</p>
+
+<h2>Third-party services</h2>
+<p>The website is hosted on GitHub Pages and uses Google Fonts. These services may log basic technical data, such as IP addresses, in order to deliver content, under their own privacy policies. The website also links to external platforms such as Instagram, X, TikTok, YouTube and our event registration platform, each of which has its own privacy policy.</p>
+
+<h2>Email</h2>
+<p>When you contact us by email, we use your email address and message only to reply to you, and we do not share them with anyone.</p>
+
+<h2>Updates and contact</h2>
+<p>We may update this policy when needed; the date of the latest update appears at the top of this page. For any privacy questions, contact us at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+  </div>
+</main>
