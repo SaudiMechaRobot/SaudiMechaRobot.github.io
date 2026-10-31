@@ -1,0 +1,46 @@
+---
+layout: default
+lang: ar
+ref: privacy
+permalink: /privacy/
+title: سياسة الخصوصية
+description: كيف يتعامل موقع نادي Saudi Mecha Robot مع بيانات الزوار، بما في ذلك استخدام Google Analytics.
+---
+{%- include i18n.html -%}
+<main class="wrap article">
+  <header class="ah">
+    <span class="tag">PRIVACY · <time datetime="2026-10-31">2026.10.31</time></span>
+    <h1>{{ page.title }}</h1>
+    <p style="color:var(--muted);font-size:18px;max-width:60ch">{{ page.description }}</p>
+    {%- if alts.size > 1 %}<p class="translations">{{ t.other_langs }} {% for a in alts %}{% assign al = a.lang | default: "ar" %}{% if al != L %}<a class="lang" href="{{ a.url | relative_url }}" hreflang="{{ al }}" lang="{{ al }}">{{ site.data.i18n[al].lang_name }}</a> {% endif %}{% endfor %}</p>{% endif %}
+  </header>
+  <div class="prose">
+<h2>مقدمة</h2>
+<p>يحترم نادي Saudi Mecha Robot خصوصية زوار موقعه saudimecharobot.com. توضّح هذه الصفحة البيانات التي تُجمع عند تصفّح الموقع، وكيف تُستخدم.</p>
+
+<h2>البيانات التي نجمعها</h2>
+<p>لا يتطلب الموقع إنشاء حساب، ولا يحتوي على نماذج لجمع البيانات الشخصية. البيانات الوحيدة التي تُجمع هي إحصاءات استخدام عامة عبر خدمة Google Analytics.</p>
+
+<h2>Google Analytics</h2>
+<p>نستخدم خدمة Google Analytics 4 المقدّمة من Google لفهم طريقة استخدام الموقع وتحسين محتواه. تجمع الخدمة بيانات مثل: الصفحات التي تمت زيارتها، ومدة الزيارة، ومصدرها (محركات البحث أو منصات التواصل مثلاً)، والدولة والمدينة بشكل تقريبي، ونوع الجهاز والمتصفح ولغته، والنقر على الروابط الخارجية كحسابات التواصل وروابط التسجيل في الفعاليات.</p>
+<ul>
+<li>تُستخدم ملفات تعريف الارتباط (Cookies) مثل <code>_ga</code> للتمييز بين الزيارات دون معرفة هوية الزائر.</li>
+<li>لا تسجّل Google Analytics 4 عناوين IP ولا تخزّنها.</li>
+<li>لا نستخدم هذه البيانات لأغراض إعلانية، ولا نربطها بهوية أي زائر.</li>
+<li>يُحتفظ بالبيانات مدة أقصاها 14 شهراً، ثم تُحذف تلقائياً.</li>
+</ul>
+<p>لمزيد من التفاصيل: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">كيف تستخدم Google البيانات من المواقع التي تستخدم خدماتها</a>.</p>
+
+<h2>إيقاف التتبع</h2>
+<p>يمكنك منع Google Analytics من جمع بياناتك عبر إضافة المتصفح الرسمية <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Google Analytics Opt-out</a>، أو بحظر ملفات تعريف الارتباط من إعدادات متصفحك. يبقى الموقع يعمل بالكامل في الحالتين.</p>
+
+<h2>الخدمات الخارجية</h2>
+<p>يُستضاف الموقع على GitHub Pages، ويستخدم خطوط Google Fonts. قد تسجّل هذه الخدمات بيانات تقنية أساسية مثل عنوان IP لتقديم المحتوى، وفق سياسات الخصوصية الخاصة بها. ويحتوي الموقع على روابط لمنصات خارجية مثل Instagram وX وTikTok وYouTube ومنصة تسجيل الفعاليات، ولكل منها سياسة خصوصية مستقلة.</p>
+
+<h2>المراسلة بالبريد الإلكتروني</h2>
+<p>عند مراسلتنا عبر البريد الإلكتروني، نستخدم عنوان بريدك ومحتوى رسالتك للرد عليك فقط، ولا نشاركها مع أي طرف آخر.</p>
+
+<h2>التحديثات والتواصل</h2>
+<p>قد نحدّث هذه السياسة عند الحاجة، ويظهر تاريخ آخر تحديث أعلى الصفحة. لأي استفسار بخصوص الخصوصية، تواصل معنا عبر <a href="mailto:{{ site.email }}" dir="ltr">{{ site.email }}</a>.</p>
+  </div>
+</main>
