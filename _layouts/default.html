@@ -11,7 +11,15 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-VK7M2FPX2D');
+  (function(){
+    var internal = false;
+    try {
+      if (/[?&]smr_internal=1\b/.test(location.search)) localStorage.setItem('smr_internal', '1');
+      if (/[?&]smr_internal=0\b/.test(location.search)) localStorage.removeItem('smr_internal');
+      internal = localStorage.getItem('smr_internal') === '1';
+    } catch (e) {}
+    gtag('config', 'G-VK7M2FPX2D', internal ? { traffic_type: 'internal' } : {});
+  })();
 </script>
 {%- if page.full_title %}
 <title>{{ page.title | escape }}</title>
@@ -59,6 +67,18 @@
   if (!want) want = "en";
   if (want !== cur && have[want]) have[want].classList.add("suggest");
 })();
+</script>
+<script>
+document.addEventListener('click', function (e) {
+  var a = e.target.closest ? e.target.closest('a[href]') : null;
+  if (!a || typeof gtag !== 'function') return;
+  var href = a.getAttribute('href') || '';
+  if (href.indexOf('mailto:') === 0) { gtag('event', 'contact_email', { link_url: href }); return; }
+  var host = (a.hostname || '').replace(/^www\./, '');
+  if (host === 'liqa.io' || /\.liqa\.io$/.test(host)) { gtag('event', 'event_registration_click', { link_url: a.href }); return; }
+  var social = { 'instagram.com': 'instagram', 'x.com': 'x', 'twitter.com': 'x', 'tiktok.com': 'tiktok', 'youtube.com': 'youtube', 'youtu.be': 'youtube', 'facebook.com': 'facebook', 'linktr.ee': 'linktree', 'threads.net': 'threads', 'note.com': 'note' };
+  if (social[host]) gtag('event', 'social_click', { social_platform: social[host], link_url: a.href });
+});
 </script>
 </body>
 </html>
