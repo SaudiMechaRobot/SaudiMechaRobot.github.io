@@ -11,8 +11,6 @@ In November 2019, as part of **Riyadh Season**, Saudi Arabia hosted its first of
 
 This was not just another commercial expo filled with the latest popular characters. It covered a wide range of unique angles, and much of it felt aimed at the older generation of fans — the ones who grew up with classic theme songs, giant robots and Showa-era anime. For many hardcore fans, it felt like the event was made for them.
 
-<figure class="post-figure"><img src="/assets/images/blog/anime-expo-2019-aizenborg.webp" alt="Life-size Aizenborg figure at Saudi Anime Expo 2019 in Riyadh" width="1377" height="1377" loading="lazy"><figcaption>Aizenborg — known in Arabic as "The Iron Man" — at Saudi Anime Expo 2019</figcaption></figure>
-
 ## The Unforgettable Concert: Sasaki, Mizuki and Sami Clark
 
 The highlight for many attendees was the appearance of Japanese anisong legends **Isao Sasaki** and **Ichiro Mizuki**, performing alongside Lebanese singer **Sami Clark**.
