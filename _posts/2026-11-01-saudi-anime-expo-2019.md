@@ -18,8 +18,6 @@ image: /assets/images/blog/anime-expo-2019-cover.jpg
 
 أبرز ما في الفعالية كان حضور أساطير الأنيسون اليابانيين **إيساو ساساكي (Isao Sasaki)** و**إيتشيرو ميزوكي (Ichiro Mizuki)**، إلى جانب الفنان اللبناني **سامي كلارك**.
 
-<figure class="post-figure"><img src="/assets/images/blog/anime-expo-2019-legends-grendizer.webp" alt="إيتشيرو ميزوكي وإيساو ساساكي أمام مجسم غريندايزر في المعرض" loading="lazy"><figcaption>إيتشيرو ميزوكي وإيساو ساساكي أمام غريندايزر داخل المعرض</figcaption></figure>
-
 في اليوم الختامي غنّوا مع **أوركسترا كروماتيك** المصرية: **غريندايزر** و**مازنجر زد** و**أستروغانغر** و**جزيرة الكنز (Takarajima)**، بالعربية واليابانية معًا. وكان الجمهور يغني معهم من أول لحظة.
 
 ميزوكي قال للجمهور بعد أن حيّاهم بالعربية: «انتظرت عشرات السنين لآتي إلى السعودية». وسامي كلارك، مرتديًا جاكيت غريندايزر، قال: «العالم سيحسدني بسببكم». وقبل الختام قال ميزوكي لسامي: «لولا أن سامي غنى كل هذه الأغاني، لما وقفنا هنا معكم».
@@ -72,6 +70,8 @@ image: /assets/images/blog/anime-expo-2019-cover.jpg
 ## الرجل الحديدي (Aizenborg)
 
 كانت من أكثر الأشياء المبهرة رؤية الشكل الحقيقي لـ**الرجل الحديدي**، و**النماذج الفعلية** التي استُخدمت في تصوير الأنمي. وكان هناك عرض خاص مصوّر عُرض **حصريًا** في الفعالية، ومنه عرفنا عن العمل الوثائقي الذي قدّمه الأستاذ **جراح الفريح** ([@aizen_fleed](https://www.instagram.com/aizen_fleed){:target="_blank" rel="noopener"})، منتج فيلم **«عودة الرجل الحديدي» (Return of Izenborg)** مع شركة **تسوبورايا** اليابانية.
+
+<figure class="post-figure"><img src="/assets/images/blog/anime-expo-2019-aizenborg.webp" alt="مجسم الرجل الحديدي Aizenborg بالحجم الطبيعي في أنمي إكسبو الرياض 2019" width="1377" height="1377" loading="lazy"><figcaption>الرجل الحديدي (Aizenborg) بشكله الحقيقي في المعرض</figcaption></figure>
 
 <div class="post-embed"><iframe src="https://www.youtube-nocookie.com/embed/qLbM6UrTHCw" title="فيلم «عودة الرجل الحديدي» Return of Izenborg — النسخة الرسمية المترجمة للعربية" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 

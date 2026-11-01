@@ -18,8 +18,6 @@ image: /assets/images/blog/anime-expo-2019-cover.jpg
 
 いちばんの見どころは、アニソン界のレジェンド**ささきいさお**さんと**水木一郎**さん、そしてレバノンの歌手**サミー・クラーク**さんの共演でした。
 
-<figure class="post-figure"><img src="/assets/images/blog/anime-expo-2019-legends-grendizer.webp" alt="会場のグレンダイザーの前に立つ水木一郎さんとささきいさおさん" loading="lazy"><figcaption>グレンダイザーの前で、水木一郎さんとささきいさおさん</figcaption></figure>
-
 最終日、3人はエジプトの**クロマティック・オーケストラ**とともに、『**グレンダイザー**』『**マジンガーZ**』『**アストロガンガー**』『**宝島**』をアラビア語と日本語で歌い上げ、観客は最初から一緒に歌っていました。
 
 水木さんはアラビア語で観客にあいさつし、「何十年もサウジアラビアに来るのを待っていました」と語りました。グレンダイザーのジャケットを着たサミー・クラークさんは「皆さんのおかげで、世界中が私をうらやむでしょう」と話しました。そしてステージの最後に水木さんは「サミーがこれらの歌を歌ってくれなかったら、私たちは今ここに立っていなかった」とサミーさんに伝えました。
@@ -72,6 +70,8 @@ image: /assets/images/blog/anime-expo-2019-cover.jpg
 ## 鉄の男（アイゼンボーグ）
 
 いちばん感動したことの一つは、アラビア語圏で「鉄の男」として親しまれた**アイゼンボーグ**の実物大の姿と、実際に撮影で使われた**ミニチュア模型**を目にできたことです。会場では**ここだけ**の特別映像も上映され、そこで**Jarrah Al-Furaih**氏（[@aizen_fleed](https://www.instagram.com/aizen_fleed){:target="_blank" rel="noopener"}）によるドキュメンタリーのことを知りました。同氏は、**円谷プロダクション**と共に映画『**Return of Izenborg**』（アラビア語題『عودة الرجل الحديدي』）を手がけたプロデューサーです。
+
+<figure class="post-figure"><img src="/assets/images/blog/anime-expo-2019-aizenborg.webp" alt="サウジアニメエキスポ2019に展示された等身大のアイゼンボーグ" width="1377" height="1377" loading="lazy"><figcaption>会場に展示された実物大のアイゼンボーグ</figcaption></figure>
 
 <div class="post-embed"><iframe src="https://www.youtube-nocookie.com/embed/qLbM6UrTHCw" title="映画『Return of Izenborg』公式アラビア語字幕版" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 

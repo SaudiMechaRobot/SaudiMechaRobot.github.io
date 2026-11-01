@@ -18,8 +18,6 @@ This was not just another commercial expo filled with the latest popular charact
 
 The highlight for many attendees was the appearance of Japanese anisong legends **Isao Sasaki** and **Ichiro Mizuki**, performing alongside Lebanese singer **Sami Clark**.
 
-<figure class="post-figure"><img src="/assets/images/blog/anime-expo-2019-legends-grendizer.webp" alt="Ichiro Mizuki and Isao Sasaki in front of a Grendizer figure at the expo" loading="lazy"><figcaption>Ichiro Mizuki and Isao Sasaki in front of Grendizer at the expo</figcaption></figure>
-
 On the final day, the three performed with Egypt's **Chromatic Orchestra**. They sang classic tracks including **Grendizer**, **Mazinger Z**, **Astroganger** and **Treasure Island (Takarajima)**, switching between Arabic and Japanese, and the crowd sang along throughout.
 
 Mizuki greeted the audience in Arabic and told them, "I've waited for tens of years to come to Saudi Arabia." Sami Clark, wearing a Grendizer jacket, said, "The world would envy me because of you." Before the show ended, Mizuki told Clark, "If it weren't for Sammy singing all these songs, we wouldn't have been standing here with you."
@@ -72,6 +70,8 @@ The expo included roughly 70 anime characters, exhibits from 41 Japanese compani
 ## The Iron Man (Aizenborg)
 
 One of the most impressive things was seeing **Aizenborg** — known in Arabic as "The Iron Man" — in its real form, along with the **actual models** used to film the series. A special filmed presentation was screened **exclusively** at the event, and through it we learned about the documentary work by **Jarrah Al-Furaih** ([@aizen_fleed](https://www.instagram.com/aizen_fleed){:target="_blank" rel="noopener"}), producer of the film **"Return of Izenborg"** with Japan's **Tsuburaya Productions**.
+
+<figure class="post-figure"><img src="/assets/images/blog/anime-expo-2019-aizenborg.webp" alt="Life-size Aizenborg figure at Saudi Anime Expo 2019" width="1377" height="1377" loading="lazy"><figcaption>Aizenborg in its real form at the expo</figcaption></figure>
 
 <div class="post-embed"><iframe src="https://www.youtube-nocookie.com/embed/qLbM6UrTHCw" title=""Return of Izenborg" — official Arabic-subtitled version" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
