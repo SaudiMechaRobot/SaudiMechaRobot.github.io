@@ -24,6 +24,8 @@ Mizuki greeted the audience in Arabic and told them, "I've waited for tens of ye
 
 Many fans from Japan, France and Italy attended the concert. Years later, many still talk about it and share the YouTube video of the performance. It was a rare moment that brought the original Japanese songs and the Arabic versions many in the region grew up with together on the same stage.
 
+<div class="post-embed"><iframe src="https://www.youtube-nocookie.com/embed/ApdbBACkD4Q" title="Isao Sasaki, Ichiro Mizuki and Sami Clark live at Saudi Anime Expo 2019" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 <div class="post-gallery">
   <a href="/assets/images/blog/anime-expo-2019-legends-backstage.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-legends-backstage.webp" alt="Ichiro Mizuki and Isao Sasaki backstage" loading="lazy"></a>
   <a href="/assets/images/blog/anime-expo-2019-legend-astroganger.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-legend-astroganger.webp" alt="Ichiro Mizuki in front of the Astroganger poster at the expo" loading="lazy"></a>

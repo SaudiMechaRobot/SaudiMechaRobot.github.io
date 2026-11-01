@@ -24,6 +24,8 @@ image: /assets/images/blog/anime-expo-2019-cover.jpg
 
 日本、フランス、イタリアなどから多くの外国人ファンも訪れ、今でもYouTubeの映像でこの夜を振り返る人がたくさんいます。日本のオリジナル曲と、私たちが聴いて育ったアラビア語版が一つになった、貴重な瞬間でした。
 
+<div class="post-embed"><iframe src="https://www.youtube-nocookie.com/embed/ApdbBACkD4Q" title="サウジアニメエキスポ2019でのささきいさお、水木一郎、サミー・クラークのステージ" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 <div class="post-gallery">
   <a href="/assets/images/blog/anime-expo-2019-legends-backstage.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-legends-backstage.webp" alt="ステージ裏の水木一郎さんとささきいさおさん" loading="lazy"></a>
   <a href="/assets/images/blog/anime-expo-2019-legend-astroganger.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-legend-astroganger.webp" alt="会場のアストロガンガーのポスターの前に立つ水木一郎さん" loading="lazy"></a>

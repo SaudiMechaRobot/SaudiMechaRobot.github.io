@@ -24,6 +24,8 @@ image: /assets/images/blog/anime-expo-2019-cover.jpg
 
 كثير من الأجانب من اليابان وفرنسا وإيطاليا حضروا الحفل، ولا يزال كثير منهم يذكره حتى اليوم من خلال الفيديو الموجود على يوتيوب. كانت لحظة نادرة جمعت بين أصول الأغاني اليابانية والنسخ العربية التي نشأنا عليها.
 
+<div class="post-embed"><iframe src="https://www.youtube-nocookie.com/embed/ApdbBACkD4Q" title="حفل إيساو ساساكي وإيتشيرو ميزوكي وسامي كلارك في أنمي إكسبو الرياض 2019" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 <div class="post-gallery">
   <a href="/assets/images/blog/anime-expo-2019-legends-backstage.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-legends-backstage.webp" alt="إيتشيرو ميزوكي وإيساو ساساكي خلف كواليس المسرح" loading="lazy"></a>
   <a href="/assets/images/blog/anime-expo-2019-legend-astroganger.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-legend-astroganger.webp" alt="إيتشيرو ميزوكي أمام ملصق أستروغانغر في المعرض" loading="lazy"></a>
