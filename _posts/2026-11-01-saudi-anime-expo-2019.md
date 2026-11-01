@@ -3,7 +3,6 @@ ref: saudi-anime-expo-2019
 title: "أنمي إكسبو الرياض 2019: الفعالية التي كانت مخصصة للهارد كور وجيل الطيبين"
 description: في نوفمبر 2019 أقيم SAUDI ANIME EXPO 2019 في الرياض، أول فعالية أنمي رسمية في المملكة، وجمع ساساكي وميزوكي مع سامي كلارك على مسرح واحد.
 category: STORY
-published: false
 cover: /assets/images/blog/anime-expo-2019-cover.webp
 image: /assets/images/blog/anime-expo-2019-cover.jpg
 ---

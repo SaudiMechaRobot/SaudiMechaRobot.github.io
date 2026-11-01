@@ -3,7 +3,6 @@ ref: saudi-anime-expo-2019
 title: "Saudi Anime Expo 2019: The Event That Felt Made for Hardcore Fans"
 description: In November 2019, Riyadh hosted SAUDI ANIME EXPO 2019, the Kingdom's first official anime event, bringing Isao Sasaki, Ichiro Mizuki and Sami Clark to one stage.
 category: STORY
-published: false
 cover: /assets/images/blog/anime-expo-2019-cover.webp
 image: /assets/images/blog/anime-expo-2019-cover.jpg
 ---
