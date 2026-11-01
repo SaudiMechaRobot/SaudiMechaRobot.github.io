@@ -11,9 +11,13 @@ In November 2019, as part of **Riyadh Season**, Saudi Arabia hosted its first of
 
 This was not just another commercial expo filled with the latest popular characters. It covered a wide range of unique angles, and much of it felt aimed at the older generation of fans — the ones who grew up with classic theme songs, giant robots and Showa-era anime. For many hardcore fans, it felt like the event was made for them.
 
+<figure class="post-figure"><img src="/assets/images/blog/anime-expo-2019-exterior.webp" alt="SAUDI ANIME EXPO building at Riyadh Front" loading="lazy"><figcaption>The expo entrance at Riyadh Front</figcaption></figure>
+
 ## The Unforgettable Concert: Sasaki, Mizuki and Sami Clark
 
 The highlight for many attendees was the appearance of Japanese anisong legends **Isao Sasaki** and **Ichiro Mizuki**, performing alongside Lebanese singer **Sami Clark**.
+
+<figure class="post-figure"><img src="/assets/images/blog/anime-expo-2019-legends-grendizer.webp" alt="Ichiro Mizuki and Isao Sasaki in front of a Grendizer figure at the expo" loading="lazy"><figcaption>Ichiro Mizuki and Isao Sasaki in front of Grendizer at the expo</figcaption></figure>
 
 On the final day, the three performed with Egypt's **Chromatic Orchestra**. They sang classic tracks including **Grendizer**, **Mazinger Z**, **Astroganger** and **Treasure Island (Takarajima)**, switching between Arabic and Japanese, and the crowd sang along throughout.
 
@@ -21,9 +25,23 @@ Mizuki greeted the audience in Arabic and told them, "I've waited for tens of ye
 
 Many fans from Japan, France and Italy attended the concert. Years later, many still talk about it and share the YouTube video of the performance. It was a rare moment that brought the original Japanese songs and the Arabic versions many in the region grew up with together on the same stage.
 
+<div class="post-gallery">
+  <a href="/assets/images/blog/anime-expo-2019-legends-backstage.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-legends-backstage.webp" alt="Ichiro Mizuki and Isao Sasaki backstage" loading="lazy"></a>
+  <a href="/assets/images/blog/anime-expo-2019-legend-astroganger.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-legend-astroganger.webp" alt="In front of the Astroganger poster at the expo" loading="lazy"></a>
+  <a href="/assets/images/blog/anime-expo-2019-astroganger-poster.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-astroganger-poster.webp" alt="Original Japanese Astroganger poster" loading="lazy"></a>
+</div>
+
 ## Exhibits and Characters: Classic and Modern Side by Side
 
 The venue featured a mix of classic and modern content. **Grendizer** and **Captain Tsubasa (Captain Majed)** were prominently present, *Gundam Narrative* was screened, and there were appearances or booths for **Space Battleship Yamato**, **Initial D**, **Samurai Champloo**, **Saint Seiya**, **Lupin the 3rd**, **Chibi Maruko-chan**, **Aizenborg** and **Code Geass**, alongside contemporary series such as One Piece, Attack on Titan, Naruto, Dragon Ball and Detective Conan.
+
+**Sunrise** dedicated a booth to Gundam's 40th anniversary (**Gundam 40th Anniversary – Beyond**), with a giant **RX-78-2** head, a wall tracing the history of the Gundam series, and 1/10 scale **Zaku II** and **Char's Zaku** figures.
+
+<div class="post-gallery">
+  <a href="/assets/images/blog/anime-expo-2019-gundam-booth.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-gundam-booth.webp" alt="Sunrise Gundam 40th anniversary booth" loading="lazy"></a>
+  <a href="/assets/images/blog/anime-expo-2019-gundam-rx78-head.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-gundam-rx78-head.webp" alt="Giant RX-78-2 head" loading="lazy"></a>
+  <a href="/assets/images/blog/anime-expo-2019-gundam-history.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-gundam-history.webp" alt="The History of Gundam Series wall" loading="lazy"></a>
+</div>
 
 <div class="post-videos">
 <figure class="post-figure"><video src="/assets/videos/blog/anime-expo-2019-zaku-ii.mp4" poster="/assets/images/blog/anime-expo-2019-zaku-ii-poster.jpg" controls muted playsinline preload="none"></video><figcaption>1/10 scale MS-06 Zaku II</figcaption></figure>
@@ -31,6 +49,21 @@ The venue featured a mix of classic and modern content. **Grendizer** and **Capt
 <figure class="post-figure"><video src="/assets/videos/blog/anime-expo-2019-yamato.mp4" poster="/assets/images/blog/anime-expo-2019-yamato-poster.jpg" controls muted playsinline preload="none"></video><figcaption>Space Battleship Yamato models</figcaption></figure>
 <figure class="post-figure"><video src="/assets/videos/blog/anime-expo-2019-aizenborg-booth.mp4" poster="/assets/images/blog/anime-expo-2019-aizenborg-booth-poster.jpg" controls muted playsinline preload="none"></video><figcaption>The Aizenborg corner</figcaption></figure>
 </div>
+
+The **Nippon Animation** booth was full of classics that generations of Arab viewers grew up with, such as **Princess Sarah**, **Future Boy Conan** and **Tom Sawyer**, alongside **Chibi Maruko-chan**, with original character design sheets. **Initial D** and **Lupin the 3rd** also stood out with large displays.
+
+<div class="post-gallery">
+  <a href="/assets/images/blog/anime-expo-2019-nippon-animation-booth.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-nippon-animation-booth.webp" alt="Nippon Animation and Chibi Maruko-chan booth" loading="lazy"></a>
+  <a href="/assets/images/blog/anime-expo-2019-nippon-animation-sarah-conan.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-nippon-animation-sarah-conan.webp" alt="Princess Sarah and Future Boy Conan with original design sheets" loading="lazy"></a>
+  <a href="/assets/images/blog/anime-expo-2019-nippon-animation-classics.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-nippon-animation-classics.webp" alt="Nippon Animation classics" loading="lazy"></a>
+</div>
+
+<div class="post-gallery">
+  <a href="/assets/images/blog/anime-expo-2019-initial-d-legend.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-initial-d-legend.webp" alt="Initial D Legend artwork" loading="lazy"></a>
+  <a href="/assets/images/blog/anime-expo-2019-initial-d-booth.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-initial-d-booth.webp" alt="Initial D booth" loading="lazy"></a>
+  <a href="/assets/images/blog/anime-expo-2019-lupin.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-lupin.webp" alt="Lupin the 3rd booth" loading="lazy"></a>
+</div>
+
 
 The expo included roughly 70 anime characters, exhibits from 41 Japanese companies, cosplay areas, a movie theater zone and food areas. It also featured Saudi Arabia's first Ultraman live show, a talk with *Captain Tsubasa* creator **Yoichi Takahashi**, and performances by **Linked Horizon** and **FLOW**.
 
