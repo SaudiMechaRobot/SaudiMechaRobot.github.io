@@ -71,7 +71,9 @@ The expo included roughly 70 anime characters, exhibits from 41 Japanese compani
 
 ## The Iron Man (Aizenborg)
 
-One of the most impressive things was seeing **Aizenborg** — known in Arabic as "The Iron Man" — in its real form, along with the **actual models** used to film the series. A special filmed presentation was screened **exclusively** at the event, and through it we learned about the documentary work by **Jarrah Al-Furaih** ([@aizen_fleed](https://www.instagram.com/aizen_fleed){:target="_blank" rel="noopener"}), producer of the film **"The Return of the Iron Man"** with Japan's **Tsuburaya Productions**.
+One of the most impressive things was seeing **Aizenborg** — known in Arabic as "The Iron Man" — in its real form, along with the **actual models** used to film the series. A special filmed presentation was screened **exclusively** at the event, and through it we learned about the documentary work by **Jarrah Al-Furaih** ([@aizen_fleed](https://www.instagram.com/aizen_fleed){:target="_blank" rel="noopener"}), producer of the film **"Return of Izenborg"** with Japan's **Tsuburaya Productions**.
+
+<div class="post-embed"><iframe src="https://www.youtube-nocookie.com/embed/qLbM6UrTHCw" title=""Return of Izenborg" — official Arabic-subtitled version" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 <figure class="post-figure"><video src="/assets/videos/blog/anime-expo-2019-aizenborg-booth.mp4" poster="/assets/images/blog/anime-expo-2019-aizenborg-booth-poster.jpg" controls muted playsinline preload="none"></video><figcaption>The Aizenborg corner and the models used in filming</figcaption></figure>
 

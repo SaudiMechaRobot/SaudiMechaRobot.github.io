@@ -71,7 +71,9 @@ image: /assets/images/blog/anime-expo-2019-cover.jpg
 
 ## 鉄の男（アイゼンボーグ）
 
-いちばん感動したことの一つは、アラビア語圏で「鉄の男」として親しまれた**アイゼンボーグ**の実物大の姿と、実際に撮影で使われた**ミニチュア模型**を目にできたことです。会場では**ここだけ**の特別映像も上映され、そこで**Jarrah Al-Furaih**氏（[@aizen_fleed](https://www.instagram.com/aizen_fleed){:target="_blank" rel="noopener"}）によるドキュメンタリーのことを知りました。同氏は、**円谷プロダクション**と共に映画『**عودة الرجل الحديدي（鉄の男の帰還）**』を手がけたプロデューサーです。
+いちばん感動したことの一つは、アラビア語圏で「鉄の男」として親しまれた**アイゼンボーグ**の実物大の姿と、実際に撮影で使われた**ミニチュア模型**を目にできたことです。会場では**ここだけ**の特別映像も上映され、そこで**Jarrah Al-Furaih**氏（[@aizen_fleed](https://www.instagram.com/aizen_fleed){:target="_blank" rel="noopener"}）によるドキュメンタリーのことを知りました。同氏は、**円谷プロダクション**と共に映画『**Return of Izenborg**』（アラビア語題『عودة الرجل الحديدي』）を手がけたプロデューサーです。
+
+<div class="post-embed"><iframe src="https://www.youtube-nocookie.com/embed/qLbM6UrTHCw" title="映画『Return of Izenborg』公式アラビア語字幕版" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 <figure class="post-figure"><video src="/assets/videos/blog/anime-expo-2019-aizenborg-booth.mp4" poster="/assets/images/blog/anime-expo-2019-aizenborg-booth-poster.jpg" controls muted playsinline preload="none"></video><figcaption>アイゼンボーグのコーナーと撮影で使われた模型</figcaption></figure>
 

@@ -71,7 +71,9 @@ image: /assets/images/blog/anime-expo-2019-cover.jpg
 
 ## الرجل الحديدي (Aizenborg)
 
-كانت من أكثر الأشياء المبهرة رؤية الشكل الحقيقي لـ**الرجل الحديدي**، و**النماذج الفعلية** التي استُخدمت في تصوير الأنمي. وكان هناك عرض خاص مصوّر عُرض **حصريًا** في الفعالية، ومنه عرفنا عن العمل الوثائقي الذي قدّمه الأستاذ **جراح الفريح** ([@aizen_fleed](https://www.instagram.com/aizen_fleed){:target="_blank" rel="noopener"})، منتج فيلم **«عودة الرجل الحديدي»** مع شركة **تسوبورايا** اليابانية.
+كانت من أكثر الأشياء المبهرة رؤية الشكل الحقيقي لـ**الرجل الحديدي**، و**النماذج الفعلية** التي استُخدمت في تصوير الأنمي. وكان هناك عرض خاص مصوّر عُرض **حصريًا** في الفعالية، ومنه عرفنا عن العمل الوثائقي الذي قدّمه الأستاذ **جراح الفريح** ([@aizen_fleed](https://www.instagram.com/aizen_fleed){:target="_blank" rel="noopener"})، منتج فيلم **«عودة الرجل الحديدي» (Return of Izenborg)** مع شركة **تسوبورايا** اليابانية.
+
+<div class="post-embed"><iframe src="https://www.youtube-nocookie.com/embed/qLbM6UrTHCw" title="فيلم «عودة الرجل الحديدي» Return of Izenborg — النسخة الرسمية المترجمة للعربية" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 <figure class="post-figure"><video src="/assets/videos/blog/anime-expo-2019-aizenborg-booth.mp4" poster="/assets/images/blog/anime-expo-2019-aizenborg-booth-poster.jpg" controls muted playsinline preload="none"></video><figcaption>ركن الرجل الحديدي (Aizenborg) والنماذج المستخدمة في التصوير</figcaption></figure>
 
