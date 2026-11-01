@@ -95,3 +95,5 @@ image: /assets/images/blog/anime-expo-2019-cover.jpg
 サウジアニメエキスポ2019は、単なる娯楽イベントではありませんでした。過去と現在、日本とサウジアラビア、そして昔からのファンと新しい世代をつなぐ瞬間でした。私たちにとっては、クラシック作品が今も大切にされていること、そしてグレンダイザーやマジンガー、ヤマトの歌声が何十年経ってもリヤドの会場を満たせることを改めて感じさせてくれました。
 
 あの夜を覚えていますか？ あの歌は、今もあなたの中で生きていますか？
+
+<figure class="post-figure"><video src="/assets/videos/blog/anime-expo-2019-concert-crowd.mp4" poster="/assets/images/blog/anime-expo-2019-concert-crowd-poster.jpg" controls playsinline preload="none"></video><figcaption>ささきいさお、水木一郎、サミー・クラークのコンサート会場の様子</figcaption></figure>

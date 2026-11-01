@@ -95,3 +95,5 @@ image: /assets/images/blog/anime-expo-2019-cover.jpg
 أنمي إكسبو الرياض 2019 لم يكن مجرد حدث ترفيهي. كان لحظة جمعت بين الماضي والحاضر، وبين اليابان والسعودية، وبين جيل الطيبين والجيل الجديد. بالنسبة لنا نحن الهارد كور، كانت تذكيرًا بأن الأعمال الكلاسيكية ما زالت حاضرة ومقدّرة، وأن صوت غريندايزر ومازنجر وياماتو ما زال قادرًا على ملء قاعة في الرياض بعد عقود.
 
 هل تتذكر تلك الليلة؟ وهل ما زالت الأغاني تعيش معك حتى اليوم؟
+
+<figure class="post-figure"><video src="/assets/videos/blog/anime-expo-2019-concert-crowd.mp4" poster="/assets/images/blog/anime-expo-2019-concert-crowd-poster.jpg" controls playsinline preload="none"></video><figcaption>الجمهور في حفل ساساكي وميزوكي وسامي كلارك</figcaption></figure>

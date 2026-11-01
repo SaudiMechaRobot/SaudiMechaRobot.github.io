@@ -95,3 +95,5 @@ The expo was part of **Vision 2030**'s push to diversify the economy and expand 
 Saudi Anime Expo 2019 was more than an entertainment event. It was a moment that connected the past and the present, Japan and Saudi Arabia, and the older generation of fans with the new one. For hardcore fans, it was a reminder that classic works are still valued, and that the voices of Grendizer, Mazinger and Yamato can still fill a hall in Riyadh decades later.
 
 Do you remember that night? And do those songs still live with you today?
+
+<figure class="post-figure"><video src="/assets/videos/blog/anime-expo-2019-concert-crowd.mp4" poster="/assets/images/blog/anime-expo-2019-concert-crowd-poster.jpg" controls playsinline preload="none"></video><figcaption>The crowd at the Sasaki, Mizuki and Sami Clark concert</figcaption></figure>
