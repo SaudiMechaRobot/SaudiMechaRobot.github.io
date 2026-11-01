@@ -1,7 +1,7 @@
 ---
 ref: saudi-anime-expo-2019
 title: "أنمي إكسبو الرياض 2019: الفعالية التي كانت مخصصة للهارد كور وجيل الطيبين"
-description: في نوفمبر 2019 أقيم SAUDI ANIME EXPO 2019 في الرياض، أول فعالية أنمي رسمية في المملكة، وجمع ساساكي وميزوكي مع سامي كلارك على مسرح واحد.
+description: في نوفمبر 2019 أقيم SAUDI ANIME EXPO 2019 في الرياض، أول فعالية أنمي رسمية في المملكة، وجمع إيساو ساساكي وإيتشيرو ميزوكي مع سامي كلارك على مسرح واحد ولأول مرة.
 category: STORY
 cover: /assets/images/blog/anime-expo-2019-cover.webp
 image: /assets/images/blog/anime-expo-2019-cover.jpg
@@ -14,9 +14,9 @@ image: /assets/images/blog/anime-expo-2019-cover.jpg
 
 ## الحفل الذي لا يُنسى: ساساكي وميزوكي مع سامي كلارك
 
-أبرز ما في الفعالية كان حضور أساطير الأنيسون اليابانيين **إيساو ساساكي (Isao Sasaki)** و**إيشيرو ميزوكي (Ichiro Mizuki)**، إلى جانب الفنان اللبناني **سامي كلارك**.
+أبرز ما في الفعالية كان حضور أساطير الأنيسون اليابانيين **إيساو ساساكي (Isao Sasaki)** و**إيتشيرو ميزوكي (Ichiro Mizuki)**، إلى جانب الفنان اللبناني **سامي كلارك**.
 
-<figure class="post-figure"><img src="/assets/images/blog/anime-expo-2019-legends-grendizer.webp" alt="إيشيرو ميزوكي وإيساو ساساكي أمام مجسم غريندايزر في المعرض" loading="lazy"><figcaption>إيشيرو ميزوكي وإيساو ساساكي أمام غريندايزر داخل المعرض</figcaption></figure>
+<figure class="post-figure"><img src="/assets/images/blog/anime-expo-2019-legends-grendizer.webp" alt="إيتشيرو ميزوكي وإيساو ساساكي أمام مجسم غريندايزر في المعرض" loading="lazy"><figcaption>إيتشيرو ميزوكي وإيساو ساساكي أمام غريندايزر داخل المعرض</figcaption></figure>
 
 في اليوم الختامي غنّوا مع **أوركسترا كروماتيك** المصرية: **غريندايزر** و**مازنجر زد** و**أستروغانغر** و**جزيرة الكنز (Takarajima)**، بالعربية واليابانية معًا. وكان الجمهور يغني معهم من أول لحظة.
 
@@ -25,8 +25,8 @@ image: /assets/images/blog/anime-expo-2019-cover.jpg
 كثير من الأجانب من اليابان وفرنسا وإيطاليا حضروا الحفل، ولا يزال كثير منهم يذكره حتى اليوم من خلال الفيديو الموجود على يوتيوب. كانت لحظة نادرة جمعت بين أصول الأغاني اليابانية والنسخ العربية التي نشأنا عليها.
 
 <div class="post-gallery">
-  <a href="/assets/images/blog/anime-expo-2019-legends-backstage.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-legends-backstage.webp" alt="إيشيرو ميزوكي وإيساو ساساكي خلف كواليس المسرح" loading="lazy"></a>
-  <a href="/assets/images/blog/anime-expo-2019-legend-astroganger.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-legend-astroganger.webp" alt="إيشيرو ميزوكي أمام ملصق أستروغانغر في المعرض" loading="lazy"></a>
+  <a href="/assets/images/blog/anime-expo-2019-legends-backstage.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-legends-backstage.webp" alt="إيتشيرو ميزوكي وإيساو ساساكي خلف كواليس المسرح" loading="lazy"></a>
+  <a href="/assets/images/blog/anime-expo-2019-legend-astroganger.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-legend-astroganger.webp" alt="إيتشيرو ميزوكي أمام ملصق أستروغانغر في المعرض" loading="lazy"></a>
   <a href="/assets/images/blog/anime-expo-2019-astroganger-poster.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-astroganger-poster.webp" alt="ملصق أستروغانغر الياباني الأصلي" loading="lazy"></a>
 </div>
 

@@ -1,7 +1,7 @@
 ---
 ref: saudi-anime-expo-2019
 title: "サウジアニメエキスポ2019：昔からのファンのために開かれたようなイベント"
-description: 2019年11月、リヤドでサウジアラビア初の公式アニメイベント「SAUDI ANIME EXPO 2019」が開催。ささきいさお、水木一郎、サミー・クラークが同じステージに立ちました。
+description: 2019年11月、リヤドでサウジアラビア初の公式アニメイベント「SAUDI ANIME EXPO 2019」が開催。ささきいさお、水木一郎、サミー・クラークが初めて同じステージに立ちました。
 category: STORY
 cover: /assets/images/blog/anime-expo-2019-cover.webp
 image: /assets/images/blog/anime-expo-2019-cover.jpg
