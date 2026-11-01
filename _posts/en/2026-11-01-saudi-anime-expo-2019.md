@@ -24,6 +24,11 @@ On the final day, the three performed with Egypt's **Chromatic Orchestra**. They
 
 Mizuki greeted the audience in Arabic and told them, "I've waited for tens of years to come to Saudi Arabia." Sami Clark, wearing a Grendizer jacket, said, "The world would envy me because of you." Before the show ended, Mizuki told Clark, "If it weren't for Sammy singing all these songs, we wouldn't have been standing here with you."
 
+Another unforgettable moment was seeing **Ichiro Mizuki** in traditional Saudi attire, trying Saudi food!
+
+<blockquote class="twitter-tweet" data-lang="en" data-dnt="true" data-theme="dark" align="center"><p><a href="https://twitter.com/aniki_z/status/1195599478536974337">Ichiro Mizuki on X</a></p></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 Many fans from Japan, France and Italy attended the concert. Years later, many still talk about it and share the YouTube video of the performance. It was a rare moment that brought the original Japanese songs and the Arabic versions many in the region grew up with together on the same stage.
 
 <div class="post-embed"><iframe src="https://www.youtube-nocookie.com/embed/ApdbBACkD4Q" title="Isao Sasaki, Ichiro Mizuki and Sami Clark live at Saudi Anime Expo 2019" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>

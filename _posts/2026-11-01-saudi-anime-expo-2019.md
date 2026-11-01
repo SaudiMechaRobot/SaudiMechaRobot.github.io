@@ -24,6 +24,11 @@ image: /assets/images/blog/anime-expo-2019-cover.jpg
 
 ميزوكي قال للجمهور بعد أن حيّاهم بالعربية: «انتظرت عشرات السنين لآتي إلى السعودية». وسامي كلارك، مرتديًا جاكيت غريندايزر، قال: «العالم سيحسدني بسببكم». وقبل الختام قال ميزوكي لسامي: «لولا أن سامي غنى كل هذه الأغاني، لما وقفنا هنا معكم».
 
+ومن الأشياء التي لا تُنسى، رؤية **إيتشيرو ميزوكي** بالزي السعودي وهو يجرّب الأكل السعودي!
+
+<blockquote class="twitter-tweet" data-lang="ar" data-dnt="true" data-theme="dark" align="center"><p><a href="https://twitter.com/aniki_z/status/1195599478536974337">منشور إيتشيرو ميزوكي على X</a></p></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 كثير من الأجانب من اليابان وفرنسا وإيطاليا حضروا الحفل، ولا يزال كثير منهم يذكره حتى اليوم من خلال الفيديو الموجود على يوتيوب. كانت لحظة نادرة جمعت بين أصول الأغاني اليابانية والنسخ العربية التي نشأنا عليها.
 
 <div class="post-embed"><iframe src="https://www.youtube-nocookie.com/embed/ApdbBACkD4Q" title="حفل إيساو ساساكي وإيتشيرو ميزوكي وسامي كلارك في أنمي إكسبو الرياض 2019" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>

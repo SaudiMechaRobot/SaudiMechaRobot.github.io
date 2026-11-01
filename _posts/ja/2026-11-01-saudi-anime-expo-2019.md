@@ -24,6 +24,11 @@ image: /assets/images/blog/anime-expo-2019-cover.jpg
 
 水木さんはアラビア語で観客にあいさつし、「サウジアラビアに来るのを何十年も待っていました」と語りました。グレンダイザーのジャケットを着たサミー・クラークさんは「皆さんのおかげで、世界中が私をうらやむでしょう」と話しました。そしてステージの最後に水木さんは「サミーがこれらの歌を歌ってくれなければ、今ここに立っていなかったでしょう」とサミーさんに伝えました。
 
+そして忘れられないのが、サウジアラビアの民族衣装に身を包んだ**水木一郎**さんが、サウジ料理を味わう姿でした！
+
+<blockquote class="twitter-tweet" data-lang="ja" data-dnt="true" data-theme="dark" align="center"><p><a href="https://twitter.com/aniki_z/status/1195599478536974337">水木一郎さんのXへの投稿</a></p></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 日本、フランス、イタリアなどから多くの外国人ファンも訪れ、今でもYouTubeの映像でこの夜を振り返る人がたくさんいます。日本のオリジナル曲と、私たちが聴いて育ったアラビア語版が一つになった、貴重な瞬間でした。
 
 <div class="post-embed"><iframe src="https://www.youtube-nocookie.com/embed/ApdbBACkD4Q" title="サウジアニメエキスポ2019でのささきいさお、水木一郎、サミー・クラークのステージ" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
