@@ -10,6 +10,8 @@ In November 2019, as part of **Riyadh Season**, Saudi Arabia hosted its first of
 
 We always look back on this event, because it was **the strongest and most complete** of its kind, and it gave us special memories we lived **for the first time in Saudi Arabia**!
 
+Anime Expo 2019 was also where **we met each other in person for the first time**, after following one another on social media such as **Instagram**. After that, we started meeting up and sharing our experience.
+
 This was not just another commercial expo filled with the latest popular characters. It covered a wide range of unique angles, and much of it felt aimed at the older generation of fans — the ones who grew up with classic theme songs, giant robots and Showa-era anime. For many hardcore fans, it felt like the event was made for them.
 
 <figure class="post-figure"><img src="/assets/images/blog/anime-expo-2019-exterior.webp" alt="SAUDI ANIME EXPO building at Riyadh Front" loading="lazy"><figcaption>The expo entrance at Riyadh Front</figcaption></figure>

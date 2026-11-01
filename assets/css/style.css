@@ -395,9 +395,9 @@ html,body{overflow-x:clip}
 .post-figure.narrow{max-width:240px;margin-inline:auto}
 .post-figure figcaption{margin-top:8px;color:var(--muted);font-size:14px;text-align:center}
 .post-figure video{display:block;width:100%;height:auto;border:1px solid var(--line);background:#000}
-.post-videos{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:22px 0}
+.post-videos{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:22px 0}
 .post-videos .post-figure{margin:0}
-@media (max-width:640px){.post-videos{grid-template-columns:1fr}}
+@media (max-width:640px){.post-videos{gap:6px}.post-videos figcaption{font-size:11px}}
 .post-embed{position:relative;aspect-ratio:16/9;margin:22px 0;border:1px solid var(--line);background:#000}
 .post-embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .article > img{max-height:760px;width:auto;max-width:100%;display:block;margin-inline:auto}
@@ -405,7 +405,7 @@ html,body{overflow-x:clip}
 .post-gallery a{display:block;line-height:0;border:1px solid var(--line);overflow:hidden}
 .post-gallery img{width:100%;height:260px;object-fit:cover;transition:transform .3s}
 .post-gallery a:hover img{transform:scale(1.04)}
-@media (max-width:640px){.post-gallery{grid-template-columns:1fr 1fr}.post-gallery img{height:180px}}
+@media (max-width:640px){.post-gallery{gap:6px}.post-gallery img{height:130px}}
 @media (max-width:640px){
   .team{grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
   .crew{padding:8px 4px;gap:4px}

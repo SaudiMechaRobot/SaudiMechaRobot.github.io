@@ -10,6 +10,8 @@ image: /assets/images/blog/anime-expo-2019-cover.jpg
 
 私たちは今でもこのイベントをよく思い出します。それは、サウジアラビアで**最も充実した、最高のイベント**であり、**サウジアラビアで初めて**体験した特別な思い出だからです！
 
+そしてアニメエキスポ2019は、それまで**Instagram**などのSNSでお互いをフォローしていた私たちが、**初めて直接顔を合わせた**イベントでもありました。その後、私たちは集まりを重ね、経験や知識を交換するようになりました。
+
 このイベントは、最新の人気キャラクターを並べただけの商業展示ではありませんでした。さまざまな切り口があり、その多くは昔ながらのアニソンや巨大ロボット、昭和のアニメで育った世代に向けたものでした。まるで私たち筋金入りのファンのために開かれたようなイベントだったのです。
 
 <figure class="post-figure"><img src="/assets/images/blog/anime-expo-2019-exterior.webp" alt="Riyadh FrontのSAUDI ANIME EXPO会場" loading="lazy"><figcaption>Riyadh Frontの会場入口</figcaption></figure>
