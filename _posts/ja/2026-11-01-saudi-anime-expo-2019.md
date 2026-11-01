@@ -8,6 +8,8 @@ image: /assets/images/blog/anime-expo-2019-cover.jpg
 ---
 2019年11月、**リヤドシーズン**の一環として、サウジアラビア初の政府主催の公式アニメイベント「**SAUDI ANIME EXPO 2019**」が開催されました。会場は**Riyadh Front Expo Land Hall 3/4**、会期は11月14日から16日までの3日間で、約**37,800人**が来場しました。
 
+私たちは今でもこのイベントをよく思い出します。それは、サウジアラビアで**最も充実した、最高のイベント**であり、**サウジアラビアで初めて**体験した特別な思い出だからです！
+
 このイベントは、最新の人気キャラクターを並べただけの商業展示ではありませんでした。さまざまな切り口があり、その多くは昔ながらのアニソンや巨大ロボット、昭和のアニメで育った世代に向けたものでした。まるで私たち筋金入りのファンのために開かれたようなイベントだったのです。
 
 <figure class="post-figure"><img src="/assets/images/blog/anime-expo-2019-exterior.webp" alt="Riyadh FrontのSAUDI ANIME EXPO会場" loading="lazy"><figcaption>Riyadh Frontの会場入口</figcaption></figure>
@@ -36,7 +38,7 @@ image: /assets/images/blog/anime-expo-2019-cover.jpg
 
 会場には、**グレンダイザー**や**キャプテン翼**（アラビア語版は『キャプテン・マージド』）が登場し、『**機動戦士ガンダムNT**』の上映も行われました。さらに『**宇宙戦艦ヤマト**』『**頭文字D**』『**サムライチャンプルー**』『**聖闘士星矢**』『**ルパン三世**』『**ちびまる子ちゃん**』『**アイゼンボーグ**』『**コードギアス**』といった作品に加え、『ONE PIECE』『進撃の巨人』『NARUTO』『ドラゴンボール』『名探偵コナン』など最近の人気作も並びました。
 
-**サンライズ**のブースでは「**ガンダム40周年 Beyond**」を記念して、巨大な**RX-78-2**の頭部、ガンダムシリーズの歴史を紹介する壁面、1/10スケールの**ザクII**と**シャア専用ザクII**が展示されました。
+**サンライズ**のブースでは「**ガンダム40周年 Beyond**」を記念して、巨大な**RX-78-2**の頭部、**RX-78-2のコックピット**、ガンダムシリーズの歴史を紹介する壁面、1/10スケールの**ザクII**と**シャア専用ザク**が展示されました。
 
 <div class="post-gallery">
   <a href="/assets/images/blog/anime-expo-2019-gundam-booth.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-gundam-booth.webp" alt="サンライズのガンダム40周年ブース" loading="lazy"></a>
@@ -45,10 +47,9 @@ image: /assets/images/blog/anime-expo-2019-cover.jpg
 </div>
 
 <div class="post-videos">
-<figure class="post-figure"><video src="/assets/videos/blog/anime-expo-2019-zaku-ii.mp4" poster="/assets/images/blog/anime-expo-2019-zaku-ii-poster.jpg" controls muted playsinline preload="none"></video><figcaption>1/10スケール MS-06 ザクII</figcaption></figure>
-<figure class="post-figure"><video src="/assets/videos/blog/anime-expo-2019-char-zaku.mp4" poster="/assets/images/blog/anime-expo-2019-char-zaku-poster.jpg" controls muted playsinline preload="none"></video><figcaption>1/10スケール MS-06S シャア専用ザクII</figcaption></figure>
+<figure class="post-figure"><video src="/assets/videos/blog/anime-expo-2019-zaku-ii.mp4" poster="/assets/images/blog/anime-expo-2019-zaku-ii-poster.jpg" controls muted playsinline preload="none"></video><figcaption>1/10スケール ザクII</figcaption></figure>
+<figure class="post-figure"><video src="/assets/videos/blog/anime-expo-2019-char-zaku.mp4" poster="/assets/images/blog/anime-expo-2019-char-zaku-poster.jpg" controls muted playsinline preload="none"></video><figcaption>1/10スケール シャア専用ザク</figcaption></figure>
 <figure class="post-figure"><video src="/assets/videos/blog/anime-expo-2019-yamato.mp4" poster="/assets/images/blog/anime-expo-2019-yamato-poster.jpg" controls muted playsinline preload="none"></video><figcaption>『宇宙戦艦ヤマト』の模型</figcaption></figure>
-<figure class="post-figure"><video src="/assets/videos/blog/anime-expo-2019-aizenborg-booth.mp4" poster="/assets/images/blog/anime-expo-2019-aizenborg-booth-poster.jpg" controls muted playsinline preload="none"></video><figcaption>『アイゼンボーグ』の展示コーナー</figcaption></figure>
 </div>
 
 **日本アニメーション**のブースには、『**小公女セーラ**』『**未来少年コナン**』『**トム・ソーヤーの冒険**』など、アラブ世界の何世代もが見て育った名作が、『**ちびまる子ちゃん**』やキャラクター設定画とともに並びました（アラビア語圏ではセーラは『サリー』、コナンは『アドナンとリナ』として親しまれています）。『**頭文字D**』と『**ルパン三世**』も大きなパネルで存在感を放っていました。
@@ -67,6 +68,12 @@ image: /assets/images/blog/anime-expo-2019-cover.jpg
 
 
 会場には約70のアニメキャラクター、41社の日本企業による展示、コスプレエリア、ムービーシアター、カフェエリアが設けられました。サウジアラビア初のウルトラマンショー、『キャプテン翼』の作者**高橋陽一**先生のトークショー、**Linked Horizon**や**FLOW**のライブも行われました。
+
+## 鉄の男（アイゼンボーグ）
+
+いちばん感動したことの一つは、アラビア語圏で「鉄の男」として親しまれた**アイゼンボーグ**の実物大の姿と、実際に撮影で使われた**ミニチュア模型**を目にできたことです。会場では**ここだけ**の特別映像も上映され、そこで**Jarrah Al-Furaih**氏（[@aizen_fleed](https://www.instagram.com/aizen_fleed){:target="_blank" rel="noopener"}）によるドキュメンタリーのことを知りました。同氏は、**円谷プロダクション**と共に映画『**عودة الرجل الحديدي（鉄の男の帰還）**』を手がけたプロデューサーです。
+
+<figure class="post-figure"><video src="/assets/videos/blog/anime-expo-2019-aizenborg-booth.mp4" poster="/assets/images/blog/anime-expo-2019-aizenborg-booth-poster.jpg" controls muted playsinline preload="none"></video><figcaption>アイゼンボーグのコーナーと撮影で使われた模型</figcaption></figure>
 
 ## なぜ「筋金入りのファンのため」と感じたのか
 

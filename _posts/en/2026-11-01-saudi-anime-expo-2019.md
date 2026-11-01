@@ -8,6 +8,8 @@ image: /assets/images/blog/anime-expo-2019-cover.jpg
 ---
 In November 2019, as part of **Riyadh Season**, Saudi Arabia hosted its first official government-organized anime event: **SAUDI ANIME EXPO 2019**. Held from November 14–16 at **Riyadh Front Expo Land Hall 3/4**, it attracted around **37,800 visitors** over three days and was widely regarded as the largest event of its kind in the Middle East at the time.
 
+We always look back on this event, because it was **the strongest and most complete** of its kind, and it gave us special memories we lived **for the first time in Saudi Arabia**!
+
 This was not just another commercial expo filled with the latest popular characters. It covered a wide range of unique angles, and much of it felt aimed at the older generation of fans — the ones who grew up with classic theme songs, giant robots and Showa-era anime. For many hardcore fans, it felt like the event was made for them.
 
 <figure class="post-figure"><img src="/assets/images/blog/anime-expo-2019-exterior.webp" alt="SAUDI ANIME EXPO building at Riyadh Front" loading="lazy"><figcaption>The expo entrance at Riyadh Front</figcaption></figure>
@@ -36,7 +38,7 @@ Many fans from Japan, France and Italy attended the concert. Years later, many s
 
 The venue featured a mix of classic and modern content. **Grendizer** and **Captain Tsubasa (Captain Majed)** were prominently present, *Gundam Narrative* was screened, and there were appearances or booths for **Space Battleship Yamato**, **Initial D**, **Samurai Champloo**, **Saint Seiya**, **Lupin the 3rd**, **Chibi Maruko-chan**, **Aizenborg** and **Code Geass**, alongside contemporary series such as One Piece, Attack on Titan, Naruto, Dragon Ball and Detective Conan.
 
-**Sunrise** dedicated a booth to Gundam's 40th anniversary (**Gundam 40th Anniversary – Beyond**), with a giant **RX-78-2** head, a wall tracing the history of the Gundam series, and 1/10 scale **Zaku II** and **Char's Zaku** figures.
+**Sunrise** dedicated a booth to Gundam's 40th anniversary (**Gundam 40th Anniversary – Beyond**), with a giant **RX-78-2** head, an **RX-78-2 cockpit**, a wall tracing the history of the Gundam series, and 1/10 scale **Zaku II** and **Char's Zaku** figures.
 
 <div class="post-gallery">
   <a href="/assets/images/blog/anime-expo-2019-gundam-booth.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-gundam-booth.webp" alt="Sunrise Gundam 40th anniversary booth" loading="lazy"></a>
@@ -45,10 +47,9 @@ The venue featured a mix of classic and modern content. **Grendizer** and **Capt
 </div>
 
 <div class="post-videos">
-<figure class="post-figure"><video src="/assets/videos/blog/anime-expo-2019-zaku-ii.mp4" poster="/assets/images/blog/anime-expo-2019-zaku-ii-poster.jpg" controls muted playsinline preload="none"></video><figcaption>1/10 scale MS-06 Zaku II</figcaption></figure>
-<figure class="post-figure"><video src="/assets/videos/blog/anime-expo-2019-char-zaku.mp4" poster="/assets/images/blog/anime-expo-2019-char-zaku-poster.jpg" controls muted playsinline preload="none"></video><figcaption>1/10 scale MS-06S Char's Zaku II</figcaption></figure>
+<figure class="post-figure"><video src="/assets/videos/blog/anime-expo-2019-zaku-ii.mp4" poster="/assets/images/blog/anime-expo-2019-zaku-ii-poster.jpg" controls muted playsinline preload="none"></video><figcaption>1/10 scale Zaku II</figcaption></figure>
+<figure class="post-figure"><video src="/assets/videos/blog/anime-expo-2019-char-zaku.mp4" poster="/assets/images/blog/anime-expo-2019-char-zaku-poster.jpg" controls muted playsinline preload="none"></video><figcaption>1/10 scale Char's Zaku</figcaption></figure>
 <figure class="post-figure"><video src="/assets/videos/blog/anime-expo-2019-yamato.mp4" poster="/assets/images/blog/anime-expo-2019-yamato-poster.jpg" controls muted playsinline preload="none"></video><figcaption>Space Battleship Yamato models</figcaption></figure>
-<figure class="post-figure"><video src="/assets/videos/blog/anime-expo-2019-aizenborg-booth.mp4" poster="/assets/images/blog/anime-expo-2019-aizenborg-booth-poster.jpg" controls muted playsinline preload="none"></video><figcaption>The Aizenborg corner</figcaption></figure>
 </div>
 
 The **Nippon Animation** booth was full of classics that generations of Arab viewers grew up with, such as **Princess Sarah**, **Future Boy Conan** and **Tom Sawyer**, alongside **Chibi Maruko-chan**, with original character design sheets. **Initial D** and **Lupin the 3rd** also stood out with large displays.
@@ -67,6 +68,12 @@ The **Nippon Animation** booth was full of classics that generations of Arab vie
 
 
 The expo included roughly 70 anime characters, exhibits from 41 Japanese companies, cosplay areas, a movie theater zone and food areas. It also featured Saudi Arabia's first Ultraman live show, a talk with *Captain Tsubasa* creator **Yoichi Takahashi**, and performances by **Linked Horizon** and **FLOW**.
+
+## The Iron Man (Aizenborg)
+
+One of the most impressive things was seeing **Aizenborg** — known in Arabic as "The Iron Man" — in its real form, along with the **actual models** used to film the series. A special filmed presentation was screened **exclusively** at the event, and through it we learned about the documentary work by **Jarrah Al-Furaih** ([@aizen_fleed](https://www.instagram.com/aizen_fleed){:target="_blank" rel="noopener"}), producer of the film **"The Return of the Iron Man"** with Japan's **Tsuburaya Productions**.
+
+<figure class="post-figure"><video src="/assets/videos/blog/anime-expo-2019-aizenborg-booth.mp4" poster="/assets/images/blog/anime-expo-2019-aizenborg-booth-poster.jpg" controls muted playsinline preload="none"></video><figcaption>The Aizenborg corner and the models used in filming</figcaption></figure>
 
 ## Why It Felt Made for Hardcore Fans
 

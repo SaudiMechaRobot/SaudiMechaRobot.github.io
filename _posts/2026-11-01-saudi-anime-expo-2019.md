@@ -8,6 +8,8 @@ image: /assets/images/blog/anime-expo-2019-cover.jpg
 ---
 في نوفمبر 2019، وضمن **موسم الرياض**، أقيم أول معرض أنمي رسمي حكومي في المملكة تحت اسم **SAUDI ANIME EXPO 2019**. استمر ثلاثة أيام (14–16 نوفمبر) في **Riyadh Front Expo Land Hall 3/4**، واستقطب حوالي **37,800 زائر**.
 
+دائمًا نستذكر هذه الفعالية، لأنها كانت **الأقوى والأشمل**، وذكريات مميزة عشناها **لأول مرة في السعودية**!
+
 الفعالية لم تكن مجرد معرض تجاري مليء بالشخصيات الحديثة فقط. كانت تغطي زوايا عديدة ومميزة، وأغلبها موجه لجيل الطيبين — الجيل الذي نشأ على الشارات الكلاسيكية والروبوتات العملاقة وأعمال شوا. وكأنها مخصصة لنا نحن الهارد كور.
 
 <figure class="post-figure"><img src="/assets/images/blog/anime-expo-2019-exterior.webp" alt="مبنى SAUDI ANIME EXPO في Riyadh Front" loading="lazy"><figcaption>مدخل المعرض في Riyadh Front</figcaption></figure>
@@ -36,7 +38,7 @@ image: /assets/images/blog/anime-expo-2019-cover.jpg
 
 في نفس الوقت كان المكان يعج بشخصيات ومحتويات متنوعة. حضر **غريندايزر** و**كابتن ماجد (كابتن تسوباسا)**، وكان هناك عرض لفيلم **Gundam Narrative**، إلى جانب أعمال كلاسيكية مثل **سفينة الفضاء ياماتو** و**Initial D** و**Samurai Champloo** و**Saint Seiya** و**Lupin the 3rd** و**ماروكو الصغيرة (Chibi Maruko-chan)**، بالإضافة إلى **الرجل الحديدي (Aizenborg)** و**Code Geass**، والشخصيات الحديثة مثل One Piece وAttack on Titan وNaruto وDragon Ball وDetective Conan.
 
-وخصّصت **Sunrise** جناحًا للاحتفال بالذكرى الأربعين لجاندام (**Gundam 40th Anniversary – Beyond**)، فيه رأس **RX-78-2** العملاق، وجدار يحكي تاريخ سلسلة جاندام، ومجسما **Zaku II** و**زاكو شار** بمقياس 1/10.
+وخصّصت **Sunrise** جناحًا للاحتفال بالذكرى الأربعين لجاندام (**Gundam 40th Anniversary – Beyond**)، فيه رأس **RX-78-2** العملاق، و**Cockpit** خاص بـ**RX-78-2**، وجدار يحكي تاريخ سلسلة جاندام، ومجسما **Zaku II** و**زاكو شار** بمقياس 1/10.
 
 <div class="post-gallery">
   <a href="/assets/images/blog/anime-expo-2019-gundam-booth.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-gundam-booth.webp" alt="جناح الذكرى الأربعين لجاندام من Sunrise" loading="lazy"></a>
@@ -45,10 +47,9 @@ image: /assets/images/blog/anime-expo-2019-cover.jpg
 </div>
 
 <div class="post-videos">
-<figure class="post-figure"><video src="/assets/videos/blog/anime-expo-2019-zaku-ii.mp4" poster="/assets/images/blog/anime-expo-2019-zaku-ii-poster.jpg" controls muted playsinline preload="none"></video><figcaption>مجسم MS-06 Zaku II بمقياس 1/10</figcaption></figure>
-<figure class="post-figure"><video src="/assets/videos/blog/anime-expo-2019-char-zaku.mp4" poster="/assets/images/blog/anime-expo-2019-char-zaku-poster.jpg" controls muted playsinline preload="none"></video><figcaption>زاكو شار MS-06S بمقياس 1/10</figcaption></figure>
+<figure class="post-figure"><video src="/assets/videos/blog/anime-expo-2019-zaku-ii.mp4" poster="/assets/images/blog/anime-expo-2019-zaku-ii-poster.jpg" controls muted playsinline preload="none"></video><figcaption>مجسم Zaku II بمقياس 1/10</figcaption></figure>
+<figure class="post-figure"><video src="/assets/videos/blog/anime-expo-2019-char-zaku.mp4" poster="/assets/images/blog/anime-expo-2019-char-zaku-poster.jpg" controls muted playsinline preload="none"></video><figcaption>مجسم زاكو شار بمقياس 1/10</figcaption></figure>
 <figure class="post-figure"><video src="/assets/videos/blog/anime-expo-2019-yamato.mp4" poster="/assets/images/blog/anime-expo-2019-yamato-poster.jpg" controls muted playsinline preload="none"></video><figcaption>نماذج سفينة الفضاء ياماتو</figcaption></figure>
-<figure class="post-figure"><video src="/assets/videos/blog/anime-expo-2019-aizenborg-booth.mp4" poster="/assets/images/blog/anime-expo-2019-aizenborg-booth-poster.jpg" controls muted playsinline preload="none"></video><figcaption>ركن الرجل الحديدي (Aizenborg)</figcaption></figure>
 </div>
 
 أما جناح **Nippon Animation** فكان مليئًا بأعمال كبرت معها أجيال عربية مثل **سالي** و**عدنان ولينا** و**توم سوير**، إلى جانب **ماروكو الصغيرة**، مع رسومات تصميم الشخصيات الأصلية. وكان لـ**Initial D** و**Lupin the 3rd** حضور مميز بلوحات ضخمة.
@@ -67,6 +68,12 @@ image: /assets/images/blog/anime-expo-2019-cover.jpg
 
 
 كان هناك حوالي 70 شخصية أنمي، و41 شركة يابانية عارضة، ومناطق للعرض والكوسبلاي والمسرح السينمائي والمقاهي. كما أقيم أول عرض حي لأولترامان في السعودية، وتوك شو لمؤلف كابتن تسوباسا **يوئيتشي تاكاهاشي**، وفرق مثل **Linked Horizon** و**FLOW**.
+
+## الرجل الحديدي (Aizenborg)
+
+كانت من أكثر الأشياء المبهرة رؤية الشكل الحقيقي لـ**الرجل الحديدي**، و**النماذج الفعلية** التي استُخدمت في تصوير الأنمي. وكان هناك عرض خاص مصوّر عُرض **حصريًا** في الفعالية، ومنه عرفنا عن العمل الوثائقي الذي قدّمه الأستاذ **جراح الفريح** ([@aizen_fleed](https://www.instagram.com/aizen_fleed){:target="_blank" rel="noopener"})، منتج فيلم **«عودة الرجل الحديدي»** مع شركة **تسوبورايا** اليابانية.
+
+<figure class="post-figure"><video src="/assets/videos/blog/anime-expo-2019-aizenborg-booth.mp4" poster="/assets/images/blog/anime-expo-2019-aizenborg-booth-poster.jpg" controls muted playsinline preload="none"></video><figcaption>ركن الرجل الحديدي (Aizenborg) والنماذج المستخدمة في التصوير</figcaption></figure>
 
 ## لماذا شعرت بأنها مخصصة للهارد كور؟
 
