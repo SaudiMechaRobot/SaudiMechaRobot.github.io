@@ -5,12 +5,14 @@ description: In November 2019, Riyadh hosted SAUDI ANIME EXPO 2019, the Kingdom'
 category: STORY
 cover: /assets/images/blog/anime-expo-2019-cover.webp
 image: /assets/images/blog/anime-expo-2019-cover.jpg
+last_modified_at: 2026-11-01T18:45:00+03:00
+schema: {"@context": "https://schema.org", "@type": "Event", "name": "Saudi Anime Expo 2019", "alternateName": "SAUDI ANIME EXPO 2019", "startDate": "2019-11-14", "endDate": "2019-11-16", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "Riyadh Front Expo Land", "address": {"@type": "PostalAddress", "addressLocality": "Riyadh", "addressCountry": "SA"}}, "organizer": {"@type": "Organization", "name": "General Entertainment Authority", "url": "https://www.gea.gov.sa"}, "performer": [{"@type": "Person", "name": "Isao Sasaki"}, {"@type": "Person", "name": "Ichiro Mizuki"}, {"@type": "Person", "name": "Sami Clark"}], "image": "https://saudimecharobot.com/assets/images/blog/anime-expo-2019-cover.jpg", "inLanguage": "en"}
 ---
-In November 2019, as part of **Riyadh Season**, Saudi Arabia hosted its first official government-organized anime event: **SAUDI ANIME EXPO 2019**. Held from November 14–16 at **Riyadh Front Expo Land Hall 3/4**, it attracted around **37,800 visitors** over three days and was widely regarded as the largest event of its kind in the Middle East at the time.
+In November 2019, as part of **Riyadh Season**, Saudi Arabia hosted its first official government-organized anime event: **SAUDI ANIME EXPO 2019**. Held from November 14–16 at **Riyadh Front Expo Land Hall 3/4**, it attracted around [**37,800 visitors**](https://animeanime.jp/article/2019/11/20/49822.html){:target="_blank" rel="noopener"} over three days and was widely regarded as the largest event of its kind in the Middle East at the time.
 
 We always look back on this event, because it was **the strongest and most complete** of its kind, and it gave us special memories we lived **for the first time in Saudi Arabia**!
 
-Anime Expo 2019 was also where **we met each other in person for the first time**, after following one another on social media such as **Instagram**. After that, we started meeting up and sharing our experience.
+Anime Expo 2019 was also where **we met each other in person for the first time**, after following one another on social media such as **Instagram**. After that, we started meeting up and sharing our experience, until [the giant Grendizer, Gundam and Evangelion statues](/en/blog/2026/10/mecha-giants-in-saudi/) brought us together and the idea of the club was born.
 
 This was not just another commercial expo filled with the latest popular characters. It covered a wide range of unique angles, and much of it felt aimed at the older generation of fans — the ones who grew up with classic theme songs, giant robots and Showa-era anime. For many hardcore fans, it felt like the event was made for them.
 
@@ -22,7 +24,7 @@ The highlight for many attendees was the appearance of Japanese anisong legends 
 
 On the final day, the three performed with Egypt's **Chromatic Orchestra**. They sang classic tracks including **Grendizer**, **Mazinger Z**, **Astroganger** and **Treasure Island (Takarajima)**, switching between Arabic and Japanese, and the crowd sang along throughout.
 
-Mizuki greeted the audience in Arabic and told them, "I've waited for tens of years to come to Saudi Arabia." Sami Clark, wearing a Grendizer jacket, said, "The world would envy me because of you." Before the show ended, Mizuki told Clark, "If it weren't for Sammy singing all these songs, we wouldn't have been standing here with you."
+Mizuki greeted the audience in Arabic and told them ([Arab News](https://www.arabnews.com/node/1585461){:target="_blank" rel="noopener"}), "I've waited for tens of years to come to Saudi Arabia." Sami Clark, wearing a Grendizer jacket, said, "The world would envy me because of you." Before the show ended, Mizuki told Clark, "If it weren't for Sammy singing all these songs, we wouldn't have been standing here with you."
 
 Another unforgettable moment was seeing **Ichiro Mizuki** in traditional Saudi attire, trying Saudi food!
 

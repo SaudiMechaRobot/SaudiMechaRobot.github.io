@@ -5,12 +5,14 @@ description: 2019年11月、リヤドでサウジアラビア初の公式アニ�
 category: STORY
 cover: /assets/images/blog/anime-expo-2019-cover.webp
 image: /assets/images/blog/anime-expo-2019-cover.jpg
+last_modified_at: 2026-11-01T18:45:00+03:00
+schema: {"@context": "https://schema.org", "@type": "Event", "name": "サウジアニメエキスポ2019（SAUDI ANIME EXPO 2019）", "alternateName": "SAUDI ANIME EXPO 2019", "startDate": "2019-11-14", "endDate": "2019-11-16", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "Riyadh Front Expo Land", "address": {"@type": "PostalAddress", "addressLocality": "Riyadh", "addressCountry": "SA"}}, "organizer": {"@type": "Organization", "name": "General Entertainment Authority", "url": "https://www.gea.gov.sa"}, "performer": [{"@type": "Person", "name": "Isao Sasaki"}, {"@type": "Person", "name": "Ichiro Mizuki"}, {"@type": "Person", "name": "Sami Clark"}], "image": "https://saudimecharobot.com/assets/images/blog/anime-expo-2019-cover.jpg", "inLanguage": "ja"}
 ---
-2019年11月、**リヤドシーズン**の一環として、サウジアラビア初の政府主催の公式アニメイベント「**SAUDI ANIME EXPO 2019**」が開催されました。会場は**Riyadh Front Expo Land Hall 3/4**、会期は11月14日から16日までの3日間で、約**37,800人**が来場しました。
+2019年11月、**リヤドシーズン**の一環として、サウジアラビア初の政府主催の公式アニメイベント「**SAUDI ANIME EXPO 2019**」が開催されました。会場は**Riyadh Front Expo Land Hall 3/4**、会期は11月14日から16日までの3日間で、約[**37,800人**](https://animeanime.jp/article/2019/11/20/49822.html){:target="_blank" rel="noopener"}が来場しました。
 
 私たちは今でも、このイベントのことをよく思い出します。これまでで**最も充実した最高のイベント**であり、**サウジアラビアで初めて**味わった特別な思い出が詰まっているからです！
 
-そしてアニメエキスポ2019は、それまで**Instagram**などのSNSでお互いをフォローしていた私たちが、**初めて直接顔を合わせた**イベントでもありました。それをきっかけに、私たちは集まりを重ね、経験や知識を共有するようになりました。
+そしてアニメエキスポ2019は、それまで**Instagram**などのSNSでお互いをフォローしていた私たちが、**初めて直接顔を合わせた**イベントでもありました。それをきっかけに、私たちは集まりを重ね、経験や知識を共有するようになりました。そして[グレンダイザー、ガンダム、エヴァンゲリオンの巨大立像](/ja/blog/2026/10/mecha-giants-in-saudi/)との出会いを経て、クラブが生まれたのです。
 
 このイベントは、最新の人気キャラクターを並べただけの商業展示ではありませんでした。さまざまな切り口があり、その多くは昔ながらのアニソンや巨大ロボット、昭和のアニメで育った世代に向けたものでした。まるで筋金入りのファンのために用意されたようなイベントでした。
 
@@ -22,7 +24,7 @@ image: /assets/images/blog/anime-expo-2019-cover.jpg
 
 最終日、3人はエジプトの**クロマティック・オーケストラ**とともに、『**グレンダイザー**』『**マジンガーZ**』『**アストロガンガー**』『**宝島**』をアラビア語と日本語で披露し、観客も最初から一緒に歌っていました。
 
-水木さんはアラビア語で観客にあいさつし、「サウジアラビアに来るのを何十年も待っていました」と語りました。グレンダイザーのジャケットを着たサミー・クラークさんは「皆さんのおかげで、世界中が私をうらやむでしょう」と話しました。そしてステージの最後に水木さんは「サミーがこれらの歌を歌ってくれなければ、今ここに立っていなかったでしょう」とサミーさんに伝えました。
+水木さんはアラビア語で観客にあいさつし（[Arab News](https://www.arabnews.com/node/1585461){:target="_blank" rel="noopener"}）、「サウジアラビアに来るのを何十年も待っていました」と語りました。グレンダイザーのジャケットを着たサミー・クラークさんは「皆さんのおかげで、世界中が私をうらやむでしょう」と話しました。そしてステージの最後に水木さんは「サミーがこれらの歌を歌ってくれなければ、今ここに立っていなかったでしょう」とサミーさんに伝えました。
 
 そして忘れられないのが、サウジアラビアの民族衣装に身を包んだ**水木一郎**さんが、サウジ料理を味わう姿でした！
 

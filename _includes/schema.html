@@ -34,3 +34,8 @@
 }
 </script>
 {%- endif %}
+{%- if page.schema %}
+<script type="application/ld+json">
+{{ page.schema | jsonify }}
+</script>
+{%- endif %}

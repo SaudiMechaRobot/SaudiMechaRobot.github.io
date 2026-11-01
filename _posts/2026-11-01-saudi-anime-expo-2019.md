@@ -5,12 +5,14 @@ description: في نوفمبر 2019 أقيم SAUDI ANIME EXPO 2019 في الري
 category: STORY
 cover: /assets/images/blog/anime-expo-2019-cover.webp
 image: /assets/images/blog/anime-expo-2019-cover.jpg
+last_modified_at: 2026-11-01T18:45:00+03:00
+schema: {"@context": "https://schema.org", "@type": "Event", "name": "أنمي إكسبو الرياض 2019 (SAUDI ANIME EXPO 2019)", "alternateName": "SAUDI ANIME EXPO 2019", "startDate": "2019-11-14", "endDate": "2019-11-16", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "Riyadh Front Expo Land", "address": {"@type": "PostalAddress", "addressLocality": "Riyadh", "addressCountry": "SA"}}, "organizer": {"@type": "Organization", "name": "General Entertainment Authority", "url": "https://www.gea.gov.sa"}, "performer": [{"@type": "Person", "name": "Isao Sasaki"}, {"@type": "Person", "name": "Ichiro Mizuki"}, {"@type": "Person", "name": "Sami Clark"}], "image": "https://saudimecharobot.com/assets/images/blog/anime-expo-2019-cover.jpg", "inLanguage": "ar"}
 ---
-في نوفمبر 2019، وضمن **موسم الرياض**، أقيم أول معرض أنمي رسمي حكومي في المملكة تحت اسم **SAUDI ANIME EXPO 2019**. استمر ثلاثة أيام (14–16 نوفمبر) في **Riyadh Front Expo Land Hall 3/4**، واستقطب حوالي **37,800 زائر**.
+في نوفمبر 2019، وضمن **موسم الرياض**، أقيم أول معرض أنمي رسمي حكومي في المملكة تحت اسم **SAUDI ANIME EXPO 2019**. استمر ثلاثة أيام (14–16 نوفمبر) في **Riyadh Front Expo Land Hall 3/4**، واستقطب حوالي [**37,800 زائر**](https://animeanime.jp/article/2019/11/20/49822.html){:target="_blank" rel="noopener"}.
 
 دائمًا نستذكر هذه الفعالية، لأنها كانت **الأقوى والأشمل**، وذكريات مميزة عشناها **لأول مرة في السعودية**!
 
-وأنمي إكسبو 2019 هي الفعالية التي **قابلنا فيها بعضنا شخصيًا لأول مرة**، بعد أن كنا نتابع بعضنا في حسابات السوشال ميديا مثل **إنستغرام**. وبعدها بدأنا الاجتماعات وتبادل الخبرات.
+وأنمي إكسبو 2019 هي الفعالية التي **قابلنا فيها بعضنا شخصيًا لأول مرة**، بعد أن كنا نتابع بعضنا في حسابات السوشال ميديا مثل **إنستغرام**. وبعدها بدأنا الاجتماعات وتبادل الخبرات، إلى أن جمعتنا [المجسمات العملاقة لجريندايزر وجاندام وإيفانجيليون](/blog/2026/10/mecha-giants-in-saudi/) وانطلقت فكرة النادي.
 
 الفعالية لم تكن مجرد معرض تجاري مليء بالشخصيات الحديثة فقط. كانت تغطي زوايا عديدة ومميزة، وأغلبها موجه لجيل الطيبين — الجيل الذي نشأ على الشارات الكلاسيكية والروبوتات العملاقة وأعمال شوا. وكأنها مخصصة لنا نحن الهارد كور.
 
@@ -22,7 +24,7 @@ image: /assets/images/blog/anime-expo-2019-cover.jpg
 
 في اليوم الختامي غنّوا مع **أوركسترا كروماتيك** المصرية: **غريندايزر** و**مازنجر زد** و**أستروغانغر** و**جزيرة الكنز (Takarajima)**، بالعربية واليابانية معًا. وكان الجمهور يغني معهم من أول لحظة.
 
-ميزوكي قال للجمهور بعد أن حيّاهم بالعربية: «انتظرت عشرات السنين لآتي إلى السعودية». وسامي كلارك، مرتديًا جاكيت غريندايزر، قال: «العالم سيحسدني بسببكم». وقبل الختام قال ميزوكي لسامي: «لولا أن سامي غنى كل هذه الأغاني، لما وقفنا هنا معكم».
+ميزوكي قال للجمهور بعد أن حيّاهم بالعربية ([Arab News](https://www.arabnews.com/node/1585461){:target="_blank" rel="noopener"}): «انتظرت عشرات السنين لآتي إلى السعودية». وسامي كلارك، مرتديًا جاكيت غريندايزر، قال: «العالم سيحسدني بسببكم». وقبل الختام قال ميزوكي لسامي: «لولا أن سامي غنى كل هذه الأغاني، لما وقفنا هنا معكم».
 
 ومن الأشياء التي لا تُنسى، رؤية **إيتشيرو ميزوكي** بالزي السعودي وهو يجرّب الأكل السعودي!
 
