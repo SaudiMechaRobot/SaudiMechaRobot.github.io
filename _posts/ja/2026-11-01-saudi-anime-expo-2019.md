@@ -27,7 +27,7 @@ image: /assets/images/blog/anime-expo-2019-cover.jpg
 
 <div class="post-gallery">
   <a href="/assets/images/blog/anime-expo-2019-legends-backstage.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-legends-backstage.webp" alt="ステージ裏の水木一郎さんとささきいさおさん" loading="lazy"></a>
-  <a href="/assets/images/blog/anime-expo-2019-legend-astroganger.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-legend-astroganger.webp" alt="会場のアストロガンガーのポスターの前で" loading="lazy"></a>
+  <a href="/assets/images/blog/anime-expo-2019-legend-astroganger.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-legend-astroganger.webp" alt="会場のアストロガンガーのポスターの前に立つ水木一郎さん" loading="lazy"></a>
   <a href="/assets/images/blog/anime-expo-2019-astroganger-poster.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-astroganger-poster.webp" alt="『アストロガンガー』のオリジナルポスター" loading="lazy"></a>
 </div>
 

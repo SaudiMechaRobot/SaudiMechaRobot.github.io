@@ -27,7 +27,7 @@ Many fans from Japan, France and Italy attended the concert. Years later, many s
 
 <div class="post-gallery">
   <a href="/assets/images/blog/anime-expo-2019-legends-backstage.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-legends-backstage.webp" alt="Ichiro Mizuki and Isao Sasaki backstage" loading="lazy"></a>
-  <a href="/assets/images/blog/anime-expo-2019-legend-astroganger.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-legend-astroganger.webp" alt="In front of the Astroganger poster at the expo" loading="lazy"></a>
+  <a href="/assets/images/blog/anime-expo-2019-legend-astroganger.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-legend-astroganger.webp" alt="Ichiro Mizuki in front of the Astroganger poster at the expo" loading="lazy"></a>
   <a href="/assets/images/blog/anime-expo-2019-astroganger-poster.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-astroganger-poster.webp" alt="Original Japanese Astroganger poster" loading="lazy"></a>
 </div>
 

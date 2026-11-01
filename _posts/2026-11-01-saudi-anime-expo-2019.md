@@ -27,7 +27,7 @@ image: /assets/images/blog/anime-expo-2019-cover.jpg
 
 <div class="post-gallery">
   <a href="/assets/images/blog/anime-expo-2019-legends-backstage.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-legends-backstage.webp" alt="إيشيرو ميزوكي وإيساو ساساكي خلف كواليس المسرح" loading="lazy"></a>
-  <a href="/assets/images/blog/anime-expo-2019-legend-astroganger.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-legend-astroganger.webp" alt="أمام ملصق أستروغانغر في المعرض" loading="lazy"></a>
+  <a href="/assets/images/blog/anime-expo-2019-legend-astroganger.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-legend-astroganger.webp" alt="إيشيرو ميزوكي أمام ملصق أستروغانغر في المعرض" loading="lazy"></a>
   <a href="/assets/images/blog/anime-expo-2019-astroganger-poster.webp" target="_blank" rel="noopener"><img src="/assets/images/blog/anime-expo-2019-astroganger-poster.webp" alt="ملصق أستروغانغر الياباني الأصلي" loading="lazy"></a>
 </div>
 
