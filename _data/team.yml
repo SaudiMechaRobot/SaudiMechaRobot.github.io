@@ -48,6 +48,18 @@
   photo: /assets/images/team/phisal.webp
   link: https://www.instagram.com/phi_sal
   group: founder
+- name: '@snowish.wings'
+  name_en: '@snowish.wings'
+  name_ja: '@snowish.wings'
+  real_name: Snowy
+  real_name_en: Snowy
+  real_name_ja: スノーウィー
+  role: عضو مؤسس
+  role_en: Founding Member
+  role_ja: 創設メンバー
+  photo: /assets/images/team/snowy.webp
+  link: https://www.instagram.com/snowish.wings
+  group: founder
 - name: '@ryan190s'
   name_en: '@ryan190s'
   name_ja: '@ryan190s'
@@ -59,18 +71,6 @@
   role_ja: コアメンバー
   photo: /assets/images/team/ryan.webp
   link: https://www.instagram.com/ryan190s
-  group: featured
-- name: '@snowish.wings'
-  name_en: '@snowish.wings'
-  name_ja: '@snowish.wings'
-  real_name: Snowy
-  real_name_en: Snowy
-  real_name_ja: スノーウィー
-  role: عضو أساسي
-  role_en: Core Member
-  role_ja: コアメンバー
-  photo: /assets/images/team/snowy.webp
-  link: https://www.instagram.com/snowish.wings
   group: featured
 - name: '@raven_guard_2142'
   name_en: '@raven_guard_2142'
