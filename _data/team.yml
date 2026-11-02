@@ -72,3 +72,15 @@
   photo: /assets/images/team/snowy.webp
   link: https://www.instagram.com/snowish.wings
   group: featured
+- name: '@raven_guard_2142'
+  name_en: '@raven_guard_2142'
+  name_ja: '@raven_guard_2142'
+  real_name: GrRaven
+  real_name_en: GrRaven
+  real_name_ja: GrRaven
+  role: عضو أساسي
+  role_en: Core Member
+  role_ja: コアメンバー
+  photo: /assets/images/team/grraven.webp
+  link: https://www.instagram.com/raven_guard_2142
+  group: featured
