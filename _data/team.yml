@@ -96,3 +96,15 @@
   photo: /assets/images/team/nada.webp
   link: https://x.com/_na0da_
   group: featured
+- name: '@nora.senpai'
+  name_en: '@nora.senpai'
+  name_ja: '@nora.senpai'
+  real_name: نورة
+  real_name_en: Noura
+  real_name_ja: ノーラ
+  role: عضو أساسي
+  role_en: Core Member
+  role_ja: コアメンバー
+  photo: /assets/images/team/nora.webp
+  link: https://www.instagram.com/nora.senpai
+  group: featured
