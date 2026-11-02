@@ -60,3 +60,15 @@
   photo: /assets/images/team/ryan.webp
   link: https://www.instagram.com/ryan190s
   group: featured
+- name: '@snowish.wings'
+  name_en: '@snowish.wings'
+  name_ja: '@snowish.wings'
+  real_name: Snowy
+  real_name_en: Snowy
+  real_name_ja: スノーウィー
+  role: عضو أساسي
+  role_en: Core Member
+  role_ja: コアメンバー
+  photo: /assets/images/team/snowy.webp
+  link: https://www.instagram.com/snowish.wings
+  group: featured
