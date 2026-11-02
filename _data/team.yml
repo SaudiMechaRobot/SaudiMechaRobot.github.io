@@ -84,3 +84,15 @@
   photo: /assets/images/team/grraven.webp
   link: https://www.instagram.com/raven_guard_2142
   group: featured
+- name: '@_na0da_'
+  name_en: '@_na0da_'
+  name_ja: '@_na0da_'
+  real_name: ندى
+  real_name_en: Nada
+  real_name_ja: ナダ
+  role: عضو أساسي
+  role_en: Core Member
+  role_ja: コアメンバー
+  photo: /assets/images/team/nada.webp
+  link: https://x.com/_na0da_
+  group: featured
