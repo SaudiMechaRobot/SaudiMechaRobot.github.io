@@ -274,7 +274,9 @@ html,body{overflow-x:clip}
 :root:lang(ja){--f-display:"Noto Sans JP","Alexandria",system-ui,sans-serif;--f-body:"Noto Sans JP","IBM Plex Sans Arabic",system-ui,sans-serif}
 :root:lang(ja) p,:root:lang(ja) li,:root:lang(ja) dd,:root:lang(ja) summary,:root:lang(ja) .press a span{text-wrap:pretty}
 :lang(ja) .hero h1{font-weight:900;letter-spacing:.02em;font-size:clamp(34px,5.6vw,68px)}
-:lang(ja) body,:lang(ja) p{line-break:strict;word-break:auto-phrase;overflow-wrap:anywhere}
+:lang(ja) body,:lang(ja) p{line-break:strict;word-break:normal;overflow-wrap:anywhere}
+/* auto-phrase only for short headings; long paragraphs break per character (kinsoku) so lines fill evenly */
+:lang(ja) h1,:lang(ja) h2,:lang(ja) h3,:lang(ja) .hero-lead,:lang(ja) figcaption{word-break:auto-phrase}
 :lang(ja) .prose{line-height:1.9}
 
 .status div:last-child:nth-child(odd){grid-column:1/-1}
@@ -414,4 +416,4 @@ html,body{overflow-x:clip}
   .crew .tag,.crew-name{font-size:10.5px}
   .crew.slot{min-height:120px;font-size:12px;padding:8px}
 }
-/* build 202611021200 */
+/* build 202611051200 */
