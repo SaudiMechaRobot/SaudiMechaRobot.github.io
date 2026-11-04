@@ -108,3 +108,15 @@
   photo: /assets/images/team/nora.webp
   link: https://www.instagram.com/nora.senpai
   group: featured
+- name: '@ryo.elrick'
+  name_en: '@ryo.elrick'
+  name_ja: '@ryo.elrick'
+  real_name: حنان
+  real_name_en: Hanan
+  real_name_ja: ハナン
+  role: عضو أساسي
+  role_en: Core Member
+  role_ja: コアメンバー
+  photo: /assets/images/team/hanan.webp
+  link: https://www.instagram.com/ryo.elrick
+  group: featured
