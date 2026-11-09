@@ -42,6 +42,11 @@ collections:
 defaults:
   - scope: { path: "" }
     values: { lang: ar }
+  # ملفات توثيق Google: تبقى منشورة للتوثيق لكن تُستبعد من خريطة الموقع (كانت تسبب Soft 404)
+  - scope: { path: "google18ba8a35fdec8c4e.html" }
+    values: { sitemap: false }
+  - scope: { path: "googled401827e0d604942.html" }
+    values: { sitemap: false }
   - scope: { path: "", type: pages }
     values: { image: /assets/images/og-image.jpg }
   - scope: { path: "en" }
