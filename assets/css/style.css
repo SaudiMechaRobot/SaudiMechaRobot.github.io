@@ -416,4 +416,6 @@ html,body{overflow-x:clip}
   .crew .tag,.crew-name{font-size:10.5px}
   .crew.slot{min-height:120px;font-size:12px;padding:8px}
 }
-/* build 202611051200 */
+/* gallery: discourage saving */
+#gallery-grid img,.lightbox img{-webkit-touch-callout:none;-webkit-user-select:none;user-select:none;-webkit-user-drag:none}
+/* build 202611101200 */
