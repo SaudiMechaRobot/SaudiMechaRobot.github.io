@@ -104,6 +104,7 @@
       var lb = document.getElementById('lightbox'); if (!lb || !links.length) return;
       var img = lb.querySelector('img'), tt = lb.querySelector('figcaption b'), bd = lb.querySelector('figcaption span'), ct = lb.querySelector('.lb-count');
       var i = 0, sx = null, last = null;
+      [document.getElementById('gallery-grid'), lb].forEach(function(el){ ['contextmenu','dragstart'].forEach(function(ev){ el.addEventListener(ev, function(e){ if (e.target.tagName === 'IMG') e.preventDefault(); }); }); });
       function show(n){ i = (n + links.length) % links.length; var a = links[i];
         img.src = a.dataset.full; img.alt = a.dataset.title; tt.textContent = a.dataset.title;
         bd.textContent = [a.dataset.builder, a.dataset.grade].filter(Boolean).join(' · ');
