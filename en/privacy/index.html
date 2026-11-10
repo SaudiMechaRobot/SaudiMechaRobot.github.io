@@ -9,7 +9,7 @@ description: How the Saudi Mecha Robot club website handles visitor data, includ
 {%- include i18n.html -%}
 <main class="wrap article">
   <header class="ah">
-    <span class="tag">PRIVACY · <time datetime="2026-10-31">2026.10.31</time></span>
+    <span class="tag">PRIVACY · <time datetime="2026-11-10">2026.11.10</time></span>
     <h1>{{ page.title }}</h1>
     <p style="color:var(--muted);font-size:18px;max-width:60ch">{{ page.description }}</p>
     {%- if alts.size > 1 %}<p class="translations">{{ t.other_langs }} {% for a in alts %}{% assign al = a.lang | default: "ar" %}{% if al != L %}<a class="lang" href="{{ a.url | relative_url }}" hreflang="{{ al }}" lang="{{ al }}">{{ site.data.i18n[al].lang_name }}</a> {% endif %}{% endfor %}</p>{% endif %}
@@ -39,6 +39,16 @@ description: How the Saudi Mecha Robot club website handles visitor data, includ
 
 <h2>Email</h2>
 <p>When you contact us by email, we use your email address and message only to reply to you, and we do not share them with anyone.</p>
+
+<h2>Personal Data Protection Law</h2>
+<p>We handle personal data in line with Saudi Arabia's <strong>Personal Data Protection Law</strong> (PDPL), overseen by the <a href="https://sdaia.gov.sa" target="_blank" rel="noopener">Saudi Data and AI Authority (SDAIA)</a>. Under the law, you have the right to:</p>
+<ul>
+<li>Know what data we collect about you and why.</li>
+<li>Access the personal data we hold about you and obtain a copy.</li>
+<li>Ask us to correct or update your data.</li>
+<li>Ask us to delete your data once it is no longer needed.</li>
+</ul>
+<p>To exercise any of these rights, email us at the address below. We will respond as soon as possible and within the period set by the law.</p>
 
 <h2>Updates and contact</h2>
 <p>We may update this policy when needed; the date of the latest update appears at the top of this page. For any privacy questions, contact us at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
