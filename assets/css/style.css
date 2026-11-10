@@ -418,4 +418,7 @@ html,body{overflow-x:clip}
 }
 /* gallery: discourage saving */
 #gallery-grid img,.lightbox img{-webkit-touch-callout:none;-webkit-user-select:none;user-select:none;-webkit-user-drag:none}
-/* build 202611101200 */
+/* team cards: block long-press / right-click save on member photos */
+.crew-photo{-webkit-touch-callout:none;-webkit-user-select:none;user-select:none}
+.crew-photo img{pointer-events:none;-webkit-user-drag:none}
+/* build 202611101500 */
