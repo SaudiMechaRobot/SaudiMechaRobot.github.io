@@ -9,7 +9,7 @@ description: كيف يتعامل موقع نادي Saudi Mecha Robot مع بيا
 {%- include i18n.html -%}
 <main class="wrap article">
   <header class="ah">
-    <span class="tag">PRIVACY · <time datetime="2026-10-31">2026.10.31</time></span>
+    <span class="tag">PRIVACY · <time datetime="2026-11-10">2026.11.10</time></span>
     <h1>{{ page.title }}</h1>
     <p style="color:var(--muted);font-size:18px;max-width:60ch">{{ page.description }}</p>
     {%- if alts.size > 1 %}<p class="translations">{{ t.other_langs }} {% for a in alts %}{% assign al = a.lang | default: "ar" %}{% if al != L %}<a class="lang" href="{{ a.url | relative_url }}" hreflang="{{ al }}" lang="{{ al }}">{{ site.data.i18n[al].lang_name }}</a> {% endif %}{% endfor %}</p>{% endif %}
@@ -39,6 +39,16 @@ description: كيف يتعامل موقع نادي Saudi Mecha Robot مع بيا
 
 <h2>المراسلة بالبريد الإلكتروني</h2>
 <p>عند مراسلتنا عبر البريد الإلكتروني، نستخدم عنوان بريدك ومحتوى رسالتك للرد عليك فقط، ولا نشاركها مع أي طرف آخر.</p>
+
+<h2>نظام حماية البيانات الشخصية</h2>
+<p>نتعامل مع البيانات الشخصية وفق <strong>نظام حماية البيانات الشخصية</strong> في المملكة العربية السعودية (PDPL)، الذي تشرف عليه <a href="https://sdaia.gov.sa" target="_blank" rel="noopener">الهيئة السعودية للبيانات والذكاء الاصطناعي (سدايا)</a>. وبموجب النظام، يحق لك:</p>
+<ul>
+<li>معرفة البيانات التي نجمعها عنك والغرض منها.</li>
+<li>الاطلاع على بياناتك الشخصية لدينا والحصول على نسخة منها.</li>
+<li>طلب تصحيح بياناتك أو تحديثها.</li>
+<li>طلب حذف بياناتك متى لم تعد هناك حاجة إليها.</li>
+</ul>
+<p>لممارسة أيٍّ من هذه الحقوق، راسلنا عبر البريد الإلكتروني أدناه، وسنرد على طلبك في أقرب وقت ممكن وضمن المدة التي يحددها النظام.</p>
 
 <h2>التحديثات والتواصل</h2>
 <p>قد نحدّث هذه السياسة عند الحاجة، ويظهر تاريخ آخر تحديث أعلى الصفحة. لأي استفسار بخصوص الخصوصية، تواصل معنا عبر <a href="mailto:{{ site.email }}" dir="ltr">{{ site.email }}</a>.</p>
