@@ -9,7 +9,7 @@ description: Saudi Mecha Robot公式サイトにおける訪問者データの�
 {%- include i18n.html -%}
 <main class="wrap article">
   <header class="ah">
-    <span class="tag">PRIVACY · <time datetime="2026-10-31">2026.10.31</time></span>
+    <span class="tag">PRIVACY · <time datetime="2026-11-10">2026.11.10</time></span>
     <h1>{{ page.title }}</h1>
     <p style="color:var(--muted);font-size:18px;max-width:60ch">{{ page.description }}</p>
     {%- if alts.size > 1 %}<p class="translations">{{ t.other_langs }} {% for a in alts %}{% assign al = a.lang | default: "ar" %}{% if al != L %}<a class="lang" href="{{ a.url | relative_url }}" hreflang="{{ al }}" lang="{{ al }}">{{ site.data.i18n[al].lang_name }}</a> {% endif %}{% endfor %}</p>{% endif %}
@@ -39,6 +39,16 @@ description: Saudi Mecha Robot公式サイトにおける訪問者データの�
 
 <h2>メールでのお問い合わせ</h2>
 <p>メールでお問い合わせいただいた場合、メールアドレスと内容は返信のためにのみ使用し、第三者と共有することはありません。</p>
+
+<h2>個人データ保護法について</h2>
+<p>当クラブは、サウジアラビアの<strong>個人データ保護法</strong>（PDPL）に従って個人データを取り扱います。同法は<a href="https://sdaia.gov.sa" target="_blank" rel="noopener">サウジアラビアデータ・人工知能庁（SDAIA）</a>が所管しています。同法に基づき、皆さまには次の権利があります。</p>
+<ul>
+<li>当クラブが収集するデータとその目的を知る権利</li>
+<li>当クラブが保有するご自身の個人データを閲覧し、その写しを受け取る権利</li>
+<li>データの訂正・更新を求める権利</li>
+<li>不要となったデータの削除を求める権利</li>
+</ul>
+<p>これらの権利を行使される場合は、下記のメールアドレスまでご連絡ください。できるだけ早く、法律で定められた期間内に対応いたします。</p>
 
 <h2>改定とお問い合わせ</h2>
 <p>本ポリシーは必要に応じて改定することがあり、最終更新日はページ上部に表示されます。プライバシーに関するご質問は <a href="mailto:{{ site.email }}">{{ site.email }}</a> までお問い合わせください。</p>
