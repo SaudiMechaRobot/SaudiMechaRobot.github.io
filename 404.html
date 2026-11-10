@@ -1,0 +1,46 @@
+---
+layout: default
+lang: ar
+permalink: /404.html
+title: الصفحة غير موجودة
+description: الصفحة التي تبحث عنها غير موجودة في موقع نادي Saudi Mecha Robot.
+sitemap: false
+---
+<main class="wrap nf">
+  <p class="nf-code" aria-hidden="true">404</p>
+  <span class="tag plate">SIGNAL LOST · 信号ロスト</span>
+  <div class="nf-langs">
+    <section class="nf-block" lang="ar" dir="rtl" data-l="ar">
+      <h1>الصفحة غير موجودة</h1>
+      <p>يبدو أن هذه الصفحة خرجت عن المدار، أو أن الرابط غير صحيح.</p>
+      <p class="nf-btns"><a class="btn primary" href="{{ '/' | relative_url }}">العودة للرئيسية</a><a class="btn" href="{{ '/blog/' | relative_url }}">المدونة</a></p>
+    </section>
+    <section class="nf-block" lang="en" dir="ltr" data-l="en">
+      <h2>Page not found</h2>
+      <p>This page seems to have drifted out of orbit, or the link is incorrect.</p>
+      <p class="nf-btns"><a class="btn primary" href="{{ '/en/' | relative_url }}">Back to home</a><a class="btn" href="{{ '/en/blog/' | relative_url }}">Blog</a></p>
+    </section>
+    <section class="nf-block" lang="ja" dir="ltr" data-l="ja">
+      <h2>ページが見つかりません</h2>
+      <p>お探しのページは移動したか、URLが正しくない可能性があります。</p>
+      <p class="nf-btns"><a class="btn primary" href="{{ '/ja/' | relative_url }}">ホームへ戻る</a><a class="btn" href="{{ '/ja/blog/' | relative_url }}">ブログ</a></p>
+    </section>
+  </div>
+</main>
+<style>
+.nf{padding-block:48px 72px;text-align:center}
+.nf-code{font-family:"Orbitron",var(--f-mono);font-weight:900;font-size:clamp(88px,22vw,180px);line-height:1;margin:0 0 12px;color:var(--hazard);letter-spacing:.06em;text-shadow:0 0 28px rgba(242,183,5,.25)}
+.nf-langs{display:flex;flex-direction:column;gap:18px;max-width:640px;margin:24px auto 0}
+.nf-block{border:1px solid var(--line);background:var(--panel);padding:20px 18px}
+.nf-block h1,.nf-block h2{font-size:clamp(22px,4vw,30px);margin:0 0 8px}
+.nf-block p{color:var(--muted);margin:0 0 14px}
+.nf-btns{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin:0!important}
+.nf-block.first{border-color:var(--hazard)}
+</style>
+<script>
+(function(){
+  var m = location.pathname.match(/^\/(en|ja)(\/|$)/), l = m ? m[1] : 'ar';
+  var box = document.querySelector('.nf-langs'), b = box && box.querySelector('[data-l="' + l + '"]');
+  if (b) { box.insertBefore(b, box.firstChild); b.classList.add('first'); }
+})();
+</script>
