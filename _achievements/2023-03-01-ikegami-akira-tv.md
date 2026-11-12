@@ -10,4 +10,7 @@ image: /assets/images/achievements/ikegami-akira-tv.webp
 tags: []
 tags_en: []
 tags_ja: []
+body_en: "[Read the full story on our blog](/en/blog/2026/11/ikegami-akira-riyadh/)"
+body_ja: "[ブログで詳しく読む](/ja/blog/2026/11/ikegami-akira-riyadh/)"
 ---
+[اقرأ القصة كاملة في المدونة](/blog/2026/11/ikegami-akira-riyadh/)
