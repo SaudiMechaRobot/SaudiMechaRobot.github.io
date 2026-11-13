@@ -2,6 +2,7 @@
 ref: ikegami-akira-riyadh
 title: "昭和アニメとスーパーロボットがつないだ文化の架け橋――池上彰さんをリヤドの自宅にお迎えして"
 description: 日本を代表するジャーナリスト・池上彰さんをリヤドの自宅にお迎えし、日本のアニメやスーパーロボット、ガンプラ、模型を通じてサウジアラビアと日本の文化のつながりについて語り合いました。
+seo_title: "池上彰さんをサウジアラビアの自宅にお迎えして｜昭和アニメとスーパーロボット"
 category: STORY
 pin: 1
 cover: /assets/images/blog/ikegami-cover.webp
