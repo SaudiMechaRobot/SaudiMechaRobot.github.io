@@ -124,14 +124,28 @@ This is also one of the ideas I hope to promote through **Saudi Mecha Robot**.
 
 The world of plastic model kits, mecha, and super robots is not just about enjoying fictional characters or assembling models. It can also encourage creativity, technical learning, the exchange of knowledge, and meaningful connections between people from different cultural backgrounds.
 
-## From Riyadh to Japan: Building Bridges Through Passion
+## From Riyadh to Japan: The Spirit of Hospitality in a Tent
 
-When I look back on that visit, I feel grateful that mecha, super robots and model kits became a bridge between two cultures.
+Looking back on the visit, I am glad once again that robots and model kits became a bridge between cultures.
 
-A Japanese guest visiting a home in Riyadh, discovering a collection of Japanese anime figures and model kits, and spending hours discussing the stories and hobbies behind them. That encounter later reached audiences in Japan through television and a published book, opening the door to further conversations and connections.
+At the end of the visit, I also had the chance to spend time with Mr. Ikegami in a **tent**.
 
-Perhaps this is one of the most beautiful things about a shared hobby.
+For us in Saudi Arabia, a tent is more than a traditional dwelling. It symbolizes the way of life and culture passed down from our ancestors and, above all, the hospitality we have always cherished. We are proud of our history and traditions, and equally proud of the progress and strong momentum Saudi Arabia has achieved today.
 
-We do not always need to speak the same language or come from the same background to connect with one another. Sometimes, a Gundam model or a small Japanese mobile vendor truck can be enough to begin a story that brings two cultures closer together.
+That is why welcoming an important guest into a tent and spending time together carries special meaning.
+
+At the same time, we hold deep respect for Japanese culture, and for the way Japanese people cherish their history, traditions and culture and proudly pass them on. Even across different cultures, respecting each other's history and values is the first step toward deeper understanding between people.
+
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C1waWIPo-o4/" data-instgrm-version="14" style="max-width:540px;width:100%;margin:24px auto"><a href="https://www.instagram.com/p/C1waWIPo-o4/" target="_blank" rel="noopener">View this post on Instagram</a></blockquote>
+
+The last photo in the post shows Crown Prince Mohammed bin Salman meeting the late former Prime Minister Shinzo Abe inside a tent. It captures the tent's place as the traditional setting for welcoming important guests in Saudi Arabia.
+
+What I felt through that visit is that cultural exchange does not always have to begin with something difficult.
+
+A Gundam, a small Japanese mobile vendor truck, and a moment together in a tent. Simple moments and shared hobbies like these can connect people across countries and languages.
+
+Mr. Ikegami, thank you very much for visiting my home in Riyadh. My heartfelt thanks also go to **Mr. Akira Takatoriya** (鷹鳥屋明), who made this encounter possible.
+
+Through **Saudi Mecha Robot**, I hope to keep building connections between people from Saudi Arabia, Japan and many other countries and cultures, sparked by a shared passion for robots, model kits and making things.
 
 <script async src="https://www.instagram.com/embed.js"></script>
