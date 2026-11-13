@@ -8,8 +8,6 @@ pin: 1
 cover: /assets/images/blog/ikegami-cover.webp
 image: /assets/images/blog/ikegami-cover.jpg
 ---
-<figure class="post-figure"><img src="/assets/images/blog/ikegami-cover.webp" alt="Thamer showing his collection to Akira Ikegami at his home in Riyadh (from the TV Asahi programme)" width="707" height="393" loading="lazy"><figcaption>Showing the collection at home in Riyadh (from the TV Asahi programme)</figcaption></figure>
-
 One of the most memorable experiences I have had was welcoming **Akira Ikegami** (池上彰), one of Japan's most prominent journalists and television personalities, into my home in **Riyadh**, **Saudi Arabia**.
 
 Mr. Ikegami was visiting the Kingdom to film a report for **TV Asahi**'s ***Ikegami Akira News Kaisetsu SP*** (池上彰ニュース解説SP), in an episode about surprising Japan booms around the world, focusing on modern Saudi Arabia and its society. The visit gave me a unique opportunity to share my personal perspective on Saudi life and the longstanding cultural connection between Saudi Arabia and Japan.
