@@ -1,7 +1,7 @@
 ---
 ref: ikegami-akira-riyadh
-title: "When Robots Became a Bridge Between Cultures: Hosting Akira Ikegami in Riyadh"
-description: Welcoming renowned Japanese journalist Akira Ikegami to a home in Riyadh, and sharing how Japanese anime, robots, Gunpla and model kits connect Saudi Arabia and Japan.
+title: "When Mecha and Super Robots Became a Bridge Between Cultures: Hosting Akira Ikegami in Riyadh"
+description: Welcoming renowned Japanese journalist Akira Ikegami to a home in Riyadh, and sharing how Japanese anime, mecha and super robots, Gunpla and model kits connect Saudi Arabia and Japan.
 category: STORY
 pin: 1
 cover: /assets/images/blog/ikegami-cover.webp
@@ -15,7 +15,7 @@ Mr. Ikegami was visiting the Kingdom to produce a television report for **TV Asa
 
 For me, this was more than just a television interview. It was an opportunity to talk about a culture I have admired for many years and how it has become part of everyday life for generations of Saudis.
 
-## From Oil and Automobiles to Anime and Robots
+## From Oil and Automobiles to Anime, Mecha and Super Robots
 
 The relationship between Saudi Arabia and Japan has developed over many decades, spanning a wide range of fields.
 
@@ -27,7 +27,7 @@ The most treasured piece I showed Mr. Ikegami was not a robot at all, but a mode
 
 Among the most influential aspects of this cultural connection is Japanese animation. In particular, **UFO Robot Grendizer** was one of the early Japanese anime series to become widely known among Saudi audiences through television broadcasts. For many people, it remains much more than an animated series: it is a cherished childhood memory and a cultural icon shared across generations.
 
-Japanese anime and robot series have therefore become more than entertainment. They have helped create a familiar cultural connection between people in Saudi Arabia and Japan.
+Japanese anime, mecha and super robot series have therefore become more than entertainment. They have helped create a familiar cultural connection between people in Saudi Arabia and Japan.
 
 ## How Japanese Anime Connected Generations
 
@@ -121,11 +121,11 @@ A robot figure displayed at home, a favourite anime series, or a shared interest
 
 This is also one of the ideas I hope to promote through **Saudi Mecha Robot**.
 
-The world of plastic model kits, robots, and mecha is not just about enjoying fictional characters or assembling models. It can also encourage creativity, technical learning, the exchange of knowledge, and meaningful connections between people from different cultural backgrounds.
+The world of plastic model kits, mecha, and super robots is not just about enjoying fictional characters or assembling models. It can also encourage creativity, technical learning, the exchange of knowledge, and meaningful connections between people from different cultural backgrounds.
 
 ## From Riyadh to Japan: Building Bridges Through Passion
 
-When I look back on that visit, I feel grateful that robots and model kits became a bridge between two cultures.
+When I look back on that visit, I feel grateful that mecha, super robots and model kits became a bridge between two cultures.
 
 A Japanese guest visiting a home in Riyadh, discovering a collection of Japanese anime figures and model kits, and spending hours discussing the stories and hobbies behind them. That encounter later reached audiences in Japan through television and a published book, opening the door to further conversations and connections.
 
