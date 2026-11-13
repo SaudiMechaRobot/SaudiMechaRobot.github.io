@@ -421,4 +421,6 @@ html,body{overflow-x:clip}
 /* team cards: block long-press / right-click save on member photos */
 .crew-photo{-webkit-touch-callout:none;-webkit-user-select:none;user-select:none}
 .crew-photo img{pointer-events:none;-webkit-user-drag:none}
-/* build 202611101500 */
+/* home blog: "all posts" button below the cards */
+.blog-more{display:flex;justify-content:center;margin:24px 0 0}
+/* build 202611131200 */
