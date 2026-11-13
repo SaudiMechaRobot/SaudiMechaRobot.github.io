@@ -1,7 +1,8 @@
 ---
 ref: ikegami-akira-riyadh
 title: "When Mecha and Super Robots Became a Bridge Between Cultures: Hosting Akira Ikegami in Riyadh"
-description: Welcoming renowned Japanese journalist Akira Ikegami to a home in Riyadh, and sharing how Japanese anime, mecha and super robots, Gunpla and model kits connect Saudi Arabia and Japan.
+description: Hosting Japanese journalist Akira Ikegami at home in Riyadh, and how anime, mecha, super robots and Gunpla connect Saudi Arabia and Japan.
+seo_title: "Hosting Akira Ikegami in Riyadh: Mecha, Anime & Culture | Saudi Mecha Robot"
 category: STORY
 pin: 1
 cover: /assets/images/blog/ikegami-cover.webp
