@@ -41,7 +41,7 @@ collections:
 
 defaults:
   - scope: { path: "" }
-    values: { lang: ar }
+    values: { lang: ar, locale: ar_SA }
   # ملفات توثيق Google: تبقى منشورة للتوثيق لكن تُستبعد من خريطة الموقع (كانت تسبب Soft 404)
   - scope: { path: "google18ba8a35fdec8c4e.html" }
     values: { sitemap: false }
@@ -50,15 +50,15 @@ defaults:
   - scope: { path: "", type: pages }
     values: { image: /assets/images/og-image.jpg }
   - scope: { path: "en" }
-    values: { lang: en }
+    values: { lang: en, locale: en_US }
   - scope: { path: "ja" }
-    values: { lang: ja }
+    values: { lang: ja, locale: ja_JP }
   - scope: { path: "", type: posts }
-    values: { layout: post, lang: ar, author: { type: Organization, name: "Saudi Mecha Robot", url: "https://saudimecharobot.com/" }, image: /assets/images/og-image.jpg }
+    values: { layout: post, lang: ar, locale: ar_SA, author: { type: Organization, name: "Saudi Mecha Robot", url: "https://saudimecharobot.com/" }, image: /assets/images/og-image.jpg }
   - scope: { path: "_posts/en", type: posts }
-    values: { layout: post, lang: en, author: { type: Organization, name: "Saudi Mecha Robot", url: "https://saudimecharobot.com/" }, image: /assets/images/og-image.jpg, permalink: "/en/blog/:year/:month/:title/" }
+    values: { layout: post, lang: en, locale: en_US, author: { type: Organization, name: "Saudi Mecha Robot", url: "https://saudimecharobot.com/" }, image: /assets/images/og-image.jpg, permalink: "/en/blog/:year/:month/:title/" }
   - scope: { path: "_posts/ja", type: posts }
-    values: { layout: post, lang: ja, author: { type: Organization, name: "Saudi Mecha Robot", url: "https://saudimecharobot.com/" }, image: /assets/images/og-image.jpg, permalink: "/ja/blog/:year/:month/:title/" }
+    values: { layout: post, lang: ja, locale: ja_JP, author: { type: Organization, name: "Saudi Mecha Robot", url: "https://saudimecharobot.com/" }, image: /assets/images/og-image.jpg, permalink: "/ja/blog/:year/:month/:title/" }
 
 plugins:
   - jekyll-seo-tag
