@@ -21,7 +21,10 @@
     gtag('config', 'G-VK7M2FPX2D', internal ? { traffic_type: 'internal' } : {});
   })();
 </script>
-{%- if page.full_title %}
+{%- if page.seo_title %}
+<title>{{ page.seo_title | escape }}</title>
+{% seo title=false %}
+{%- elsif page.full_title %}
 <title>{{ page.title | escape }}</title>
 {% seo title=false %}
 {%- else %}
