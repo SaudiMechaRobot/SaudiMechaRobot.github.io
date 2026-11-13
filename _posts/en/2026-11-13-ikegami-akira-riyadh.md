@@ -11,7 +11,9 @@ image: /assets/images/blog/ikegami-cover.jpg
 
 One of the most memorable experiences I have had was welcoming **Akira Ikegami** (池上彰), one of Japan's most prominent journalists and television personalities, into my home in **Riyadh**, **Saudi Arabia**.
 
-Mr. Ikegami was visiting the Kingdom to produce a television report for **TV Asahi**, focusing on modern Saudi Arabia and its society. The visit gave me a unique opportunity to share my personal perspective on Saudi life and the longstanding cultural connection between Saudi Arabia and Japan.
+Mr. Ikegami was visiting the Kingdom to film a report for **TV Asahi**'s ***Ikegami Akira News Kaisetsu SP*** (池上彰ニュース解説SP), in an episode about surprising Japan booms around the world, focusing on modern Saudi Arabia and its society. The visit gave me a unique opportunity to share my personal perspective on Saudi life and the longstanding cultural connection between Saudi Arabia and Japan.
+
+<figure class="post-figure"><img src="/assets/images/blog/ikegami-tv-studio.webp" alt="Akira Ikegami in the studio of TV Asahi's Ikegami Akira News Kaisetsu SP" width="1440" height="801" loading="lazy"><figcaption>From TV Asahi's Ikegami Akira News Kaisetsu SP</figcaption></figure>
 
 For me, this was more than just a television interview. It was an opportunity to talk about a culture I have admired for many years and how it has become part of everyday life for generations of Saudis.
 
