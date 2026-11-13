@@ -8,8 +8,6 @@ pin: 1
 cover: /assets/images/blog/ikegami-cover.webp
 image: /assets/images/blog/ikegami-cover.jpg
 ---
-<figure class="post-figure"><img src="/assets/images/blog/ikegami-cover.webp" alt="ثامر يعرّف Ikegami Akira على مقتنياته في منزله بالرياض (من برنامج TV Asahi)" width="707" height="393" loading="lazy"><figcaption>التعريف بالمقتنيات في المنزل بالرياض (من برنامج TV Asahi)</figcaption></figure>
-
 من أكثر التجارب التي لا أنساها استقبالي في منزلي بـ**الرياض** للأستاذ **Ikegami Akira** (池上彰)، أحد أبرز الصحفيين والإعلاميين في **اليابان**.
 
 كان الأستاذ Ikegami في زيارة للمملكة لإعداد تقرير لبرنامج «**池上彰ニュース解説SP**» على قناة **TV Asahi**، في حلقة عن انتشار الثقافة اليابانية حول العالم، وكان التقرير عن **السعودية** الحديثة ومجتمعها، وعن حياة الناس فيها وعلاقتها باليابان. وكانت الزيارة فرصة نادرة لأشارك رؤيتي الشخصية عن الحياة في السعودية، وعن الصلة الثقافية الممتدة بين البلدين.
