@@ -84,6 +84,30 @@ There was also an unexpected connection that came later. About a year after this
 
 It was a pleasant coincidence, connecting that memorable day with a later encounter with one of the notable names in the Japanese model-kit industry.
 
+## Photography: Another Way of Sharing the Story of Saudi Arabia
+
+Alongside my interest in anime, robots, and scale models, I have another passion that I wanted to share with Mr. Ikegami: photography.
+
+Through photography, I have sought to document different aspects of Saudi Arabia's heritage and civilization, including its history, culture, landmarks, traditions, and the human stories that reflect the Kingdom's identity. Some of my photographic works have received awards and recognition, and I have also had opportunities to exhibit a number of my photographs.
+
+In 2015, I was featured in a **CNN** report titled ["Places and Faces in Saudi Arabia"](https://edition.cnn.com/videos/tv/2015/04/29/exp-places-and-faces-in-saudi-arabia.cnn){:target="_blank" rel="noopener"}, which explored how photography can capture different aspects of life and culture in the Kingdom.
+
+Another moment I cherish is a photograph of me with the former Japanese Ambassador to Saudi Arabia, H.E. Fumio Iwai, holding a framed print of a photograph of Makkah that I had taken years earlier and brought with me for the occasion. Our photo was taken at the [Ramadan iftar he hosted at his residence in 2022](https://backup.arabnews.jp/en/saudi-arabia/article_70485/){:target="_blank" rel="noopener"}, part of my cultural engagement with the Embassy of Japan.
+
+<figure class="post-figure"><img src="/assets/images/blog/ambassador-iwai-makkah-photo.webp" alt="With former Japanese Ambassador Fumio Iwai, holding one of my photographs of Makkah" width="1053" height="790" loading="lazy"><figcaption>With H.E. Fumio Iwai, 2022</figcaption></figure>
+
+During Mr. Ikegami's visit, I also had the opportunity to show him some of my photographic works. Sharing this side of my interests was important to me. Just as anime and Japanese model kits have given me a way to connect with Japanese culture, photography has allowed me to introduce my own country to the world and share its history, heritage, and everyday life.
+
+## Karate: A Connection Beyond Hobbies
+
+Another aspect of my connection with Japanese culture is my interest in karate, a Japanese martial art that I deeply appreciate for the values it represents, particularly discipline, respect, and perseverance.
+
+I hold a black belt in karate and am also a member of the **Japan Karate Shoto Federation (JKS)** in Japan.
+
+Interestingly, my friend Mutlaq, who is also one of the co-founders of **Saudi Mecha Robot**, holds a black belt in karate as well.
+
+This is another reflection of how our connection with Japanese culture extends beyond anime, robots, and scale models. For us, Japanese culture is not limited to the creative works and hobbies we enjoy; it also includes traditions, values, and practices from which we continue to learn and draw inspiration.
+
 ## Hours of Conversation and Hospitality
 
 One detail I still remember clearly is how many hours Mr. Ikegami spent at my home.
