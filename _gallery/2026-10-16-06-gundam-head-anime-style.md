@@ -1,5 +1,7 @@
 ---
-title: "Gundam Unicorn Head — Anime Style"
+title: "رأس جاندام يونيكورن — بأسلوب الأنمي"
+title_en: "Gundam Unicorn Head — Anime Style"
+title_ja: "ユニコーンガンダム ヘッド — アニメ塗り"
 builder: ""
 grade: ""
 image: /assets/images/gallery/gundam-head-anime-style.webp

@@ -1,5 +1,7 @@
 ---
-title: "Strike Freedom Gundam"
+title: "جاندام سترايك فريدم"
+title_en: "Strike Freedom Gundam"
+title_ja: "ストライクフリーダムガンダム"
 builder: ""
 grade: ""
 image: /assets/images/gallery/strike-freedom-gundam.webp

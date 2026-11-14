@@ -1,5 +1,7 @@
 ---
-title: "Evangelion Unit-01 & Kaworu"
+title: "إيفانجليون الوحدة 01 وكاورو"
+title_en: "Evangelion Unit-01 & Kaworu"
+title_ja: "エヴァンゲリオン初号機と渚カヲル"
 builder: ""
 grade: ""
 image: /assets/images/gallery/evangelion-unit-01-kaworu.webp

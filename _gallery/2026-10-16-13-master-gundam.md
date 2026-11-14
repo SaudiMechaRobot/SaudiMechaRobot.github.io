@@ -1,5 +1,7 @@
 ---
-title: "Master Gundam"
+title: "ماستر جاندام"
+title_en: "Master Gundam"
+title_ja: "マスターガンダム"
 builder: ""
 grade: ""
 image: /assets/images/gallery/master-gundam.webp

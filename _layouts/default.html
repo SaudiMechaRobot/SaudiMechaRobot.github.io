@@ -51,6 +51,7 @@
 {% include schema.html %}
 </head>
 <body>
+<!--email_off-->
 <script type="application/json" id="lang-data">{
   {%- for pair in lang_urls %}{% assign kv = pair | split: "|" %}{% assign lc = kv[0] %}{% assign lu = kv[1] %}{% assign lt = site.data.i18n[lc] %}
   "{{ lc }}": {"url": {{ lu | relative_url | jsonify }}, "text": {{ lt.suggest_text | jsonify }}, "link": {{ lt.suggest_link | jsonify }}, "dir": "{{ lt.dir }}"}{% unless forloop.last %},{% endunless %}
@@ -83,5 +84,6 @@ document.addEventListener('click', function (e) {
   if (social[host]) gtag('event', 'social_click', { social_platform: social[host], link_url: a.href });
 });
 </script>
+<!--/email_off-->
 </body>
 </html>

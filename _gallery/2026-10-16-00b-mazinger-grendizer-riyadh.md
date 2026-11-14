@@ -1,5 +1,7 @@
 ---
 title: "جريندايزر ومازنجر بالمصمك"
+title_en: "Grendizer & Mazinger at Masmak Fortress"
+title_ja: "マスマク城のグレンダイザーとマジンガー"
 builder: ""
 grade: ""
 image: /assets/images/gallery/mazinger-grendizer-riyadh.webp

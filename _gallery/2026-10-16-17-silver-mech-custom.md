@@ -1,5 +1,7 @@
 ---
-title: "Armored Core — Custom Paint"
+title: "آرمورد كور — طلاء مخصص"
+title_en: "Armored Core — Custom Paint"
+title_ja: "アーマード・コア — カスタム塗装"
 builder: ""
 grade: ""
 image: /assets/images/gallery/silver-mech-custom.webp

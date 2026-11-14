@@ -1,5 +1,7 @@
 ---
-title: "Justice Gundam"
+title: "جاندام جستس"
+title_en: "Justice Gundam"
+title_ja: "ジャスティスガンダム"
 builder: ""
 grade: ""
 image: /assets/images/gallery/justice-gundam.webp

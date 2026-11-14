@@ -1,5 +1,7 @@
 ---
-title: "Zaku II — Inner Frame"
+title: "زاكو II — الهيكل الداخلي"
+title_en: "Zaku II — Inner Frame"
+title_ja: "ザクII — 内部フレーム"
 builder: ""
 grade: ""
 image: /assets/images/gallery/zaku-inner-frame.webp
