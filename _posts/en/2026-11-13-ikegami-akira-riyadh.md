@@ -20,7 +20,7 @@ For me, this was more than just a television interview. It was an opportunity to
 
 The relationship between Saudi Arabia and Japan has developed over many decades, spanning a wide range of fields.
 
-From oil and automobiles to electronics, video games, and anime, Japanese products and culture have long been familiar to Saudi society.
+From oil and automobiles to home appliances, electronics, video games, anime, and martial arts such as karate and judo, Japanese products and culture have long been familiar to Saudi society.
 
 The most treasured piece I showed Mr. Ikegami was not a robot at all, but a model of Saudi Arabia's first oil well, containing a small amount of oil, presented to me by **Saudi Aramco** in recognition. Oil is what Japan knows best about Saudi Arabia, so it felt right to begin our story there.
 
