@@ -19,7 +19,7 @@
   <h2 class="team-group">{{ t.pr_media }}</h2><p class="team-group-sub">{{ t.pr_media_sub }}</p>
   <ul class="pr-media">
     {%- for p in site.data.press %}{% if L == "ar" %}{% assign pn = p.name %}{% assign pd = p.desc %}{% assign pu = p.url %}{% else %}{% assign pn = p[nk] | default: p.name %}{% assign pd = p[dk] | default: p.desc %}{% assign pu = p[uk] | default: p.url %}{% endif %}{% assign kk = "kind_" | append: p.kind %}
-    <li><small class="tag">{{ t[kk] | default: p.kind }} · {{ p.year }}</small><h3 dir="auto">{{ pn }}</h3>{% if pd %}<p>{{ pd }}</p>{% endif %}{% if pu %}<a href="{{ pu | relative_url }}"{% if pu contains "://" %} target="_blank" rel="noopener"{% endif %}>{% if p.kind == "VIDEO" %}{{ t.pr_watch }}{% else %}{{ t.pr_read }}{% endif %}</a>{% endif %}</li>
+    <li><small class="tag">{{ t[kk] | default: p.kind }} · {{ p.year }}</small><h3>{{ pn }}</h3>{% if pd %}<p>{{ pd }}</p>{% endif %}{% if pu %}<a href="{{ pu | relative_url }}"{% if pu contains "://" %} target="_blank" rel="noopener"{% endif %}>{% if p.kind == "VIDEO" %}{{ t.pr_watch }}{% else %}{{ t.pr_read }}{% endif %}</a>{% endif %}</li>
     {%- endfor %}
   </ul>
 
