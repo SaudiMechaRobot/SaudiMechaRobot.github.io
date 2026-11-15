@@ -13,7 +13,7 @@ ar:
   pr_collab: لنتعاون
   pr_collab_sub: يرحّب النادي بالتواصل مع كل من يشاركه الاهتمام بالهواية وبالتبادل الثقافي.
   pr_who_title: نرحّب بـ
-  pr_who: [المودلرز المحترفين والفنانين, أندية النماذج داخل المملكة وخارجها, الجهات الثقافية والمؤسسات اليابانية, منظمي الفعاليات والمعارض, وسائل الإعلام, الرعاة والشركاء]
+  pr_who: [المودلرز المحترفين والفنانين, أندية النماذج داخل المملكة وخارجها, الجهات الثقافية والمؤسسات المحلية والدولية, منظمي الفعاليات والمعارض, وسائل الإعلام, الرعاة والشركاء]
   pr_what_title: مجالات التعاون
   pr_what: [ورش عمل ومحاضرات في تركيب النماذج وتلوينها, استضافة محترفين دوليين في المملكة, برامج تبادل ثقافي عبر الهواية, مقابلات وتغطيات إعلامية بالعربية والإنجليزية واليابانية]
   pr_btn: راسلنا
@@ -118,7 +118,7 @@ en:
   pr_collab: Let's Collaborate
   pr_collab_sub: The club welcomes contact from anyone who shares its interest in the hobby and in cultural exchange.
   pr_who_title: We welcome
-  pr_who: [Professional modellers and artists, Model clubs in Saudi Arabia and abroad, Cultural bodies and Japanese organizations, Event and exhibition organizers, Media, Sponsors and partners]
+  pr_who: [Professional modellers and artists, Model clubs in Saudi Arabia and abroad, Local and international cultural bodies and institutions, Event and exhibition organizers, Media, Sponsors and partners]
   pr_what_title: Ways to collaborate
   pr_what: [Model building and painting workshops and talks, Hosting international professionals in Saudi Arabia, Cultural exchange programs through the hobby, Interviews and coverage in Arabic, English and Japanese]
   pr_btn: Email us
@@ -220,7 +220,7 @@ ja:
   pr_collab: 一緒にコラボしませんか
   pr_collab_sub: 模型趣味と文化交流に関心を持つ皆さまからのご連絡をお待ちしています。
   pr_who_title: こんな方を歓迎します
-  pr_who: [プロモデラー・アーティスト, 国内外の模型クラブ, 文化団体・日本の団体, イベント・展示会の主催者, メディア関係者, スポンサー・パートナー]
+  pr_who: [プロモデラー・アーティスト, 国内外の模型クラブ, 国内外の文化団体・機関, イベント・展示会の主催者, メディア関係者, スポンサー・パートナー]
   pr_what_title: コラボの例
   pr_what: [模型制作・塗装のワークショップや講演, 海外プロのサウジアラビア招へい, 模型を通じた文化交流プログラム, アラビア語・英語・日本語での取材対応]
   pr_btn: メールで問い合わせ
