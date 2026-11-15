@@ -424,3 +424,24 @@ html,body{overflow-x:clip}
 /* home blog: "all posts" button below the cards */
 .blog-more{display:flex;justify-content:center;margin:24px 0 0}
 /* build 202611131200 */
+
+/* ===== Connections & Press page ===== */
+.press-page h2.team-group{margin-top:44px}
+.pr-guests{display:grid;gap:18px}
+.pr-guest{display:grid;grid-template-columns:minmax(0,320px) 1fr;gap:20px;border:1px solid var(--line);background:var(--panel);padding:16px;align-items:center}
+.pr-guest img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;display:block}
+.pr-guest h3{margin:6px 0 8px;font-size:24px}
+.pr-guest p{margin:0 0 10px;color:var(--muted)}
+.pr-media{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px}
+.pr-media li{border:1px solid var(--line);background:var(--panel);padding:16px;display:flex;flex-direction:column;gap:6px}
+.pr-media h3{margin:0;font-size:17px}
+.pr-media p{margin:0;color:var(--muted);font-size:14px;flex:1}
+.pr-guest a,.pr-media a{color:var(--hazard);font-weight:700;text-decoration:none}
+.pr-collab{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.pr-collab > div{border:1px solid var(--line);background:var(--panel);padding:16px 20px}
+.pr-collab h3{margin:0 0 8px;font-size:17px;color:var(--hazard)}
+.pr-collab ul{margin:0;padding-inline-start:20px;color:var(--muted)}
+.pr-collab li{margin:4px 0}
+.pr-cta{margin-top:22px;align-items:center}
+.pr-mail{color:var(--muted);font-family:var(--f-mono)}
+@media (max-width:640px){.pr-guest{grid-template-columns:1fr}}

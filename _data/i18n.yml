@@ -1,5 +1,28 @@
 # نصوص الواجهة بثلاث لغات — أي قسم جديد يضيف نصوصه هنا لكل لغة
 ar:
+  nav_press: العلاقات والإعلام
+  press_url: /press/
+  press_more: كل الظهور الإعلامي ←
+  pr_title: العلاقات والإعلام
+  pr_desc: ضيوف نادي سعودي ميكا روبوت الدوليون، وظهوره في الإعلام الياباني، ودعوة للتعاون مع المحترفين والجهات الثقافية ووسائل الإعلام.
+  pr_sub: علاقات النادي الدولية وظهوره الإعلامي المرتبط بهواية النماذج التركيبية والمجسمات، ودعوة مفتوحة للتعاون داخل المملكة وخارجها.
+  pr_guests: ضيوف النادي الدوليون
+  pr_guests_sub: محترفون من خارج المملكة استضافهم النادي لنقل خبرتهم إلى هواة النماذج في السعودية.
+  pr_media: الظهور الإعلامي
+  pr_media_sub: تغطيات في الإعلام الياباني تناولت النادي ونشاطه في الهواية.
+  pr_collab: لنتعاون
+  pr_collab_sub: يرحّب النادي بالتواصل مع كل من يشاركه الاهتمام بالهواية وبالتبادل الثقافي.
+  pr_who_title: نرحّب بـ
+  pr_who: [المودلرز المحترفين والفنانين, أندية النماذج داخل المملكة وخارجها, الجهات الثقافية والمؤسسات اليابانية, منظمي الفعاليات والمعارض, وسائل الإعلام, الرعاة والشركاء]
+  pr_what_title: مجالات التعاون
+  pr_what: [ورش عمل ومحاضرات في تركيب النماذج وتلوينها, استضافة محترفين دوليين في المملكة, برامج تبادل ثقافي عبر الهواية, مقابلات وتغطيات إعلامية بالعربية والإنجليزية واليابانية]
+  pr_btn: راسلنا
+  pr_read: اقرأ التفاصيل ←
+  pr_watch: شاهد ←
+  kind_TV: تلفزيون
+  kind_MAGAZINE: مجلة
+  kind_BOOK: كتاب
+  kind_VIDEO: فيديو
   flag: 🇸🇦
   code_label: AR
   lang_label: اللغة
@@ -82,6 +105,29 @@ ar:
   - نؤمن بأن الشغف نقطة البداية، وأن الهواية يمكن أن تكون جسرًا للإبداع والصداقة والتبادل الثقافي.
   - نرحب بالجميع.
 en:
+  nav_press: Connections & Press
+  press_url: /en/press/
+  press_more: All press →
+  pr_title: Connections & Press
+  pr_desc: Saudi Mecha Robot's international guests, its coverage in Japanese media, and an invitation to collaborate for professionals, cultural organizations and the media.
+  pr_sub: The club's international connections and media coverage related to the scale model and figure hobby, and an open invitation to collaborate, in Saudi Arabia and abroad.
+  pr_guests: International Guests
+  pr_guests_sub: Professionals from abroad whom the club has hosted to share their expertise with modellers in Saudi Arabia.
+  pr_media: In the Media
+  pr_media_sub: Japanese media coverage of the club and its work in the hobby.
+  pr_collab: Let's Collaborate
+  pr_collab_sub: The club welcomes contact from anyone who shares its interest in the hobby and in cultural exchange.
+  pr_who_title: We welcome
+  pr_who: [Professional modellers and artists, Model clubs in Saudi Arabia and abroad, Cultural bodies and Japanese organizations, Event and exhibition organizers, Media, Sponsors and partners]
+  pr_what_title: Ways to collaborate
+  pr_what: [Model building and painting workshops and talks, Hosting international professionals in Saudi Arabia, Cultural exchange programs through the hobby, Interviews and coverage in Arabic, English and Japanese]
+  pr_btn: Email us
+  pr_read: Read more →
+  pr_watch: Watch →
+  kind_TV: TV
+  kind_MAGAZINE: Magazine
+  kind_BOOK: Book
+  kind_VIDEO: Video
   flag: 🇬🇧
   code_label: EN
   lang_label: Language
@@ -161,6 +207,29 @@ en:
   - We believe that passion is the starting point, and that a hobby can serve as a bridge for creativity, friendship, and cultural exchange.
   - Everyone is welcome.
 ja:
+  nav_press: 交流・メディア
+  press_url: /ja/press/
+  press_more: メディア掲載一覧 →
+  pr_title: 交流・メディア
+  pr_desc: サウジ・メカ・ロボットの海外ゲスト、日本のメディア掲載、そしてモデラー・文化団体・メディアの皆さまとのコラボのご案内。
+  pr_sub: スケールモデル・フィギュアの趣味に関わるクラブの国際交流とメディア掲載、そしてサウジアラビア国内外の皆さまとのコラボのご案内です。
+  pr_guests: 海外ゲスト
+  pr_guests_sub: サウジアラビアのモデラーに技術と経験を伝えるため、クラブがお迎えした海外のプロフェッショナルです。
+  pr_media: メディア掲載
+  pr_media_sub: クラブとその活動を紹介していただいた日本のメディアです。
+  pr_collab: 一緒にコラボしませんか
+  pr_collab_sub: 模型趣味と文化交流に関心を持つ皆さまからのご連絡をお待ちしています。
+  pr_who_title: こんな方を歓迎します
+  pr_who: [プロモデラー・アーティスト, 国内外の模型クラブ, 文化団体・日本の団体, イベント・展示会の主催者, メディア関係者, スポンサー・パートナー]
+  pr_what_title: コラボの例
+  pr_what: [模型制作・塗装のワークショップや講演, 海外プロのサウジアラビア招へい, 模型を通じた文化交流プログラム, アラビア語・英語・日本語での取材対応]
+  pr_btn: メールで問い合わせ
+  pr_read: 詳しく読む →
+  pr_watch: 映像を見る →
+  kind_TV: テレビ
+  kind_MAGAZINE: 雑誌
+  kind_BOOK: 書籍
+  kind_VIDEO: 映像
   flag: 🇯🇵
   code_label: JP
   lang_label: 言語

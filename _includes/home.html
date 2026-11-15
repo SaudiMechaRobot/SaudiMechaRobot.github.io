@@ -32,7 +32,7 @@
     <span class="press-title">{{ t.press_title }}</span>
     <ul>
       {%- for p in site.data.press %}{% assign pk = "name_" | append: L %}{% assign pn = p[pk] | default: p.name %}
-      <li><a href="#log"><small class="tag">{{ p.kind }} · {{ p.year }}</small><span dir="auto">{{ pn }}</span></a></li>
+      <li><a href="{{ t.press_url | relative_url }}">{% assign kk = "kind_" | append: p.kind %}<small class="tag">{{ t[kk] | default: p.kind }} · {{ p.year }}</small><span dir="auto">{{ pn }}</span></a></li>
       {%- endfor %}
     </ul>
   </div></section>
