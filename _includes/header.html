@@ -8,7 +8,8 @@
   </div>
   <div class="wrap nav">
     <a class="brand" href="{{ home }}" aria-label="Saudi Mecha Robot"><img class="brand-logo" src="{{ '/assets/images/logo-192.png' | relative_url }}" alt="Saudi Mecha Robot logo" width="80" height="80"><span class="brand-text" aria-hidden="true"><span class="brand-line1">Saudi</span><span class="brand-line2">Mecha Robot</span></span></a>
-    <ul>
+    <button class="nav-toggle" type="button" aria-label="{{ t.nav_menu }}" aria-expanded="false" aria-controls="site-menu"><span class="nt-bars" aria-hidden="true"><i></i><i></i><i></i></span><span class="nt-label">{{ t.nav_menu }}</span></button>
+    <ul id="site-menu">
       <li><a href="{{ home }}#about">{{ t.nav_about }}</a></li>
       <li><a href="{{ home }}#team">{{ t.nav_team }}</a></li>
       <li><a href="{{ home }}#log">{{ t.nav_log }}</a></li>
@@ -18,4 +19,14 @@
       <li><a href="{{ home }}#faq">{{ t.nav_faq }}</a></li>
     </ul>
   </div>
+  <script>
+  (function(){
+    var b=document.querySelector('.nav-toggle'),m=document.getElementById('site-menu');if(!b||!m)return;
+    function set(o){b.setAttribute('aria-expanded',o?'true':'false');m.classList.toggle('open',o);}
+    b.addEventListener('click',function(){set(b.getAttribute('aria-expanded')!=='true');});
+    m.addEventListener('click',function(e){if(e.target.closest('a'))set(false);});
+    document.addEventListener('keydown',function(e){if(e.key==='Escape'&&m.classList.contains('open')){set(false);b.focus();}});
+    window.matchMedia('(min-width:901px)').addEventListener('change',function(q){if(q.matches)set(false);});
+  })();
+  </script>
 </header>
