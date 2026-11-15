@@ -50,7 +50,6 @@ ar:
   nav_gallery: أعمال الأعضاء
   nav_blog: المدونة
   nav_faq: الأسئلة
-  nav_menu: القائمة
   about_title: من نحن
   p1_t: تحديات تركيب جماعية
   p1_d: كل الأعضاء يركّبون نفس الموديل ويشاركون النتيجة.
@@ -156,7 +155,6 @@ en:
   nav_gallery: Gallery
   nav_blog: Blog
   nav_faq: FAQ
-  nav_menu: Menu
   about_title: About Us
   p1_t: Group build challenges
   p1_d: Members build the same kit and share the results.
@@ -260,7 +258,6 @@ ja:
   nav_gallery: ギャラリー
   nav_blog: ブログ
   nav_faq: よくある質問
-  nav_menu: メニュー
   about_title: クラブ紹介
   p1_t: グループ製作チャレンジ
   p1_d: メンバー全員が同じキットを作り、完成品を見せ合います。
