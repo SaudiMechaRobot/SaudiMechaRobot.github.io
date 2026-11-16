@@ -1,7 +1,7 @@
 ---
-title: "جريندايزر - دوق فليد"
-title_en: "Grendizer — Duke Fleed"
-title_ja: "グレンダイザー — デューク・フリード"
+title: "جريندايزر - دوق فليد و البروتوتايب"
+title_en: "Grendizer - Duke Fleed & the Prototype"
+title_ja: "グレンダイザー — デューク・フリード＆プロトタイプ"
 builder: ""
 grade: ""
 image: /assets/images/gallery/grendizer-duke-fleed.webp

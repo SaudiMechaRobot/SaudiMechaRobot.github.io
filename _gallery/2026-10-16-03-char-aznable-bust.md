@@ -1,6 +1,6 @@
 ---
 title: "تمثال نصفي مخصص لشار أزنابل"
-title_en: "Char Aznable Custom Bust"
+title_en: "Char bust - painted"
 title_ja: "シャア・アズナブル カスタムバスト"
 builder: ""
 grade: ""

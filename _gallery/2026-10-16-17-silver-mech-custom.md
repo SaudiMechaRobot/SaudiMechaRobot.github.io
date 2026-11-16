@@ -1,6 +1,6 @@
 ---
 title: "آرمورد كور — طلاء مخصص"
-title_en: "Armored Core — Custom Paint"
+title_en: "Armored Core - Crest Silver painted"
 title_ja: "アーマード・コア — カスタム塗装"
 builder: ""
 grade: ""
