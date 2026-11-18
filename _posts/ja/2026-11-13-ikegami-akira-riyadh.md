@@ -5,6 +5,7 @@ description: 日本を代表するジャーナリスト・池上彰さんをリ�
 seo_title: "池上彰さんをサウジアラビアの自宅にお迎えして｜昭和アニメとスーパーロボット"
 category: STORY
 pin: 1
+share_cta: "サウジアラビアと日本をつなぐメカ文化の物語を楽しんでいただけたら、ぜひお友だちにもシェアしてください"
 cover: /assets/images/blog/ikegami-cover.webp
 image: /assets/images/blog/ikegami-cover.jpg
 ---
