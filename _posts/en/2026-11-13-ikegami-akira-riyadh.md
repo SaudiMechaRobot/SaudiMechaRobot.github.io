@@ -5,6 +5,7 @@ description: Hosting Japanese journalist Akira Ikegami at home in Riyadh, and ho
 seo_title: "Hosting Akira Ikegami in Riyadh, Saudi Arabia | Saudi Mecha Robot"
 category: STORY
 pin: 1
+share_cta: "If you enjoyed this journey between mecha culture in Saudi Arabia and Japan, share it with your friends"
 cover: /assets/images/blog/ikegami-cover.webp
 image: /assets/images/blog/ikegami-cover.jpg
 ---
