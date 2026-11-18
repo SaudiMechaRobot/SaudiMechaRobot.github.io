@@ -416,7 +416,7 @@ html,body{overflow-x:clip}
 .crew-photo img{pointer-events:none;-webkit-user-drag:none}
 /* home blog: "all posts" button below the cards */
 .blog-more{display:flex;justify-content:center;margin:24px 0 0}
-/* build 202611131200 */
+/* build 202611181200 */
 
 /* ===== Connections & Press page ===== */
 .press-page h2.team-group{margin-top:44px}
@@ -447,3 +447,15 @@ html,body{overflow-x:clip}
   .nav ul a:hover,.nav ul a:focus-visible{border-bottom-color:var(--hazard)}
 }
 @media (max-width:400px){.nav ul{gap:2px 12px}.nav ul a{font-size:14px}}
+
+.share{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:36px 0 0;padding-top:20px;border-top:1px solid var(--line)}
+.share-label{font-size:14px;color:var(--muted);margin-inline-end:4px}
+.share-btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-width:40px;height:40px;padding:0 10px;border:1px solid var(--line);background:var(--panel);color:inherit;cursor:pointer;font:inherit;font-size:13px;text-decoration:none;transition:border-color .2s,color .2s}
+.share-btn:hover,.share-btn:focus-visible{border-color:var(--hazard);color:var(--hazard)}
+.share-btn svg{width:18px;height:18px;fill:currentColor}
+.share-btn[hidden]{display:none}
+.share-msg{font-size:13px;color:var(--hazard)}
+.share-site{margin:0;padding:0;border:0}
+.share-site .share-btn{height:30px;min-width:0;padding:0 10px;font-size:12px}
+.share-site .share-btn svg{width:14px;height:14px}
+.foot-end{display:inline-flex;align-items:center;gap:12px;flex-wrap:wrap}
