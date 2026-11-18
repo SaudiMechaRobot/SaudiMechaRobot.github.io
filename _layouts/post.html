@@ -11,5 +11,6 @@ layout: default
   </header>
   {%- if page.cover and page.cover != "" %}<img src="{{ page.cover | relative_url }}" alt="{{ page.title }}" style="margin-bottom:28px;border:1px solid var(--line)">{% endif %}
   <div class="prose">{{ content }}</div>
+  {% include share.html url=page.url title=page.title mode="post" %}
   <p style="margin-top:40px"><a class="btn" href="{{ t.blog_url | relative_url }}">{{ t.blog_all }}</a></p>
 </main>
