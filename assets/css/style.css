@@ -416,7 +416,7 @@ html,body{overflow-x:clip}
 .crew-photo img{pointer-events:none;-webkit-user-drag:none}
 /* home blog: "all posts" button below the cards */
 .blog-more{display:flex;justify-content:center;margin:24px 0 0}
-/* build 202611181700 */
+/* build 202611181800 */
 
 /* ===== Connections & Press page ===== */
 .press-page h2.team-group{margin-top:44px}
@@ -469,3 +469,4 @@ html,body{overflow-x:clip}
 .share-post .share-native,.share-post .share-copy{background:var(--hazard);border-color:var(--hazard);color:#0b0f14}
 .share-post .share-btn:hover,.share-post .share-btn:focus-visible{filter:brightness(1.12);color:#fff}
 .share-post .share-native:hover,.share-post .share-copy:hover{color:#0b0f14}
+.share-post .share-copy{background:#e6edf3;border-color:#e6edf3;color:#0b0f14}
