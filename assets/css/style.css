@@ -416,7 +416,7 @@ html,body{overflow-x:clip}
 .crew-photo img{pointer-events:none;-webkit-user-drag:none}
 /* home blog: "all posts" button below the cards */
 .blog-more{display:flex;justify-content:center;margin:24px 0 0}
-/* build 202611181500 */
+/* build 202611181600 */
 
 /* ===== Connections & Press page ===== */
 .press-page h2.team-group{margin-top:44px}
@@ -460,6 +460,6 @@ html,body{overflow-x:clip}
 .share-site .share-btn svg{width:14px;height:14px}
 .foot-end{display:inline-flex;align-items:center;gap:12px;flex-wrap:wrap}
 .ah .tag{display:inline-flex;align-items:center;gap:8px}
-.share-mini{display:inline-flex;align-items:center;justify-content:center;width:26px;height:26px;margin-inline-start:6px;padding:0;border:1px solid var(--line);background:transparent;color:var(--muted);cursor:pointer;vertical-align:middle;transition:color .2s,border-color .2s}
-.share-mini svg{width:14px;height:14px;fill:currentColor}
-.share-mini:hover,.share-mini:focus-visible,.share-mini.done{color:var(--hazard);border-color:var(--hazard)}
+.share-mini{display:inline-flex;align-items:center;gap:6px;height:32px;margin-inline-start:8px;padding:0 12px;border:1px solid var(--hazard);background:rgba(242,183,5,.12);color:var(--hazard);font:inherit;font-size:13px;font-weight:700;letter-spacing:normal;cursor:pointer;vertical-align:middle;transition:background .2s,color .2s}
+.share-mini svg{width:16px;height:16px;fill:currentColor}
+.share-mini:hover,.share-mini:focus-visible,.share-mini.done{background:var(--hazard);color:#0b0f14}
