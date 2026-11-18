@@ -1,0 +1,15 @@
+<script>
+(function(){
+  document.querySelectorAll('.share').forEach(function(box){
+    var url = box.dataset.url, title = box.dataset.title;
+    var nat = box.querySelector('.share-native'), cp = box.querySelector('.share-copy'), msg = box.querySelector('.share-msg');
+    function copy(){ var done = function(){ if (msg && cp) { msg.textContent = cp.dataset.done; setTimeout(function(){ msg.textContent = ''; }, 2000); } };
+      if (navigator.clipboard) navigator.clipboard.writeText(url).then(done, function(){}); }
+    if (nat) {
+      if (navigator.share) { nat.hidden = false; nat.addEventListener('click', function(){ navigator.share({ title: title, url: url }).catch(function(){}); }); }
+      else if (box.classList.contains('share-site')) { nat.addEventListener('click', function(){ copy(); var s = nat.querySelector('span'), o = s.textContent; s.textContent = '✓'; setTimeout(function(){ s.textContent = o; }, 1800); }); }
+    }
+    if (cp) cp.addEventListener('click', copy);
+  });
+})();
+</script>
