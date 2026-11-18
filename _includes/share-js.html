@@ -11,5 +11,11 @@
     }
     if (cp) cp.addEventListener('click', copy);
   });
+  document.querySelectorAll('.share-mini').forEach(function(b){
+    b.addEventListener('click', function(){
+      if (navigator.share) { navigator.share({ title: b.dataset.title, url: b.dataset.url }).catch(function(){}); return; }
+      if (navigator.clipboard) navigator.clipboard.writeText(b.dataset.url).then(function(){ b.classList.add('done'); b.setAttribute('title', b.dataset.done); setTimeout(function(){ b.classList.remove('done'); }, 1800); });
+    });
+  });
 })();
 </script>
