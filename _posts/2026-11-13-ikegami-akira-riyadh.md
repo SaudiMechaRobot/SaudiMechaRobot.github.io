@@ -5,6 +5,7 @@ description: استضافة الإعلامي الياباني Ikegami Akira في
 seo_title: "استضافة الإعلامي الياباني Ikegami Akira في الرياض بالسعودية | Saudi Mecha Robot"
 category: STORY
 pin: 1
+share_cta: "إذا أعجبتك هذه الرحلة بين ثقافة الميكا في السعودية واليابان، شاركها مع أصدقائك"
 cover: /assets/images/blog/ikegami-cover.webp
 image: /assets/images/blog/ikegami-cover.jpg
 ---
