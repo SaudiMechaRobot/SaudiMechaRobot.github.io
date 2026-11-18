@@ -4,7 +4,7 @@ layout: default
 {%- include i18n.html -%}
 <main class="wrap article">
   <header class="ah">
-    <span class="tag">{{ page.category | default: "POST" }} · <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y.%m.%d" }}</time></span><button type="button" class="share-mini" data-url="{{ page.url | absolute_url }}" data-title="{{ page.title | strip_html | escape }}" data-done="{{ t.share_copied }}" aria-label="{{ t.share_label }}" title="{{ t.share_label }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 16a3 3 0 0 0-2.4 1.2l-6.7-3.4a3 3 0 0 0 0-1.6l6.7-3.4A3 3 0 1 0 15 7l-6.7 3.4a3 3 0 1 0 0 3.2L15 17a3 3 0 1 0 3-1z"/></svg></button>
+    <span class="tag">{{ page.category | default: "POST" }} · <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y.%m.%d" }}</time></span><button type="button" class="share-mini" data-url="{{ page.url | absolute_url }}" data-title="{{ page.title | strip_html | escape }}" data-done="{{ t.share_copied }}" aria-label="{{ t.share_label }}" title="{{ t.share_label }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 16a3 3 0 0 0-2.4 1.2l-6.7-3.4a3 3 0 0 0 0-1.6l6.7-3.4A3 3 0 1 0 15 7l-6.7 3.4a3 3 0 1 0 0 3.2L15 17a3 3 0 1 0 3-1z"/></svg><span>{{ t.share_short }}</span></button>
     <h1>{{ page.title }}</h1>
     {%- if page.description %}<p style="color:var(--muted);font-size:18px;max-width:60ch">{{ page.description }}</p>{% endif %}
     {%- if alts.size > 1 %}<p class="translations">{{ t.other_langs }} {% for a in alts %}{% assign al = a.lang | default: "ar" %}{% if al != L %}<a class="lang" href="{{ a.url | relative_url }}" hreflang="{{ al }}" lang="{{ al }}">{{ site.data.i18n[al].lang_name }}</a> {% endif %}{% endfor %}</p>{% endif %}
