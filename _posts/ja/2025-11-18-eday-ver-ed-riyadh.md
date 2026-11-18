@@ -1,11 +1,14 @@
 ---
 ref: eday-ver-ed-riyadh
 title: "Eday Ver.Edがリヤドに：香港のプロによるワークショップ「モデリング・フィロソフィー」"
+seo_title: "Eday Ver.Edリヤド・ガンプラワークショップ｜Saudi Mecha Robot"
 description: Saudi Mecha Robotは香港のプロモデラーEday Ver.Ed氏をリヤドに迎え、ガンプラ制作における創造性をテーマにしたワークショップ「Modelling Philosophy 101」を開催しました。
 category: EVENT
 pin: 2
 cover: /assets/images/blog/eday-riyadh-cover.webp
 image: /assets/images/blog/eday-riyadh-cover.jpg
+last_modified_at: 2026-11-19T02:45:00+03:00
+schema: {"@context": "https://schema.org", "@type": "Event", "name": "Eday Ver.Ed ワークショップ「Modelling Philosophy 101」", "startDate": "2025-11-18", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "Riyadh", "address": {"@type": "PostalAddress", "addressLocality": "Riyadh", "addressCountry": "SA"}}, "organizer": {"@type": "Organization", "name": "Saudi Mecha Robot", "url": "https://saudimecharobot.com/"}, "performer": {"@type": "Person", "name": "Eday Ver.Ed"}, "image": "https://saudimecharobot.com/assets/images/blog/eday-riyadh-cover.jpg"}
 ---
 <figure class="post-figure"><img src="/assets/images/blog/eday-workshop-opening.webp" alt="リヤドでのワークショップ「Modelling Philosophy 101」冒頭のEday氏とサーメル" width="1600" height="900" loading="lazy"><figcaption>リヤドでのワークショップ「Modelling Philosophy 101」冒頭のEday氏とサーメル</figcaption></figure>
 

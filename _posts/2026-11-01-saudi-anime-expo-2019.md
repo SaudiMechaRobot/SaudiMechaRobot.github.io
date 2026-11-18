@@ -1,12 +1,13 @@
 ---
 ref: saudi-anime-expo-2019
 title: "أنمي إكسبو الرياض 2019: الفعالية التي كانت مخصصة للهارد كور وجيل الطيبين"
+seo_title: "أنمي إكسبو الرياض 2019 | Saudi Mecha Robot"
 description: في نوفمبر 2019 أقيم SAUDI ANIME EXPO 2019 في الرياض، أول فعالية أنمي رسمية في المملكة، وجمع إيساو ساساكي وإيتشيرو ميزوكي مع سامي كلارك على مسرح واحد ولأول مرة.
 category: STORY
 cover: /assets/images/blog/anime-expo-2019-cover.webp
 image: /assets/images/blog/anime-expo-2019-cover.jpg
-last_modified_at: 2026-11-01T18:45:00+03:00
 schema: {"@context": "https://schema.org", "@type": "Event", "name": "أنمي إكسبو الرياض 2019 (SAUDI ANIME EXPO 2019)", "alternateName": "SAUDI ANIME EXPO 2019", "startDate": "2019-11-14", "endDate": "2019-11-16", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "Riyadh Front Expo Land", "address": {"@type": "PostalAddress", "addressLocality": "Riyadh", "addressCountry": "SA"}}, "organizer": {"@type": "Organization", "name": "General Entertainment Authority", "url": "https://www.gea.gov.sa"}, "performer": [{"@type": "Person", "name": "Isao Sasaki"}, {"@type": "Person", "name": "Ichiro Mizuki"}, {"@type": "Person", "name": "Sami Clark"}], "image": "https://saudimecharobot.com/assets/images/blog/anime-expo-2019-cover.jpg", "inLanguage": "ar"}
+last_modified_at: 2026-11-19T02:45:00+03:00
 ---
 في نوفمبر 2019، وضمن **موسم الرياض**، أقيم أول معرض أنمي رسمي حكومي في المملكة تحت اسم **SAUDI ANIME EXPO 2019**. استمر ثلاثة أيام (14–16 نوفمبر) في **Riyadh Front Expo Land Hall 3/4**، واستقطب حوالي [**37,800 زائر**](https://animeanime.jp/article/2019/11/20/49822.html){:target="_blank" rel="noopener"}.
 

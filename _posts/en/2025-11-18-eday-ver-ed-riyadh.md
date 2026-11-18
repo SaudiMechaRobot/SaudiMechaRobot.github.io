@@ -1,11 +1,14 @@
 ---
 ref: eday-ver-ed-riyadh
 title: "Eday Ver.Ed in Riyadh: A “Modelling Philosophy” Workshop with a Hong Kong Professional"
+seo_title: "Eday Ver.Ed Gunpla Workshop in Riyadh | Saudi Mecha Robot"
 description: Saudi Mecha Robot hosted Hong Kong professional Eday Ver.Ed in Riyadh, where he led Modelling Philosophy 101, a workshop on creativity in Gunpla building.
 category: EVENT
 pin: 2
 cover: /assets/images/blog/eday-riyadh-cover.webp
 image: /assets/images/blog/eday-riyadh-cover.jpg
+last_modified_at: 2026-11-19T02:45:00+03:00
+schema: {"@context": "https://schema.org", "@type": "Event", "name": "Modelling Philosophy 101 with Eday Ver.Ed", "startDate": "2025-11-18", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "Riyadh", "address": {"@type": "PostalAddress", "addressLocality": "Riyadh", "addressCountry": "SA"}}, "organizer": {"@type": "Organization", "name": "Saudi Mecha Robot", "url": "https://saudimecharobot.com/"}, "performer": {"@type": "Person", "name": "Eday Ver.Ed"}, "image": "https://saudimecharobot.com/assets/images/blog/eday-riyadh-cover.jpg"}
 ---
 <figure class="post-figure"><img src="/assets/images/blog/eday-workshop-opening.webp" alt="Eday and Thamer opening the Modelling Philosophy 101 workshop in Riyadh" width="1600" height="900" loading="lazy"><figcaption>Eday and Thamer opening the Modelling Philosophy 101 workshop in Riyadh</figcaption></figure>
 

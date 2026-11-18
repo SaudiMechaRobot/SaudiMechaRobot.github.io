@@ -1,13 +1,14 @@
 ---
 ref: ikegami-akira-riyadh
 title: "حين أصبحت الميكا والسوبر روبوت جسرًا بين ثقافتين: استضافة الإعلامي الياباني Ikegami Akira في الرياض"
+seo_title: "استضافة Ikegami Akira في الرياض | Saudi Mecha Robot"
 description: استضافة الإعلامي الياباني Ikegami Akira في منزل بالرياض، والحديث عن الأنمي والميكا والسوبر روبوت وGunpla، وكيف ربطت بين السعودية واليابان.
-seo_title: "استضافة الإعلامي الياباني Ikegami Akira في الرياض بالسعودية | Saudi Mecha Robot"
 category: STORY
 pin: 1
 share_cta: "إذا أعجبتك هذه الرحلة بين ثقافة الميكا في السعودية واليابان، شاركها مع أصدقائك"
 cover: /assets/images/blog/ikegami-cover.webp
 image: /assets/images/blog/ikegami-cover.jpg
+last_modified_at: 2026-11-19T02:45:00+03:00
 ---
 من أكثر التجارب التي لا أنساها استقبالي في منزلي بـ**الرياض** للأستاذ **Ikegami Akira** (池上彰)، أحد أبرز الصحفيين والإعلاميين في **اليابان**.
 

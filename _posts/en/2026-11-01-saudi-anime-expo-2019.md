@@ -1,12 +1,13 @@
 ---
 ref: saudi-anime-expo-2019
 title: "Saudi Anime Expo 2019: The Event That Felt Made for Hardcore Fans"
-description: In November 2019, Riyadh hosted SAUDI ANIME EXPO 2019, the Kingdom's first official anime event, bringing Isao Sasaki and Ichiro Mizuki together with Sami Clark on one stage for the first time.
+seo_title: "Saudi Anime Expo 2019 in Riyadh | Saudi Mecha Robot"
+description: Saudi Anime Expo 2019 in Riyadh, the Kingdom's first official anime event, put Isao Sasaki, Ichiro Mizuki and Sami Clark on one stage.
 category: STORY
 cover: /assets/images/blog/anime-expo-2019-cover.webp
 image: /assets/images/blog/anime-expo-2019-cover.jpg
-last_modified_at: 2026-11-01T18:45:00+03:00
 schema: {"@context": "https://schema.org", "@type": "Event", "name": "Saudi Anime Expo 2019", "alternateName": "SAUDI ANIME EXPO 2019", "startDate": "2019-11-14", "endDate": "2019-11-16", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "Riyadh Front Expo Land", "address": {"@type": "PostalAddress", "addressLocality": "Riyadh", "addressCountry": "SA"}}, "organizer": {"@type": "Organization", "name": "General Entertainment Authority", "url": "https://www.gea.gov.sa"}, "performer": [{"@type": "Person", "name": "Isao Sasaki"}, {"@type": "Person", "name": "Ichiro Mizuki"}, {"@type": "Person", "name": "Sami Clark"}], "image": "https://saudimecharobot.com/assets/images/blog/anime-expo-2019-cover.jpg", "inLanguage": "en"}
+last_modified_at: 2026-11-19T02:45:00+03:00
 ---
 In November 2019, as part of **Riyadh Season**, Saudi Arabia hosted its first official government-organized anime event: **SAUDI ANIME EXPO 2019**. Held from November 14–16 at **Riyadh Front Expo Land Hall 3/4**, it attracted around [**37,800 visitors**](https://animeanime.jp/article/2019/11/20/49822.html){:target="_blank" rel="noopener"} over three days and was widely regarded as the largest event of its kind in the Middle East at the time.
 

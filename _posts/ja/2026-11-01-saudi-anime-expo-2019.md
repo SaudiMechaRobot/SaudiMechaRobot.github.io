@@ -1,12 +1,13 @@
 ---
 ref: saudi-anime-expo-2019
 title: "サウジアニメエキスポ2019：筋金入りのファンのために開かれたようなイベント"
+seo_title: "サウジアニメエキスポ2019（リヤド）｜Saudi Mecha Robot"
 description: 2019年11月、リヤドでサウジアラビア初の公式アニメイベント「SAUDI ANIME EXPO 2019」が開催。ささきいさお、水木一郎、サミー・クラークが初めて同じステージに立ちました。
 category: STORY
 cover: /assets/images/blog/anime-expo-2019-cover.webp
 image: /assets/images/blog/anime-expo-2019-cover.jpg
-last_modified_at: 2026-11-01T18:45:00+03:00
 schema: {"@context": "https://schema.org", "@type": "Event", "name": "サウジアニメエキスポ2019（SAUDI ANIME EXPO 2019）", "alternateName": "SAUDI ANIME EXPO 2019", "startDate": "2019-11-14", "endDate": "2019-11-16", "eventStatus": "https://schema.org/EventScheduled", "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode", "location": {"@type": "Place", "name": "Riyadh Front Expo Land", "address": {"@type": "PostalAddress", "addressLocality": "Riyadh", "addressCountry": "SA"}}, "organizer": {"@type": "Organization", "name": "General Entertainment Authority", "url": "https://www.gea.gov.sa"}, "performer": [{"@type": "Person", "name": "Isao Sasaki"}, {"@type": "Person", "name": "Ichiro Mizuki"}, {"@type": "Person", "name": "Sami Clark"}], "image": "https://saudimecharobot.com/assets/images/blog/anime-expo-2019-cover.jpg", "inLanguage": "ja"}
+last_modified_at: 2026-11-19T02:45:00+03:00
 ---
 2019年11月、**リヤドシーズン**の一環として、サウジアラビア初の政府主催の公式アニメイベント「**SAUDI ANIME EXPO 2019**」が開催されました。会場は**Riyadh Front Expo Land Hall 3/4**、会期は11月14日から16日までの3日間で、約[**37,800人**](https://animeanime.jp/article/2019/11/20/49822.html){:target="_blank" rel="noopener"}が来場しました。
 

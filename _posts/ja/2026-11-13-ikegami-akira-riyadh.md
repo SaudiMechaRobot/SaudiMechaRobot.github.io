@@ -8,6 +8,7 @@ pin: 1
 share_cta: "サウジアラビアと日本をつなぐメカ文化の物語を楽しんでいただけたら、ぜひお友だちにもシェアしてください"
 cover: /assets/images/blog/ikegami-cover.webp
 image: /assets/images/blog/ikegami-cover.jpg
+last_modified_at: 2026-11-19T02:45:00+03:00
 ---
 私にとって忘れられない出来事の一つに、日本を代表するジャーナリスト・**池上彰**さん（Ikegami Akira）を、**サウジアラビア**の**リヤド**にある自宅にお迎えしたことがあります。
 

@@ -8,6 +8,7 @@ pin: 1
 share_cta: "If you enjoyed this journey between mecha culture in Saudi Arabia and Japan, share it with your friends"
 cover: /assets/images/blog/ikegami-cover.webp
 image: /assets/images/blog/ikegami-cover.jpg
+last_modified_at: 2026-11-19T02:45:00+03:00
 ---
 One of the most memorable experiences I have had was welcoming **Akira Ikegami** (池上彰), one of Japan's most prominent journalists and television personalities, into my home in **Riyadh**, **Saudi Arabia**.
 
