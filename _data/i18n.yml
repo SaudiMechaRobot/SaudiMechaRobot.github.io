@@ -1,5 +1,9 @@
 # نصوص الواجهة بثلاث لغات — أي قسم جديد يضيف نصوصه هنا لكل لغة
 ar:
+  share_label: شارك المقال
+  share_site: شارك الموقع
+  share_copy: نسخ الرابط
+  share_copied: تم نسخ الرابط ✓
   nav_press: العلاقات والإعلام
   press_url: /press/
   press_more: كل الظهور الإعلامي ←
@@ -105,6 +109,10 @@ ar:
   - نؤمن بأن الشغف نقطة البداية، وأن الهواية يمكن أن تكون جسرًا للإبداع والصداقة والتبادل الثقافي.
   - نرحب بالجميع.
 en:
+  share_label: Share this post
+  share_site: Share site
+  share_copy: Copy link
+  share_copied: Link copied ✓
   nav_press: Connections & Press
   press_url: /en/press/
   press_more: All press →
@@ -207,6 +215,10 @@ en:
   - We believe that passion is the starting point, and that a hobby can serve as a bridge for creativity, friendship, and cultural exchange.
   - Everyone is welcome.
 ja:
+  share_label: この記事をシェア
+  share_site: サイトをシェア
+  share_copy: リンクをコピー
+  share_copied: リンクをコピーしました ✓
   nav_press: 交流・メディア
   press_url: /ja/press/
   press_more: メディア掲載一覧 →
