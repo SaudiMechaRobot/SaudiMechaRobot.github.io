@@ -455,8 +455,8 @@ html,body{overflow-x:clip}
 .cx-group-sub{margin:4px 0 16px;color:var(--muted);font-size:14.5px}
 .cx-list{display:grid;gap:18px}
 .cx-item{display:grid;grid-template-columns:1fr;background:var(--panel);border:1px solid var(--line);border-inline-start:3px solid var(--beam)}
-.cx-photo{margin:0;aspect-ratio:4/3;overflow:hidden;background:var(--deck)}
-.cx-photo img{width:100%;height:100%;object-fit:cover}
+.cx-photo{position:relative;margin:0;aspect-ratio:4/3;overflow:hidden;background:var(--deck)}
+.cx-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .cx-body{display:flex;flex-direction:column;gap:10px;padding:18px 20px 20px;min-width:0}
 .cx-body h3{margin:0;font-family:var(--f-display);font-size:20px;line-height:1.45}
 .cx-facts{display:flex;flex-wrap:wrap;gap:6px 22px;margin:0}
