@@ -430,6 +430,9 @@ html,body{overflow-x:clip}
 .pr-media h3{margin:0;font-size:17px}
 .pr-media p{margin:0;color:var(--muted);font-size:14px;flex:1}
 .pr-guest a,.pr-media a{color:var(--hazard);font-weight:700;text-decoration:none}
+.pr-media li.has-img{grid-column:1/-1}
+.pr-media .pr-img{display:block;margin:-16px -16px 8px;border-bottom:1px solid var(--line)}
+.pr-media .pr-img img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;display:block}
 .pr-collab{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
 .pr-collab > div{border:1px solid var(--line);background:var(--panel);padding:16px 20px}
 .pr-collab h3{margin:0 0 8px;font-size:17px;color:var(--hazard)}
