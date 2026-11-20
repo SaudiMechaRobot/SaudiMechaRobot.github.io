@@ -1,0 +1,42 @@
+{%- comment -%}
+  Media appearance card (used on the press page).
+  Usage: {% include press-card.html item=p %}
+
+  Fields read from _data/press.yml (all optional except name/kind/year):
+    kind        TV | MAGAZINE | BOOK | VIDEO | ONLINE  → badge label from i18n (kind_TV …)
+    year        shown in the badge
+    name / name_en / name_ja    title
+    desc / desc_en / desc_ja    short description
+    url  / url_en  / url_ja     link (external links open in a new tab)
+    image       file name inside assets/images/press/ (e.g. newtype-2023-12.jpg)
+                or a full path starting with "/"
+    image_fit   "contain" for covers/portrait scans (shown whole, no cropping);
+                default "cover" (fills the 16:9 frame)
+  Language comes from the page (L and t are set by i18n.html).
+{%- endcomment -%}
+{%- assign pi = include.item -%}
+{%- if L == "ar" -%}
+  {%- assign pn = pi.name -%}{%- assign pd = pi.desc -%}{%- assign pu = pi.url -%}
+{%- else -%}
+  {%- assign nk = "name_" | append: L -%}{%- assign dk = "desc_" | append: L -%}{%- assign uk = "url_" | append: L -%}
+  {%- assign pn = pi[nk] | default: pi.name -%}{%- assign pd = pi[dk] | default: pi.desc -%}{%- assign pu = pi[uk] | default: pi.url -%}
+{%- endif -%}
+{%- assign kk = "kind_" | append: pi.kind -%}
+{%- assign kind_label = t[kk] | default: pi.kind -%}
+{%- if pi.image and pi.image != "" -%}
+  {%- assign first = pi.image | slice: 0 -%}
+  {%- if first == "/" or pi.image contains "://" -%}{%- assign img = pi.image -%}{%- else -%}{%- assign img = "/assets/images/press/" | append: pi.image -%}{%- endif -%}
+{%- else -%}{%- assign img = nil -%}{%- endif -%}
+{%- if pu -%}{%- if pu contains "://" -%}{%- assign ext = ' target="_blank" rel="noopener"' -%}{%- else -%}{%- assign ext = "" -%}{%- endif -%}{%- endif -%}
+<article class="pr-card">
+  {%- if pu %}<a class="pr-card-media" href="{{ pu | relative_url }}"{{ ext }} tabindex="-1" aria-hidden="true">{% else %}<div class="pr-card-media">{% endif -%}
+    {%- if img %}<img src="{{ img | relative_url }}" alt="{{ pn | escape }}" loading="lazy" decoding="async" width="640" height="360"{% if pi.image_fit == "contain" %} class="is-contain"{% endif %}>
+    {%- else %}<span class="pr-card-ph" aria-hidden="true">{{ pi.kind }}</span>{% endif -%}
+  {%- if pu %}</a>{% else %}</div>{% endif %}
+  <div class="pr-card-body">
+    <span class="pr-badge">{{ kind_label }} <span class="pr-badge-year">· {{ pi.year }}</span></span>
+    <h3 dir="auto">{{ pn }}</h3>
+    {%- if pd %}<p>{{ pd }}</p>{% endif %}
+    {%- if pu %}<a class="pr-card-link" href="{{ pu | relative_url }}"{{ ext }}>{% if pi.kind == "VIDEO" %}{{ t.pr_watch }}{% else %}{{ t.pr_read }}{% endif %}</a>{% endif %}
+  </div>
+</article>

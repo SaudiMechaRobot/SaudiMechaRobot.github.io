@@ -17,11 +17,11 @@
   {%- endif %}
 
   <h2 class="team-group">{{ t.pr_media }}</h2><p class="team-group-sub">{{ t.pr_media_sub }}</p>
-  <ul class="pr-media">
-    {%- for p in site.data.press %}{% if L == "ar" %}{% assign pn = p.name %}{% assign pd = p.desc %}{% assign pu = p.url %}{% else %}{% assign pn = p[nk] | default: p.name %}{% assign pd = p[dk] | default: p.desc %}{% assign pu = p[uk] | default: p.url %}{% endif %}{% assign kk = "kind_" | append: p.kind %}
-    <li{% if p.image %} class="has-img"{% endif %}>{% if p.image %}<a class="pr-img" href="{{ p.image | relative_url }}" target="_blank" rel="noopener"><img src="{{ p.image | relative_url }}" alt="{{ pn }} · Saudi Mecha Robot" loading="lazy" width="1920" height="1080"></a>{% endif %}<small class="tag">{{ t[kk] | default: p.kind }} · {{ p.year }}</small><h3>{{ pn }}</h3>{% if pd %}<p>{{ pd }}</p>{% endif %}{% if pu %}<a href="{{ pu | relative_url }}"{% if pu contains "://" %} target="_blank" rel="noopener"{% endif %}>{% if p.kind == "VIDEO" %}{{ t.pr_watch }}{% else %}{{ t.pr_read }}{% endif %}</a>{% endif %}</li>
+  <div class="pr-grid">
+    {%- for p in site.data.press %}
+    {% include press-card.html item=p %}
     {%- endfor %}
-  </ul>
+  </div>
 
   <h2 class="team-group" id="collaborate">{{ t.pr_collab }}</h2><p class="team-group-sub">{{ t.pr_collab_sub }}</p>
   <div class="pr-collab">
