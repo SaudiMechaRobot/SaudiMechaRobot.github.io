@@ -10,21 +10,34 @@ ar:
   press_url: /press/
   press_more: كل الظهور الإعلامي ←
   pr_title: العلاقات والإعلام
-  pr_desc: ضيوف نادي سعودي ميكا روبوت الدوليون، وظهوره في الإعلام الياباني، ودعوة للتعاون مع المحترفين والجهات الثقافية ووسائل الإعلام.
-  pr_sub: علاقات النادي الدولية وظهوره الإعلامي المرتبط بهواية النماذج التركيبية والمجسمات، ودعوة مفتوحة للتعاون داخل المملكة وخارجها.
+  pr_desc: الظهور الإعلامي والتبادل الثقافي المرتبط بنادي سعودي ميكا روبوت ومؤسسيه، مع التمييز بين تغطيات النادي والتجارب الشخصية، ودعوة للتواصل مع الإعلام والشركاء.
+  pr_sub: توثّق هذه الصفحة الظهور الإعلامي والتجارب الثقافية المرتبطة بمؤسسي النادي واهتماماتهم، إلى جانب المواد الإعلامية التي تناولت النادي وأنشطته.
   pr_guests: ضيوف النادي الدوليون
   pr_guests_sub: محترفون من خارج المملكة استضافهم النادي لنقل خبرتهم إلى هواة النماذج في السعودية.
   pr_media: الظهور الإعلامي
-  pr_media_sub: توثيق للحضور الإعلامي والثقافي المرتبط بمؤسسي النادي واهتماماتهم، إلى جانب المشاركات التي تناولت النادي وأنشطته.
-  pr_collab: لنتعاون
-  pr_collab_sub: يرحّب النادي بالتواصل مع كل من يشاركه الاهتمام بالهواية وبالتبادل الثقافي.
+  pr_media_sub: ظهور في وسائل الإعلام والإصدارات الدولية، مع توضيح ما إذا كانت كل مادة تتناول النادي أو أحد مؤسسيه.
+  pr_collab: استفسارات الإعلام والشراكات
+  pr_collab_sub: يرحّب النادي باستفسارات الإعلام، والتعاون الثقافي، ومشاركة الضيوف الدوليين، والشراكات مع الشركات والجهات.
   pr_who_title: نرحّب بـ
   pr_who: [المودلرز المحترفين والفنانين, أندية النماذج داخل المملكة وخارجها, الجهات الثقافية والمؤسسات المحلية والدولية, منظمي الفعاليات والمعارض, وسائل الإعلام, الرعاة والشركاء]
   pr_what_title: مجالات التعاون
-  pr_what: [ورش عمل ومحاضرات في تركيب النماذج وتلوينها, استضافة محترفين دوليين في المملكة, برامج تبادل ثقافي عبر الهواية, مقابلات وتغطيات إعلامية بالعربية والإنجليزية واليابانية]
+  pr_what: ["استفسارات ومقابلات إعلامية بالعربية والإنجليزية واليابانية", "تعاون ثقافي وبرامج تبادل عبر الهواية", "مشاركة ضيوف دوليين وورش عمل متخصصة", "شراكات مع الشركات والجهات والمنظمات"]
   pr_btn: راسلنا
   pr_read: اقرأ التفاصيل ←
   pr_watch: شاهد ←
+  cat_CULTURE: تبادل ثقافي
+  cat_CLUB: تغطية إعلامية للنادي
+  cat_PUBLICATION: إصدار دولي
+  cat_FOUNDER: ظهور إعلامي للمؤسس
+  cx_place: المكان
+  cx_date: التاريخ
+  cx_person: الشخص
+  pr_personal_sub: تجارب فردية للمؤسسين والأعضاء، تُعرض بصفتها الشخصية ولا تمثّل أنشطة رسمية للنادي.
+  pr_personal: تجارب ثقافية شخصية
+  pr_official_sub: أنشطة نظّمها النادي أو استضافها منذ تأسيسه في 2024.
+  pr_official: أنشطة النادي الرسمية
+  pr_culture_sub: تجارب وعلاقات موثّقة في التبادل الثقافي، مع فصل واضح بين أنشطة النادي الرسمية والتجارب الشخصية.
+  pr_culture: التبادل الثقافي
   kind_TV: تلفزيون
   kind_MAGAZINE: مجلة
   kind_BOOK: كتاب
@@ -122,21 +135,34 @@ en:
   press_url: /en/press/
   press_more: All press →
   pr_title: Connections & Press
-  pr_desc: Saudi Mecha Robot's international guests, its coverage in Japanese media, and an invitation to collaborate for professionals, cultural organizations and the media.
-  pr_sub: The club's international connections and media coverage related to the scale model and figure hobby, and an open invitation to collaborate, in Saudi Arabia and abroad.
+  pr_desc: Media appearances and cultural exchange connected with Saudi Mecha Robot and its founders, distinguishing club coverage from personal experiences, with contact details for media and partners.
+  pr_sub: This page documents media appearances and cultural experiences associated with the club's founders and their areas of interest, alongside media coverage of the club and its activities.
   pr_guests: International Guests
   pr_guests_sub: Professionals from abroad whom the club has hosted to share their expertise with modellers in Saudi Arabia.
   pr_media: In the Media
-  pr_media_sub: A record of the media and cultural presence of the club's founders and their interests, alongside features covering the club and its activities.
-  pr_collab: Let's Collaborate
-  pr_collab_sub: The club welcomes contact from anyone who shares its interest in the hobby and in cultural exchange.
+  pr_media_sub: Media appearances and international publications, each noting whether it concerns the club or one of its founders.
+  pr_collab: Media & Partnership Enquiries
+  pr_collab_sub: Saudi Mecha Robot welcomes media enquiries, cultural collaborations, international guest participation, and industry and organizational partnerships.
   pr_who_title: We welcome
   pr_who: [Professional modellers and artists, Model clubs in Saudi Arabia and abroad, Local and international cultural bodies and institutions, Event and exhibition organizers, Media, Sponsors and partners]
   pr_what_title: Ways to collaborate
-  pr_what: [Model building and painting workshops and talks, Hosting international professionals in Saudi Arabia, Cultural exchange programs through the hobby, Interviews and coverage in Arabic, English and Japanese]
+  pr_what: ["Media enquiries and interviews in Arabic, English and Japanese", "Cultural collaborations and exchange programs through the hobby", "International guest participation and specialist workshops", "Industry and organizational partnerships"]
   pr_btn: Email us
   pr_read: Read more →
   pr_watch: Watch →
+  cat_CULTURE: Cultural exchange
+  cat_CLUB: Club media coverage
+  cat_PUBLICATION: International publication
+  cat_FOUNDER: Founder media appearance
+  cx_place: Location
+  cx_date: Date
+  cx_person: Person
+  pr_personal_sub: Individual experiences of the founders and members, presented in a personal capacity and not as official club activities.
+  pr_personal: Personal Cultural Experiences
+  pr_official_sub: Activities organized or hosted by the club since its founding in 2024.
+  pr_official: Official Club Activities
+  pr_culture_sub: Documented experiences and relationships in cultural exchange, with a clear distinction between official club activities and personal experiences.
+  pr_culture: Cultural Exchange
   kind_TV: TV
   kind_MAGAZINE: Magazine
   kind_BOOK: Book
@@ -231,21 +257,34 @@ ja:
   press_url: /ja/press/
   press_more: メディア掲載一覧 →
   pr_title: 交流・メディア
-  pr_desc: サウジ・メカ・ロボットの海外ゲスト、日本のメディア掲載、そしてモデラー・文化団体・メディアの皆さまとのコラボのご案内。
-  pr_sub: スケールモデル・フィギュアの趣味に関わるクラブの国際交流とメディア掲載、そしてサウジアラビア国内外の皆さまとのコラボのご案内です。
+  pr_desc: サウジ・メカ・ロボットとその創設者にまつわるメディア掲載と文化交流の記録。クラブとしての掲載と個人の体験を区別してご紹介し、メディア・パートナーの皆さまからのお問い合わせも承ります。
+  pr_sub: このページでは、クラブ創設者たちの関心分野に関連するメディア掲載や文化交流の記録に加え、クラブおよびその活動を取り上げた記事・報道を紹介しています。
   pr_guests: 海外ゲスト
   pr_guests_sub: サウジアラビアのモデラーに技術と経験を伝えるため、クラブがお迎えした海外のプロフェッショナルです。
   pr_media: メディア掲載
-  pr_media_sub: クラブ創設メンバーとその関心にまつわるメディア・文化面での掲載と、クラブおよびその活動を紹介していただいた記事の記録です。
-  pr_collab: 一緒にコラボしませんか
-  pr_collab_sub: 模型趣味と文化交流に関心を持つ皆さまからのご連絡をお待ちしています。
+  pr_media_sub: メディア出演と海外の出版物です。各項目が、クラブに関するものか、創設者個人に関するものかを明記しています。
+  pr_collab: メディア・パートナーシップのお問い合わせ
+  pr_collab_sub: 取材のご依頼、文化交流でのご協力、海外ゲストとしてのご参加、企業・団体とのパートナーシップについて、お気軽にお問い合わせください。
   pr_who_title: こんな方を歓迎します
   pr_who: [プロモデラー・アーティスト, 国内外の模型クラブ, 国内外の文化団体・機関, イベント・展示会の主催者, メディア関係者, スポンサー・パートナー]
   pr_what_title: コラボの例
-  pr_what: [模型制作・塗装のワークショップや講演, 海外プロのサウジアラビア招へい, 模型を通じた文化交流プログラム, アラビア語・英語・日本語での取材対応]
+  pr_what: ["アラビア語・英語・日本語での取材・インタビュー", "模型を通じた文化交流・共同企画", "海外ゲストのご参加と専門ワークショップ", "企業・団体とのパートナーシップ"]
   pr_btn: メールで問い合わせ
   pr_read: 詳しく読む →
   pr_watch: 映像を見る →
+  cat_CULTURE: 文化交流
+  cat_CLUB: クラブのメディア掲載
+  cat_PUBLICATION: 海外出版物
+  cat_FOUNDER: 創設者のメディア出演
+  cx_place: 場所
+  cx_date: 時期
+  cx_person: 人物
+  pr_personal_sub: 創設者・メンバー個人としての体験であり、クラブの公式活動ではありません。
+  pr_personal: 個人の文化体験
+  pr_official_sub: 2024年の設立以降、クラブが主催またはお迎えした活動です。
+  pr_official: クラブの公式活動
+  pr_culture_sub: 文化交流にまつわる体験や関係の記録です。クラブの公式活動と個人の体験を明確に分けてご紹介します。
+  pr_culture: 文化交流
   kind_TV: テレビ
   kind_MAGAZINE: 雑誌
   kind_BOOK: 書籍

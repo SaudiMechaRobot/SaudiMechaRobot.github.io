@@ -4,44 +4,60 @@
   name: التلفزيون الياباني مع الإعلامي Ikegami Akira
   name_en: Japanese TV with Akira Ikegami
   name_ja: 池上彰ニュース解説SP（テレビ）
-  desc: استقبال الإعلامي الياباني Ikegami Akira في الرياض، والظهور في أحد أشهر البرامج اليابانية عن السعودية.
-  desc_en: Welcomed Japanese journalist Akira Ikegami in Riyadh and appeared in one of Japan's best-known TV programs about Saudi Arabia.
-  desc_ja: 池上彰氏をリヤドでお迎えし、サウジアラビアを紹介する人気番組に出演しました。
+  desc: "استقبل ثامر الإعلامي الياباني Ikegami Akira في الرياض، وظهر في حلقة من برنامجه عن الثقافة اليابانية في السعودية."
+  desc_en: "Thamer welcomed Japanese journalist Akira Ikegami in Riyadh and appeared in an episode of his program on Japanese culture in Saudi Arabia."
+  desc_ja: "サーメルがリヤドで池上彰氏をお迎えし、サウジアラビアにおける日本文化を取り上げた回に出演しました。"
   url: /blog/2026/11/ikegami-akira-riyadh/
   url_en: /en/blog/2026/11/ikegami-akira-riyadh/
   url_ja: /ja/blog/2026/11/ikegami-akira-riyadh/
   image: ikegami-tv-2023.jpg
+  category: FOUNDER
+  context: "ثامر · قبل تأسيس النادي في 2024"
+  context_en: "Thamer · before the club was founded in 2024"
+  context_ja: "サーメル・クラブ設立（2024年）以前"
 - kind: MAGAZINE
   year: '2023'
   name: مجلة Newtype اليابانية (عدد ديسمبر 2023)
   name_en: Monthly Newtype (Japan), December 2023 issue
   name_ja: 『月刊ニュータイプ』2023年12月号
-  desc: ظهر ثامر ومطلق، المؤسسان في النادي، في عمود الكاتب الياباني 鷹鳥屋明 (Akira Takatoriya) في مجلة Newtype الصادرة عن KADOKAWA.
-  desc_en: Club co-founders Thamer and Mutlaq were featured in Akira Takatoriya's (鷹鳥屋明) column in Monthly Newtype, published by KADOKAWA.
-  desc_ja: KADOKAWA『月刊ニュータイプ』2023年12月号の鷹鳥屋明氏の連載にて、Saudi Mecha Robot創設メンバーのサーメルとムトラクが紹介されました。
+  desc: "ظهر ثامر ومطلق، اللذان أسّسا النادي لاحقاً، في عمود الكاتب الياباني 鷹鳥屋明 (Akira Takatoriya) بمجلة Newtype الصادرة عن KADOKAWA."
+  desc_en: "Thamer and Mutlaq, who later co-founded the club, were featured in Akira Takatoriya's (鷹鳥屋明) column in Monthly Newtype, published by KADOKAWA."
+  desc_ja: "のちにクラブを創設するサーメルとムトラクが、KADOKAWA『月刊ニュータイプ』の鷹鳥屋明氏の連載で紹介されました。"
   url: https://www.kadokawa.co.jp/product/322302000831/
   image: newtype-2023-12.jpg
+  category: PUBLICATION
+  context: "ثامر ومطلق · قبل تأسيس النادي"
+  context_en: "Thamer and Mutlaq · before the club was founded"
+  context_ja: "サーメル、ムトラク・クラブ設立以前"
 - kind: BOOK
   year: '2024'
   name: "كتاب «⁨20歳の自分に教えたいイスラム世界⁩»"
   name_en: "Book: 20歳の自分に教えたいイスラム世界 (SB Shinsho)"
   name_ja: 池上彰著『20歳の自分に教えたいイスラム世界』（SB新書）
-  desc: ظهور النادي في كتاب الإعلامي Ikegami Akira عن الإسلام والسعودية.
-  desc_en: The club featured in Akira Ikegami's book about Islam and Saudi Arabia.
-  desc_ja: 池上彰氏によるイスラム世界とサウジアラビアについての書籍でクラブが紹介されました。
+  desc: "كتاب للإعلامي Ikegami Akira وفريق برنامجه عن العالم الإسلامي (SB Creative)، يتضمّن ظهوراً لمؤسس النادي."
+  desc_en: "A book on the Islamic world by Akira Ikegami and his program's team (SB Creative), featuring the club's founder."
+  desc_ja: "池上彰氏と番組スタッフによるイスラム世界についての書籍（SBクリエイティブ）に、クラブ創設者が登場しています。"
   url: https://www.kinokuniya.co.jp/f/dsg-01-9784815626204
   image: ikegami-book-2024.jpg
   image_fit: contain
+  category: PUBLICATION
+  context: "مؤسس النادي · صدر في يوليو 2024 قبل تأسيس النادي"
+  context_en: "The club's founder · published July 2024, before the club was founded"
+  context_ja: "クラブ創設者・2024年7月刊（クラブ設立以前）"
 - kind: MAGAZINE
   year: '2025'
   name: مجلة RCmagazine ラジコンマガジン اليابانية (عدد يوليو 2025)
   name_en: RCmagazine ラジコンマガジン (Japan), July 2025 issue
   name_ja: 『ラジコンマガジン』2025年7月号
-  desc: فقرة قصيرة عن النادي في المجلة اليابانية المتخصصة.
-  desc_en: A short feature on the club in the Japanese specialist magazine.
-  desc_ja: クラブについての短い紹介記事が掲載されました。
+  desc: "ظهر ثامر في تغطية المجلة لمعرض شيزوكا للهوايات 2025، ضمن قسم EVENT WALK في الصفحة 47."
+  desc_en: "Thamer appeared in the magazine's coverage of the 2025 Shizuoka Hobby Show, in the EVENT WALK section on page 47."
+  desc_ja: "2025年静岡ホビーショーの誌面レポート（47ページ「EVENT WALK」）でサーメルが紹介されました。"
   url: https://www.yaesu-net.co.jp/item/rcm-202507/
   image: rc-magazine-2025-07.jpg
+  category: PUBLICATION
+  context: "ثامر · زيارة شخصية لمعرض شيزوكا للهوايات"
+  context_en: "Thamer · personal visit to the Shizuoka Hobby Show"
+  context_ja: "サーメル・静岡ホビーショーへの個人訪問"
 - kind: VIDEO
   year: '2025'
   name: فيديو الذكرى الـ25 لفرقة JAM Project
@@ -52,13 +68,21 @@
   desc_ja: 公式チャンネルの25周年スペシャルインタビュー映像の2:30ごろに登場しました。
   url: https://www.youtube.com/watch?v=hwJHdScIZgA&t=150s
   image: jam-project-25th-2025.jpg
+  category: CLUB
+  context: "Saudi Mecha Robot"
+  context_en: "Saudi Mecha Robot"
+  context_ja: "Saudi Mecha Robot"
 - kind: ONLINE
   year: '2026'
   name: Yahoo! ニュース اليابان
   name_en: Yahoo! News Japan
   name_ja: Yahoo!ニュース エキスパート
-  desc: مقابلة مع الكاتب 河村鳴紘 عن أنمي «天幕のジャードゥーガル» من منظور العالم الإسلامي.
-  desc_en: An interview with writer Meiko Kawamura about the anime Jaadugar from an Islamic-world perspective.
-  desc_ja: 河村鳴紘氏の記事で、アニメ「天幕のジャードゥーガル」についてイスラム圏の視点からコメントしました。
+  desc: "شارك ثامر رأيه في أنمي «天幕のジャードゥーガル» من منظور العالم الإسلامي، في مقال للكاتب 河村鳴紘 (يوليو 2026)."
+  desc_en: "Thamer shared his view of the anime Jaadugar from an Islamic-world perspective in an article by writer Meiko Kawamura (July 2026)."
+  desc_ja: "河村鳴紘氏の記事（2026年7月）で、アニメ「天幕のジャードゥーガル」についてイスラム圏の視点からコメントしました。"
   url: https://news.yahoo.co.jp/expert/articles/8d3b832cd1404c651490eda062448b55676ef3f2
   image: yahoo-news-2026.jpg
+  category: FOUNDER
+  context: "ثامر · تعليق بصفته الشخصية"
+  context_en: "Thamer · comment in a personal capacity"
+  context_ja: "サーメル・個人としてのコメント"

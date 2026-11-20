@@ -1,21 +1,11 @@
 {%- include i18n.html -%}
-{%- assign dk = "desc_" | append: L -%}{%- assign uk = "url_" | append: L -%}{%- assign nk = "name_" | append: L -%}{%- assign ok = "origin_" | append: L -%}
+{%- assign official = site.data.culture | where: "type", "official" -%}
+{%- assign personal = site.data.culture | where: "type", "personal" -%}
 <main class="press-page">
 <section><div class="wrap">
   <div class="head"><div><span class="tag plate">BAY 07 · COMMS</span><h1>{{ t.pr_title }}</h1><p>{{ t.pr_sub }}</p></div></div>
 
-  {%- if site.data.guests.size > 0 %}
-  <h2 class="team-group">{{ t.pr_guests }}</h2><p class="team-group-sub">{{ t.pr_guests_sub }}</p>
-  <div class="pr-guests">
-    {%- for g in site.data.guests %}{% if L == "ar" %}{% assign gd = g.desc %}{% assign gu = g.url %}{% assign go = g.origin %}{% else %}{% assign gd = g[dk] | default: g.desc %}{% assign gu = g[uk] | default: g.url %}{% assign go = g[ok] | default: g.origin %}{% endif %}
-    <article class="pr-guest">
-      {%- if g.image %}<img src="{{ g.image | relative_url }}" alt="{{ g.name }} · Saudi Mecha Robot" loading="lazy" width="800" height="600">{% endif %}
-      <div><small class="tag">{{ go }} · {{ g.year }}</small><h3 dir="ltr">{{ g.name }}</h3><p>{{ gd }}</p>{% if gu %}<a href="{{ gu | relative_url }}">{{ t.pr_read }}</a>{% endif %}</div>
-    </article>
-    {%- endfor %}
-  </div>
-  {%- endif %}
-
+  {%- comment -%} 1 · Media appearances & publications (_data/press.yml) {%- endcomment -%}
   <h2 class="team-group">{{ t.pr_media }}</h2><p class="team-group-sub">{{ t.pr_media_sub }}</p>
   <div class="pr-grid">
     {%- for p in site.data.press %}
@@ -23,6 +13,24 @@
     {%- endfor %}
   </div>
 
+  {%- comment -%} 2 · Cultural exchange (_data/culture.yml): official club activities vs personal experiences {%- endcomment -%}
+  {%- if site.data.culture.size > 0 %}
+  <h2 class="team-group" id="cultural-exchange">{{ t.pr_culture }}</h2><p class="team-group-sub">{{ t.pr_culture_sub }}</p>
+  {%- if official.size > 0 %}
+  <div class="cx-group">
+    <h3 class="cx-group-title"><span class="cx-mark">A</span>{{ t.pr_official }}</h3><p class="cx-group-sub">{{ t.pr_official_sub }}</p>
+    <div class="cx-list">{% for c in official %}{% include culture-card.html item=c %}{% endfor %}</div>
+  </div>
+  {%- endif %}
+  {%- if personal.size > 0 %}
+  <div class="cx-group">
+    <h3 class="cx-group-title"><span class="cx-mark">B</span>{{ t.pr_personal }}</h3><p class="cx-group-sub">{{ t.pr_personal_sub }}</p>
+    <div class="cx-list">{% for c in personal %}{% include culture-card.html item=c %}{% endfor %}</div>
+  </div>
+  {%- endif %}
+  {%- endif %}
+
+  {%- comment -%} 3 · Media & partnership enquiries {%- endcomment -%}
   <h2 class="team-group" id="collaborate">{{ t.pr_collab }}</h2><p class="team-group-sub">{{ t.pr_collab_sub }}</p>
   <div class="pr-collab">
     <div><h3>{{ t.pr_who_title }}</h3><ul>{% for x in t.pr_who %}<li>{{ x }}</li>{% endfor %}</ul></div>
