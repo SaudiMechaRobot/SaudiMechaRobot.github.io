@@ -30,6 +30,8 @@
   desc_en: The club featured in Akira Ikegami's book about Islam and Saudi Arabia.
   desc_ja: 池上彰氏によるイスラム世界とサウジアラビアについての書籍でクラブが紹介されました。
   url: https://www.kinokuniya.co.jp/f/dsg-01-9784815626204
+  image: ikegami-book-2024.jpg
+  image_fit: contain
 - kind: MAGAZINE
   year: '2025'
   name: مجلة RCmagazine ラジコンマガジン اليابانية (عدد يوليو 2025)
@@ -49,7 +51,7 @@
   desc_en: The club appears at 2:30 in the band's official 25th anniversary special interview.
   desc_ja: 公式チャンネルの25周年スペシャルインタビュー映像の2:30ごろに登場しました。
   url: https://www.youtube.com/watch?v=hwJHdScIZgA&t=150s
-  image: https://i.ytimg.com/vi/hwJHdScIZgA/maxresdefault.jpg
+  image: jam-project-25th-2025.jpg
 - kind: ONLINE
   year: '2026'
   name: Yahoo! ニュース اليابان
@@ -59,3 +61,4 @@
   desc_en: An interview with writer Meiko Kawamura about the anime Jaadugar from an Islamic-world perspective.
   desc_ja: 河村鳴紘氏の記事で、アニメ「天幕のジャードゥーガル」についてイスラム圏の視点からコメントしました。
   url: https://news.yahoo.co.jp/expert/articles/8d3b832cd1404c651490eda062448b55676ef3f2
+  image: yahoo-news-2026.jpg
