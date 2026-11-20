@@ -128,7 +128,7 @@ I sincerely hope we succeeded in making him feel welcome and in offering the hos
 
 The story did not end with that visit.
 
-Mr. Ikegami later referred to our meeting in his book, [***20歳の自分に教えたいイスラム世界***](https://amzn.asia/d/07IAjU2L){:target="_blank" rel="noopener"} (*The Islamic World I Wish I Had Known at Twenty*). The book includes a section dedicated to Saudi Arabia, with approximately three pages discussing his visit to my home.
+Mr. Ikegami later referred to our meeting in his book, [***20歳の自分に教えたいイスラム世界***](https://www.kinokuniya.co.jp/f/dsg-01-9784815626204){:target="_blank" rel="noopener"} (*The Islamic World I Wish I Had Known at Twenty*). The book includes a section dedicated to Saudi Arabia, with approximately three pages discussing his visit to my home.
 
 It was a great honour to see a personal experience become part of a published work that would reach readers in Japan.
 
