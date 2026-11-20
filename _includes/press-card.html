@@ -34,7 +34,7 @@
     {%- else %}<span class="pr-card-ph" aria-hidden="true">{{ pi.kind }}</span>{% endif -%}
   {%- if pu %}</a>{% else %}</div>{% endif %}
   <div class="pr-card-body">
-    <span class="pr-badge">{{ kind_label }} <span class="pr-badge-year">· {{ pi.year }}</span></span>
+    <span class="pr-badge">{{ kind_label }} · <span class="pr-badge-year">{{ pi.year }}</span></span>
     <h3 dir="auto">{{ pn }}</h3>
     {%- if pd %}<p>{{ pd }}</p>{% endif %}
     {%- if pu %}<a class="pr-card-link" href="{{ pu | relative_url }}"{{ ext }}>{% if pi.kind == "VIDEO" %}{{ t.pr_watch }}{% else %}{{ t.pr_read }}{% endif %}</a>{% endif %}
