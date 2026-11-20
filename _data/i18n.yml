@@ -29,6 +29,7 @@ ar:
   kind_MAGAZINE: مجلة
   kind_BOOK: كتاب
   kind_VIDEO: فيديو
+  kind_ONLINE: موقع إخباري
   flag: 🇸🇦
   code_label: AR
   lang_label: اللغة
@@ -140,6 +141,7 @@ en:
   kind_MAGAZINE: Magazine
   kind_BOOK: Book
   kind_VIDEO: Video
+  kind_ONLINE: Online
   flag: 🇬🇧
   code_label: EN
   lang_label: Language
@@ -248,6 +250,7 @@ ja:
   kind_MAGAZINE: 雑誌
   kind_BOOK: 書籍
   kind_VIDEO: 映像
+  kind_ONLINE: ウェブ
   flag: 🇯🇵
   code_label: JP
   lang_label: 言語
