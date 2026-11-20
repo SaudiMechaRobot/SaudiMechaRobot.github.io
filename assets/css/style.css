@@ -233,6 +233,9 @@ footer a.leader-link:hover{color:var(--ink)}
 .prose h3{font-size:20px;margin:28px 0 8px}
 .prose img{margin:20px 0;border:1px solid var(--line)}
 .prose a{color:var(--beam)}
+/* inline text links: blue + underlined so readers notice them */
+main p a:not([class]),.prose li a:not([class]){color:var(--beam);text-decoration:underline;text-underline-offset:3px;font-weight:600}
+main p a:not([class]):hover,.prose li a:not([class]):hover{color:var(--hazard)}
 .prose table{border-collapse:collapse;display:block;overflow-x:auto;max-width:100%;font-size:15px;margin:20px 0}
 .prose th,.prose td{border:1px solid var(--line);padding:8px 12px;text-align:start}
 .prose th{background:var(--panel);color:var(--hazard)}
