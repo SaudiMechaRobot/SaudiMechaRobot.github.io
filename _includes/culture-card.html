@@ -1,7 +1,7 @@
 {%- comment -%}
   Cultural exchange entry (press page).  Usage: {% include culture-card.html item=c %}
   Fields from _data/culture.yml: type (official|personal), title*, person*, year, location*,
-  desc*, image (original photo), url*   (* = with optional _en / _ja versions)
+  desc*, image (original photo), image_position (optional CSS object-position, e.g. "50% 75%"), url*   (* = with optional _en / _ja versions)
 {%- endcomment -%}
 {%- assign ci = include.item -%}
 {%- if L == "ar" -%}
@@ -12,7 +12,7 @@
 {%- endif -%}
 {%- if cu -%}{%- if cu contains "://" -%}{%- assign ext = ' target="_blank" rel="noopener"' -%}{%- else -%}{%- assign ext = "" -%}{%- endif -%}{%- endif -%}
 <article class="cx-item">
-  {%- if ci.image %}<figure class="cx-photo"><img src="{{ ci.image | relative_url }}" alt="{{ ct | escape }}" loading="lazy" decoding="async" width="800" height="600"></figure>{% endif %}
+  {%- if ci.image %}<figure class="cx-photo"><img src="{{ ci.image | relative_url }}" alt="{{ ct | escape }}" loading="lazy" decoding="async" width="800" height="600"{% if ci.image_position %} style="object-position:{{ ci.image_position }}"{% endif %}></figure>{% endif %}
   <div class="cx-body">
     <span class="pr-cat">{{ t.cat_CULTURE }}</span>
     <h3 dir="auto">{{ ct }}</h3>

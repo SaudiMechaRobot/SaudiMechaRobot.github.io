@@ -171,6 +171,7 @@ content:
       - { name: location_en, label: المكان (English), type: string }
       - { name: location_ja, label: المكان (日本語), type: string }
       - { name: image, label: صورة أصلية, type: image }
+      - { name: image_position, label: "موضع قص الصورة (اختياري، مثل 50% 80% لإظهار الجزء السفلي)", type: string }
       - { name: desc, label: الوصف (عربي), type: text }
       - { name: desc_en, label: الوصف (English), type: text }
       - { name: desc_ja, label: الوصف (日本語), type: text }

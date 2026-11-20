@@ -464,7 +464,7 @@ html,body{overflow-x:clip}
 .cx-facts dt{font-size:11.5px;color:var(--muted);line-height:1.4}
 .cx-facts dd{margin:0;font-size:14px;line-height:1.5}
 .cx-item .pr-desc{-webkit-line-clamp:5}
-@media (min-width:760px){.cx-item{grid-template-columns:minmax(0,340px) 1fr;align-items:stretch}.cx-photo{aspect-ratio:auto;min-height:100%}}
+@media (min-width:760px){.cx-item{grid-template-columns:minmax(0,340px) 1fr;align-items:stretch}.cx-photo{aspect-ratio:auto;min-height:260px}}
 @media (prefers-reduced-motion:reduce){.pr-card,.pr-card-media img{transition:none}.pr-card:hover{transform:none}}
 .pr-collab{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
 .pr-collab > div{border:1px solid var(--line);background:var(--panel);padding:16px 20px}
