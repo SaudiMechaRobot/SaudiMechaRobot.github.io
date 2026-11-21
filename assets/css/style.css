@@ -376,7 +376,7 @@ html,body{overflow-x:clip}
 /* ---- As featured in ---- */
 .press{border-top:1px solid var(--seam);background:#080D13}
 .press .wrap{display:flex;align-items:center;gap:18px;padding-block:18px;flex-wrap:wrap}
-.press-title{font-family:var(--f-mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--hazard);white-space:nowrap}
+.press-title{font-family:var(--f-mono);font-size:11px;letter-spacing:.04em;text-transform:uppercase;color:var(--hazard);white-space:nowrap}
 :lang(ar) .press-title,:lang(ja) .press-title{letter-spacing:0;font-family:var(--f-body);font-weight:700;font-size:14px}
 .press ul{list-style:none;margin:0;padding:0;display:flex;gap:10px;flex-wrap:wrap;flex:1}
 .press li{flex:1 1 220px;min-width:0}
@@ -419,7 +419,7 @@ html,body{overflow-x:clip}
 .crew-photo img{pointer-events:none;-webkit-user-drag:none}
 /* home blog: "all posts" button below the cards */
 .blog-more{display:flex;justify-content:center;margin:24px 0 0}
-/* build 202611181800 */
+/* build 202611211000 */
 
 /* ===== Connections & Press page ===== */
 .press-page h2.team-group{margin-top:44px}
@@ -505,3 +505,5 @@ html,body{overflow-x:clip}
 .share-post .share-btn:hover,.share-post .share-btn:focus-visible{filter:brightness(1.12);color:#fff}
 .share-post .share-native:hover,.share-post .share-copy:hover{color:#0b0f14}
 .share-post .share-copy{background:#e6edf3;border-color:#e6edf3;color:#0b0f14}
+
+@media (max-width:700px){.press-title{flex-basis:100%}}
