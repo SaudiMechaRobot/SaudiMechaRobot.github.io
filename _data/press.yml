@@ -1,7 +1,7 @@
 # «ظهرنا في» — يُعدّل من لوحة Pages CMS (يظهر في الرئيسية وصفحة العلاقات والإعلام)
 - kind: TV
   year: '2023'
-  name: التلفزيون الياباني مع الإعلامي Ikegami Akira
+  name: "التلفزيون الياباني مع الإعلامي <bdi>Ikegami Akira</bdi>"
   name_en: Japanese TV with Akira Ikegami
   name_ja: 池上彰ニュース解説SP（テレビ）
   desc: "استقبل ثامر الإعلامي الياباني Ikegami Akira في الرياض، وظهر في حلقة من برنامجه عن الثقافة اليابانية في السعودية."
@@ -17,10 +17,10 @@
   context_ja: "サーメル・クラブ設立（2024年）以前"
 - kind: MAGAZINE
   year: '2023'
-  name: مجلة Newtype اليابانية (عدد ديسمبر 2023)
+  name: "مجلة <bdi>Newtype</bdi> اليابانية · عدد ديسمبر 2023"
   name_en: Monthly Newtype (Japan), December 2023 issue
   name_ja: 『月刊ニュータイプ』2023年12月号
-  desc: "ظهر ثامر ومطلق، اللذان أسّسا النادي لاحقاً، في عمود الكاتب الياباني 鷹鳥屋明 (Akira Takatoriya) بمجلة Newtype الصادرة عن KADOKAWA."
+  desc: "ظهر ثامر ومطلق، اللذان أسّسا النادي لاحقاً، في عمود الكاتب الياباني <bdi>鷹鳥屋明 (Akira Takatoriya)</bdi> بمجلة <bdi>Newtype</bdi> الصادرة عن KADOKAWA."
   desc_en: "Thamer and Mutlaq, who later co-founded the club, were featured in Akira Takatoriya's (鷹鳥屋明) column in Monthly Newtype, published by KADOKAWA."
   desc_ja: "のちにクラブを創設するサーメルとムトラクが、KADOKAWA『月刊ニュータイプ』の鷹鳥屋明氏の連載で紹介されました。"
   url: https://www.kadokawa.co.jp/product/322302000831/
@@ -31,7 +31,7 @@
   context_ja: "サーメル、ムトラク・クラブ設立以前"
 - kind: BOOK
   year: '2024'
-  name: "كتاب «⁨20歳の自分に教えたいイスラム世界⁩»"
+  name: "كتاب «<bdi>20歳の自分に教えたいイスラム世界</bdi>»"
   name_en: "Book: 20歳の自分に教えたいイスラム世界 (SB Shinsho)"
   name_ja: 池上彰著『20歳の自分に教えたいイスラム世界』（SB新書）
   desc: "كتاب للإعلامي Ikegami Akira وفريق برنامجه عن العالم الإسلامي (SB Creative)، يتضمّن ظهوراً لمؤسس النادي."
@@ -46,7 +46,7 @@
   context_ja: "クラブ創設者・2024年7月刊（クラブ設立以前）"
 - kind: MAGAZINE
   year: '2025'
-  name: مجلة RCmagazine ラジコンマガジン اليابانية (عدد يوليو 2025)
+  name: "مجلة <bdi>RCmagazine</bdi> اليابانية · عدد يوليو 2025"
   name_en: RCmagazine ラジコンマガジン (Japan), July 2025 issue
   name_ja: 『ラジコンマガジン』2025年7月号
   desc: "ظهر ثامر في تغطية المجلة لمعرض شيزوكا للهوايات 2025، ضمن قسم EVENT WALK في الصفحة 47."
@@ -60,7 +60,7 @@
   context_ja: "サーメル・静岡ホビーショーへの個人訪問"
 - kind: VIDEO
   year: '2025'
-  name: فيديو الذكرى الـ25 لفرقة JAM Project
+  name: "فيديو الذكرى الـ25 لفرقة <bdi>JAM Project</bdi>"
   name_en: JAM Project 25th anniversary video
   name_ja: JAM Project 結成25周年記念映像
   desc: ظهور النادي عند الدقيقة 2:30 في المقابلة الخاصة بالذكرى الـ25 للفرقة على قناتها الرسمية.
@@ -74,10 +74,10 @@
   context_ja: "Saudi Mecha Robot"
 - kind: ONLINE
   year: '2026'
-  name: Yahoo! ニュース اليابان
+  name: "موقع <bdi>Yahoo! ニュース</bdi> الياباني"
   name_en: Yahoo! News Japan
   name_ja: Yahoo!ニュース エキスパート
-  desc: "شارك ثامر رأيه في أنمي «天幕のジャードゥーガル» من منظور العالم الإسلامي، في مقال للكاتب 河村鳴紘 (يوليو 2026)."
+  desc: "شارك ثامر رأيه في أنمي «<bdi>天幕のジャードゥーガル</bdi>» من منظور العالم الإسلامي، في مقال للكاتب <bdi>河村鳴紘</bdi> (يوليو 2026)."
   desc_en: "Thamer shared his view of the anime Jaadugar from an Islamic-world perspective in an article by writer Meiko Kawamura (July 2026)."
   desc_ja: "河村鳴紘氏の記事（2026年7月）で、アニメ「天幕のジャードゥーガル」についてイスラム圏の視点からコメントしました。"
   url: https://news.yahoo.co.jp/expert/articles/8d3b832cd1404c651490eda062448b55676ef3f2
