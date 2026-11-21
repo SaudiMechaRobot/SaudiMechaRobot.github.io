@@ -1,8 +1,8 @@
 # «ظهرنا في» — يُعدّل من لوحة Pages CMS (يظهر في الرئيسية وصفحة العلاقات والإعلام)
 - kind: TV
   year: '2023'
-  name: "التلفزيون الياباني مع الإعلامي <bdi>Ikegami Akira</bdi>"
-  name_en: Japanese TV with Akira Ikegami
+  name: "التلفزيون الياباني مع الإعلامي <bdi>Ikegami Akira (池上彰)</bdi>"
+  name_en: Japanese TV with Akira Ikegami (池上彰)
   name_ja: 池上彰ニュース解説SP（テレビ）
   desc: "استقبل ثامر الإعلامي الياباني Ikegami Akira في الرياض، وظهر في حلقة من برنامجه عن الثقافة اليابانية في السعودية."
   desc_en: "Thamer welcomed Japanese journalist Akira Ikegami in Riyadh and appeared in an episode of his program on Japanese culture in Saudi Arabia."
@@ -17,7 +17,7 @@
   context_ja: "サーメル・クラブ設立（2024年）以前"
 - kind: MAGAZINE
   year: '2023'
-  name: "مجلة <bdi>Newtype</bdi> اليابانية · عدد ديسمبر 2023"
+  name: "مجلة <bdi>Newtype</bdi> اليابانية (عدد ديسمبر 2023)"
   name_en: Monthly Newtype (Japan), December 2023 issue
   name_ja: 『月刊ニュータイプ』2023年12月号
   desc: "ظهر ثامر ومطلق، اللذان أسّسا النادي لاحقاً، في عمود الكاتب الياباني <bdi>鷹鳥屋明 (Akira Takatoriya)</bdi> بمجلة <bdi>Newtype</bdi> الصادرة عن KADOKAWA."
@@ -46,7 +46,7 @@
   context_ja: "クラブ創設者・2024年7月刊（クラブ設立以前）"
 - kind: MAGAZINE
   year: '2025'
-  name: "مجلة <bdi>RCmagazine</bdi> اليابانية · عدد يوليو 2025"
+  name: "مجلة <bdi>RCmagazine ラジコンマガジン</bdi> اليابانية (عدد يوليو 2025)"
   name_en: RCmagazine ラジコンマガジン (Japan), July 2025 issue
   name_ja: 『ラジコンマガジン』2025年7月号
   desc: "ظهر ثامر في تغطية المجلة لمعرض شيزوكا للهوايات 2025، ضمن قسم EVENT WALK في الصفحة 47."
