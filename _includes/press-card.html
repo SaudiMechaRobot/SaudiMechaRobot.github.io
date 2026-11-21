@@ -27,7 +27,7 @@
 {%- if pu -%}{%- if pu contains "://" -%}{%- assign ext = ' target="_blank" rel="noopener"' -%}{%- else -%}{%- assign ext = "" -%}{%- endif -%}{%- endif -%}
 <article class="pr-card"{% if pi.category %} data-category="{{ pi.category | downcase }}"{% endif %}>
   {%- if pu %}<a class="pr-card-media" href="{{ pu | relative_url }}"{{ ext }} tabindex="-1" aria-hidden="true">{% else %}<div class="pr-card-media">{% endif -%}
-    {%- if img %}<img src="{{ img | relative_url }}" alt="{{ pn | escape }}" loading="lazy" decoding="async" width="640" height="360"{% if pi.image_fit == "contain" %} class="is-contain"{% endif %}>
+    {%- if img %}<img src="{{ img | relative_url }}" alt="{{ pn | strip_html | escape }}" loading="lazy" decoding="async" width="640" height="360"{% if pi.image_fit == "contain" %} class="is-contain"{% endif %}>
     {%- else %}<span class="pr-card-ph" aria-hidden="true">{{ pi.kind }}</span>{% endif -%}
   {%- if pu %}</a>{% else %}</div>{% endif %}
   <div class="pr-card-body">
