@@ -13,9 +13,11 @@
   <span class="cx-row-date pr-meta-year">{{ ci.year | default: t.cx_undated }}</span>
   <div class="cx-row-main">
     {%- if ci.image and ci.featured != true %}
+    {%- assign ak = "image_alt_" | append: L -%}{%- assign ak2 = "image2_alt_" | append: L -%}
+    {%- if L == "ar" -%}{%- assign ia = ci.image_alt | default: ct -%}{%- assign ia2 = ci.image2_alt | default: ct -%}{%- else -%}{%- assign ia = ci[ak] | default: ct -%}{%- assign ia2 = ci[ak2] | default: ct -%}{%- endif -%}
     {%- assign th_cls = "cx-row-thumb" -%}{%- if ci.thumb_wide -%}{%- assign th_cls = "cx-row-thumb is-wide" -%}{%- endif -%}
-    <div class="cx-row-thumbs"><a class="{{ th_cls }}" href="{{ ci.image_url | default: ci.image | relative_url }}" target="_blank" rel="noopener"><img src="{{ ci.image | relative_url }}" alt="{{ ct | escape }}" loading="lazy" decoding="async"></a>
-      {%- if ci.image2 %}<a class="{{ th_cls }}" href="{{ ci.image2_url | default: ci.image2 | relative_url }}" target="_blank" rel="noopener"><img src="{{ ci.image2 | relative_url }}" alt="{{ ct | escape }}" loading="lazy" decoding="async"></a>{% endif %}</div>
+    <div class="cx-row-thumbs"><a class="{{ th_cls }}" href="{{ ci.image_url | default: ci.image | relative_url }}" target="_blank" rel="noopener"><img src="{{ ci.image | relative_url }}" alt="{{ ia | escape }}" loading="lazy" decoding="async"></a>
+      {%- if ci.image2 %}<a class="{{ th_cls }}" href="{{ ci.image2_url | default: ci.image2 | relative_url }}" target="_blank" rel="noopener"><img src="{{ ci.image2 | relative_url }}" alt="{{ ia2 | escape }}" loading="lazy" decoding="async"></a>{% endif %}</div>
     {%- endif %}
     <div class="cx-row-text">
       <h4 dir="auto">{{ ct }}</h4>

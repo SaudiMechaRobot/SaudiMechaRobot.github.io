@@ -3,13 +3,13 @@
 {%- assign personal = site.data.culture | where: "type", "personal" -%}
 <main class="press-page">
 <section><div class="wrap">
-  <div class="head"><div><span class="tag plate">BAY 07 · COMMS</span><h1>{{ t.pr_title }}</h1><p>{{ t.pr_sub }}</p></div></div>
+  <div class="head"><div><span class="tag plate">BAY 07 · COMMS</span><h1>{{ t.pr_h1 | default: t.pr_title }}</h1><p>{{ t.pr_sub }}</p></div></div>
 
   {%- comment -%} Quick media & partnerships invitation (detailed section stays at the bottom) {%- endcomment -%}
   <aside class="pr-quick" aria-labelledby="pr-quick-title">
     <svg class="pr-quick-ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M3.5 6.5 12 13l8.5-6.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
     <div class="pr-quick-body">
-      <h2 id="pr-quick-title">{{ t.pr_quick_title }}</h2>
+      <p class="pr-quick-title" id="pr-quick-title">{{ t.pr_quick_title }}</p>
       <p>{{ t.pr_quick_text }}</p>
       <p class="pr-quick-mail">{{ t.pr_quick_label }} <a href="mailto:{{ site.email }}" dir="ltr">{{ site.email }}</a></p>
     </div>
@@ -32,7 +32,7 @@
   <h2 class="team-group" id="cultural-exchange">{{ t.pr_culture }}</h2><p class="team-group-sub">{{ t.pr_culture_sub }}</p>
   {%- if official.size > 0 %}
   <div class="cx-group" id="official">
-    <h3 class="cx-group-title"><span class="cx-mark">A</span>{{ t.pr_official }}</h3><p class="cx-group-sub">{{ t.pr_official_sub }}</p>
+    <h3 class="cx-group-title" data-mark="A">{{ t.pr_official }}</h3><p class="cx-group-sub">{{ t.pr_official_sub }} <a class="cx-more" href="{{ t.home_url | append: '#log' | relative_url }}">{{ t.pr_official_more }}</a></p>
     <div class="cx-list">{% for c in official %}{% include culture-card.html item=c %}{% endfor %}</div>
   </div>
   {%- endif %}
@@ -40,13 +40,13 @@
   {%- assign personal_featured = personal | where: "featured", true -%}
   <div class="cx-group" id="highlights">
     <span id="personal-experiences"></span>
-    <h3 class="cx-group-title"><span class="cx-mark">B</span>{{ t.pr_personal }}</h3><p class="cx-group-sub">{{ t.pr_personal_sub }}</p>
+    <h3 class="cx-group-title" data-mark="B">{{ t.pr_personal }}</h3><p class="cx-group-sub">{{ t.pr_personal_sub }}</p>
     {%- if personal_featured.size > 0 %}
     <div class="cx-list cx-list--compact">{% for c in personal_featured %}{% include culture-card.html item=c %}{% endfor %}</div>
     {%- endif %}
   </div>
   <div class="cx-group cx-record" id="record">
-    <h3 class="cx-group-title"><span class="cx-mark">C</span>{{ t.cx_timeline }}</h3><p class="cx-group-sub">{{ t.pr_record_sub }}</p>
+    <h3 class="cx-group-title" data-mark="C">{{ t.cx_timeline }}</h3><p class="cx-group-sub">{{ t.pr_record_sub }}</p>
     <ol class="cx-rows">{% for c in personal %}{% include culture-row.html item=c %}{% endfor %}</ol>
   </div>
   {%- endif %}

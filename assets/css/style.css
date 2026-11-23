@@ -458,7 +458,7 @@ html,body{overflow-x:clip}
 .cx-photo{position:relative;margin:0;aspect-ratio:4/3;overflow:hidden;background:var(--deck)}
 .cx-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .cx-body{display:flex;flex-direction:column;gap:10px;padding:18px 20px 20px;min-width:0}
-.cx-body h3{margin:0;font-family:var(--f-display);font-size:20px;line-height:1.45}
+.cx-body h3,.cx-body h4{margin:0;font-family:var(--f-display);font-size:20px;line-height:1.45}
 .cx-facts{display:flex;flex-wrap:wrap;gap:6px 22px;margin:0}
 .cx-facts div{min-width:0}
 .cx-facts dt{font-size:11.5px;color:var(--muted);line-height:1.4}
@@ -530,7 +530,7 @@ html,body{overflow-x:clip}
 .cx-row-links a{color:var(--beam)}
 @media (min-width:760px){.cx-item.no-photo{grid-template-columns:1fr}}
 @media (max-width:600px){.cx-row{grid-template-columns:1fr}.cx-row-thumb{flex-basis:56px;width:56px;height:56px}}
-:lang(ja) .cx-body h3{word-break:normal}
+:lang(ja) .cx-body h4{word-break:normal}
 /* Personal featured cards: small photos */
 .cx-list--compact .cx-photo{aspect-ratio:4/3;width:150px;min-height:0;max-height:none;margin:18px 20px 0;border:1px solid var(--line)}
 @media (min-width:760px){
@@ -546,7 +546,7 @@ html,body{overflow-x:clip}
 .pr-quick{display:flex;gap:14px;align-items:flex-start;margin:0 0 16px;padding:16px 20px;background:var(--panel);border:1px solid var(--line);border-inline-start:3px solid var(--hazard)}
 .pr-quick-ico{flex:0 0 22px;width:22px;height:22px;margin-top:2px;color:var(--hazard)}
 .pr-quick-body{min-width:0}
-.pr-quick h2{margin:0;font-family:var(--f-display);font-size:17px;line-height:1.5}
+.pr-quick .pr-quick-title{margin:0;font-family:var(--f-display);font-size:17px;line-height:1.5}
 .pr-quick p{margin:4px 0 0;color:var(--muted);font-size:14.5px;max-width:78ch}
 .pr-quick .pr-quick-mail{margin-top:8px;color:var(--ink)}
 .pr-quick-mail a{display:inline-block;padding:4px 0;color:var(--hazard);font-family:var(--f-mono);font-size:14.5px;unicode-bidi:isolate;overflow-wrap:anywhere}
@@ -559,3 +559,6 @@ html,body{overflow-x:clip}
 /* Press page in-page navigation: hangar yellow */
 .pr-jump a{color:var(--hazard);border-color:var(--hazard);background:transparent;font-weight:600}
 .pr-jump a:hover,.pr-jump a:focus-visible{color:var(--on-hazard);background:var(--hazard);border-color:var(--hazard)}
+.pr-quick .pr-quick-title{margin:0;color:var(--ink);font-weight:700}
+.cx-more{color:var(--hazard);white-space:nowrap}
+.cx-group-title[data-mark]::before{content:attr(data-mark);display:inline-grid;place-items:center;flex:0 0 26px;width:26px;height:26px;border:1px solid var(--line);font-family:var(--f-mono);font-size:12px;color:var(--beam)}

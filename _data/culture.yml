@@ -42,6 +42,9 @@
   featured: true
   title: مسابقة الخطابة باللغة اليابانية الخامسة عشرة
   title_en: 15th Japanese Speech Contest
+  image_alt: صورة مسرح مسابقة الخطابة اليابانية الخامسة عشرة وشهادة جائزة التشجيع
+  image_alt_en: Stage of the 15th Japanese Speech Contest and the Encouragement Award certificate
+  image_alt_ja: 第15回日本語弁論大会の会場と奨励賞の賞状
   title_ja: 第15回サウジアラビア日本語弁論大会
   role: متحدث · جائزة التشجيع
   role_en: Speaker · Encouragement Award
@@ -62,6 +65,9 @@
 - type: personal
   title: محاضرة «تجربة اليابان خلال إصلاحات ميجي»
   title_en: Lecture on Japan's Meiji Reforms
+  image_alt: السفير فوميو إيواي يلقي محاضرة إصلاحات ميجي في النادي الأدبي بالرياض
+  image_alt_en: Ambassador Fumio Iwai giving the Meiji Reforms lecture at the Riyadh Literary Club
+  image_alt_ja: リヤド文学クラブで明治維新に関する講演を行う岩井文男大使
   title_ja: 講演「明治維新期における日本の経験」
   role: حضور
   role_en: Attended
@@ -77,6 +83,9 @@
 - type: personal
   title: ورشة فن الكيريئي مع الفنان شو كوبو
   title_en: Kirie workshop by Shu Kubo
+  image_alt: الفنان شو كوبو يحمل أحد أعماله في فن الكيريئي
+  image_alt_en: Artist Shu Kubo holding one of his Kirie paper-cut works
+  image_alt_ja: 切り絵作品を手にする久保修氏
   title_ja: 久保修氏の切り絵ワークショップ
   role: حضور (بدعوة)
   role_en: Attended (by invitation)
@@ -110,6 +119,9 @@
   featured: true
   title: محاضرة عن تاكاياما وشيراكاوا-غو ومياما
   title_en: Presentation on Takayama, Shirakawa-go and Miyama
+  image_alt: المؤسس يقدّم شريحة عن عمارة قرية شيراكاوا-غو
+  image_alt_en: The founder presenting a slide on Shirakawa-go architecture
+  image_alt_ja: 白川郷の建築について発表する創設者
   title_ja: 高山・白川郷・美山町に関する講演
   role: تنظيم وتقديم
   role_en: Organizer & presenter
@@ -144,6 +156,9 @@
 - type: personal
   title: محاضرة صانع الأنمي أوسامو كوباياشي
   title_en: Lecture by anime creator Osamu Kobayashi
+  image_alt: المؤسس مع صانع الأنمي أوسامو كوباياشي
+  image_alt_en: The founder with anime creator Osamu Kobayashi
+  image_alt_ja: 創設者と小林治氏
   title_ja: アニメーション作家・小林治氏の講演
   role: حضور
   role_en: Attended
@@ -160,6 +175,12 @@
 - type: personal
   title: الوفد الياباني للفنون القتالية – عروض الفنون القتالية اليابانية وتدريبات مشتركة
   title_en: Japanese Budo Delegation – Japanese Budo Demonstration and Workshop
+  image_alt: الوفد الياباني للفنون القتالية مصطفًا في الصالة قبل بدء العروض
+  image_alt_en: The Japanese Budo Delegation lined up in the hall before the demonstration
+  image_alt_ja: 演武会の開始前に整列する日本武道代表団
+  image2_alt: الملصق الرسمي لعروض الوفد الياباني للفنون القتالية 2015
+  image2_alt_en: Official poster of the 2015 Japanese Budo Demonstration and Workshop
+  image2_alt_ja: 2015年 日本武道代表団 演武会・ワークショップの公式ポスター
   title_ja: 日本武道代表団 ワークショップ＆武道演武会
   image: /assets/images/culture/budo-demonstration-2015.webp
   image2: /assets/images/culture/budo-delegation-poster-2015.webp
@@ -177,6 +198,12 @@
 - type: personal
   title: مساندة مدربي الكاراتيه اليابانيين الزائرين
   title_en: Assisting visiting Japanese karate instructors
+  image_alt: صورة مصغّرة من الفيديو الأول لزيارة مدربي الكاراتيه اليابانيين
+  image_alt_en: Thumbnail from the first video of the visiting Japanese karate instructors
+  image_alt_ja: 来訪した空手指導者の動画サムネイル（1）
+  image2_alt: صورة مصغّرة من الفيديو الثاني لزيارة مدربي الكاراتيه اليابانيين
+  image2_alt_en: Thumbnail from the second video of the visiting Japanese karate instructors
+  image2_alt_ja: 来訪した空手指導者の動画サムネイル（2）
   title_ja: 来訪した日本人空手指導者の補佐
   role: تطوّع
   role_en: Volunteer
@@ -202,6 +229,9 @@
   featured: true
   title: الاتحاد الياباني للكاراتيه شوتو (JKS)
   title_en: Japan Karate Shoto Federation (JKS)
+  image_alt: جزء من بطاقة عضوية الاتحاد الياباني للكاراتيه شوتو يظهر فيه تاريخ الدرجة الأولى وختم الاتحاد
+  image_alt_en: Detail of the JKS membership card showing the 1st Dan date and the federation's seal
+  image_alt_ja: 初段取得日と連盟の印が見える日本空手松涛連盟の会員証（部分）
   title_ja: 日本空手松涛連盟（JKS）
   role: عضو · الدرجة الأولى (1st Dan)
   role_en: Member · 1st Dan
@@ -239,6 +269,9 @@
 - type: personal
   title: الجناح الياباني في مهرجان الجنادرية الـ26
   title_en: Japan Pavilion, 26th Janadriyah Festival
+  image_alt: واجهة الجناح الياباني في مهرجان الجنادرية 2011
+  image_alt_en: Entrance of the Japan Pavilion at the 2011 Janadriyah Festival
+  image_alt_ja: 2011年ジャナドリーヤ祭 日本館の入口
   title_ja: 第26回ジャナドリーヤ祭 日本館
   role: تطوّع
   role_en: Volunteer

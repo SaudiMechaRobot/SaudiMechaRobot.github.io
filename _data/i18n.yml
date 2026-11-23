@@ -14,9 +14,9 @@ ar:
   pr_sub: توثّق هذه الصفحة الظهور الإعلامي والتجارب الثقافية المرتبطة بمؤسسي النادي واهتماماتهم، إلى جانب المواد الإعلامية التي تناولت النادي وأنشطته.
   pr_guests: ضيوف النادي الدوليون
   pr_guests_sub: محترفون من خارج المملكة استضافهم النادي لنقل خبرتهم إلى هواة النماذج في السعودية.
-  pr_media: الظهور الإعلامي
+  pr_media: الظهور الإعلامي لنادي Saudi Mecha Robot ومؤسسيه
   pr_media_sub: ظهور في وسائل الإعلام والإصدارات الدولية، مع توضيح ما إذا كانت كل مادة تتناول النادي أو أحد مؤسسيه.
-  pr_collab: استفسارات الإعلام والشراكات
+  pr_collab: التواصل الإعلامي والشراكات
   pr_collab_sub: يرحّب النادي باستفسارات الإعلام، والتعاون الثقافي، ومشاركة الضيوف الدوليين، والشراكات مع الشركات والجهات.
   pr_who_title: نرحّب بـ
   pr_who: [المودلرز المحترفين والفنانين, أندية النماذج داخل المملكة وخارجها, الجهات الثقافية والمؤسسات المحلية والدولية, منظمي الفعاليات والمعارض, وسائل الإعلام, الرعاة والشركاء]
@@ -25,6 +25,8 @@ ar:
   pr_btn: راسلنا
   pr_read: اقرأ التفاصيل ←
   pr_watch: شاهد ←
+  pr_h1: العلاقات الإعلامية والتبادل الثقافي – نادي Saudi Mecha Robot
+  pr_official_more: جميع إنجازات النادي ←
   pr_quick_title: الإعلام والشراكات
   pr_quick_text: هل تمثل جهة إعلامية أو ثقافية أو مؤسسة ترغب في التعاون؟ يسعدنا التواصل معكم لاستكشاف فرص التغطية الإعلامية والتبادل الثقافي والشراكات.
   pr_quick_label: 'راسلنا:'
@@ -51,7 +53,7 @@ ar:
   pr_official_sub: أنشطة نظّمها النادي أو استضافها منذ تأسيسه في 2024.
   pr_official: أنشطة النادي الرسمية
   pr_culture_sub: تجارب وعلاقات موثّقة في التبادل الثقافي، مع فصل واضح بين أنشطة النادي الرسمية والتجارب الشخصية.
-  pr_culture: التبادل الثقافي
+  pr_culture: التبادل الثقافي السعودي الياباني
   kind_TV: تلفزيون
   kind_MAGAZINE: مجلة
   kind_BOOK: كتاب
@@ -153,7 +155,7 @@ en:
   pr_sub: This page documents media appearances and cultural experiences associated with the club's founders and their areas of interest, alongside media coverage of the club and its activities.
   pr_guests: International Guests
   pr_guests_sub: Professionals from abroad whom the club has hosted to share their expertise with modellers in Saudi Arabia.
-  pr_media: In the Media
+  pr_media: Media Coverage & International Features
   pr_media_sub: Media appearances and international publications, each noting whether it concerns the club or one of its founders.
   pr_collab: Media & Partnership Enquiries
   pr_collab_sub: Saudi Mecha Robot welcomes media enquiries, cultural collaborations, international guest participation, and industry and organizational partnerships.
@@ -164,6 +166,8 @@ en:
   pr_btn: Email us
   pr_read: Read more →
   pr_watch: Watch →
+  pr_h1: Media, Press & Cultural Exchange – Saudi Mecha Robot
+  pr_official_more: All club milestones →
   pr_quick_title: Media & Partnerships
   pr_quick_text: Are you a media organization, cultural institution, company, or potential partner interested in working with Saudi Mecha Robot? We welcome enquiries about media coverage, cultural exchange, institutional partnerships, and collaborative opportunities.
   pr_quick_label: 'Contact us:'
@@ -190,7 +194,7 @@ en:
   pr_official_sub: Activities organized or hosted by the club since its founding in 2024.
   pr_official: Official Club Activities
   pr_culture_sub: Documented experiences and relationships in cultural exchange, with a clear distinction between official club activities and personal experiences.
-  pr_culture: Cultural Exchange
+  pr_culture: Saudi–Japanese Cultural Exchange
   kind_TV: TV
   kind_MAGAZINE: Magazine
   kind_BOOK: Book
@@ -289,7 +293,7 @@ ja:
   pr_sub: このページでは、クラブ創設者たちの関心分野に関連するメディア掲載や文化交流の記録に加え、クラブおよびその活動を取り上げた記事・報道を紹介しています。
   pr_guests: 海外ゲスト
   pr_guests_sub: サウジアラビアのモデラーに技術と経験を伝えるため、クラブがお迎えした海外のプロフェッショナルです。
-  pr_media: メディア掲載
+  pr_media: メディア掲載・国際的な紹介
   pr_media_sub: メディア出演と海外の出版物です。各項目が、クラブに関するものか、創設者個人に関するものかを明記しています。
   pr_collab: メディア・パートナーシップのお問い合わせ
   pr_collab_sub: 取材のご依頼、文化交流でのご協力、海外ゲストとしてのご参加、企業・団体とのパートナーシップについて、お気軽にお問い合わせください。
@@ -300,6 +304,8 @@ ja:
   pr_btn: メールで問い合わせ
   pr_read: 詳しく読む →
   pr_watch: 映像を見る →
+  pr_h1: メディア掲載・文化交流 – Saudi Mecha Robot
+  pr_official_more: クラブの活動の歩み →
   pr_quick_title: メディア・パートナーシップに関するお問い合わせ
   pr_quick_text: メディア関係者、文化機関、企業、または協業をご検討の皆様からのお問い合わせを歓迎します。取材、文化交流、組織間の連携、共同企画などについて、ぜひご相談ください。
   pr_quick_label: お問い合わせ：
@@ -326,7 +332,7 @@ ja:
   pr_official_sub: 2024年の設立以降、クラブが主催またはお迎えした活動です。
   pr_official: クラブの公式活動
   pr_culture_sub: 文化交流にまつわる体験や関係の記録です。クラブの公式活動と個人の体験を明確に分けてご紹介します。
-  pr_culture: 文化交流
+  pr_culture: サウジアラビアと日本の文化交流
   kind_TV: テレビ
   kind_MAGAZINE: 雑誌
   kind_BOOK: 書籍
