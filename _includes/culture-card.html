@@ -6,10 +6,10 @@
 {%- endcomment -%}
 {%- assign ci = include.item -%}
 {%- if L == "ar" -%}
-  {%- assign ct = ci.title -%}{%- assign cp = ci.person -%}{%- assign cl = ci.location -%}{%- assign cd = ci.desc -%}{%- assign cu = ci.url -%}{%- assign cr = ci.role -%}
+  {%- assign ct = ci.title -%}{%- assign cp = ci.person -%}{%- assign cl = ci.location -%}{%- assign cd = ci.desc -%}{%- assign cu = ci.url -%}{%- assign cr = ci.role -%}{%- assign cs = ci.summary -%}
 {%- else -%}
-  {%- assign k1 = "title_" | append: L -%}{%- assign k2 = "person_" | append: L -%}{%- assign k3 = "location_" | append: L -%}{%- assign k4 = "desc_" | append: L -%}{%- assign k5 = "url_" | append: L -%}{%- assign k6 = "role_" | append: L -%}
-  {%- assign ct = ci[k1] | default: ci.title -%}{%- assign cp = ci[k2] | default: ci.person -%}{%- assign cl = ci[k3] | default: ci.location -%}{%- assign cd = ci[k4] | default: ci.desc -%}{%- assign cu = ci[k5] | default: ci.url -%}{%- assign cr = ci[k6] | default: ci.role -%}
+  {%- assign k1 = "title_" | append: L -%}{%- assign k2 = "person_" | append: L -%}{%- assign k3 = "location_" | append: L -%}{%- assign k4 = "desc_" | append: L -%}{%- assign k5 = "url_" | append: L -%}{%- assign k6 = "role_" | append: L -%}{%- assign k7 = "summary_" | append: L -%}
+  {%- assign ct = ci[k1] | default: ci.title -%}{%- assign cp = ci[k2] | default: ci.person -%}{%- assign cl = ci[k3] | default: ci.location -%}{%- assign cd = ci[k4] | default: ci.desc -%}{%- assign cu = ci[k5] | default: ci.url -%}{%- assign cr = ci[k6] | default: ci.role -%}{%- assign cs = ci[k7] | default: ci.summary -%}
 {%- endif -%}
 {%- assign ext = "" -%}{%- assign cu_label = t.pr_read -%}
 {%- if cu and cu contains "://" -%}{%- assign ext = ' target="_blank" rel="noopener"' -%}{%- assign cu_label = t.cx_source -%}{%- endif -%}
@@ -24,7 +24,7 @@
       {%- if ci.year %}<div><dt>{{ t.cx_date }}</dt><dd><span class="pr-meta-year">{{ ci.year }}</span></dd></div>{% endif %}
       {%- if cl %}<div><dt>{{ t.cx_place }}</dt><dd dir="auto">{{ cl }}</dd></div>{% endif %}
     </dl>
-    {%- if cd %}<p class="pr-desc">{{ cd }}</p>{% endif %}
+    {%- if cs %}<p class="pr-desc">{{ cs }}</p>{% elsif cd %}<p class="pr-desc">{{ cd }}</p>{% endif %}
     {%- if cu %}<div class="cx-links"><a class="pr-card-link" href="{{ cu | relative_url }}"{{ ext }}>{{ cu_label }}</a>{% if ci.url2 %}<a class="pr-card-link" href="{{ ci.url2 }}" target="_blank" rel="noopener">{{ cu_label }} 2</a>{% endif %}</div>{% endif %}
   </div>
 </article>

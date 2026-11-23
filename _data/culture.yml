@@ -55,6 +55,9 @@
   desc: شارك متحدثًا في مسابقة الخطابة باللغة اليابانية الخامسة عشرة، وألقى خطابًا باللغة اليابانية ضمن فئة المبتدئين نال عنه جائزة التشجيع، في تجربة أتاحت له التعبير عن أفكاره باليابانية والتواصل مع المهتمين باللغة في المملكة.
   desc_en: Took part as a speaker in the 15th Japanese Speech Contest, delivering a speech in Japanese in the Beginner category. Received the Encouragement Award (奨励賞), with a certificate signed by Ambassador of Japan Yasunari Morino.
   desc_ja: 第15回サウジアラビア日本語弁論大会の初級部門に出場し、日本語でスピーチを行い、奨励賞を受賞しました。サウジアラビアで日本語を学ぶ人々と交流する貴重な機会となりました。
+  summary: ألقى خطابًا باللغة اليابانية ضمن فئة المبتدئين، ونال جائزة التشجيع.
+  summary_en: Delivered a speech in Japanese in the Beginner category and received the Encouragement Award.
+  summary_ja: 初級部門で日本語のスピーチを行い、奨励賞を受賞しました。
   url: https://www.ksa.emb-japan.go.jp/itpr_ja/11_000001_00322.html
 - type: personal
   title: محاضرة «تجربة اليابان خلال إصلاحات ميجي»
@@ -120,6 +123,9 @@
   desc: نظّم وقدّم محاضرة تعريفية لمجموعة من المهتمين باليابان، شارك فيها تجربته في زيارة تاكاياما وقريتي شيراكاوا-غو ومياما، وتناول ما تتميز به من عمارة يابانية تقليدية وتراث ثقافي وطابع ريفي مميز.
   desc_en: Independently organized and gave an informal presentation for a group of Japan enthusiasts, sharing experiences from visits to Takayama and the historic villages of Shirakawa-go and Miyama, with a focus on their traditional architecture, heritage and rural character.
   desc_ja: 日本に関心を持つ人々を対象に小規模な講演会を自ら企画・実施しました。高山、白川郷、美山町を訪れた経験をもとに、伝統的な建築や文化遺産、独特の里山の風景について紹介しました。
+  summary: نظّم وقدّم محاضرة تعريفية لمجموعة من المهتمين باليابان عن عمارة تاكاياما وشيراكاوا-غو ومياما وتراثها.
+  summary_en: Organized and gave an informal presentation for Japan enthusiasts on the architecture and heritage of Takayama, Shirakawa-go and Miyama.
+  summary_ja: 日本に関心を持つ人々に向けて、高山・白川郷・美山町の建築と文化遺産を紹介する講演会を自ら企画・実施しました。
 - type: personal
   title: عرض الفيلم الياباني «A Tale of Samurai Cooking»
   title_en: 'Film screening: A Tale of Samurai Cooking'
@@ -206,7 +212,10 @@
   image_fit: contain
   desc: انضم إلى الاتحاد الياباني للكاراتيه شوتو (JKS)، وحصل على الدرجة الأولى من الحزام الأسود (1st Dan) في أغسطس 2011.
   desc_en: Joined the Japan Karate Shoto Federation (JKS) and was awarded the rank of 1st Dan in August 2011.
-  desc_ja: 日本空手松涛連盟（JKS）に入会し、2011年8月に初段を取得。
+  desc_ja: 日本空手松涛連盟（JKS）に入会し、2011年8月に初段を取得しました。
+  summary: انضم إلى الاتحاد عام 2011، وحصل على الدرجة الأولى من الحزام الأسود (1st Dan) في أغسطس من العام نفسه.
+  summary_en: Joined the federation in 2011 and was awarded the rank of 1st Dan in August that year.
+  summary_ja: 2011年に入会し、同年8月に初段を取得しました。
 - type: personal
   featured: true
   title: مساعد للفنان الياباني هيديوكي أوزاوا
@@ -222,6 +231,9 @@
   desc: تطوّع مساعدًا للفنان والرسام الياباني هيديوكي أوزاوا (小沢英之) خلال زيارته، ورافقه في لقائه بالتلفزيون السعودي – القناة الثانية، كما أجرى معه مقابلة عرّفت الجمهور السعودي بأعماله الفنية.
   desc_en: Volunteered as assistant to Japanese painter Hideyuki Ozawa (小沢英之) during his visit, accompanying him to Saudi Television Channel 2. Also interviewed the artist, helping introduce his work to a Saudi audience.
   desc_ja: 来訪された画家・小沢英之氏のアシスタントをボランティアで務め、サウジアラビアテレビ第2チャンネルへの訪問にも同行しました。また同氏へのインタビューを行い、その作品をサウジアラビアの人々に紹介しました。
+  summary: تطوّع مساعدًا للرسام هيديوكي أوزاوا خلال زيارته، ورافقه إلى التلفزيون السعودي – القناة الثانية، وأجرى معه مقابلة.
+  summary_en: Volunteered as the painter's assistant during his visit, accompanied him to Saudi Television Channel 2, and interviewed him.
+  summary_ja: 来訪中の小沢英之氏のアシスタントをボランティアで務め、サウジアラビアテレビ第2チャンネルへの訪問に同行し、インタビューも行いました。
 - type: personal
   title: الجناح الياباني في مهرجان الجنادرية الـ26
   title_en: Japan Pavilion, 26th Janadriyah Festival

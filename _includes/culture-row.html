@@ -20,7 +20,7 @@
     <div class="cx-row-text">
       <h4 dir="auto">{{ ct }}</h4>
       <span class="cx-row-meta" dir="auto">{% if cr %}{{ cr }}{% endif %}{% if cr and cl %} · {% endif %}{% if cl %}{{ cl }}{% endif %}</span>
-      {%- if cd and ci.featured != true %}<p class="cx-row-desc">{{ cd }}</p>{% endif %}
+      {%- if cd %}<p class="cx-row-desc">{{ cd }}</p>{% endif %}
       {%- if ci.url %}<span class="cx-row-links"><a href="{{ ci.url | relative_url }}"{% if ci.url contains "://" %} target="_blank" rel="noopener"{% endif %}>{{ t.cx_source }}</a>{% if ci.url2 %} · <a href="{{ ci.url2 }}" target="_blank" rel="noopener">{{ t.cx_source }} 2</a>{% endif %}</span>{% endif %}
     </div>
   </div>

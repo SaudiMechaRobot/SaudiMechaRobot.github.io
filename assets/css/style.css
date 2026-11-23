@@ -542,3 +542,17 @@ html,body{overflow-x:clip}
 .cx-row-thumbs{display:flex;gap:8px;flex:0 0 auto;align-items:flex-start}
 .cx-row-thumb.is-wide{flex-basis:112px;width:112px;height:63px}
 @media (max-width:600px){.cx-row-thumb.is-wide{flex-basis:96px;width:96px;height:54px}.cx-row-main:has(.is-wide){flex-direction:column}}
+/* Press page: quick contact invitation + in-page navigation */
+.pr-quick{display:flex;gap:14px;align-items:flex-start;margin:0 0 16px;padding:16px 20px;background:var(--panel);border:1px solid var(--line);border-inline-start:3px solid var(--hazard)}
+.pr-quick-ico{flex:0 0 22px;width:22px;height:22px;margin-top:2px;color:var(--hazard)}
+.pr-quick-body{min-width:0}
+.pr-quick h2{margin:0;font-family:var(--f-display);font-size:17px;line-height:1.5}
+.pr-quick p{margin:4px 0 0;color:var(--muted);font-size:14.5px;max-width:78ch}
+.pr-quick .pr-quick-mail{margin-top:8px;color:var(--ink)}
+.pr-quick-mail a{display:inline-block;padding:4px 0;color:var(--hazard);font-family:var(--f-mono);font-size:14.5px;unicode-bidi:isolate;overflow-wrap:anywhere}
+.pr-jump{display:flex;flex-wrap:wrap;gap:8px;margin:0}
+.pr-jump a{padding:6px 12px;font-size:13px;line-height:1.4;color:var(--muted);text-decoration:none;background:var(--deck);border:1px solid var(--line)}
+.pr-jump a:hover,.pr-jump a:focus-visible{color:var(--ink);border-color:var(--beam)}
+.press-page [id]{scroll-margin-top:96px}
+.cx-record{margin-top:40px;padding-top:4px;border-top:1px dashed var(--line)}
+.cx-record .cx-rows{border-top:0}

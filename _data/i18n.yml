@@ -25,6 +25,16 @@ ar:
   pr_btn: راسلنا
   pr_read: اقرأ التفاصيل ←
   pr_watch: شاهد ←
+  pr_quick_title: الإعلام والشراكات
+  pr_quick_text: هل تمثل جهة إعلامية أو ثقافية أو مؤسسة ترغب في التعاون؟ يسعدنا التواصل معكم لاستكشاف فرص التغطية الإعلامية والتبادل الثقافي والشراكات.
+  pr_quick_label: 'راسلنا:'
+  pr_jump: في هذه الصفحة
+  nav_pr_media: الظهور الإعلامي
+  nav_pr_official: أنشطة النادي
+  nav_pr_highlights: أبرز التجارب
+  nav_pr_record: السجل الكامل
+  nav_pr_contact: التواصل والشراكات
+  pr_record_sub: جميع التجارب الشخصية الموثّقة، مرتبة من الأحدث إلى الأقدم.
   cat_CULTURE: تبادل ثقافي
   cat_CLUB: تغطية إعلامية للنادي
   cat_PUBLICATION: إصدار دولي
@@ -34,10 +44,10 @@ ar:
   cx_person: الشخص
   cx_role: الدور
   cx_source: المصدر ↗
-  cx_timeline: السجل الكامل
+  cx_timeline: السجل الكامل للتجارب الثقافية
   cx_undated: غير مؤرخ
   pr_personal_sub: إلى جانب أنشطة النادي، يستعرض هذا القسم مجموعة مختارة من التجارب الشخصية والمشاركات الثقافية لمؤسس النادي وأفراد من مجتمعه، والتي تعكس اهتمامًا ممتدًا بالثقافة اليابانية والتواصل السعودي الياباني. وهي تجارب شخصية، ولا تُعد بالضرورة أنشطة رسمية للنادي.
-  pr_personal: تجارب ثقافية شخصية
+  pr_personal: أبرز التجارب الثقافية
   pr_official_sub: أنشطة نظّمها النادي أو استضافها منذ تأسيسه في 2024.
   pr_official: أنشطة النادي الرسمية
   pr_culture_sub: تجارب وعلاقات موثّقة في التبادل الثقافي، مع فصل واضح بين أنشطة النادي الرسمية والتجارب الشخصية.
@@ -154,6 +164,16 @@ en:
   pr_btn: Email us
   pr_read: Read more →
   pr_watch: Watch →
+  pr_quick_title: Media & Partnerships
+  pr_quick_text: Are you a media organization, cultural institution, company, or potential partner interested in working with Saudi Mecha Robot? We welcome enquiries about media coverage, cultural exchange, institutional partnerships, and collaborative opportunities.
+  pr_quick_label: 'Contact us:'
+  pr_jump: On this page
+  nav_pr_media: Media Coverage
+  nav_pr_official: Club Activities
+  nav_pr_highlights: Cultural Highlights
+  nav_pr_record: Complete Record
+  nav_pr_contact: Contact & Partnerships
+  pr_record_sub: All documented personal experiences, listed from newest to oldest.
   cat_CULTURE: Cultural exchange
   cat_CLUB: Club media coverage
   cat_PUBLICATION: International publication
@@ -163,10 +183,10 @@ en:
   cx_person: Person
   cx_role: Role
   cx_source: Source ↗
-  cx_timeline: Complete record
+  cx_timeline: Complete Cultural Experience Record
   cx_undated: Undated
   pr_personal_sub: "Alongside the club's activities, this section highlights selected personal experiences of the club's founder and community members, reflecting a longstanding engagement with Japanese culture and Saudi–Japanese exchange. These are personal engagements and are not necessarily official club activities."
-  pr_personal: Personal Cultural Experiences
+  pr_personal: Selected Cultural Experience Highlights
   pr_official_sub: Activities organized or hosted by the club since its founding in 2024.
   pr_official: Official Club Activities
   pr_culture_sub: Documented experiences and relationships in cultural exchange, with a clear distinction between official club activities and personal experiences.
@@ -273,13 +293,23 @@ ja:
   pr_media_sub: メディア出演と海外の出版物です。各項目が、クラブに関するものか、創設者個人に関するものかを明記しています。
   pr_collab: メディア・パートナーシップのお問い合わせ
   pr_collab_sub: 取材のご依頼、文化交流でのご協力、海外ゲストとしてのご参加、企業・団体とのパートナーシップについて、お気軽にお問い合わせください。
-  pr_who_title: こんな方を歓迎します
+  pr_who_title: このような皆様からのご連絡を歓迎します
   pr_who: [プロモデラー・アーティスト, 国内外の模型クラブ, 国内外の文化団体・機関, イベント・展示会の主催者, メディア関係者, スポンサー・パートナー]
-  pr_what_title: コラボの例
+  pr_what_title: 連携・協力の例
   pr_what: ["アラビア語・英語・日本語での取材・インタビュー", "模型を通じた文化交流・共同企画", "海外ゲストのご参加と専門ワークショップ", "企業・団体とのパートナーシップ"]
   pr_btn: メールで問い合わせ
   pr_read: 詳しく読む →
   pr_watch: 映像を見る →
+  pr_quick_title: メディア・パートナーシップに関するお問い合わせ
+  pr_quick_text: メディア関係者、文化機関、企業、または協業をご検討の皆様からのお問い合わせを歓迎します。取材、文化交流、組織間の連携、共同企画などについて、ぜひご相談ください。
+  pr_quick_label: お問い合わせ：
+  pr_jump: このページの内容
+  nav_pr_media: メディア掲載
+  nav_pr_official: クラブの活動
+  nav_pr_highlights: 主な文化体験
+  nav_pr_record: 体験の記録
+  nav_pr_contact: お問い合わせ
+  pr_record_sub: 記録の残る個人の体験を、新しい順にすべて掲載しています。
   cat_CULTURE: 文化交流
   cat_CLUB: クラブのメディア掲載
   cat_PUBLICATION: 海外出版物
@@ -289,10 +319,10 @@ ja:
   cx_person: 人物
   cx_role: 役割
   cx_source: 出典 ↗
-  cx_timeline: 全記録
+  cx_timeline: 文化交流・日本文化体験の記録
   cx_undated: 時期未確認
   pr_personal_sub: クラブの活動に加え、本セクションでは、創設者およびコミュニティメンバーによる日本文化との個人的な関わりや、日サ文化交流の経験を紹介します。いずれも個人としての取り組みであり、必ずしもクラブの公式活動ではありません。
-  pr_personal: 個人の文化体験
+  pr_personal: 主な文化交流・日本文化体験
   pr_official_sub: 2024年の設立以降、クラブが主催またはお迎えした活動です。
   pr_official: クラブの公式活動
   pr_culture_sub: 文化交流にまつわる体験や関係の記録です。クラブの公式活動と個人の体験を明確に分けてご紹介します。
