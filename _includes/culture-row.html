@@ -1,0 +1,23 @@
+{%- comment -%}
+  Compact timeline row for personal experiences (press page).  Usage: {% include culture-row.html item=c %}
+  Same fields as culture-card.html; image is shown as a small thumbnail when present.
+{%- endcomment -%}
+{%- assign ci = include.item -%}
+{%- if L == "ar" -%}
+  {%- assign ct = ci.title -%}{%- assign cl = ci.location -%}{%- assign cd = ci.desc -%}{%- assign cr = ci.role -%}
+{%- else -%}
+  {%- assign k1 = "title_" | append: L -%}{%- assign k3 = "location_" | append: L -%}{%- assign k4 = "desc_" | append: L -%}{%- assign k6 = "role_" | append: L -%}
+  {%- assign ct = ci[k1] | default: ci.title -%}{%- assign cl = ci[k3] | default: ci.location -%}{%- assign cd = ci[k4] | default: ci.desc -%}{%- assign cr = ci[k6] | default: ci.role -%}
+{%- endif -%}
+<li class="cx-row">
+  <span class="cx-row-date pr-meta-year">{{ ci.year | default: t.cx_undated }}</span>
+  <div class="cx-row-main">
+    {%- if ci.image and ci.featured != true %}<a class="cx-row-thumb" href="{{ ci.image | relative_url }}" target="_blank" rel="noopener"><img src="{{ ci.image | relative_url }}" alt="{{ ct | escape }}" loading="lazy" decoding="async" width="72" height="72"></a>{% endif %}
+    <div class="cx-row-text">
+      <h4 dir="auto">{{ ct }}</h4>
+      <span class="cx-row-meta" dir="auto">{% if cr %}{{ cr }}{% endif %}{% if cr and cl %} · {% endif %}{% if cl %}{{ cl }}{% endif %}</span>
+      {%- if cd and ci.featured != true %}<p class="cx-row-desc">{{ cd }}</p>{% endif %}
+      {%- if ci.url %}<span class="cx-row-links"><a href="{{ ci.url | relative_url }}"{% if ci.url contains "://" %} target="_blank" rel="noopener"{% endif %}>{{ t.cx_source }}</a>{% if ci.url2 %} · <a href="{{ ci.url2 }}" target="_blank" rel="noopener">{{ t.cx_source }} 2</a>{% endif %}</span>{% endif %}
+    </div>
+  </div>
+</li>
