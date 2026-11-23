@@ -24,6 +24,24 @@
 
 # تجارب شخصية للمؤسس (ليست أنشطة رسمية للنادي). featured: true = تظهر كبطاقة بارزة. الترتيب من الأحدث للأقدم.
 - type: personal
+  title: إكسبو 2025 أوساكا، كانساي – اليابان
+  title_en: Expo 2025 Osaka, Kansai, Japan
+  title_ja: 2025年大阪・関西万博
+  image_alt: زيارة شخصية لإكسبو 2025 أوساكا، كانساي في اليابان
+  image_alt_en: Personal visit to Expo 2025 Osaka, Kansai, Japan
+  image_alt_ja: 2025年大阪・関西万博への個人的な訪問
+  role: زيارة شخصية
+  role_en: Personal visit
+  role_ja: 個人での訪問
+  year: 2025.06.02
+  location: أوساكا، اليابان
+  location_en: Osaka, Japan
+  location_ja: 大阪
+  image: /assets/images/culture/expo-2025-osaka.webp
+  desc: زيارة شخصية لمعرض إكسبو العالمي، للاطلاع على الأجنحة الدولية والتبادل الثقافي والابتكار والحضور الثقافي الياباني على المستوى العالمي.
+  desc_en: Personal visit to the World Expo, exploring international pavilions, cultural exchange, innovation, and Japan's global cultural presence.
+  desc_ja: 国際パビリオンや文化交流、イノベーション、日本の国際的な文化発信に触れるため、個人として訪問しました。
+- type: personal
   title: معرض «مانغا هوكوساي مانغا»
   title_en: Manga Hokusai Manga exhibition
   title_ja: 「Manga Hokusai Manga」展
