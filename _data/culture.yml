@@ -177,9 +177,12 @@
   location: المملكة العربية السعودية
   location_en: Saudi Arabia
   location_ja: サウジアラビア
-  desc: تطوّع، بصفته عضوًا في الاتحاد الياباني للكاراتيه شوتو، لمساندة مدربي الكاراتيه اليابانيين الزائرين خلال أنشطتهم في المملكة، ودعم تواصلهم مع المشاركين المحليين.
-  desc_en: As a JKS member, volunteered to assist visiting Japanese karate instructors during their activities in Saudi Arabia, supporting their work with local participants.
-  desc_ja: 日本空手松涛連盟の会員として、サウジアラビアを訪れた日本人空手指導者の活動をボランティアとして補佐し、現地の参加者との交流を支えました。
+  person: هيديتو تسوتشيا سينسي (土屋秀人) وكيوهيكو توسا سينسي (土佐樹彦)
+  person_en: Hideto Tsuchiya Sensei (土屋秀人) and Kiyohiko Tosa Sensei (土佐樹彦)
+  person_ja: 土屋秀人先生・土佐樹彦先生
+  desc: تطوّع، بصفته عضوًا في الاتحاد الياباني للكاراتيه شوتو، لمساندة مدربَي الكاراتيه اليابانيين الزائرين هيديتو تسوتشيا سينسي (土屋秀人) وكيوهيكو توسا سينسي (土佐樹彦) خلال أنشطتهما في المملكة، ودعم تواصلهما مع المشاركين المحليين.
+  desc_en: As a JKS member, volunteered to assist visiting Japanese karate instructors Hideto Tsuchiya Sensei (土屋秀人) and Kiyohiko Tosa Sensei (土佐樹彦) during their activities in Saudi Arabia, supporting their work with local participants.
+  desc_ja: 日本空手松涛連盟の会員として、サウジアラビアを訪れた土屋秀人先生と土佐樹彦先生の活動をボランティアとして補佐し、現地の参加者との交流を支えました。
   url: https://youtu.be/wkqLGlQLhgs
   url2: https://youtu.be/C61RkazHdLY
 - type: personal
