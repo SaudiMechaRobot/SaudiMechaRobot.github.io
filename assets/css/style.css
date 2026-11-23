@@ -531,3 +531,10 @@ html,body{overflow-x:clip}
 @media (min-width:760px){.cx-item.no-photo{grid-template-columns:1fr}}
 @media (max-width:600px){.cx-row{grid-template-columns:1fr}.cx-row-thumb{flex-basis:56px;width:56px;height:56px}}
 :lang(ja) .cx-body h3{word-break:normal}
+/* Personal featured cards: smaller photos */
+.cx-list--compact .cx-photo{aspect-ratio:16/9;max-height:220px}
+@media (min-width:760px){
+  .cx-list--compact .cx-item{grid-template-columns:minmax(0,220px) 1fr}
+  .cx-list--compact .cx-item.no-photo{grid-template-columns:1fr}
+  .cx-list--compact .cx-photo{aspect-ratio:4/3;min-height:0;max-height:none;align-self:start;margin:18px;margin-inline-end:0;border:1px solid var(--line)}
+}
