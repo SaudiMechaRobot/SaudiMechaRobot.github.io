@@ -179,6 +179,10 @@ content:
       - { name: image_alt, label: "وصف الصورة للقارئات الصوتية ومحركات البحث (عربي)", type: string }
       - { name: image_alt_en, label: "Image alt text (English)", type: string }
       - { name: image_alt_ja, label: "画像の代替テキスト (日本語)", type: string }
+      - name: image_size
+        label: "حجم الصورة في البطاقة البارزة (wide = أكبر للصور العريضة)"
+        type: select
+        options: { values: [normal, wide] }
       - { name: image_url, label: "رابط عند الضغط على الصورة (اختياري، مثل رابط الفيديو)", type: string }
       - { name: image2, label: "صورة ثانية مصغّرة (اختياري)", type: string }
       - { name: image2_url, label: "رابط الصورة الثانية (اختياري)", type: string }

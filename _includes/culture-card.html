@@ -13,7 +13,7 @@
 {%- endif -%}
 {%- assign ext = "" -%}{%- assign cu_label = t.pr_read -%}
 {%- if cu and cu contains "://" -%}{%- assign ext = ' target="_blank" rel="noopener"' -%}{%- assign cu_label = t.cx_source -%}{%- endif -%}
-<article class="cx-item{% unless ci.image %} no-photo{% endunless %}">
+<article class="cx-item{% unless ci.image %} no-photo{% endunless %}{% if ci.image_size == 'wide' %} is-wide{% endif %}">
   {%- assign ak = "image_alt_" | append: L -%}{%- if L == "ar" -%}{%- assign ia = ci.image_alt | default: ct -%}{%- else -%}{%- assign ia = ci[ak] | default: ct -%}{%- endif -%}
   {%- if ci.image %}<figure class="cx-photo{% if ci.image_fit == 'contain' %} is-doc{% endif %}"><img src="{{ ci.image | relative_url }}" alt="{{ ia | escape }}" loading="lazy" decoding="async" width="800" height="600"{% if ci.image_position %} style="object-position:{{ ci.image_position }}"{% endif %}></figure>{% endif %}
   <div class="cx-body">
