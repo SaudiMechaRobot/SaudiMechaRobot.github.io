@@ -58,6 +58,6 @@
     <div><h3>{{ t.pr_who_title }}</h3><ul>{% for x in t.pr_who %}<li>{{ x }}</li>{% endfor %}</ul></div>
     <div><h3>{{ t.pr_what_title }}</h3><ul>{% for x in t.pr_what %}<li>{{ x }}</li>{% endfor %}</ul></div>
   </div>
-  <div class="cta pr-cta"><a class="btn primary" href="mailto:{{ site.email }}">{{ t.pr_btn }}</a><span class="pr-mail" dir="ltr">{{ site.email }}</span></div>
+  <div class="cta pr-cta"><a class="btn primary" href="mailto:{{ site.email }}">{{ t.pr_btn }}</a><a class="pr-mail" href="mailto:{{ site.email }}" dir="ltr">{{ site.email }}</a></div>
 </div></section>
 </main>
