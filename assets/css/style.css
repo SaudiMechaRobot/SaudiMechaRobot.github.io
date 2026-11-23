@@ -556,3 +556,6 @@ html,body{overflow-x:clip}
 .press-page [id]{scroll-margin-top:96px}
 .cx-record{margin-top:40px;padding-top:4px;border-top:1px dashed var(--line)}
 .cx-record .cx-rows{border-top:0}
+/* Press page in-page navigation: hangar yellow */
+.pr-jump a{color:var(--hazard);border-color:var(--hazard);background:transparent;font-weight:600}
+.pr-jump a:hover,.pr-jump a:focus-visible{color:var(--on-hazard);background:var(--hazard);border-color:var(--hazard)}
