@@ -32,7 +32,11 @@ ar:
   cx_place: المكان
   cx_date: التاريخ
   cx_person: الشخص
-  pr_personal_sub: تجارب فردية للمؤسسين والأعضاء، تُعرض بصفتها الشخصية ولا تمثّل أنشطة رسمية للنادي.
+  cx_role: الدور
+  cx_source: المصدر ↗
+  cx_timeline: السجل الكامل
+  cx_undated: غير مؤرخ
+  pr_personal_sub: إلى جانب أنشطة النادي، يستعرض هذا القسم مجموعة مختارة من التجارب الشخصية والمشاركات الثقافية لمؤسس النادي وأفراد من مجتمعه، والتي تعكس اهتمامًا ممتدًا بالثقافة اليابانية والتواصل السعودي الياباني. وهي تجارب شخصية، ولا تُعد بالضرورة أنشطة رسمية للنادي.
   pr_personal: تجارب ثقافية شخصية
   pr_official_sub: أنشطة نظّمها النادي أو استضافها منذ تأسيسه في 2024.
   pr_official: أنشطة النادي الرسمية
@@ -157,7 +161,11 @@ en:
   cx_place: Location
   cx_date: Date
   cx_person: Person
-  pr_personal_sub: Individual experiences of the founders and members, presented in a personal capacity and not as official club activities.
+  cx_role: Role
+  cx_source: Source ↗
+  cx_timeline: Complete record
+  cx_undated: Undated
+  pr_personal_sub: "Alongside the club's activities, this section highlights selected personal experiences of the club's founder and community members, reflecting a longstanding engagement with Japanese culture and Saudi–Japanese exchange. These are personal engagements and are not necessarily official club activities."
   pr_personal: Personal Cultural Experiences
   pr_official_sub: Activities organized or hosted by the club since its founding in 2024.
   pr_official: Official Club Activities
@@ -279,7 +287,11 @@ ja:
   cx_place: 場所
   cx_date: 時期
   cx_person: 人物
-  pr_personal_sub: 創設者・メンバー個人としての体験であり、クラブの公式活動ではありません。
+  cx_role: 役割
+  cx_source: 出典 ↗
+  cx_timeline: 全記録
+  cx_undated: 時期未確認
+  pr_personal_sub: クラブの活動に加え、本セクションでは、創設者およびコミュニティメンバーによる日本文化との個人的な関わりや、日サ文化交流の経験を紹介します。いずれも個人としての取り組みであり、必ずしもクラブの公式活動ではありません。
   pr_personal: 個人の文化体験
   pr_official_sub: 2024年の設立以降、クラブが主催またはお迎えした活動です。
   pr_official: クラブの公式活動

@@ -25,7 +25,14 @@
   {%- if personal.size > 0 %}
   <div class="cx-group">
     <h3 class="cx-group-title"><span class="cx-mark">B</span>{{ t.pr_personal }}</h3><p class="cx-group-sub">{{ t.pr_personal_sub }}</p>
-    <div class="cx-list">{% for c in personal %}{% include culture-card.html item=c %}{% endfor %}</div>
+    {%- assign personal_featured = personal | where: "featured", true -%}
+    {%- if personal_featured.size > 0 %}
+    <div class="cx-list">{% for c in personal_featured %}{% include culture-card.html item=c %}{% endfor %}</div>
+    {%- endif %}
+    <div class="cx-timeline" id="personal-experiences">
+      <h4 class="cx-tl-title">{{ t.cx_timeline }}</h4>
+      <ol class="cx-rows">{% for c in personal %}{% include culture-row.html item=c %}{% endfor %}</ol>
+    </div>
   </div>
   {%- endif %}
   {%- endif %}

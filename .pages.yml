@@ -160,9 +160,13 @@ content:
         label: "النوع: official = نشاط رسمي للنادي · personal = تجربة شخصية"
         type: select
         options: { values: [official, personal] }
+      - { name: featured, label: "بطاقة بارزة (للتجارب الشخصية فقط)", type: boolean }
       - { name: title, label: العنوان (عربي), type: string }
       - { name: title_en, label: العنوان (English), type: string }
       - { name: title_ja, label: العنوان (日本語), type: string }
+      - { name: role, label: "الدور (عربي): حضور / تطوّع / متحدث...", type: string }
+      - { name: role_en, label: الدور (English), type: string }
+      - { name: role_ja, label: الدور (日本語), type: string }
       - { name: person, label: الشخص (عربي), type: string }
       - { name: person_en, label: الشخص (English), type: string }
       - { name: person_ja, label: الشخص (日本語), type: string }
@@ -172,12 +176,17 @@ content:
       - { name: location_ja, label: المكان (日本語), type: string }
       - { name: image, label: صورة أصلية, type: image }
       - { name: image_position, label: "موضع قص الصورة (اختياري، مثل 50% 80% لإظهار الجزء السفلي)", type: string }
+      - name: image_fit
+        label: "عرض الصورة كاملة بدون قص (للشهادات والدعوات)"
+        type: select
+        options: { values: [cover, contain] }
       - { name: desc, label: الوصف (عربي), type: text }
       - { name: desc_en, label: الوصف (English), type: text }
       - { name: desc_ja, label: الوصف (日本語), type: text }
       - { name: url, label: رابط المصدر (عربي), type: string }
       - { name: url_en, label: رابط المصدر (English), type: string }
       - { name: url_ja, label: رابط المصدر (日本語), type: string }
+      - { name: url2, label: رابط مصدر إضافي (اختياري), type: string }
   - name: press
     label: ظهرنا في (الإعلام)
     type: file
