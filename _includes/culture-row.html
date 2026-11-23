@@ -12,7 +12,11 @@
 <li class="cx-row">
   <span class="cx-row-date pr-meta-year">{{ ci.year | default: t.cx_undated }}</span>
   <div class="cx-row-main">
-    {%- if ci.image and ci.featured != true %}<a class="cx-row-thumb" href="{{ ci.image | relative_url }}" target="_blank" rel="noopener"><img src="{{ ci.image | relative_url }}" alt="{{ ct | escape }}" loading="lazy" decoding="async" width="72" height="72"></a>{% endif %}
+    {%- if ci.image and ci.featured != true %}
+    {%- assign th_cls = "cx-row-thumb" -%}{%- if ci.thumb_wide -%}{%- assign th_cls = "cx-row-thumb is-wide" -%}{%- endif -%}
+    <div class="cx-row-thumbs"><a class="{{ th_cls }}" href="{{ ci.image_url | default: ci.image | relative_url }}" target="_blank" rel="noopener"><img src="{{ ci.image | relative_url }}" alt="{{ ct | escape }}" loading="lazy" decoding="async"></a>
+      {%- if ci.image2 %}<a class="{{ th_cls }}" href="{{ ci.image2_url | default: ci.image2 | relative_url }}" target="_blank" rel="noopener"><img src="{{ ci.image2 | relative_url }}" alt="{{ ct | escape }}" loading="lazy" decoding="async"></a>{% endif %}</div>
+    {%- endif %}
     <div class="cx-row-text">
       <h4 dir="auto">{{ ct }}</h4>
       <span class="cx-row-meta" dir="auto">{% if cr %}{{ cr }}{% endif %}{% if cr and cl %} · {% endif %}{% if cl %}{{ cl }}{% endif %}</span>

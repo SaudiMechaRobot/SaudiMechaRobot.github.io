@@ -176,6 +176,10 @@ content:
       - { name: location_ja, label: المكان (日本語), type: string }
       - { name: image, label: صورة أصلية, type: image }
       - { name: image_position, label: "موضع قص الصورة (اختياري، مثل 50% 80% لإظهار الجزء السفلي)", type: string }
+      - { name: image_url, label: "رابط عند الضغط على الصورة (اختياري، مثل رابط الفيديو)", type: string }
+      - { name: image2, label: "صورة ثانية مصغّرة (اختياري)", type: string }
+      - { name: image2_url, label: "رابط الصورة الثانية (اختياري)", type: string }
+      - { name: thumb_wide, label: "صورة مصغّرة عريضة 16:9 (للفيديو)", type: boolean }
       - name: image_fit
         label: "عرض الصورة كاملة بدون قص (للشهادات والدعوات)"
         type: select

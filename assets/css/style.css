@@ -538,3 +538,7 @@ html,body{overflow-x:clip}
   .cx-list--compact .cx-item.no-photo{grid-template-columns:1fr}
   .cx-list--compact .cx-photo{width:auto;align-self:start;margin:18px;margin-inline-end:0}
 }
+
+.cx-row-thumbs{display:flex;gap:8px;flex:0 0 auto;align-items:flex-start}
+.cx-row-thumb.is-wide{flex-basis:112px;width:112px;height:63px}
+@media (max-width:600px){.cx-row-thumb.is-wide{flex-basis:96px;width:96px;height:54px}.cx-row-main:has(.is-wide){flex-direction:column}}
