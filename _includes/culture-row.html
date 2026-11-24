@@ -10,7 +10,7 @@
   {%- assign ct = ci[k1] | default: ci.title -%}{%- assign cl = ci[k3] | default: ci.location -%}{%- assign cd = ci[k4] | default: ci.desc -%}{%- assign cr = ci[k6] | default: ci.role -%}
 {%- endif -%}
 <li class="cx-row">
-  <span class="cx-row-date pr-meta-year">{{ ci.year | default: t.cx_undated }}</span>
+  <span class="cx-row-date pr-meta-year"><bdi dir="ltr">{{ ci.year | default: t.cx_undated }}</bdi></span>
   <div class="cx-row-main">
     {%- if ci.image and ci.featured != true %}
     {%- assign ak = "image_alt_" | append: L -%}{%- assign ak2 = "image2_alt_" | append: L -%}

@@ -15,14 +15,14 @@
 {%- if cu and cu contains "://" -%}{%- assign ext = ' target="_blank" rel="noopener"' -%}{%- assign cu_label = t.cx_source -%}{%- endif -%}
 <article class="cx-item{% unless ci.image %} no-photo{% endunless %}{% if ci.image_size == 'wide' %} is-wide{% endif %}">
   {%- assign ak = "image_alt_" | append: L -%}{%- if L == "ar" -%}{%- assign ia = ci.image_alt | default: ct -%}{%- else -%}{%- assign ia = ci[ak] | default: ct -%}{%- endif -%}
-  {%- if ci.image %}<figure class="cx-photo{% if ci.image_fit == 'contain' %} is-doc{% endif %}"><img src="{{ ci.image | relative_url }}" alt="{{ ia | escape }}" loading="lazy" decoding="async" width="800" height="600"{% if ci.image_position %} style="object-position:{{ ci.image_position }}"{% endif %}></figure>{% endif %}
+  {%- if ci.image %}<figure class="cx-photo{% if ci.image_fit == 'contain' %} is-doc{% endif %}"><img src="{{ ci.image | relative_url }}" alt="{{ ia | escape }}"{% if ci.protect_image %} class="is-protected" draggable="false" oncontextmenu="return false"{% endif %} loading="lazy" decoding="async" width="800" height="600"{% if ci.image_position %} style="object-position:{{ ci.image_position }}"{% endif %}></figure>{% endif %}
   <div class="cx-body">
     <span class="pr-cat">{{ t.cat_CULTURE }}</span>
     <h4 dir="auto">{{ ct }}</h4>
     <dl class="cx-facts">
       {%- if cr %}<div><dt>{{ t.cx_role }}</dt><dd dir="auto">{{ cr }}</dd></div>{% endif %}
       {%- if cp %}<div><dt>{{ t.cx_person }}</dt><dd dir="auto">{{ cp }}</dd></div>{% endif %}
-      {%- if ci.year %}<div><dt>{{ t.cx_date }}</dt><dd><span class="pr-meta-year">{{ ci.year }}</span></dd></div>{% endif %}
+      {%- if ci.year %}<div><dt>{{ t.cx_date }}</dt><dd><bdi class="pr-meta-year" dir="ltr">{{ ci.year }}</bdi></dd></div>{% endif %}
       {%- if cl %}<div><dt>{{ t.cx_place }}</dt><dd dir="auto">{{ cl }}</dd></div>{% endif %}
     </dl>
     {%- if cs %}<p class="pr-desc">{{ cs }}</p>{% elsif cd %}<p class="pr-desc">{{ cd }}</p>{% endif %}

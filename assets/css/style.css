@@ -564,3 +564,5 @@ html,body{overflow-x:clip}
 .cx-group-title[data-mark]::before{content:"";background:linear-gradient(var(--beam),var(--beam)) center/8px 8px no-repeat;display:inline-grid;place-items:center;flex:0 0 26px;width:26px;height:26px;border:1px solid var(--line);font-family:var(--f-mono);font-size:12px;color:var(--beam)}
 .cx-list--compact .cx-item.is-wide .cx-photo{aspect-ratio:16/9;width:230px}
 @media (min-width:760px){.cx-list--compact .cx-item.is-wide{grid-template-columns:230px 1fr}.cx-list--compact .cx-item.is-wide .cx-photo{width:auto}}
+.cx-photo img.is-protected{-webkit-user-drag:none;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none}
+.cx-body .pr-desc a,.cx-row-desc a{color:var(--hazard);text-decoration:underline;text-underline-offset:3px}

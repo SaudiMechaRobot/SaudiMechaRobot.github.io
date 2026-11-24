@@ -24,6 +24,30 @@
 
 # تجارب شخصية للمؤسس (ليست أنشطة رسمية للنادي). featured: true = تظهر كبطاقة بارزة. الترتيب من الأحدث للأقدم.
 - type: personal
+  featured: true
+  title: المشاركة بالدوجينشي في WDP هونغ كونغ ضمن ACGHK 2025 و2026
+  title_en: WDP Hong Kong at ACGHK 2025 & 2026 – Doujinshi Participation
+  title_ja: ACGHK 2025・2026 香港世界同人祭（WDP）同人誌出展
+  image: /assets/images/culture/wdp-acghk-phisal.webp
+  image_position: 50% 55%
+  protect_image: true
+  image_alt: Phisal، عضو Saudi Mecha Robot، في جناحه لعرض الدوجينشي في WDP هونغ كونغ
+  image_alt_en: Phisal, a Saudi Mecha Robot member, at his doujinshi booth at WDP Hong Kong
+  image_alt_ja: 香港世界同人祭（WDP）の自身のブースに立つメンバーのPhisalさん
+  role: مشاركة فردية لعضو
+  role_en: Individual member participation
+  role_ja: メンバー個人の出展
+  year: 2025 · 2026
+  location: هونغ كونغ
+  location_en: Hong Kong
+  location_ja: 香港
+  summary: عرض <a href="https://www.instagram.com/phi_sal/" target="_blank" rel="noopener">Phisal</a>، عضو النادي، أعماله المستقلة من الدوجينشي في WDP هونغ كونغ ضمن ACGHK عامي 2025 و2026، في مشاركة فردية لا تمثّل فعالية نظّمها النادي.
+  summary_en: <a href="https://www.instagram.com/phi_sal/" target="_blank" rel="noopener">Phisal</a>, a member of Saudi Mecha Robot, showcased his independently created doujinshi at WDP Hong Kong during ACGHK in 2025 and 2026. This was an individual member's participation, not a club-organized event.
+  summary_ja: メンバーの<a href="https://www.instagram.com/phi_sal/" target="_blank" rel="noopener">Phisal</a>さんが、ACGHK同時開催の香港世界同人祭（WDP）に2025年・2026年に出展し、自主制作の同人誌を発表しました。メンバー個人としての出展です。
+  desc: <a href="https://www.instagram.com/phi_sal/" target="_blank" rel="noopener">Phisal</a>، أحد أعضاء Saudi Mecha Robot، شارك في معرض World Doujins Paradise (WDP) هونغ كونغ المقام ضمن Ani-Com & Games Hong Kong (ACGHK) في عامي 2025 و2026 عبر جناح «Art Block Club – Saudi Arabia»، حيث عرض أعمال الدوجينشي التي أنتجها بشكل مستقل، وأسهم في الثقافة الإبداعية المحيطة بالقصص المصورة والإصدارات المستقلة. وهي مشاركة فردية للعضو، وليست فعالية نظّمها النادي.
+  desc_en: <a href="https://www.instagram.com/phi_sal/" target="_blank" rel="noopener">Phisal</a>, a member of Saudi Mecha Robot, participated in World Doujins Paradise (WDP) Hong Kong, held at Ani-Com & Games Hong Kong (ACGHK), in both 2025 and 2026 at the Art Block Club – Saudi Arabia booth, showcasing his independently created doujinshi and contributing to the creative culture surrounding comics and independent publications. This was an individual member's participation, not an event organized by the club.
+  desc_ja: Saudi Mecha Robotのメンバーである<a href="https://www.instagram.com/phi_sal/" target="_blank" rel="noopener">Phisal</a>さんは、Ani-Com & Games Hong Kong（ACGHK）と同時開催の香港世界同人祭（WDP）に2025年・2026年の2年連続で「Art Block Club – Saudi Arabia」ブースから出展し、自主制作の同人誌を発表しました。コミックや自主出版をめぐる創作文化に貢献する取り組みです。なお、これはメンバー個人としての出展であり、クラブが主催したイベントではありません。
+- type: personal
   title: إكسبو 2025 أوساكا، كانساي – اليابان
   title_en: Expo 2025 Osaka, Kansai, Japan
   title_ja: 2025年大阪・関西万博
