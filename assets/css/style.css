@@ -561,6 +561,6 @@ html,body{overflow-x:clip}
 .pr-jump a:hover,.pr-jump a:focus-visible{color:var(--on-hazard);background:var(--hazard);border-color:var(--hazard)}
 .pr-quick .pr-quick-title{margin:0;color:var(--ink);font-weight:700}
 .cx-more{color:var(--hazard);white-space:nowrap}
-.cx-group-title[data-mark]::before{content:attr(data-mark);display:inline-grid;place-items:center;flex:0 0 26px;width:26px;height:26px;border:1px solid var(--line);font-family:var(--f-mono);font-size:12px;color:var(--beam)}
+.cx-group-title[data-mark]::before{content:"";background:linear-gradient(var(--beam),var(--beam)) center/8px 8px no-repeat;display:inline-grid;place-items:center;flex:0 0 26px;width:26px;height:26px;border:1px solid var(--line);font-family:var(--f-mono);font-size:12px;color:var(--beam)}
 .cx-list--compact .cx-item.is-wide .cx-photo{aspect-ratio:16/9;width:230px}
 @media (min-width:760px){.cx-list--compact .cx-item.is-wide{grid-template-columns:230px 1fr}.cx-list--compact .cx-item.is-wide .cx-photo{width:auto}}
