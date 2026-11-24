@@ -4,7 +4,7 @@ title_en: Featured in "20歳の自分に教えたいイスラム世界", a Japan
 title_ja: 池上彰先生著『20歳の自分に教えたいイスラム世界』（SB新書）に掲載
 rank: 4
 date: 2024-12-01
-date_label: '2024.12'
+date_label: '2024'
 featured: true
 image: /assets/images/achievements/islam-world-book.webp
 tags: []

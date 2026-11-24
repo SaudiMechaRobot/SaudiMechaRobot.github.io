@@ -41,9 +41,9 @@
   image: ikegami-book-2024.jpg
   image_fit: contain
   category: PUBLICATION
-  context: "مؤسس النادي · صدر في يوليو 2024 قبل تأسيس النادي"
-  context_en: "The club's founder · published July 2024, before the club was founded"
-  context_ja: "クラブ創設者・2024年7月刊（クラブ設立以前）"
+  context: "مؤسس النادي · صدر في 2024 قبل تأسيس النادي"
+  context_en: "The club's founder · published 2024, before the club was founded"
+  context_ja: "クラブ創設者・2024年刊（クラブ設立以前）"
 - kind: MAGAZINE
   year: '2025'
   name: "مجلة <bdi>RCmagazine ラジコンマガジン</bdi> اليابانية (عدد يوليو 2025)"
