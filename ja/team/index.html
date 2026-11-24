@@ -12,6 +12,7 @@ description: Saudi Mecha Robotの創設メンバー、注目メンバー、そ�
 <main>
 <section><div class="wrap">
   <div class="head"><div><span class="tag plate">BAY 01 · CREW</span><h2>{{ t.team_page_title }}</h2><p>{{ t.team_sub }}</p></div></div>
+  {% include team-diversity.html %}
   <h3 class="team-group">{{ t.team_founders }}</h3>
   <div class="team">{% for m in site.data.team %}{% if m.group == nil or m.group == "founder" %}{% include crew-card.html m=m %}{% endif %}{% endfor %}</div>
   {%- if featured.size > 0 %}

@@ -372,6 +372,9 @@ html,body{overflow-x:clip}
 .team-more a:hover{text-decoration:underline;text-underline-offset:3px}
 .team-group{font-size:20px;margin:28px 0 12px;color:var(--ink)}
 .team-group-sub{margin:-6px 0 14px;color:var(--muted)}
+.team-diversity{margin:-8px 0 24px;max-width:72ch}
+.team-diversity h3{font-size:17px;margin:0 0 6px;color:var(--ink)}
+.team-diversity p{margin:0;color:var(--muted);line-height:1.75}
 
 /* ---- As featured in ---- */
 .press{border-top:1px solid var(--seam);background:#080D13}

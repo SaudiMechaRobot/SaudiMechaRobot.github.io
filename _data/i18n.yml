@@ -98,6 +98,8 @@ ar:
   contact_label: للإعلام والرعاية والتعاون
   team_title: فريق النادي
   team_sub: الفريق القائم على إدارة النادي وتنظيم أنشطته ومبادراته.
+  team_div_title: التنوع الإبداعي
+  team_div_text: يجمع نادينا أشخاصاً من ذوي الاهتمامات والخلفيات الإبداعية المتنوعة. فإلى جانب تركيب النماذج والمجسمات، تشمل هذه الاهتمامات التصوير الفوتوغرافي والرسم والنحت وغيرها من أشكال التعبير الفني. ونؤمن بأن تنوع وجهات النظر والمهارات الإبداعية يثري تقديرنا المشترك للحرفية والتصميم والإبداع.
   team_slot: إضافة باقي الفريق — قريباً
   team_url: /team/
   team_more: تعرّف على أعضاء النادي وأصدقائه ←
@@ -239,6 +241,8 @@ en:
   contact_label: Media, sponsorship & partnerships
   team_title: Club Team
   team_sub: The people who run the club and organise its events.
+  team_div_title: Creative Diversity
+  team_div_text: Our club brings together people with diverse creative interests and backgrounds. Beyond model building, these include photography, painting, sculpture and other forms of artistic expression. We believe that different perspectives and creative skills enrich our shared appreciation of craftsmanship, design and creativity.
   team_slot: More team members coming soon
   team_url: /en/team/
   team_more: Meet the club's members and friends →
@@ -378,6 +382,8 @@ ja:
   contact_label: 取材・協賛・コラボのお問い合わせ
   team_title: クラブチーム
   team_sub: クラブを運営し、イベントを企画するメンバーです。
+  team_div_title: 多彩な創造性
+  team_div_text: 当クラブには、さまざまな創作への関心やバックグラウンドを持つ人たちが集まっています。模型製作にとどまらず、写真や絵画、彫刻など、多彩な芸術表現への関心も広がっています。異なる視点や創作のスキルが交わることで、ものづくりやデザイン、創造性への共通の想いがいっそう豊かになると考えています。
   team_slot: 他のメンバーも近日追加予定
   team_url: /ja/team/
   team_more: メンバーと仲間たちを見る →

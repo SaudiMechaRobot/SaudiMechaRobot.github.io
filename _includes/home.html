@@ -54,6 +54,7 @@
   {%- if site.data.team.size > 0 %}
   <section id="team"><div class="wrap">
     <div class="head"><div><span class="tag plate">BAY 01 · CREW</span><h2>{{ t.team_title }}</h2><p>{{ t.team_sub }}</p></div></div>
+    {% include team-diversity.html %}
     <div class="team">
       {%- for m in site.data.team %}{% if m.group == nil or m.group == "founder" %}{% include crew-card.html m=m %}{% endif %}{% endfor %}
     </div>
