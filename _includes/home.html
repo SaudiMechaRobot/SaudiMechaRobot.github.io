@@ -49,6 +49,12 @@
         <div class="pillar"><span class="tag">SHARE</span><div><h3>{{ t.p3_t }}</h3><p>{{ t.p3_d }}</p></div></div>
       </div>
     </div>
+    {%- if t.vision_text %}
+    <div class="vg">
+      <div class="pillar"><span class="tag">VISION</span><div><h3>{{ t.vision_title }}</h3><p>{{ t.vision_text }}</p></div></div>
+      <div class="pillar"><span class="tag">GOALS</span><div><h3>{{ t.goals_title }}</h3><ol class="vg-goals">{% for g in t.goals %}<li>{{ g }}</li>{% endfor %}</ol></div></div>
+    </div>
+    {%- endif %}
   </div></section>
 
   {%- if site.data.team.size > 0 %}
