@@ -1,14 +1,14 @@
 # فريق النادي — يُعدّل من لوحة Pages CMS
-# group: founder (المؤسسون، يظهرون في الرئيسية) | featured (أعضاء مميزون) | friend (أصدقاء النادي، أضف country و country_en و country_ja و flag)
+# group: founder (المؤسسون، يظهرون في الرئيسية) | featured (الفريق الأساسي) | friend (أصدقاء النادي، أضف country و country_en و country_ja و flag)
 - name: '@gundam.dizer'
   name_en: '@gundam.dizer'
   name_ja: '@gundam.dizer'
   real_name: ثامر
   real_name_en: Thamer
   real_name_ja: サーメル
-  role: قائد النادي
-  role_en: Club Leader
-  role_ja: クラブリーダー
+  role: المؤسس وقائد النادي
+  role_en: Founder & Club Leader
+  role_ja: 創設者・代表
   photo: /assets/images/team/club-leader.webp
   link: https://linktr.ee/Gundam_Saudi
   group: founder
@@ -18,9 +18,9 @@
   real_name: هشام
   real_name_en: Hisham
   real_name_ja: ヒシャーム
-  role: عضو مؤسس
-  role_en: Founding Member
-  role_ja: 創設メンバー
+  role: مؤسس
+  role_en: Founder
+  role_ja: 創設者
   photo: /assets/images/team/hisham.webp
   link: https://www.instagram.com/gundizer_h
   group: founder
@@ -30,9 +30,9 @@
   real_name: مطلق
   real_name_en: Mutlaq
   real_name_ja: ムトラク
-  role: عضو مؤسس
-  role_en: Founding Member
-  role_ja: 創設メンバー
+  role: مؤسس
+  role_en: Founder
+  role_ja: 創設者
   photo: /assets/images/team/mutlaq.webp
   link: https://www.instagram.com/alucardthe1st
   group: founder
@@ -42,9 +42,9 @@
   real_name: فيصل
   real_name_en: Phisal
   real_name_ja: ファイサル
-  role: عضو مؤسس
-  role_en: Founding Member
-  role_ja: 創設メンバー
+  role: مؤسس
+  role_en: Founder
+  role_ja: 創設者
   photo: /assets/images/team/phisal.webp
   link: https://www.instagram.com/phi_sal
   group: founder
@@ -54,9 +54,9 @@
   real_name: Snowy
   real_name_en: Snowy
   real_name_ja: スノーウィー
-  role: عضو مؤسس
-  role_en: Founding Member
-  role_ja: 創設メンバー
+  role: مؤسس
+  role_en: Founder
+  role_ja: 創設者
   photo: /assets/images/team/snowy.webp
   link: https://www.instagram.com/snowish.wings
   group: founder
@@ -66,9 +66,9 @@
   real_name: ريان
   real_name_en: Ryan
   real_name_ja: ライアン
-  role: عضو أساسي
-  role_en: Core Member
-  role_ja: コアメンバー
+  role: الفريق الأساسي
+  role_en: Core Team
+  role_ja: コアチーム
   photo: /assets/images/team/ryan.webp
   link: https://www.instagram.com/ryan190s
   group: featured
@@ -78,9 +78,9 @@
   real_name: GrRaven
   real_name_en: GrRaven
   real_name_ja: GrRaven
-  role: عضو أساسي
-  role_en: Core Member
-  role_ja: コアメンバー
+  role: الفريق الأساسي
+  role_en: Core Team
+  role_ja: コアチーム
   photo: /assets/images/team/grraven.webp
   link: https://www.instagram.com/raven_guard_2142
   group: featured
@@ -90,9 +90,9 @@
   real_name: ندى
   real_name_en: Nada
   real_name_ja: ナダ
-  role: عضو أساسي
-  role_en: Core Member
-  role_ja: コアメンバー
+  role: الفريق الأساسي
+  role_en: Core Team
+  role_ja: コアチーム
   photo: /assets/images/team/nada.webp
   link: https://x.com/_na0da_
   group: featured
@@ -102,9 +102,9 @@
   real_name: نورة
   real_name_en: Noura
   real_name_ja: ノーラ
-  role: عضو أساسي
-  role_en: Core Member
-  role_ja: コアメンバー
+  role: الفريق الأساسي
+  role_en: Core Team
+  role_ja: コアチーム
   photo: /assets/images/team/nora.webp
   link: https://www.instagram.com/nora.senpai
   group: featured
@@ -114,9 +114,9 @@
   real_name: حنان
   real_name_en: Hanan
   real_name_ja: ハナン
-  role: عضو أساسي
-  role_en: Core Member
-  role_ja: コアメンバー
+  role: الفريق الأساسي
+  role_en: Core Team
+  role_ja: コアチーム
   photo: /assets/images/team/hanan.webp
   link: https://x.com/Ryo_Elrick
   group: featured
@@ -126,9 +126,9 @@
   real_name: نورة
   real_name_en: Noura
   real_name_ja: ノーラ
-  role: عضو أساسي
-  role_en: Core Member
-  role_ja: コアメンバー
+  role: الفريق الأساسي
+  role_en: Core Team
+  role_ja: コアチーム
   photo: /assets/images/team/nourah.webp
   link: https://www.instagram.com/nourah74
   group: featured

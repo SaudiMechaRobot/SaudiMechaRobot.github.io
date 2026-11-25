@@ -83,16 +83,16 @@ ar:
   spec_grades: المقاييس
   nav_about: من نحن
   nav_log: الإنجازات
-  nav_gallery: أعمال الأعضاء
+  nav_gallery: أعمال الفريق
   nav_blog: المدونة
   nav_faq: الأسئلة
   about_title: من نحن
   p1_t: تحديات تركيب جماعية
-  p1_d: كل الأعضاء يركّبون نفس الموديل ويشاركون النتيجة.
+  p1_d: المشاركون يركّبون نفس الموديل ويشاركون النتيجة.
   p2_t: ورش للمبتدئين
   p2_d: من فك القطع من الرنر إلى الـ Panel Lining والتلوين.
-  p3_t: معرض أعمال الأعضاء
-  p3_d: كل قطعة يركّبها عضو لها مكان في المعرض.
+  p3_t: معرض أعمال فريق النادي
+  p3_d: أعمال من تركيب فريق النادي تجد مكانها في المعرض.
   log_title: الإنجازات والفعاليات
   press_title: ظهرنا في
   contact_label: للإعلام والرعاية والتعاون
@@ -102,18 +102,18 @@ ar:
   team_div_text: يجمع نادينا أشخاصاً من ذوي الاهتمامات والخلفيات الإبداعية المتنوعة. فإلى جانب تركيب النماذج والمجسمات، تشمل هذه الاهتمامات التصوير الفوتوغرافي والرسم والنحت وغيرها من أشكال التعبير الفني. ونؤمن بأن تنوع وجهات النظر والمهارات الإبداعية يثري تقديرنا المشترك للحرفية والتصميم والإبداع.
   team_slot: إضافة باقي الفريق — قريباً
   team_url: /team/
-  team_more: تعرّف على أعضاء النادي وأصدقائه ←
-  team_page_title: أعضاء النادي وأصدقاؤه
-  team_page_desc: مؤسسو نادي Saudi Mecha Robot وأعضاؤه المميزون وأصدقاؤه من المبدعين والمحترفين في السعودية واليابان والعالم.
+  team_more: تعرّف على فريق النادي وأصدقائه ←
+  team_page_title: فريق النادي وأصدقاؤه
+  team_page_desc: مؤسسو نادي Saudi Mecha Robot وفريقه الأساسي وأصدقاؤه من المبدعين والمحترفين في السعودية واليابان والعالم.
   team_founders: المؤسسون
-  team_featured: الأعضاء الأساسيون
-  team_featured_sub: أعضاء فاعلون يسهمون في أنشطة النادي وورشه ومعرض أعماله.
+  team_featured: الفريق الأساسي
+  team_featured_sub: مجموعة من المشاركين الذين كان لهم حضور مستمر ومساهمة واضحة في أنشطة النادي ونموّه، ويدعمون فعالياته ومبادراته.
   team_friends: أصدقاء النادي
   team_friends_sub: مبدعون ومحترفون من السعودية والخليج واليابان ودول العالم، تربطهم بالنادي علاقات تعاون وصداقة.
   nav_team: الفريق
-  gallery_title: أعمال الأعضاء
-  gallery_sub: قطع ركّبها أعضاء النادي.
-  gallery_empty: المعرض قريباً. أول أعمال الأعضاء بتنضاف هنا.
+  gallery_title: أعمال فريق النادي
+  gallery_sub: قطع ركّبها فريق النادي.
+  gallery_empty: المعرض قريباً. أول أعمال فريق النادي بتنضاف هنا.
   blog_title: المدونة
   blog_sub: أخبار النادي وأدلة للمبتدئين في عالم النماذج التركيبية والمجسمات.
   blog_all: كل المقالات
@@ -138,9 +138,10 @@ ar:
   - يعمل النادي على تعزيز حضور هواية النماذج التركيبية والمجسمات في المملكة، من خلال الأنشطة وورش العمل وتبادل الخبرات، بما يتيح للمهتمين التعرّف على هذه الهواية وممارسة جوانبها الإبداعية.
   - ويسعى النادي لأن يكون جسرًا ثقافيًا بين السعودية واليابان والعالم، مستندًا إلى حضوره الإعلامي في اليابان وعلاقاته مع مهتمين ومبدعين في مجال النماذج التركيبية والمجسمات، إلى جانب التعريف بالثقافة السعودية من خلال هذا التواصل.
   - ويمتد نشاط النادي إلى التواصل مع المحترفين والمبدعين في مجال النماذج التركيبية والمجسمات في اليابان ودول أخرى، بما يتيح تبادل الخبرات واستكشاف فرص التعاون والاستضافة في المملكة. وقد استضاف النادي محترفين ومحكّمين في هذا المجال وتعاون معهم لتقديم تجارب متخصصة تجمع بين المعرفة الفنية والتبادل الثقافي. ويسعى النادي إلى تطوير هذه المبادرات واستقطاب المزيد من الخبرات الدولية مستقبلًا.
-  - يهدف النادي إلى نشر هواية تركيب النماذج والمجسمات بين المهتمين في المملكة، وتوفير بيئة مرحّبة تتيح للمبتدئين والمحترفين التعلم والتجربة وتبادل الخبرات. ويضم النادي أعضاء من الشباب والفتيات، ويسعى لأن يكون مجتمعًا يجمع محبي هذه الهواية والثقافة اليابانية في المملكة.
+  - يهدف النادي إلى نشر هواية تركيب النماذج والمجسمات بين المهتمين في المملكة، وتوفير بيئة مرحّبة تتيح للمبتدئين والمحترفين التعلم والتجربة وتبادل الخبرات. ويجمع النادي مشاركين من الشباب والفتيات، ويسعى لأن يكون مجتمعًا يجمع محبي هذه الهواية والثقافة اليابانية في المملكة.
   - كما يطمح النادي لأن يكون نافذة ثقافية تمثل المملكة، من خلال التواصل مع الأصدقاء والمتابعين من مختلف دول العالم، وبناء جسور من الاهتمام المتبادل حول هواية النماذج والثقافة اليابانية.
   - نؤمن بأن الشغف نقطة البداية، وأن الهواية يمكن أن تكون جسرًا للإبداع والصداقة والتبادل الثقافي.
+  - يتبنّى النادي نموذج المشاركة المفتوحة؛ فلا توجد عضوية أو رسوم اشتراك، والمشاركة في أنشطته متاحة لكل المهتمين عبر التسجيل في كل فعالية عند الإعلان عنها.
   - نرحب بالجميع.
 en:
   share_label: Share this post
@@ -191,7 +192,7 @@ en:
   cx_source: Source ↗
   cx_timeline: Complete Cultural Experience Record
   cx_undated: Undated
-  pr_personal_sub: "Alongside the club's activities, this section highlights selected personal experiences of the club's founder and community members, reflecting a longstanding engagement with Japanese culture and Saudi–Japanese exchange. These are personal engagements and are not necessarily official club activities."
+  pr_personal_sub: "Alongside the club's activities, this section highlights selected personal experiences of the club's founders and team, reflecting a longstanding engagement with Japanese culture and Saudi–Japanese exchange. These are personal engagements and are not necessarily official club activities."
   pr_personal: Selected Cultural Experience Highlights
   pr_official_sub: Activities organized or hosted by the club since its founding in 2024.
   pr_official: Official Club Activities
@@ -231,11 +232,11 @@ en:
   nav_faq: FAQ
   about_title: About Us
   p1_t: Group build challenges
-  p1_d: Members build the same kit and share the results.
+  p1_d: Participants build the same kit and share the results.
   p2_t: Beginner workshops
   p2_d: From cutting parts off the runner to panel lining and painting.
-  p3_t: Member gallery
-  p3_d: Every member's build has a place in the gallery.
+  p3_t: Team gallery
+  p3_d: Builds by the club team have a place in the gallery.
   log_title: Milestones & events
   press_title: As featured in
   contact_label: Media, sponsorship & partnerships
@@ -243,19 +244,19 @@ en:
   team_sub: The people who run the club and organise its events.
   team_div_title: Creative Diversity
   team_div_text: Our club brings together people with diverse creative interests and backgrounds. Beyond model building, these include photography, painting, sculpture and other forms of artistic expression. We believe that different perspectives and creative skills enrich our shared appreciation of craftsmanship, design and creativity.
-  team_slot: More team members coming soon
+  team_slot: More of the team coming soon
   team_url: /en/team/
-  team_more: Meet the club's members and friends →
-  team_page_title: Members & Friends
-  team_page_desc: The founders, featured members and friends of Saudi Mecha Robot, creators and professionals from Saudi Arabia, Japan and beyond.
+  team_more: Meet the club's team and friends →
+  team_page_title: Team & Friends
+  team_page_desc: The founders, core team and friends of Saudi Mecha Robot, creators and professionals from Saudi Arabia, Japan and beyond.
   team_founders: Founders
-  team_featured: Core Members
-  team_featured_sub: Active members who contribute to the club's activities, workshops and gallery.
+  team_featured: Core Team
+  team_featured_sub: A group of dedicated participants whose ongoing presence and contributions have helped shape the club's activities and growth. They actively support the club's events and initiatives.
   team_friends: Friends of the Club
   team_friends_sub: Creators and professionals from Saudi Arabia, the Gulf, Japan and around the world who share ties of collaboration and friendship with the club.
   nav_team: Team
-  gallery_title: Member builds
-  gallery_sub: Kits built by club members.
+  gallery_title: Team builds
+  gallery_sub: Kits built by the club team.
   gallery_empty: The gallery is coming soon.
   blog_title: Blog
   blog_sub: Club news and beginner guides to scale models, model kits and figures.
@@ -278,9 +279,10 @@ en:
   about_paras:
   - Saudi Mecha Robot is an officially registered scale model and figure club founded in Riyadh in 2024. We focus on sci-fi and mechanical design as seen in anime, video games and film, from Gundam and Grendizer to Macross, Evangelion and Armored Core, while appreciating every genre of scale modelling, from military and aviation to automotive and dioramas.
   - We aim to be a cultural bridge between Saudi Arabia, Japan and the world through a hobby that combines passion, creativity, and cultural exchange. The club’s presence has extended to Japan through appearances on Japanese television and in Japanese magazines, as well as by building friendships and connections with enthusiasts and creators in the mecha and model-building communities from Japan and other countries, while also sharing Saudi culture with them. The club has also hosted and collaborated with professional modelers and competition judges to offer specialized experiences.
-  - The club seeks to promote model building among enthusiasts in the Kingdom and to provide a welcoming environment where beginners and experienced builders can learn, experiment and exchange knowledge. Its members include both young men and young women, and it aims to be a community that brings together lovers of this hobby and Japanese culture in the Kingdom.
+  - The club seeks to promote model building among enthusiasts in the Kingdom and to provide a welcoming environment where beginners and experienced builders can learn, experiment and exchange knowledge. It brings together young men and young women, and it aims to be a community that brings together lovers of this hobby and Japanese culture in the Kingdom.
   - The club also aspires to be a cultural window representing Saudi Arabia, connecting with friends and followers from around the world and building bridges of shared interest around model building and Japanese culture.
   - We believe that passion is the starting point, and that a hobby can serve as a bridge for creativity, friendship, and cultural exchange.
+  - The club follows an open participation model: there is no membership or subscription fee, and anyone interested can take part in its activities by registering for each event when it is announced.
   - Everyone is welcome.
 ja:
   share_label: この記事をシェア
@@ -331,7 +333,7 @@ ja:
   cx_source: 出典 ↗
   cx_timeline: 文化交流・日本文化体験の記録
   cx_undated: 時期未確認
-  pr_personal_sub: クラブの活動に加え、本セクションでは、創設者およびコミュニティメンバーによる日本文化との個人的な関わりや、日サ文化交流の経験を紹介します。いずれも個人としての取り組みであり、必ずしもクラブの公式活動ではありません。
+  pr_personal_sub: クラブの活動に加え、本セクションでは、創設者およびクラブチームによる日本文化との個人的な関わりや、日サ文化交流の経験を紹介します。いずれも個人としての取り組みであり、必ずしもクラブの公式活動ではありません。
   pr_personal: 主な文化交流・日本文化体験
   pr_official_sub: 2024年の設立以降、クラブが主催またはお迎えした活動です。
   pr_official: クラブの公式活動
@@ -372,31 +374,31 @@ ja:
   nav_faq: よくある質問
   about_title: クラブ紹介
   p1_t: グループ製作チャレンジ
-  p1_d: メンバー全員が同じキットを作り、完成品を見せ合います。
+  p1_d: 参加者全員が同じキットを作り、完成品を見せ合います。
   p2_t: 初心者向けワークショップ
   p2_d: ニッパーでの切り出しやゲート処理から、スミ入れ、塗装まで。
-  p3_t: メンバーギャラリー
-  p3_d: メンバーが製作した作品を紹介します。
+  p3_t: チームギャラリー
+  p3_d: クラブチームが製作した作品を紹介します。
   log_title: 活動の歩みとイベント
   press_title: メディア掲載
   contact_label: 取材・協賛・コラボのお問い合わせ
   team_title: クラブチーム
-  team_sub: クラブを運営し、イベントを企画するメンバーです。
+  team_sub: クラブを運営し、イベントを企画するチームです。
   team_div_title: 多彩な創造性
   team_div_text: 当クラブには、さまざまな創作への関心やバックグラウンドを持つ人たちが集まっています。模型製作にとどまらず、写真や絵画、彫刻など、多彩な芸術表現への関心も広がっています。異なる視点や創作のスキルが交わることで、ものづくりやデザイン、創造性への共通の想いがいっそう豊かになると考えています。
-  team_slot: 他のメンバーも近日追加予定
+  team_slot: チームの紹介を近日追加予定
   team_url: /ja/team/
-  team_more: メンバーと仲間たちを見る →
-  team_page_title: メンバーと仲間たち
-  team_page_desc: Saudi Mecha Robotの創設メンバー、注目メンバー、そしてサウジアラビア・日本・世界のクリエイターやプロフェッショナルの仲間たちを紹介します。
-  team_founders: 創設メンバー
-  team_featured: コアメンバー
-  team_featured_sub: クラブの活動やワークショップ、作品ギャラリーを支える中心メンバーです。
+  team_more: チームと仲間たちを見る →
+  team_page_title: チームと仲間たち
+  team_page_desc: Saudi Mecha Robotの創設者、コアチーム、そしてサウジアラビア・日本・世界のクリエイターやプロフェッショナルの仲間たちを紹介します。
+  team_founders: 創設者
+  team_featured: コアチーム
+  team_featured_sub: クラブの活動に継続的に参加し、その発展に大きく貢献してきた参加者たち。イベントや取り組みを積極的に支えています。
   team_friends: クラブの仲間たち
   team_friends_sub: サウジアラビア、湾岸諸国、日本、そして世界各地から、クラブと交流や協力を続けているクリエイターやプロフェッショナルの皆さんです。
   nav_team: チーム
-  gallery_title: メンバー作品
-  gallery_sub: クラブメンバーが製作した作品です。
+  gallery_title: チーム作品
+  gallery_sub: クラブチームが製作した作品です。
   gallery_empty: ギャラリーは近日公開予定です。
   blog_title: ブログ
   blog_sub: クラブのニュースや、プラモデル・フィギュア初心者向けガイドをお届けします。
@@ -420,7 +422,8 @@ ja:
   - アニメ・ゲーム・映画に登場するSFやメカニカルデザインを中心に、ガンダムやグレンダイザーからマクロス、エヴァンゲリオン、アーマード・コアまで幅広く楽しんでいます。もちろん、ミリタリー、航空機、カーモデル、ジオラマなど、どんなジャンルの模型も大歓迎です。
   - 私たちの目標は、模型づくりという趣味を通して、サウジアラビアと日本、そして世界をつなぐ「文化の架け橋」になることです。情熱や創造性を分かち合いながら、文化交流の輪を広げていきたいと考えています。
   - 日本のテレビ番組への出演や雑誌への掲載をきっかけに、日本でも少しずつクラブを知っていただけるようになりました。世界各地のメカ・模型ファンやクリエイターの皆さんと交流を深めながら、サウジアラビアの文化も発信しています。また、プロモデラーや審査員の方々をお招きして、本格的な技術に触れられる場づくりにも取り組んでいます。
-  - "クラブの目標は、次の3つです。<br>・サウジアラビアで模型に関心のある人たちに、模型づくりの楽しさを広めること<br>・初心者からベテランまで、誰もが学び、挑戦し、知識を分かち合える居心地のよい場をつくること<br>・模型と日本文化を愛する人たちが集うコミュニティになること<br>クラブには男女の若いメンバーが在籍しています。"
+  - "クラブの目標は、次の3つです。<br>・サウジアラビアで模型に関心のある人たちに、模型づくりの楽しさを広めること<br>・初心者からベテランまで、誰もが学び、挑戦し、知識を分かち合える居心地のよい場をつくること<br>・模型と日本文化を愛する人たちが集うコミュニティになること<br>クラブには男女の若い参加者が集まっています。"
   - また、世界各国の友人やフォロワーの皆さんとの交流を通じて、サウジアラビアを紹介する「文化の窓」となり、模型づくりと日本文化を通じた相互の関心と絆を育んでいきたいと考えています。
   - すべての始まりは「好き」という情熱。趣味には、創造性や友情、そして文化交流を生み出す力がある――私たちはそう信じています。
+  - クラブは「オープン参加」を基本としています。会員制度や会費はなく、各イベントの告知時にお申し込みいただければ、どなたでも活動に参加できます。
   - 経験は問いません。どなたでもお気軽にご参加ください！

@@ -31,7 +31,7 @@ layout: null
 - April 2026: Translated Go Nagai's interview about the Grendizer statue at Boulevard World
 
 ## Pages
-- [Home (Arabic)]({{ '/' | absolute_url }}): about the club, milestones, member gallery, FAQ
+- [Home (Arabic)]({{ '/' | absolute_url }}): about the club, milestones, team gallery, FAQ
 - [English site]({{ '/en/' | absolute_url }}): the club in English
 - [Japanese site / 日本語サイト]({{ '/ja/' | absolute_url }}): the club in Japanese
 - [Blog (Arabic)]({{ '/blog/' | absolute_url }}): club news and beginner model-building guides in Arabic
