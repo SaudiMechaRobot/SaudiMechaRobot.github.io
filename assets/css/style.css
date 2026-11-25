@@ -146,6 +146,9 @@ section{padding-block:64px}
 .pillar .tag{color:var(--beam);padding-top:4px}
 .pillar h3{font-size:18px}
 .pillar p{margin:2px 0 0;color:var(--muted);font-size:15px}
+.vg{display:grid;grid-template-columns:1fr 2fr;gap:12px;margin-top:28px}
+.vg-goals{margin:6px 0 0;padding-inline-start:20px;color:var(--muted);font-size:15px}
+.vg-goals li{margin:0 0 6px}
 
 /* timeline — floor guide line */
 .timeline{list-style:none;margin:0;padding:0;border-inline-start:3px dashed var(--hazard)}
@@ -249,6 +252,7 @@ main p a:not([class]):hover,.prose li a:not([class]):hover{color:var(--hazard)}
   .bay-frame{width:min(340px,86vw)}
   .status{grid-template-columns:repeat(2,1fr)}
   .about{grid-template-columns:1fr}
+  .vg{grid-template-columns:1fr}
   .gallery{grid-template-columns:repeat(2,1fr)}
   .posts,.posts.pinned{grid-template-columns:1fr}
   .hero-bay{padding-block:28px 24px;--bay-x:50%!important}
