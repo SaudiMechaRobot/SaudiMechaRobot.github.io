@@ -88,14 +88,14 @@ ar:
   nav_faq: الأسئلة
   about_title: من نحن
   vision_title: "رؤيتنا"
-  vision_text: "أن يكون Saudi Mecha Robot جسراً ثقافياً بين السعودية واليابان والعالم، ومجتمعاً رائداً لهواية النماذج التركيبية والمجسمات في المملكة."
+  vision_text: "أن يكون Saudi Mecha Robot نادياً رائداً في تنمية هواية النماذج التركيبية والمجسمات في المملكة، وجسراً ثقافياً يربط السعودية باليابان والعالم."
   goals_title: "أهدافنا"
   goals:
-  - "نشر هواية النماذج التركيبية والمجسمات بين المهتمين في المملكة."
-  - "توفير بيئة مرحّبة للتعلّم وتبادل الخبرات لكل المستويات."
-  - "مواكبة المودلرز العالميين والمحترفين والاستعانة بخبراتهم عبر الاستضافة وورش العمل."
-  - "التعريف بالثقافة السعودية، والتعريف بالثقافة اليابانية وأفكارها ومفاهيمها، وتعزيز التبادل الثقافي مع اليابان والعالم."
-  - "المشاركة في الفعاليات المحلية والدولية، وصولاً إلى تنظيم فعاليات ومسابقات."
+  - "نشر هواية النماذج التركيبية والمجسمات وتعزيز حضورها في المملكة، بما في ذلك تقديم محتوى تعريفي بالشركات المصنّعة والمجسمات والأدوات."
+  - "توفير بيئة مفتوحة ومرحّبة لكل المستويات، للمشاركة والتعلّم وتبادل الخبرات وتطوير المهارات."
+  - "المشاركة في الفعاليات المحلية والدولية، وتمثيل الهواية والتعريف بها في المحافل المهمة، والسعي إلى تنظيم فعاليات ومعارض ومسابقات في المملكة بمعايير عالمية، بالتعاون مع مودلرز ومحكّمين دوليين."
+  - "مواكبة التطور العالمي في الهواية، وتبادل المعرفة والخبرات مع المودلرز والمبدعين والمحترفين حول العالم، والسعي إلى استضافتهم وتقديم ورش عمل متخصصة عند توفر الإمكانات المناسبة."
+  - "التعريف بالثقافة السعودية والثقافة اليابانية وأفكارهما ومفاهيمهما، وتعزيز التبادل الثقافي مع اليابان والعالم."
   p1_t: تحديات تركيب جماعية
   p1_d: المشاركون يركّبون نفس الموديل ويشاركون النتيجة.
   p2_t: ورش للمبتدئين
@@ -250,14 +250,14 @@ en:
   nav_faq: FAQ
   about_title: About Us
   vision_title: "Our Vision"
-  vision_text: "For Saudi Mecha Robot to be a cultural bridge between Saudi Arabia, Japan and the world, and a leading community for scale modelling and figures in the Kingdom."
+  vision_text: "For Saudi Mecha Robot to be a leading club in developing scale modelling and figures in Saudi Arabia, and a cultural bridge connecting Saudi Arabia with Japan and the world."
   goals_title: "Our Goals"
   goals:
-  - "Promote scale modelling and figures among enthusiasts in the Kingdom."
-  - "Provide a welcoming environment for learning and sharing skills at every level."
-  - "Keep pace with leading modellers and professionals worldwide and draw on their expertise through guest visits and workshops."
-  - "Introduce Saudi culture, share Japanese culture, ideas and concepts, and strengthen cultural exchange with Japan and the world."
-  - "Take part in local and international events, and in time host our own events and competitions."
+  - "Promote scale modelling and figures and strengthen their presence in Saudi Arabia, including through content introducing manufacturers, kits and tools."
+  - "Offer an open, welcoming environment where people of every level can take part, learn, share knowledge and develop their skills."
+  - "Take part in local and international events, represent and introduce the hobby at major events, and work towards organising events, exhibitions and competitions in Saudi Arabia to international standards, in collaboration with international modellers and judges."
+  - "Keep pace with global developments in the hobby and exchange knowledge with modellers, creators and professionals worldwide, seeking to host them and offer specialised workshops when suitable resources are available."
+  - "Introduce Saudi and Japanese culture, ideas and concepts, and strengthen cultural exchange with Japan and the world."
   p1_t: Group build challenges
   p1_d: Participants build the same kit and share the results.
   p2_t: Beginner workshops
@@ -410,14 +410,14 @@ ja:
   nav_faq: よくある質問
   about_title: クラブ紹介
   vision_title: "ビジョン"
-  vision_text: "サウジアラビアと日本、そして世界をつなぐ文化の架け橋となり、サウジアラビアにおける模型・フィギュア趣味をリードするコミュニティとなること。"
+  vision_text: "サウジアラビアにおける模型・フィギュア趣味の発展をリードするクラブとなり、サウジアラビアと日本、そして世界をつなぐ文化の架け橋となること。"
   goals_title: "私たちの目標"
   goals:
-  - "サウジアラビアで模型・フィギュアの楽しさを広めること"
-  - "あらゆるレベルの方が学び、知識を分かち合える居心地のよい場をつくること"
-  - "ゲストの招へいやワークショップを通じて、世界のトップモデラーやプロフェッショナルから学び、その水準に近づくこと"
-  - "サウジアラビアの文化を紹介するとともに、日本の文化や考え方を伝え、日本や世界との文化交流を深めること"
-  - "国内外のイベントに参加し、将来的には独自のイベントやコンテストを開催すること"
+  - "メーカーやキット、道具を紹介するコンテンツなどを通じて、サウジアラビアで模型・フィギュアの楽しさを広め、その存在感を高めること"
+  - "初心者からベテランまで誰もが参加し、学び、知識を分かち合い、技術を磨ける開かれた場をつくること"
+  - "国内外のイベントに参加し、主要な場で模型趣味を紹介・発信するとともに、海外のモデラーや審査員と協力し、国際水準のイベント・展示会・コンテストをサウジアラビアで開催することを目指すこと"
+  - "模型の世界的な動向を学び、世界のモデラーやクリエイター、プロフェッショナルと知識や経験を交換すること。条件が整い次第、ゲストの招へいや専門ワークショップの開催にも取り組むこと"
+  - "サウジアラビアと日本の文化や考え方を紹介し、日本や世界との文化交流を深めること"
   p1_t: グループ製作チャレンジ
   p1_d: 参加者全員が同じキットを作り、完成品を見せ合います。
   p2_t: 初心者向けワークショップ
