@@ -1,6 +1,6 @@
 # التبادل الثقافي — يُعدّل من لوحة Pages CMS
 # type: official = نشاط نظّمه النادي أو استضافه رسمياً
-#       personal = تجربة شخصية لأحد المؤسسين أو الأعضاء (ليست نشاطاً رسمياً للنادي)
+#       personal = تجربة شخصية لأحد المؤسسين أو الفريق الأساسي (ليست نشاطاً رسمياً للنادي)
 # أضف فقط ما تدعمه صورة أصلية ومعلومات موثّقة. اترك year أو location فارغاً إذا لم يكن مؤكداً.
 - type: official
   title: زيارة Eday Ver.Ed وورشة «Modelling Philosophy 101»
@@ -16,8 +16,8 @@
   image: /assets/images/achievements/eday-ver-ed-saudi.webp
   image_position: 50% 80%
   desc: استضاف النادي Eday Ver.Ed في الرياض، وقدّم لأعضائه ورشة عن الإبداع في تركيب نماذج Gunpla.
-  desc_en: The club hosted Eday Ver.Ed in Riyadh, where he led a workshop for members on creativity in Gunpla building.
-  desc_ja: クラブがリヤドにEday Ver.Ed氏をお迎えし、メンバー向けにガンプラ制作の創造性をテーマとしたワークショップを開催していただきました。
+  desc_en: The club hosted Eday Ver.Ed in Riyadh, where he led a workshop for participants on creativity in Gunpla building.
+  desc_ja: クラブがリヤドにEday Ver.Ed氏をお迎えし、参加者向けにガンプラ制作の創造性をテーマとしたワークショップを開催していただきました。
   url: /blog/2025/11/eday-ver-ed-riyadh/
   url_en: /en/blog/2025/11/eday-ver-ed-riyadh/
   url_ja: /ja/blog/2025/11/eday-ver-ed-riyadh/
@@ -31,22 +31,22 @@
   image: /assets/images/culture/wdp-acghk-phisal.webp
   image_position: 50% 55%
   protect_image: true
-  image_alt: Phisal، عضو Saudi Mecha Robot، في جناحه لعرض الدوجينشي في WDP هونغ كونغ
-  image_alt_en: Phisal, a Saudi Mecha Robot member, at his doujinshi booth at WDP Hong Kong
-  image_alt_ja: 香港世界同人祭（WDP）の自身のブースに立つメンバーのPhisalさん
-  role: مشاركة فردية لعضو
-  role_en: Individual member participation
-  role_ja: メンバー個人の出展
+  image_alt: Phisal، أحد مؤسسي Saudi Mecha Robot، في جناحه لعرض الدوجينشي في WDP هونغ كونغ
+  image_alt_en: Phisal, a Saudi Mecha Robot founder, at his doujinshi booth at WDP Hong Kong
+  image_alt_ja: 香港世界同人祭（WDP）の自身のブースに立つ創設者のPhisalさん
+  role: مشاركة فردية لأحد المؤسسين
+  role_en: Individual participation by a founder
+  role_ja: 創設者個人の出展
   year: 2025 · 2026
   location: هونغ كونغ
   location_en: Hong Kong
   location_ja: 香港
-  summary: عرض <a href="https://www.instagram.com/phi_sal/" target="_blank" rel="noopener">Phisal</a>، عضو النادي والرسّام (Illustrator)، أعماله المستقلة من الدوجينشي في WDP هونغ كونغ ضمن ACGHK عامي 2025 و2026، في مشاركة فردية لأعماله الفنية (Illustration artwork).
-  summary_en: <a href="https://www.instagram.com/phi_sal/" target="_blank" rel="noopener">Phisal</a>, a Saudi Mecha Robot member and illustrator, showcased his independently created doujinshi at WDP Hong Kong during ACGHK in 2025 and 2026, as an individual presentation of his illustration artwork.
-  summary_ja: メンバーでイラストレーターの<a href="https://www.instagram.com/phi_sal/" target="_blank" rel="noopener">Phisal</a>さんが、ACGHK同時開催の香港世界同人祭（WDP）に2025年・2026年に出展し、自主制作の同人誌とイラスト作品を個人として発表しました。
-  desc: <a href="https://www.instagram.com/phi_sal/" target="_blank" rel="noopener">Phisal</a>، أحد أعضاء Saudi Mecha Robot والرسّام (Illustrator)، شارك في معرض World Doujins Paradise (WDP) هونغ كونغ المقام ضمن Ani-Com & Games Hong Kong (ACGHK) في عامي 2025 و2026 عبر جناح «Art Block Club – Saudi Arabia»، حيث عرض أعمال الدوجينشي التي أنتجها بشكل مستقل، وأسهم في الثقافة الإبداعية المحيطة بالقصص المصورة والإصدارات المستقلة. وهي مشاركة فردية لأعماله الفنية (Illustration artwork).
-  desc_en: <a href="https://www.instagram.com/phi_sal/" target="_blank" rel="noopener">Phisal</a>, a Saudi Mecha Robot member and illustrator, participated in World Doujins Paradise (WDP) Hong Kong, held at Ani-Com & Games Hong Kong (ACGHK), in both 2025 and 2026 at the Art Block Club – Saudi Arabia booth, showcasing his independently created doujinshi and contributing to the creative culture surrounding comics and independent publications. This was an individual presentation of his illustration artwork.
-  desc_ja: Saudi Mecha Robotのメンバーでイラストレーターの<a href="https://www.instagram.com/phi_sal/" target="_blank" rel="noopener">Phisal</a>さんは、Ani-Com & Games Hong Kong（ACGHK）と同時開催の香港世界同人祭（WDP）に2025年・2026年の2年連続で「Art Block Club – Saudi Arabia」ブースから出展し、自主制作の同人誌を発表しました。コミックや自主出版をめぐる創作文化に貢献する取り組みです。なお、これは自身のイラスト作品による個人としての出展です。
+  summary: عرض <a href="https://www.instagram.com/phi_sal/" target="_blank" rel="noopener">Phisal</a>، أحد مؤسسي النادي والرسّام (Illustrator)، أعماله المستقلة من الدوجينشي في WDP هونغ كونغ ضمن ACGHK عامي 2025 و2026، في مشاركة فردية لأعماله الفنية (Illustration artwork).
+  summary_en: <a href="https://www.instagram.com/phi_sal/" target="_blank" rel="noopener">Phisal</a>, a Saudi Mecha Robot founder and illustrator, showcased his independently created doujinshi at WDP Hong Kong during ACGHK in 2025 and 2026, as an individual presentation of his illustration artwork.
+  summary_ja: 創設者でイラストレーターの<a href="https://www.instagram.com/phi_sal/" target="_blank" rel="noopener">Phisal</a>さんが、ACGHK同時開催の香港世界同人祭（WDP）に2025年・2026年に出展し、自主制作の同人誌とイラスト作品を個人として発表しました。
+  desc: <a href="https://www.instagram.com/phi_sal/" target="_blank" rel="noopener">Phisal</a>، أحد مؤسسي Saudi Mecha Robot والرسّام (Illustrator)، شارك في معرض World Doujins Paradise (WDP) هونغ كونغ المقام ضمن Ani-Com & Games Hong Kong (ACGHK) في عامي 2025 و2026 عبر جناح «Art Block Club – Saudi Arabia»، حيث عرض أعمال الدوجينشي التي أنتجها بشكل مستقل، وأسهم في الثقافة الإبداعية المحيطة بالقصص المصورة والإصدارات المستقلة. وهي مشاركة فردية لأعماله الفنية (Illustration artwork).
+  desc_en: <a href="https://www.instagram.com/phi_sal/" target="_blank" rel="noopener">Phisal</a>, a Saudi Mecha Robot founder and illustrator, participated in World Doujins Paradise (WDP) Hong Kong, held at Ani-Com & Games Hong Kong (ACGHK), in both 2025 and 2026 at the Art Block Club – Saudi Arabia booth, showcasing his independently created doujinshi and contributing to the creative culture surrounding comics and independent publications. This was an individual presentation of his illustration artwork.
+  desc_ja: Saudi Mecha Robotの創設者でイラストレーターの<a href="https://www.instagram.com/phi_sal/" target="_blank" rel="noopener">Phisal</a>さんは、Ani-Com & Games Hong Kong（ACGHK）と同時開催の香港世界同人祭（WDP）に2025年・2026年の2年連続で「Art Block Club – Saudi Arabia」ブースから出展し、自主制作の同人誌を発表しました。コミックや自主出版をめぐる創作文化に貢献する取り組みです。なお、これは自身のイラスト作品による個人としての出展です。
 - type: personal
   title: إكسبو 2025 أوساكا، كانساي – اليابان
   title_en: Expo 2025 Osaka, Kansai, Japan

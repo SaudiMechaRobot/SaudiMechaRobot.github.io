@@ -83,7 +83,7 @@ content:
       - { name: body, label: الوصف, type: rich-text }
 
   - name: gallery
-    label: أعمال الأعضاء
+    label: أعمال فريق النادي
     type: collection
     path: _gallery
     filename: { template: "{year}-{month}-{day}-{primary}.md", field: create }
@@ -92,7 +92,7 @@ content:
       - { name: title, label: اسم الموديل, type: string, required: true }
       - { name: title_en, label: اسم الموديل (English), type: string }
       - { name: title_ja, label: اسم الموديل (日本語), type: string }
-      - { name: builder, label: اسم العضو, type: string }
+      - { name: builder, label: اسم صاحب العمل, type: string }
       - name: grade
         label: الفئة
         type: select
