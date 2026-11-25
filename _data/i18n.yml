@@ -134,6 +134,15 @@ ar:
   sponsor_slot: تعاون مؤسسي
   join_title: جاهز تركّب معنا؟
   join_text: تابع النادي على حساباته الرسمية.
+  join_steps_title: "كيف تشارك معنا؟"
+  join_steps:
+  - "تابع حساباتنا الرسمية"
+  - "سجّل في الفعالية عند الإعلان عنها"
+  - "احضر وشاركنا التجربة"
+  join_remote: "من خارج الرياض؟ تابع منشوراتنا وتفاعل معها، وشاركنا رأيك وأعمالك."
+  next_event_label: "الفعالية القادمة:"
+  next_event_none: "تابعونا لمعرفة موعدها"
+  next_event_cta: "سجّل الآن"
   footer_club: نادي هواة مسجّل رسميًا · الرياض
   club_leader: قائد النادي
   lang_name: العربية
@@ -287,6 +296,15 @@ en:
   sponsor_slot: Sponsor spot — coming soon
   join_title: Ready to build with us?
   join_text: Follow the club on its official accounts.
+  join_steps_title: "How to take part"
+  join_steps:
+  - "Follow our official accounts"
+  - "Register when an event is announced"
+  - "Join us and build together"
+  join_remote: "Outside Riyadh? Follow our posts, join the conversation and share your builds with us."
+  next_event_label: "Next event:"
+  next_event_none: "follow us for the announcement"
+  next_event_cta: "Register now"
   footer_club: Officially registered hobby club · Riyadh
   club_leader: Club leader
   lang_name: English
@@ -438,6 +456,15 @@ ja:
   sponsor_slot: スポンサー募集中
   join_title: 一緒に作りませんか？
   join_text: 公式アカウントをフォローして、最新情報をぜひチェックしてください！
+  join_steps_title: "参加方法"
+  join_steps:
+  - "公式アカウントをフォロー"
+  - "イベント告知時にお申し込み"
+  - "当日参加して一緒に楽しもう"
+  join_remote: "リヤド以外にお住まいの方も、投稿へのコメントやシェア、作品の共有でぜひ交流してください！"
+  next_event_label: "次回イベント："
+  next_event_none: "日程は公式アカウントでお知らせします"
+  next_event_cta: "申し込む"
   footer_club: 正式登録ホビークラブ · リヤド
   club_leader: クラブリーダー
   lang_name: 日本語

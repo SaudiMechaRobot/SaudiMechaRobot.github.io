@@ -214,6 +214,12 @@ details p{margin:10px 0 0;color:var(--muted)}
 .join h2{font-size:clamp(26px,4vw,40px)}
 .join p{margin:8px 0 0;color:var(--muted)}
 .join .tag{color:var(--hazard)}
+.join .join-steps-title{color:var(--ink);font-weight:700;margin-top:14px}
+.join-steps{margin:6px 0 0;padding-inline-start:22px;color:var(--ink)}
+.join-steps li{margin:4px 0}
+.join .join-event{margin-top:12px}
+.join-event a{color:var(--hazard)}
+.join .join-remote{font-size:14px}
 footer{background:#05080C;border-top:1px solid var(--seam)}
 footer .wrap{padding-block:24px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:14px;color:var(--muted)}
 footer a{color:var(--muted)}
