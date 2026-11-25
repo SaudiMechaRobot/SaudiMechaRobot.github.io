@@ -1,5 +1,13 @@
 <div class="join" id="join"><div class="wrap">
-  <div><span class="tag">TAKE PART</span><h2>{{ t.join_title }}</h2><p>{{ t.join_text }}</p></div>
+  <div><span class="tag">TAKE PART</span><h2>{{ t.join_title }}</h2>
+    {%- if t.join_steps %}
+    <p class="join-steps-title">{{ t.join_steps_title }}</p>
+    <ol class="join-steps">{% for st in t.join_steps %}<li>{{ st }}</li>{% endfor %}</ol>
+    {%- assign ev = site.data.event -%}{%- capture evt -%}{% if L == "en" %}{{ ev.title_en }}{% elsif L == "ja" %}{{ ev.title_ja }}{% else %}{{ ev.title }}{% endif %}{%- endcapture %}
+    <p class="join-event"><strong>{{ t.next_event_label }}</strong> {% if ev.url and ev.url != "" %}{{ evt | default: ev.title }} · <a href="{{ ev.url }}" target="_blank" rel="noopener">{{ t.next_event_cta }}</a>{% else %}{{ t.next_event_none }}{% endif %}</p>
+    <p class="join-remote">{{ t.join_remote }}</p>
+    {%- else %}<p>{{ t.join_text }}</p>{%- endif %}
+  </div>
   <div class="cta">
     {%- for s in site.data.social %}
     <a class="btn {% if forloop.first %}primary{% else %}social{% endif %}" href="{{ s.url }}" target="_blank" rel="noopener me">{% include icon.html name=s.icon %}<span>{{ s.name }}</span></a>
