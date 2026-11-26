@@ -156,7 +156,7 @@ section{padding-block:64px}
 .goal h3{display:flex;align-items:baseline;gap:10px;line-height:1.4}
 .goal .gnum{color:var(--hazard);font-family:var(--f-mono);font-size:20px;font-weight:700;direction:ltr}
 .goal p{line-height:1.8}
-@media (max-width:560px){.goal-grid{grid-template-columns:1fr}.pillar.goal{grid-template-columns:88px 1fr;gap:10px}}
+@media (max-width:560px){.goal-grid{grid-template-columns:1fr;gap:8px}.pillar.goal{grid-template-columns:1fr;gap:2px;padding:12px 14px}.goal .tag{padding-top:0;font-size:11px;justify-self:start}.goal h3{font-size:17px}.goal .gnum{font-size:17px}.goal p{line-height:1.65;font-size:14.5px}}
 
 /* timeline — floor guide line */
 .timeline{list-style:none;margin:0;padding:0;border-inline-start:3px dashed var(--hazard)}
