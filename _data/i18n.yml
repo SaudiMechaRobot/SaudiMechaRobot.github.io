@@ -91,17 +91,27 @@ ar:
   vision_text: "أن يكون Saudi Mecha Robot نادياً رائداً في تنمية هواية النماذج التركيبية والمجسمات في المملكة، وجسراً ثقافياً يربط السعودية باليابان والعالم."
   goals_title: "أهدافنا"
   goals:
-  - "نشر هواية النماذج التركيبية والمجسمات وتعزيز حضورها في المملكة، بما في ذلك تقديم محتوى تعريفي بالشركات المصنّعة والمجسمات والأدوات."
-  - "توفير بيئة مفتوحة ومرحّبة لكل المستويات، للمشاركة والتعلّم وتبادل الخبرات وتطوير المهارات."
-  - "المشاركة في الفعاليات المحلية والدولية، وتمثيل الهواية والتعريف بها في المحافل المهمة، والسعي إلى تنظيم فعاليات ومعارض ومسابقات في المملكة بمعايير عالمية، بالتعاون مع مودلرز ومحكّمين دوليين."
-  - "مواكبة التطور العالمي في الهواية، وتبادل المعرفة والخبرات مع المودلرز والمبدعين والمحترفين حول العالم، والسعي إلى استضافتهم وتقديم ورش عمل متخصصة عند توفر الإمكانات المناسبة."
-  - "التعريف بالثقافة السعودية والثقافة اليابانية وأفكارهما ومفاهيمهما، وتعزيز التبادل الثقافي مع اليابان والعالم."
+  - tag: SPREAD
+    t: "نشر الهواية"
+    d: "تعزيز حضور النماذج التركيبية والمجسمات في المملكة، والتعريف بالشركات المصنّعة والأدوات."
+  - tag: COMMUNITY
+    t: "بيئة للجميع"
+    d: "مساحة مفتوحة ومرحّبة بكل المستويات للتعلّم وتبادل الخبرات وتطوير المهارات."
+  - tag: EVENTS
+    t: "فعاليات بمعايير عالمية"
+    d: "المشاركة في الفعاليات المحلية والدولية والتعريف بالهواية فيها، وتنظيم معارض ومسابقات في المملكة بالتعاون مع مودلرز ومحكّمين دوليين."
+  - tag: CONNECT
+    t: "تواصل مع المحترفين"
+    d: "مواكبة تطوّر الهواية عالمياً، والسعي إلى استضافة مودلرز ومبدعين من حول العالم لتقديم ورش متخصصة."
+  - tag: BRIDGE
+    t: "جسر ثقافي"
+    d: "التعريف بالثقافتين السعودية واليابانية، وتعزيز التبادل الثقافي بين السعودية واليابان والعالم."
   p1_t: تحديات تركيب جماعية
-  p1_d: المشاركون يركّبون نفس الموديل ويشاركون النتيجة.
+  p1_d: نركّب الموديل نفسه معاً، ونقارن الأساليب والنتائج.
   p2_t: ورش للمبتدئين
-  p2_d: من فك القطع من الرنر إلى الـ Panel Lining والتلوين.
-  p3_t: معرض أعمال فريق النادي
-  p3_d: أعمال من تركيب فريق النادي تجد مكانها في المعرض.
+  p2_d: "من فصل القطع عن الرنر إلى تحديد الخطوط (<bdi>Panel Lining</bdi>) والتلوين."
+  p3_t: معرض أعمال النادي
+  p3_d: مختارات من أعمال فريق النادي، من البناء المباشر إلى التخصيص الكامل.
   log_title: الإنجازات والفعاليات
   press_title: ظهرنا في
   contact_label: للإعلام والرعاية والتعاون
@@ -253,17 +263,27 @@ en:
   vision_text: "For Saudi Mecha Robot to be a leading club in developing scale modelling and figures in Saudi Arabia, and a cultural bridge connecting Saudi Arabia with Japan and the world."
   goals_title: "Our Goals"
   goals:
-  - "Promote scale modelling and figures and strengthen their presence in Saudi Arabia, including through content introducing manufacturers, kits and tools."
-  - "Offer an open, welcoming environment where people of every level can take part, learn, share knowledge and develop their skills."
-  - "Take part in local and international events, represent and introduce the hobby at major events, and work towards organising events, exhibitions and competitions in Saudi Arabia to international standards, in collaboration with international modellers and judges."
-  - "Keep pace with global developments in the hobby and exchange knowledge with modellers, creators and professionals worldwide, seeking to host them and offer specialised workshops when suitable resources are available."
-  - "Introduce Saudi and Japanese culture, ideas and concepts, and strengthen cultural exchange with Japan and the world."
+  - tag: SPREAD
+    t: "Promoting the hobby"
+    d: "Strengthening the presence of scale models and figures in Saudi Arabia, and introducing manufacturers, kits and tools."
+  - tag: COMMUNITY
+    t: "Open to every level"
+    d: "An open, welcoming space where everyone can learn, share knowledge and develop their skills."
+  - tag: EVENTS
+    t: "World-class events"
+    d: "Taking part in local and international events to introduce the hobby, and organising exhibitions and competitions in Saudi Arabia with international modellers and judges."
+  - tag: CONNECT
+    t: "Connecting with professionals"
+    d: "Keeping pace with the hobby worldwide, and seeking to host modellers and creators from around the world for specialised workshops."
+  - tag: BRIDGE
+    t: "A cultural bridge"
+    d: "Introducing Saudi and Japanese culture, and strengthening cultural exchange between Saudi Arabia, Japan and the world."
   p1_t: Group build challenges
-  p1_d: Participants build the same kit and share the results.
+  p1_d: We build the same kit together and compare techniques and results.
   p2_t: Beginner workshops
   p2_d: From cutting parts off the runner to panel lining and painting.
   p3_t: Team gallery
-  p3_d: Builds by the club team have a place in the gallery.
+  p3_d: A selection of builds by the club team, from straight builds to full customs.
   log_title: Milestones & events
   press_title: As featured in
   contact_label: Media, sponsorship & partnerships
@@ -413,17 +433,27 @@ ja:
   vision_text: "サウジアラビアにおける模型・フィギュア趣味の発展をリードするクラブとなり、サウジアラビアと日本、そして世界をつなぐ文化の架け橋となること。"
   goals_title: "私たちの目標"
   goals:
-  - "メーカーやキット、道具を紹介するコンテンツなどを通じて、サウジアラビアで模型・フィギュアの楽しさを広め、その存在感を高めること"
-  - "初心者からベテランまで誰もが参加し、学び、知識を分かち合い、技術を磨ける開かれた場をつくること"
-  - "国内外のイベントに参加し、主要な場で模型趣味を紹介・発信するとともに、海外のモデラーや審査員と協力し、国際水準のイベント・展示会・コンテストをサウジアラビアで開催することを目指すこと"
-  - "模型の世界的な動向を学び、世界のモデラーやクリエイター、プロフェッショナルと知識や経験を交換すること。条件が整い次第、ゲストの招へいや専門ワークショップの開催にも取り組むこと"
-  - "サウジアラビアと日本の文化や考え方を紹介し、日本や世界との文化交流を深めること"
+  - tag: SPREAD
+    t: "模型趣味を広める"
+    d: "サウジアラビアで模型・フィギュアの存在感を高め、メーカーやキット、道具を紹介します。"
+  - tag: COMMUNITY
+    t: "誰もが参加できる場"
+    d: "初心者からベテランまで、学び、知識を分かち合い、技術を磨ける開かれた場をつくります。"
+  - tag: EVENTS
+    t: "国際水準のイベント"
+    d: "国内外のイベントで模型趣味を発信し、海外のモデラーや審査員と協力して、サウジアラビアで展示会やコンテストを開催します。"
+  - tag: CONNECT
+    t: "プロとのつながり"
+    d: "世界の模型の動向を学び、海外のモデラーやクリエイターを招いた専門ワークショップの開催を目指します。"
+  - tag: BRIDGE
+    t: "文化の架け橋"
+    d: "サウジアラビアと日本の文化を紹介し、サウジアラビアと日本、そして世界をつなぐ文化交流を深めます。"
   p1_t: グループ製作チャレンジ
   p1_d: 参加者全員が同じキットを作り、完成品を見せ合います。
   p2_t: 初心者向けワークショップ
   p2_d: ニッパーでの切り出しやゲート処理から、スミ入れ、塗装まで。
   p3_t: チームギャラリー
-  p3_d: クラブチームが製作した作品を紹介します。
+  p3_d: 素組みからフルカスタムまで、クラブチームの作品を紹介します。
   log_title: 活動の歩みとイベント
   press_title: メディア掲載
   contact_label: 取材・協賛・コラボのお問い合わせ
