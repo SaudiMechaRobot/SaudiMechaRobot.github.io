@@ -54,7 +54,7 @@
       <div class="pillar"><span class="tag">VISION</span><div><h3>{{ t.vision_title }}</h3><p>{{ t.vision_text }}</p></div></div>
     </div>
     <div class="goals">
-      <h3 class="goals-head"><span class="tag">GOALS</span>{{ t.goals_title }}</h3>
+      <h3 class="goals-head"><span class="tag">GOALS</span>{{ t.goals_title }}<span class="swipe-hint">{{ t.swipe_hint }}</span></h3>
       <ol class="goal-grid">{% for g in t.goals %}
         <li class="pillar goal"><span class="tag">{{ g.tag }}</span><div><h3><span class="gnum">{{ forloop.index | prepend: '0' }}</span>{{ g.t }}</h3><p>{{ g.d }}</p></div></li>{% endfor %}
       </ol>

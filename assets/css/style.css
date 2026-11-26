@@ -156,7 +156,17 @@ section{padding-block:64px}
 .goal h3{display:flex;align-items:baseline;gap:10px;line-height:1.4}
 .goal .gnum{color:var(--hazard);font-family:var(--f-mono);font-size:20px;font-weight:700;direction:ltr}
 .goal p{line-height:1.8}
-@media (max-width:560px){.goal-grid{grid-template-columns:1fr;gap:8px}.pillar.goal{grid-template-columns:1fr;gap:2px;padding:12px 14px}.goal .tag{padding-top:0;font-size:11px;justify-self:start}.goal h3{font-size:17px}.goal .gnum{font-size:17px}.goal p{line-height:1.65;font-size:14.5px}}
+.swipe-hint{display:none}
+@media (max-width:560px){
+  .goal-grid,.pillars{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;margin-inline:-16px;padding-inline:16px;scroll-padding-inline:16px;padding-bottom:4px}
+  .goal-grid::-webkit-scrollbar,.pillars::-webkit-scrollbar{display:none}
+  .goal-grid>.goal,.pillars>.pillar{flex:0 0 84%;scroll-snap-align:start}
+  .pillar.goal{grid-template-columns:1fr;gap:2px;padding:12px 14px;align-content:start}
+  .goal .tag{padding-top:0;font-size:11px;justify-self:start}
+  .goal h3{font-size:17px}.goal .gnum{font-size:17px}
+  .goal p{line-height:1.65;font-size:14.5px}
+  .swipe-hint{display:inline;margin-inline-start:auto;font-size:12px;color:var(--muted);font-weight:400}
+}
 
 /* timeline — floor guide line */
 .timeline{list-style:none;margin:0;padding:0;border-inline-start:3px dashed var(--hazard)}

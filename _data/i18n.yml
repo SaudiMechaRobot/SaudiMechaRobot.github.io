@@ -90,6 +90,7 @@ ar:
   vision_title: "رؤيتنا"
   vision_text: "أن يكون Saudi Mecha Robot نادياً رائداً في تنمية هواية النماذج التركيبية والمجسمات في المملكة، وجسراً ثقافياً يربط السعودية باليابان والعالم."
   goals_title: "أهدافنا"
+  swipe_hint: "‹ اسحب للمزيد ›"
   goals:
   - tag: SPREAD
     t: "نشر الهواية"
@@ -262,6 +263,7 @@ en:
   vision_title: "Our Vision"
   vision_text: "For Saudi Mecha Robot to be a leading club in developing scale modelling and figures in Saudi Arabia, and a cultural bridge connecting Saudi Arabia with Japan and the world."
   goals_title: "Our Goals"
+  swipe_hint: "‹ swipe for more ›"
   goals:
   - tag: SPREAD
     t: "Promoting the hobby"
@@ -432,6 +434,7 @@ ja:
   vision_title: "ビジョン"
   vision_text: "サウジアラビアにおける模型・フィギュア趣味の発展をリードするクラブとなり、サウジアラビアと日本、そして世界をつなぐ文化の架け橋となること。"
   goals_title: "私たちの目標"
+  swipe_hint: "‹ スワイプ ›"
   goals:
   - tag: SPREAD
     t: "模型趣味を広める"
