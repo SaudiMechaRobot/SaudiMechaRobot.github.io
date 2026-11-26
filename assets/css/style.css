@@ -157,10 +157,18 @@ section{padding-block:64px}
 .goal .gnum{color:var(--hazard);font-family:var(--f-mono);font-size:20px;font-weight:700;direction:ltr}
 .goal p{line-height:1.8}
 @media (max-width:560px){
-  .pillars{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;margin-inline:-16px;padding-inline:16px;scroll-padding-inline:16px;padding-bottom:4px}
-  .pillars::-webkit-scrollbar{display:none}
-  .pillars>.pillar{flex:0 0 84%;scroll-snap-align:start}
+  .pillars{grid-template-columns:1fr 1fr;gap:8px}
+  .pillars>.pillar{grid-template-columns:1fr;gap:4px;padding:12px 14px;align-content:start}
+  .pillars>.pillar:first-child{grid-column:1/-1}
+  .pillars>.pillar .tag{padding-top:0;font-size:11px;justify-self:start}
+  .pillars>.pillar h3{font-size:16.5px}
+  .pillars>.pillar p{font-size:14px;line-height:1.6}
   .goal-grid{grid-template-columns:1fr;gap:8px}
+  .vg>.pillar{grid-template-columns:1fr auto;column-gap:10px;row-gap:4px;padding:12px 14px;align-items:baseline}
+  .vg>.pillar>div{display:contents}
+  .vg>.pillar h3{grid-column:1;grid-row:1;font-size:17px}
+  .vg>.pillar .tag{grid-column:2;grid-row:1;padding-top:0;font-size:10.5px}
+  .vg>.pillar p{grid-column:1/-1;margin:0;line-height:1.65;font-size:14.5px}
   .pillar.goal{grid-template-columns:1fr auto;column-gap:10px;row-gap:4px;padding:12px 14px;align-items:baseline}
   .goal>div{display:contents}
   .goal h3{grid-column:1;grid-row:1;font-size:17px}
